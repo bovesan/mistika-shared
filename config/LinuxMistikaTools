@@ -1,3 +1,4 @@
-mConfig /home/mistika/SGO AppData/Mistika/utils/appLauncher_mConfig
+Consolidate /home/mistika/mistika-hyperspeed/Tools/Consolidate/wrapper %a
+Housekeeping /home/mistika/mistika-hyperspeed/Tools/Housekeeping/wrapper %a
 SystemMonitor /home/mistika/SGO AppData/Mistika/utils/appLauncher_SystemMonitor
 NVIDIA_Stats /home/mistika/SGO AppData/Mistika/utils/appLauncher_NvidiaStats

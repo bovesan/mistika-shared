@@ -1,0 +1,54 @@
+#version 130
+
+#extension GL_ARB_texture_rectangle : enable
+#extension GL_EXT_gpu_shader4 : enable
+
+// Written by Bengt Ove Sannes (c) 2011-2013
+// bove@bengtove.com
+
+uniform sampler2DRect image1;
+uniform sampler2DRect image2;
+
+uniform vec3 param1;
+uniform vec3 param2;
+uniform vec3 param3;
+uniform vec3 param4;
+uniform vec3 param5;
+
+void main()
+{
+    int distance = 0;
+    vec4 mappx = (texture2DRect(image1, gl_TexCoord[0].xy));
+    vec4 orgpx = (texture2DRect(image2, gl_TexCoord[0].xy));
+    float multiplier = max(mappx.a, param2.r * 0.01);
+    vec4 orgpxmixed = orgpx * param1.r * 0.01 * multiplier;
+    vec4 outpx = vec4(0.0);
+        vec4 trackpx = mappx;
+        vec4 targetpx = orgpx * trackpx.a;
+        float fill = trackpx.a * multiplier;
+        outpx += orgpxmixed * fill;
+        float totaldistance = 0;
+        vec2 trackpos;
+        while (fill < 1) {
+            trackpos = vec2(gl_TexCoord[0].x, gl_TexCoord[0].y + distance);
+            if  (trackpos.y > vec2(textureSize(image2)).y) {
+                break;
+            }
+            trackpx = texture2DRect(image1, trackpos);
+            if (trackpx.a > 0) {
+                multiplier = min(trackpx.a, 1 - fill);
+                totaldistance += distance * multiplier;
+                outpx += (texture2DRect(image2, vec2(gl_TexCoord[0].x, gl_TexCoord[0].y + distance*2 - 1 ))) * multiplier;
+                fill += multiplier;
+            }
+            distance ++;
+        }
+        float mix = param1.g*0.01;
+        // param1.b is falloff distance
+        if (param1.b >0) {
+            mix *= (1 - min(totaldistance / param1.b, 1));
+        }
+        outpx *= mix;
+        outpx += (orgpxmixed*(1-mix));
+    gl_FragColor = outpx;
+}
