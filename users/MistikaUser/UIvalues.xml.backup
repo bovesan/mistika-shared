@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIvalues>
+  <DepthGraphMove_Win>3576 648 264 324</DepthGraphMove_Win>
+  <Import_Setup>
+    <ClipName>
+      <Dir1>false</Dir1>
+      <Dir2>false</Dir2>
+      <Dir3>false</Dir3>
+      <Dir4>false</Dir4>
+      <Dir5>false</Dir5>
+      <Extension>false</Extension>
+      <Name>true</Name>
+    </ClipName>
+    <FollowLinks>false</FollowLinks>
+    <Interlaced>false</Interlaced>
+    <LinkByFile>false</LinkByFile>
+    <ReplicateTree>false</ReplicateTree>
+    <Separator>~</Separator>
+    <TapeName>
+      <Dir1>false</Dir1>
+      <Dir2>false</Dir2>
+      <Dir3>false</Dir3>
+      <Dir4>false</Dir4>
+      <Dir5>false</Dir5>
+      <EmbebedTapeName>false</EmbebedTapeName>
+      <Name>true</Name>
+    </TapeName>
+  </Import_Setup>
+  <Scope1Move_Win>3576 0 264 324</Scope1Move_Win>
+  <Scope2Move_Win>3312 0 264 324</Scope2Move_Win>
+  <Scope3Move_Win>3576 324 264 324</Scope3Move_Win>
+  <Scope4Move_Win>3312 324 264 324</Scope4Move_Win>
+  <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
+  <composer_BallSpeed_16>1</composer_BallSpeed_16>
+  <composer_JogSpeed_16>1</composer_JogSpeed_16>
+  <composer_KnobSpeed_16>1</composer_KnobSpeed_16>
+  <composer_PrinterLights_1>1</composer_PrinterLights_1>
+  <composer_PrinterLights_B_W_>1</composer_PrinterLights_B_W_>
+  <composer_RingSpeed_16>1</composer_RingSpeed_16>
+  <filebrowser>
+    <HEADER_SIZE0>0</HEADER_SIZE0>
+    <HEADER_SIZE1>0</HEADER_SIZE1>
+    <HEADER_SIZE10>0</HEADER_SIZE10>
+    <HEADER_SIZE11>0</HEADER_SIZE11>
+    <HEADER_SIZE12>0</HEADER_SIZE12>
+    <HEADER_SIZE13>0</HEADER_SIZE13>
+    <HEADER_SIZE14>0</HEADER_SIZE14>
+    <HEADER_SIZE15>0</HEADER_SIZE15>
+    <HEADER_SIZE2>0</HEADER_SIZE2>
+    <HEADER_SIZE3>0</HEADER_SIZE3>
+    <HEADER_SIZE4>0</HEADER_SIZE4>
+    <HEADER_SIZE5>0</HEADER_SIZE5>
+    <HEADER_SIZE6>0</HEADER_SIZE6>
+    <HEADER_SIZE7>0</HEADER_SIZE7>
+    <HEADER_SIZE8>0</HEADER_SIZE8>
+    <HEADER_SIZE9>0</HEADER_SIZE9>
+    <SORT_FIELD>0</SORT_FIELD>
+    <SORT_INVERSE>0</SORT_INVERSE>
+  </filebrowser>
+  <grade_PrinterLights_1>1</grade_PrinterLights_1>
+  <grade_PrinterLights_Mode_B_W_>1</grade_PrinterLights_Mode_B_W_>
+  <project>
+    <current>1001_Test</current>
+  </project>
+  <render2_Clip_TC>0</render2_Clip_TC>
+  <render2_Filter>0</render2_Filter>
+  <render2_Source>0</render2_Source>
+  <render2_Split>0</render2_Split>
+  <render2_Stereo>1</render2_Stereo>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
+  <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
+  <render_H_XfsFormat>0</render_H_XfsFormat>
+  <render_L_NullFormat>0</render_L_NullFormat>
+  <render_Prefered_source_clip>0</render_Prefered_source_clip>
+  <render_Segments_Mode>0</render_Segments_Mode>
+  <render_Slate_1>0</render_Slate_1>
+  <render_Slate_1_During>0</render_Slate_1_During>
+  <render_Slate_2>0</render_Slate_2>
+  <render_Slate_2_During>0</render_Slate_2_During>
+  <render_Sound_dev_Target>0</render_Sound_dev_Target>
+  <render_Tape_Name_Source>0</render_Tape_Name_Source>
+  <render_Time_Code_Source>0</render_Time_Code_Source>
+  <render_Xfs_dev_Target>0</render_Xfs_dev_Target>
+  <setup_Eval_Tree>1</setup_Eval_Tree>
+  <setup_Free_capturing_in_one_clip>1</setup_Free_capturing_in_one_clip>
+  <setup_S3D_Disp>2</setup_S3D_Disp>
+  <tangent>
+    <BALL_SPEED>16</BALL_SPEED>
+    <JOG_SPEED>16</JOG_SPEED>
+    <KNOB_SPEED>16</KNOB_SPEED>
+    <RING_SPEED>16</RING_SPEED>
+  </tangent>
+</UIvalues>

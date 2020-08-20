@@ -1,0 +1,1168 @@
+<?xml version="1.0"?>
+<precisionDriver>
+    <map>
+        <group name="0x0">
+            <bind dv="0x100100" mod="0x1" sgo="Composer:Grade:Keyer:KeySource:12"/>
+            <bind dv="0x100100" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeySource:12"/>
+            <bind dv="0x100100" mod="0x4" sgo="Composer:Grade:Keyer:RecoverSource:12"/>
+            <bind dv="0x100100" sgo="Vector_7"/>
+            <bind dv="0x1020500" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeyMode:0"/>
+            <bind dv="0x1020500" mod="0x3" sgo="Composer:Grade:Keyer:ExtKeyMode:0"/>
+            <bind dv="0x1020500" mod="0x4" sgo="Composer:Grade:Keyer:RecoverMode:0"/>
+            <bind dv="0x1020500" mod="0x6" sgo="Composer:Grade:Keyer:ExtKeyChannel:3"/>
+            <bind dv="0x1020502" sgo="Composer:CommonControls:Bring:SwapPlayheads"/>
+            <bind dv="0x10301" sgo="Composer:Grade:Options:BlendInReset"/>
+            <bind dv="0x1030501" sgo="Composer:CommonControls:Bring:GoToSelected"/>
+            <bind dv="0x10600" sgo="Edit:Position.X"/>
+            <bind dv="0x10700" sgo="Edit:JOG"/>
+            <bind dv="0x10701" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
+            <bind dv="0x110100" mod="0x1" sgo="Composer:Grade:Keyer:KeySource:5"/>
+            <bind dv="0x110100" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeySource:5"/>
+            <bind dv="0x110100" mod="0x4" sgo="Composer:Grade:Keyer:RecoverSource:5"/>
+            <bind dv="0x120100" mod="0x1" sgo="Curves:Layer:InsertLayer"/>
+            <bind dv="0x120100" mod="0x4" sgo="Curves:Layer:DuplicateLayer"/>
+            <bind dv="0x120100" mod="0x8" sgo="Curves:Layer:RemoveLayer"/>
+            <bind dv="0x120100" sgo="Curves:Layer:AddLayer"/>
+            <bind dv="0x120101" sgo="Composer:Grade:Keyer:DstOut"/>
+            <bind dv="0x130100" mod="0x8" sgo="Reel:Clipboard:Delete"/>
+            <bind dv="0x130100" sgo="External:NextColCor"/>
+            <bind dv="0x130101" sgo="Render:Pending:Fg"/>
+            <bind dv="0x140101" sgo="Composer:CommonControls:Bring:BringPreview"/>
+            <bind dv="0x150100" sgo="External:NextFraming"/>
+            <bind dv="0x150101" sgo="Snapshot:PrevSnapshotMode"/>
+            <bind dv="0x160100" sgo="Edit:Active:Monitor"/>
+            <bind dv="0x160101" mod="0x1" sgo="Composer:Grade:Setup:HighLtMode:OnBlack"/>
+            <bind dv="0x160101" mod="0x2" sgo="Composer:Grade:Setup:HighLtMode:DisplayKey"/>
+            <bind dv="0x160101" mod="0x4" sgo="Composer:Grade:Setup:HighLtMode:HiSaturate"/>
+            <bind dv="0x160101" sgo="Composer:Grade:Keyer:Solo"/>
+            <bind dv="0x170100" sgo="Edit:TC:GoToPosition"/>
+            <bind dv="0x180100" sgo="External:LockOffset"/>
+            <bind dv="0x190101" sgo="Windows:FXPresets"/>
+            <bind dv="0x1a0100" sgo="Calculator:Operations:Plus"/>
+            <bind dv="0x1b0100" sgo="Calculator:Numbers:7"/>
+            <bind dv="0x1b0101" mod="0x1" sgo="Composer:CommonControls:Key:AddKeyIn"/>
+            <bind dv="0x1b0101" mod="0x8" sgo="Curves:Edit:RemovePoints"/>
+            <bind dv="0x1b0101" sgo="Curves:Edit:InsertPoint"/>
+            <bind dv="0x1c0100" sgo="Calculator:Numbers:8"/>
+            <bind dv="0x1c0101" mod="0x1" sgo="Composer:CommonControls:Key:AddKeyOut"/>
+            <bind dv="0x1c0101" sgo="Composer:CommonControls:Key:AutoKey"/>
+            <bind dv="0x1d0100" sgo="Calculator:Numbers:9"/>
+            <bind dv="0x1e0100" sgo="Calculator:Operations:Sub"/>
+            <bind dv="0x1f0100" sgo="Calculator:Numbers:4"/>
+            <bind dv="0x1f0101" sgo="Curves:Edit:Undo"/>
+            <bind dv="0x200100" sgo="Calculator:Numbers:5"/>
+            <bind dv="0x200101" sgo="Curves:Edit:Redo"/>
+            <bind dv="0x2010500" sgo="Composer:Grade:Prev"/>
+            <bind dv="0x2020500" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeyMode"/>
+            <bind dv="0x2020500" mod="0x3" sgo="Composer:Grade:Keyer:ExtKeyMode:1"/>
+            <bind dv="0x2020500" mod="0x4" sgo="Composer:Grade:Keyer:RecoverMode"/>
+            <bind dv="0x2020500" mod="0x6" sgo="Composer:Grade:Keyer:ExtKeyChannel:1"/>
+            <bind dv="0x2020500" sgo="Composer:Grade:Prev"/>
+            <bind dv="0x2020502" sgo="Composer:CommonControls:StoryBoard:Commands:CenterSelected"/>
+            <bind dv="0x2030501" sgo="Composer:CommonControls:StoryBoard:Commands:CenterCurrent"/>
+            <bind dv="0x20500" mod="0x1" sgo="Composer:Grade:Keyer:KeySource:Rotate"/>
+            <bind dv="0x20500" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeySource"/>
+            <bind dv="0x20500" mod="0x3" sgo="Composer:Grade:Keyer:ExtKeyMode"/>
+            <bind dv="0x20500" mod="0x4" sgo="Composer:Grade:Keyer:RecoverSource:Rotate"/>
+            <bind dv="0x20500" mod="0x6" sgo="Composer:Grade:Keyer:ExtKeyChannel"/>
+            <bind dv="0x20500" sgo="Composer:Grade:PrevNext"/>
+            <bind dv="0x20502" sgo="External:Select:PrevNext"/>
+            <bind dv="0x210100" sgo="Calculator:Numbers:6"/>
+            <bind dv="0x210101" sgo="Composer:CommonControls:Bring:BringModif"/>
+            <bind dv="0x230100" sgo="Calculator:Numbers:1"/>
+            <bind dv="0x230101" mod="0x1" sgo="FXPreset:PR1:DefTemp"/>
+            <bind dv="0x230101" sgo="FXPreset:PR1:Use"/>
+            <bind dv="0x240100" sgo="Calculator:Numbers:2"/>
+            <bind dv="0x240101" mod="0x1" sgo="FXPreset:PR2:DefTemp"/>
+            <bind dv="0x240101" sgo="FXPreset:PR2:Use"/>
+            <bind dv="0x250100" sgo="Calculator:Numbers:3"/>
+            <bind dv="0x250101" mod="0x1" sgo="FXPreset:PR3:DefTemp"/>
+            <bind dv="0x250101" sgo="FXPreset:PR3:Use"/>
+            <bind dv="0x260101" mod="0x1" sgo="FXPreset:PR4:DefTemp"/>
+            <bind dv="0x260101" sgo="FXPreset:PR4:Use"/>
+            <bind dv="0x270100" sgo="Calculator:Numbers:0"/>
+            <bind dv="0x270101" mod="0x1" sgo="FXPreset:PR5:DefTemp"/>
+            <bind dv="0x270101" sgo="FXPreset:PR5:Use"/>
+            <bind dv="0x280100" sgo="Calculator:Commands:Use"/>
+            <bind dv="0x280101" mod="0x1" sgo="FXPreset:PR6:DefTemp"/>
+            <bind dv="0x280101" sgo="FXPreset:PR6:Use"/>
+            <bind dv="0x290100" sgo="Calculator:Commands:Clear"/>
+            <bind dv="0x290101" mod="0x1" sgo="FXPreset:PR7:DefTemp"/>
+            <bind dv="0x290101" sgo="FXPreset:PR7:Use"/>
+            <bind dv="0x2a0100" mod="0x1" sgo="Windows:Scope1"/>
+            <bind dv="0x2a0101" mod="0x1" sgo="FXPreset:PR8:DefTemp"/>
+            <bind dv="0x2a0101" sgo="FXPreset:PR8:Use"/>
+            <bind dv="0x2b0100" mod="0x1" sgo="Windows:Scope2"/>
+            <bind dv="0x2b0101" sgo="Composer:Tabs:Tracking"/>
+            <bind dv="0x2c0100" mod="0x1" sgo="Windows:Scope3"/>
+            <bind dv="0x2c0101" sgo="Composer:Grade:keyer"/>
+            <bind dv="0x2d0100" mod="0x1" sgo="Windows:Scope4"/>
+            <bind dv="0x2d0101" mod="0x1" sgo="Composer:Grade:Window:ToShape"/>
+            <bind dv="0x2d0101" mod="0x2" sgo="Composer:Grade:Window:WinInv"/>
+            <bind dv="0x2d0101" sgo="Composer:Grade:Window:WinElip"/>
+            <bind dv="0x2e0101" mod="0x2" sgo="Composer:Grade:Window:WinInv"/>
+            <bind dv="0x2e0101" sgo="Composer:Grade:Window:WinRect"/>
+            <bind dv="0x2f0101" mod="0x1" sgo="Composer:Grade:Window:WinLine"/>
+            <bind dv="0x2f0101" sgo="Composer:Shapes:Create"/>
+            <bind dv="0x300101" sgo="Composer:CommonControls:Bring:BringFx"/>
+            <bind dv="0x3010500" sgo="Composer:Grade:Next"/>
+            <bind dv="0x3020500" mod="0x1" sgo="Composer:Grade:Keyer:KeyChannels"/>
+            <bind dv="0x3020500" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeyChannel"/>
+            <bind dv="0x3020500" mod="0x3" sgo="Composer:Grade:Keyer:ExtKeyMode:2"/>
+            <bind dv="0x3020500" mod="0x6" sgo="Composer:Grade:Keyer:ExtKeyChannel:3"/>
+            <bind dv="0x3020500" sgo="Composer:Grade:Next"/>
+            <bind dv="0x30501" mod="0x1" sgo="External:Edit:PrevNext"/>
+            <bind dv="0x30501" sgo="External:Edit:PrevNext"/>
+            <bind dv="0x310100" mod="0x1" sgo="Edit:PlayMode:Single"/>
+            <bind dv="0x310100" mod="0x2" sgo="Edit:PlayMode:Swing"/>
+            <bind dv="0x310100" mod="0x4" sgo="Edit:PlayMode:Loop"/>
+            <bind dv="0x310100" sgo="Edit:PlayMode:Loop"/>
+            <bind dv="0x310101" sgo="FXPreset:Commands:OnTop"/>
+            <bind dv="0x320100" mod="0x10" sgo="Edit:Mark:DelAll"/>
+            <bind dv="0x320100" mod="0x8" sgo="Edit:Mark:Del"/>
+            <bind dv="0x320100" sgo="Edit:Mark:Add"/>
+            <bind dv="0x320101" mod="0x1" sgo="Edit:File:Save"/>
+            <bind dv="0x320101" mod="0x2" sgo="Edit:File:SaveAs"/>
+            <bind dv="0x320101" sgo="FXPreset:Commands:AutoMem"/>
+            <bind dv="0x330100" sgo="Edit:Global:Razor"/>
+            <bind dv="0x330101" sgo="Composer:Grade:Keyer:Mute"/>
+            <bind dv="0x340101" mod="0x1" sgo="Curves:Layer:RemoveAllLayers"/>
+            <bind dv="0x340101" sgo="Curves:Edit:RemoveSelect"/>
+            <bind dv="0x350100" mod="0x2" sgo="Edit:PlayMarks:RemoveIn"/>
+            <bind dv="0x350100" mod="0x8" sgo="Edit:PlayMarks:RemoveIn"/>
+            <bind dv="0x350100" mod="0x80" sgo="Composer:CommonControls:Key:AddKeyIn"/>
+            <bind dv="0x350100" sgo="Edit:PlayMarks:PlayIn"/>
+            <bind dv="0x360100" mod="0x2" sgo="Edit:PlayMarks:RemoveOut"/>
+            <bind dv="0x360100" mod="0x8" sgo="Edit:PlayMarks:RemoveOut"/>
+            <bind dv="0x360100" mod="0x80" sgo="Composer:CommonControls:Key:AddKeyOut"/>
+            <bind dv="0x360100" sgo="Edit:PlayMarks:PlayOut"/>
+            <bind dv="0x370100" sgo="Edit:PlayMarks:Selection"/>
+            <bind dv="0x380100" sgo="Composer:CommonControls:Shuttle:GotoHead"/>
+            <bind dv="0x390100" sgo="Composer:CommonControls:Shuttle:GotoTail"/>
+            <bind dv="0x3a0100" sgo="Composer:CommonControls:ShuttleTL:PrevEdit"/>
+            <bind dv="0x3b0100" sgo="Edit:Shuttle:PlayBackward"/>
+            <bind dv="0x3c0100" sgo="Edit:Shuttle:PlayForward"/>
+            <bind dv="0x3d0100" sgo="Edit:Shuttle:PlayForward"/>
+            <bind dv="0x3e0100" sgo="Composer:CommonControls:ShuttleTL:NextEdit"/>
+            <bind dv="0x3f0100" mod="0x2" sgo="Edit:Shuttle:PrevMark"/>
+            <bind dv="0x3f0100" mod="0x80" sgo="Composer:CommonControls:Shuttle:PrevKey"/>
+            <bind dv="0x3f0100" sgo="Edit:Shuttle:PrevFrame"/>
+            <bind dv="0x3f0101" mod="0x8" sgo="Composer:CommonControls:Bring:DeleteCurrentH"/>
+            <bind dv="0x3f0101" sgo="Composer:CommonControls:Bring:BringOk"/>
+            <bind dv="0x400100" mod="0x2" sgo="Edit:Shuttle:NextMark"/>
+            <bind dv="0x400100" mod="0x80" sgo="Composer:CommonControls:Shuttle:NextKey"/>
+            <bind dv="0x400100" sgo="Edit:Shuttle:NextFrame"/>
+            <bind dv="0x4020500" mod="0x3" sgo="Composer:Grade:Keyer:ExtKeyMode:3"/>
+            <bind dv="0x4020500" mod="0x6" sgo="Composer:Grade:Keyer:ExtKeyChannel:0"/>
+            <bind dv="0x4020502" mod="0x4" sgo="External:BringPrev"/>
+            <bind dv="0x4020502" sgo="External:SelectPrev"/>
+            <bind dv="0x4030501" sgo="Composer:Grade:Keyer:Inside"/>
+            <bind dv="0x5020502" mod="0x4" sgo="External:BringNext"/>
+            <bind dv="0x5020502" sgo="External:SelectNext"/>
+            <bind dv="0x5030501" sgo="Composer:Grade:Keyer:Outside"/>
+            <bind dv="0x5050201" sgo="Composer:Grade:Options:BlurMode"/>
+            <bind dv="0x600" sgo="Edit:Shuttle"/>
+            <bind dv="0x60100" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeySource:0"/>
+            <bind dv="0x60100" sgo="Windows:Media"/>
+            <bind dv="0x60102" mod="0x1" sgo="External:SnapshotCurrent"/>
+            <bind dv="0x60102" sgo="Snapshot:SnapshotASelected"/>
+            <bind dv="0x80100" mod="0x1" sgo="Composer:Grade:Keyer:KeySource:6"/>
+            <bind dv="0x80100" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeySource:6"/>
+            <bind dv="0x80100" mod="0x4" sgo="Composer:Grade:Keyer:RecoverSource:6"/>
+            <bind dv="0x80100" sgo="Vector_1"/>
+            <bind dv="0x80102" sgo="Composer:Grade"/>
+            <bind dv="0x90100" sgo="Reel:VisualEditor"/>
+            <bind dv="0xa0100" mod="0x1" sgo="Composer:Grade:Keyer:KeySource:6"/>
+            <bind dv="0xa0100" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeySource:6"/>
+            <bind dv="0xa0100" mod="0x4" sgo="Composer:Grade:Keyer:RecoverSource:6"/>
+            <bind dv="0xa0100" sgo="Vector_1"/>
+            <bind dv="0xb0100" mod="0x1" sgo="Composer:Grade:Keyer:KeySource:7"/>
+            <bind dv="0xb0100" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeySource:7"/>
+            <bind dv="0xb0100" mod="0x4" sgo="Composer:Grade:Keyer:RecoverSource:7"/>
+            <bind dv="0xb0100" sgo="Vector_2"/>
+            <bind dv="0xc0100" mod="0x1" sgo="Composer:Grade:Keyer:KeySource:8"/>
+            <bind dv="0xc0100" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeySource:8"/>
+            <bind dv="0xc0100" mod="0x4" sgo="Composer:Grade:Keyer:RecoverSource:8"/>
+            <bind dv="0xc0100" sgo="Vector_3"/>
+            <bind dv="0xd0100" mod="0x1" sgo="Composer:Grade:Keyer:KeySource:9"/>
+            <bind dv="0xd0100" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeySource:9"/>
+            <bind dv="0xd0100" mod="0x4" sgo="Composer:Grade:Keyer:RecoverSource:9"/>
+            <bind dv="0xd0100" sgo="Vector_4"/>
+            <bind dv="0xe0100" mod="0x1" sgo="Composer:Grade:Keyer:KeySource:10"/>
+            <bind dv="0xe0100" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeySource:10"/>
+            <bind dv="0xe0100" mod="0x4" sgo="Composer:Grade:Keyer:RecoverSource:10"/>
+            <bind dv="0xe0100" sgo="Vector_5"/>
+            <bind dv="0xf0100" mod="0x1" sgo="Composer:Grade:Keyer:KeySource:11"/>
+            <bind dv="0xf0100" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeySource:11"/>
+            <bind dv="0xf0100" mod="0x4" sgo="Composer:Grade:Keyer:RecoverSource:11"/>
+            <bind dv="0xf0100" sgo="Vector_6"/>
+            <bind dv="0xf0102" mod="0x2" sgo="Composer:Shapes:Move"/>
+        </group>
+        <group name="0x100101">
+            <bind dv="0x230101" sgo="Composer:CommonControls:View:RGB"/>
+            <bind dv="0x240101" sgo="Composer:CommonControls:View:R"/>
+            <bind dv="0x250101" sgo="Composer:CommonControls:View:G"/>
+            <bind dv="0x260101" sgo="Composer:CommonControls:View:B"/>
+            <bind dv="0x270101" sgo="Composer:CommonControls:View:RGBA"/>
+            <bind dv="0x280101" sgo="Composer:CommonControls:View:A"/>
+        </group>
+        <group name="0x110101">
+            <bind dv="0x10801" mod="0x2" sgo="Composer:Shapes:Softness:Width"/>
+            <bind dv="0x10801" sgo="Window:Move"/>
+            <bind dv="0x1b0101" sgo="Composer:Shapes:Key:Add"/>
+            <bind dv="0x20500" sgo="Composer:Shapes:Select:Both"/>
+            <bind dv="0x20801" sgo="Window:Size"/>
+            <bind dv="0x30801" sgo="Composer:Shapes:Move"/>
+            <bind dv="0x3f0100" sgo="Composer:Shapes:Key:Prev"/>
+            <bind dv="0x400100" sgo="Composer:Shapes:Key:Next"/>
+            <bind dv="0x40801" sgo="Composer:Shapes:Softness:Width"/>
+        </group>
+        <group name="0x170101">
+            <bind dv="0x2a0100" sgo="Composer:MotionTrack:ShapeTrack:Move"/>
+            <bind dv="0x2b0100" sgo="Composer:MotionTrack:ShapeTrack:Rotate"/>
+            <bind dv="0x2c0100" sgo="Composer:MotionTrack:ShapeTrack:Size"/>
+            <bind dv="0x2d0100" sgo="Composer:MotionTrack:ShapeTrack:SizeXY"/>
+            <bind dv="0x3b0100" sgo="Composer:MotionTrack:Do_Tracking:Backward"/>
+            <bind dv="0x3c0100" sgo="Composer:MotionTrack:Do_Tracking:Stop"/>
+            <bind dv="0x3d0100" sgo="Composer:MotionTrack:Do_Tracking:Forward"/>
+        </group>
+        <group name="0x180101">
+            <bind dv="0x1b0100" sgo="Composer:CommonControls:Bring:Bring7"/>
+            <bind dv="0x1c0100" sgo="Composer:CommonControls:Bring:Bring9"/>
+            <bind dv="0x1d0100" sgo="Composer:CommonControls:Bring:Bring9"/>
+            <bind dv="0x1f0100" sgo="Composer:CommonControls:Bring:Bring4"/>
+            <bind dv="0x200100" sgo="Composer:CommonControls:Bring:Bring5"/>
+            <bind dv="0x2030501" sgo="Composer:CommonControls:Bring:BringNewer"/>
+            <bind dv="0x210100" sgo="Composer:CommonControls:Bring:Bring6"/>
+            <bind dv="0x230100" sgo="Composer:CommonControls:Bring:Bring1"/>
+            <bind dv="0x240100" sgo="Composer:CommonControls:Bring:Bring2"/>
+            <bind dv="0x250100" sgo="Composer:CommonControls:Bring:Bring3"/>
+            <bind dv="0x280100" sgo="Composer:CommonControls:Bring:Bring10"/>
+            <bind dv="0x3030501" sgo="Composer:CommonControls:Bring:BringOlder"/>
+        </group>
+        <group name="0x220101">
+            <bind dv="0x40801" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB4"/>
+            <bind dv="0x410101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB4:RB"/>
+            <bind dv="0x420101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB4:RR"/>
+        </group>
+        <group name="0x70102">
+            <bind dv="0x20502" mod="0x1" sgo="External:Edit:PrevNext"/>
+            <bind dv="0x20502" mod="0x2" sgo="External:Select:PrevNext"/>
+            <bind dv="0x20502" mod="0x4" sgo="FXPreset:Bring:Both"/>
+            <bind dv="0x20502" sgo="FXPreset:Select:Both"/>
+            <bind dv="0x230101" sgo="FXPreset:PR1:Def"/>
+            <bind dv="0x240101" sgo="FXPreset:PR2:Def"/>
+            <bind dv="0x250101" sgo="FXPreset:PR3:Def"/>
+            <bind dv="0x260101" sgo="FXPreset:PR4:Def"/>
+            <bind dv="0x270101" sgo="FXPreset:PR5:Def"/>
+            <bind dv="0x280101" sgo="FXPreset:PR6:Def"/>
+            <bind dv="0x290101" sgo="FXPreset:PR7:Def"/>
+            <bind dv="0x2a0101" sgo="FXPreset:PR8:Def"/>
+            <bind dv="0x300101" sgo="FXPreset:Commands:Replace"/>
+            <bind dv="0x30501" mod="0x1" sgo="FXPreset:Select:Both"/>
+            <bind dv="0x310101" sgo="FXPreset:Commands:OnTop"/>
+            <bind dv="0x370101" sgo="presetsBrowser:Select"/>
+            <bind dv="0x4020502" mod="0x4" sgo="FXPreset:Bring:Prev"/>
+            <bind dv="0x4020502" sgo="FXPreset:Select:Prev"/>
+            <bind dv="0x5020502" mod="0x4" sgo="FXPreset:Bring:Next"/>
+            <bind dv="0x5020502" sgo="FXPreset:Select:Next"/>
+            <bind dv="0x60102" mod="0x1" sgo="FXPreset:Snapshot"/>
+            <bind dv="0x60102" mod="0x2" sgo="Snapshot:SnapshotASelected"/>
+            <bind dv="0x60102" sgo="FXPreset:Snapshot"/>
+            <bind dv="0x70102" mod="0x8" sgo="FXPreset:DelLib"/>
+            <bind dv="0xa0102" sgo="FXPreset:Window:Max"/>
+            <bind dv="0xf0102" mod="0x2" sgo="Reel:Clipboard:Delete"/>
+        </group>
+        <group name="0x8100">
+            <bind dv="0x1010500" sgo="Composer:Grade:window"/>
+            <bind dv="0x10400" sgo="Window:Move.X"/>
+            <bind dv="0x10801" sgo="Window:Move"/>
+            <bind dv="0x118103" sgo="Composer:Grade:Window:WinLine"/>
+            <bind dv="0x128103" sgo="Composer:Grade:Window:WinElip"/>
+            <bind dv="0x138103" sgo="Composer:Grade:Window:WinRect"/>
+            <bind dv="0x148100" sgo="Composer:Shapes:Create"/>
+            <bind dv="0x148103" sgo="Composer:Grade:Window:WinShp"/>
+            <bind dv="0x18000" sgo="Composer:Grade:Keyer:Inside"/>
+            <bind dv="0x1c000" sgo="Vector"/>
+            <bind dv="0x20400" sgo="Window:Size.X"/>
+            <bind dv="0x20500" sgo="Composer:Shapes:Select:Both"/>
+            <bind dv="0x20801" sgo="Window:Size"/>
+            <bind dv="0x218100" sgo="Composer:Grade:Window:WinInv"/>
+            <bind dv="0x228100" sgo="Composer:Grade:Window:ToShape"/>
+            <bind dv="0x228101" sgo="Composer:Grade:Window:ToShape"/>
+            <bind dv="0x238100" sgo="Composer:Shapes:Point:Insert"/>
+            <bind dv="0x248100" sgo="Composer:Shapes:Key:Auto"/>
+            <bind dv="0x28000" sgo="Composer:Grade:Keyer:Outside"/>
+            <bind dv="0x2c000" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
+            <bind dv="0x30400" sgo="Window:Move"/>
+            <bind dv="0x30801" sgo="Composer:Shapes:Move"/>
+            <bind dv="0x3c000" sgo="Composer:Grade:Keyer:BlurBlend:Knob"/>
+            <bind dv="0x40400" sgo="Composer:Shapes:Softness:Width"/>
+            <bind dv="0x4c000" sgo="Composer:Grade:Options:BlurMode"/>
+            <bind dv="0x50400" sgo="Composer:Shapes:Softness:Offset"/>
+            <bind dv="0x5c000" sgo="Composer:Grade:Options:RecoverSource"/>
+            <bind dv="0x60400" sgo="Window:Move.Y"/>
+            <bind dv="0x6c000" sgo="Composer:Grade:Options:ExtKeySource"/>
+            <bind dv="0x70400" sgo="Window:Size.Y"/>
+            <bind dv="0x7c000" sgo="Composer:Grade:Options:KeySource"/>
+            <bind dv="0x80400" sgo="Window:Size"/>
+            <bind dv="0x8100" sgo="Composer:Grade:window"/>
+            <bind dv="0x90400" sgo="Composer:Shapes:Softness:Inside"/>
+            <bind dv="0xa0400" sgo="Composer:Shapes:Softness:Outside"/>
+        </group>
+        <group name="0x8200">
+            <bind dv="0x18000" sgo="Composer:Grade:Keyer:Inside"/>
+            <bind dv="0x1c000" sgo="Vector"/>
+            <bind dv="0x20100" mod="0x1" sgo="Composer:Grade:FreeVec:SatRst"/>
+            <bind dv="0x20100" mod="0x2" sgo="Composer:Grade:FreeVec:LumRst"/>
+            <bind dv="0x20100" mod="0x4" sgo="Composer:Grade:FreeVec:HueRst"/>
+            <bind dv="0x28000" sgo="Composer:Grade:Keyer:Outside"/>
+            <bind dv="0x2c000" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
+            <bind dv="0x3c000" sgo="Composer:Grade:Keyer:BlurBlend:Knob"/>
+            <bind dv="0x4c000" sgo="Composer:Grade:Options:BlurMode"/>
+            <bind dv="0x5c000" sgo="Composer:Grade:Options:RecoverSource"/>
+            <bind dv="0x6c000" sgo="Composer:Grade:Options:ExtKeySource"/>
+            <bind dv="0x7c000" sgo="Composer:Grade:Options:KeySource"/>
+            <bind dv="0x8200" sgo="Composer:Grade:keyer"/>
+            <bind dv="0xf0102" mod="0x6" sgo="Composer:Grade:Options:RecoverMode"/>
+        </group>
+        <group name="0x8300">
+            <bind dv="0x1010500" sgo="Composer:Grade:primary"/>
+            <bind dv="0x10400" sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContAll"/>
+            <bind dv="0x10801" mod="0x1" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelAll"/>
+            <bind dv="0x10801" mod="0x2" sgo="Composer:Grade:Primary:BlackR"/>
+            <bind dv="0x10801" mod="0x200" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelR"/>
+            <bind dv="0x10801" mod="0x201" sgo="Composer:Grade:Primary:BlackR"/>
+            <bind dv="0x10801" mod="0x202" sgo="Composer:Grade:Primary:GammaR"/>
+            <bind dv="0x10801" mod="0x204" sgo="Composer:Grade:Primary:WhiteR"/>
+            <bind dv="0x10801" mod="0x4" sgo="Composer:Grade:Primary:WhiteR"/>
+            <bind dv="0x10801" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB1"/>
+            <bind dv="0x18000" sgo="Composer:Grade:Keyer:Inside"/>
+            <bind dv="0x18300" sgo="Composer:Grade:Keyer:MuteIn0"/>
+            <bind dv="0x190100" mod="0x1" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelAll:reset"/>
+            <bind dv="0x190100" mod="0x2" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelAll:reset"/>
+            <bind dv="0x1a0100" mod="0x1" sgo="Composer:Grade:Primary:PrinterLights:All-Plus"/>
+            <bind dv="0x1a0100" mod="0x2" sgo="Composer:Grade:Primary:PrinterLights:All-Plus"/>
+            <bind dv="0x1a0100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:All-Plus"/>
+            <bind dv="0x1b0100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:R-Plus"/>
+            <bind dv="0x1c000" sgo="Vector"/>
+            <bind dv="0x1c0100" mod="0x1" sgo="Composer:Grade:Primary:PrinterLights:G-Plus"/>
+            <bind dv="0x1c0100" mod="0x2" sgo="Composer:Grade:Primary:PrinterLights:M-Plus"/>
+            <bind dv="0x1c0100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:G-Plus"/>
+            <bind dv="0x1d0100" mod="0x1" sgo="Composer:Grade:Primary:PrinterLights:B-Plus"/>
+            <bind dv="0x1d0100" mod="0x2" sgo="Composer:Grade:Primary:PrinterLights:Y-Plus"/>
+            <bind dv="0x1d0100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:B-Plus"/>
+            <bind dv="0x1e0100" mod="0x1" sgo="Composer:Grade:Primary:PrinterLights:All-Minus"/>
+            <bind dv="0x1e0100" mod="0x2" sgo="Composer:Grade:Primary:PrinterLights:All-Minus"/>
+            <bind dv="0x1e0100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:All-Minus"/>
+            <bind dv="0x1f0100" mod="0x1" sgo="Composer:Grade:Primary:PrinterLights:R-Minus"/>
+            <bind dv="0x1f0100" mod="0x2" sgo="Composer:Grade:Primary:PrinterLights:C-Minus"/>
+            <bind dv="0x1f0100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:R-Minus"/>
+            <bind dv="0x200100" mod="0x1" sgo="Composer:Grade:Primary:PrinterLights:G-Minus"/>
+            <bind dv="0x200100" mod="0x2" sgo="Composer:Grade:Primary:PrinterLights:M-Minus"/>
+            <bind dv="0x200100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:G-Minus"/>
+            <bind dv="0x20801" mod="0x1" sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContAll"/>
+            <bind dv="0x20801" mod="0x2" sgo="Composer:Grade:Primary:BlackG"/>
+            <bind dv="0x20801" mod="0x200" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelG"/>
+            <bind dv="0x20801" mod="0x201" sgo="Composer:Grade:Primary:BlackG"/>
+            <bind dv="0x20801" mod="0x202" sgo="Composer:Grade:Primary:GammaG"/>
+            <bind dv="0x20801" mod="0x204" sgo="Composer:Grade:Primary:WhiteG"/>
+            <bind dv="0x20801" mod="0x4" sgo="Composer:Grade:Primary:WhiteG"/>
+            <bind dv="0x20801" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB2"/>
+            <bind dv="0x230100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:StepFracion1"/>
+            <bind dv="0x240100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:StepFracion1_2"/>
+            <bind dv="0x250100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:StepFracion1_4"/>
+            <bind dv="0x260100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:ModeB+W+"/>
+            <bind dv="0x270100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:ModeB+"/>
+            <bind dv="0x28000" sgo="Composer:Grade:Keyer:Outside"/>
+            <bind dv="0x280100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:ModeW+"/>
+            <bind dv="0x290100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:ModeB-W+"/>
+            <bind dv="0x2c000" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
+            <bind dv="0x30801" mod="0x1" sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContAll"/>
+            <bind dv="0x30801" mod="0x2" sgo="Composer:Grade:Primary:BlackB"/>
+            <bind dv="0x30801" mod="0x200" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelB"/>
+            <bind dv="0x30801" mod="0x201" sgo="Composer:Grade:Primary:BlackB"/>
+            <bind dv="0x30801" mod="0x202" sgo="Composer:Grade:Primary:GammaB"/>
+            <bind dv="0x30801" mod="0x204" sgo="Composer:Grade:Primary:WhiteB"/>
+            <bind dv="0x30801" mod="0x4" sgo="Composer:Grade:Primary:WhiteB"/>
+            <bind dv="0x30801" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB3"/>
+            <bind dv="0x360101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB1:RB"/>
+            <bind dv="0x370101" mod="0x1" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelAll:reset"/>
+            <bind dv="0x370101" mod="0x200" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelR:reset"/>
+            <bind dv="0x370101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB1:RR"/>
+            <bind dv="0x38300" sgo="Composer:Grade:Keyer:MuteOut0"/>
+            <bind dv="0x3a0101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB2:RB"/>
+            <bind dv="0x3b0101" mod="0x1" sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContAll:reset"/>
+            <bind dv="0x3b0101" mod="0x200" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelG:reset"/>
+            <bind dv="0x3b0101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB2:RR"/>
+            <bind dv="0x3c000" sgo="Composer:Grade:Keyer:BlurBlend:Knob"/>
+            <bind dv="0x3d0101" mod="0x40" sgo="Composer:Grade:Primary:PickBlack"/>
+            <bind dv="0x3d0101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB3:RB"/>
+            <bind dv="0x3e0101" mod="0x1" sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContAll:reset"/>
+            <bind dv="0x3e0101" mod="0x200" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelB:reset"/>
+            <bind dv="0x3e0101" mod="0x40" sgo="Composer:Grade:Primary:PickWhite"/>
+            <bind dv="0x3e0101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB3:RR"/>
+            <bind dv="0x40801" sgo="Composer:Grade:GradeVecI:RGBlevels"/>
+            <bind dv="0x420101" mod="0x1" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelAll:reset"/>
+            <bind dv="0x420101" sgo="Composer:Grade:PrimaryLevel:reset"/>
+            <bind dv="0x48300" sgo="Vector"/>
+            <bind dv="0x4c000" sgo="Composer:Grade:Options:BlurMode"/>
+            <bind dv="0x5c000" sgo="Composer:Grade:Options:RecoverSource"/>
+            <bind dv="0x60400" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelAll"/>
+            <bind dv="0x6c000" sgo="Composer:Grade:Options:ExtKeySource"/>
+            <bind dv="0x7c000" sgo="Composer:Grade:Options:KeySource"/>
+            <bind dv="0x8300" sgo="Composer:Grade:primary"/>
+            <bind dv="0xa0400" sgo="Composer:Grade:Keyer:PostSat:Knob"/>
+            <bind dv="0xf0102" mod="0x2" sgo="Edit:Position.X"/>
+        </group>
+        <group name="0x8400">
+            <bind dv="0x10100" mod="0x1" sgo="Composer:Grade:Keyer:MuteIn1"/>
+            <bind dv="0x10100" mod="0x2" sgo="Composer:Grade:Keyer:MuteOut1"/>
+            <bind dv="0x10400" sgo="Composer:Grade:Bands:All:Cont:Knob"/>
+            <bind dv="0x10801" mod="0x1" sgo="Composer:Grade:Bands:All:Hue:Knob"/>
+            <bind dv="0x10801" mod="0x2" sgo="Composer:Grade:Bands:All:Sat:Knob"/>
+            <bind dv="0x10801" mod="0x200" sgo="Composer:Grade:Bands:BandsTB0"/>
+            <bind dv="0x10801" mod="0x4" sgo="Composer:Grade:Bands:All:Cont:Knob"/>
+            <bind dv="0x10801" sgo="Composer:Grade:Bands:BandsTB0"/>
+            <bind dv="0x18000" sgo="Composer:Grade:Keyer:Inside"/>
+            <bind dv="0x18400" sgo="Composer:Grade:Keyer:MuteIn1"/>
+            <bind dv="0x1c000" sgo="Vector"/>
+            <bind dv="0x20801" mod="0x1" sgo="Composer:Grade:Bands:Black:Hue:Knob"/>
+            <bind dv="0x20801" mod="0x2" sgo="Composer:Grade:Bands:Black:Sat:Knob"/>
+            <bind dv="0x20801" mod="0x200" sgo="BandsTB2"/>
+            <bind dv="0x20801" mod="0x200" sgo="Composer:Grade:Bands:BandsTB2"/>
+            <bind dv="0x20801" mod="0x4" sgo="Composer:Grade:Bands:Black:Cont:Knob"/>
+            <bind dv="0x20801" sgo="Composer:Grade:Bands:BandsTB1"/>
+            <bind dv="0x28000" sgo="Composer:Grade:Keyer:Outside"/>
+            <bind dv="0x2c000" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
+            <bind dv="0x30801" mod="0x1" sgo="Composer:Grade:Bands:Midtones:Hue:Knob"/>
+            <bind dv="0x30801" mod="0x2" sgo="Composer:Grade:Bands:Midtones:Sat:Knob"/>
+            <bind dv="0x30801" mod="0x200" sgo="Composer:Grade:Bands:BandsTB3"/>
+            <bind dv="0x30801" mod="0x4" sgo="Composer:Grade:Bands:Midtones:Cont:Knob"/>
+            <bind dv="0x30801" sgo="Composer:Grade:Bands:BandsTB3"/>
+            <bind dv="0x360101" mod="0x200" sgo="Composer:Grade:Bands:BandsTB0:RB"/>
+            <bind dv="0x360101" sgo="Composer:Grade:Bands:BandsTB0:RB"/>
+            <bind dv="0x370101" mod="0x1" sgo="Composer:Grade:Reset:AllHueReset"/>
+            <bind dv="0x370101" mod="0x2" sgo="Composer:Grade:Reset:AllSatReset"/>
+            <bind dv="0x370101" mod="0x200" sgo="Composer:Grade:Bands:BandsTB0:RR"/>
+            <bind dv="0x370101" mod="0x4" sgo="Composer:Grade:Reset:AllContReset"/>
+            <bind dv="0x370101" sgo="Composer:Grade:Bands:BandsTB0:RR"/>
+            <bind dv="0x38400" sgo="Composer:Grade:Keyer:MuteOut1"/>
+            <bind dv="0x3a0101" mod="0x200" sgo="BandsTB2:RB"/>
+            <bind dv="0x3a0101" mod="0x200" sgo="Composer:Grade:Bands:BandsTB2:RB"/>
+            <bind dv="0x3a0101" sgo="Composer:Grade:Bands:BandsTB1:RB"/>
+            <bind dv="0x3b0101" mod="0x1" sgo="Composer:Grade:Reset:BlackHueReset"/>
+            <bind dv="0x3b0101" mod="0x200" sgo="Composer:Grade:Bands:BandsTB2:RR"/>
+            <bind dv="0x3b0101" sgo="Composer:Grade:Bands:BandsTB1:RR"/>
+            <bind dv="0x3c000" sgo="Composer:Grade:Keyer:BlurBlend:Knob"/>
+            <bind dv="0x3d0101" mod="0x200" sgo="BandsTB2:RB"/>
+            <bind dv="0x3d0101" mod="0x200" sgo="Composer:Grade:Bands:BandsTB3:RB"/>
+            <bind dv="0x3d0101" sgo="Composer:Grade:Bands:BandsTB3:RB"/>
+            <bind dv="0x3e0101" mod="0x1" sgo="Composer:Grade:Reset:MidtonesHueReset"/>
+            <bind dv="0x3e0101" mod="0x2" sgo="Composer:Grade:Reset:MidtonesSatReset"/>
+            <bind dv="0x3e0101" mod="0x200" sgo="BandsTB2:RR"/>
+            <bind dv="0x3e0101" mod="0x200" sgo="Composer:Grade:Bands:BandsTB3:RR"/>
+            <bind dv="0x3e0101" mod="0x4" sgo="Composer:Grade:Reset:Composer:Grade:Bands:Midtones:ContReset"/>
+            <bind dv="0x3e0101" sgo="Composer:Grade:Bands:BandsTB3:RR"/>
+            <bind dv="0x40801" mod="0x1" sgo="Composer:Grade:Bands:White:Hue:Knob"/>
+            <bind dv="0x40801" mod="0x2" sgo="Composer:Grade:Bands:White:Sat:Knob"/>
+            <bind dv="0x40801" mod="0x200" sgo="Composer:Grade:Bands:BandsTB4"/>
+            <bind dv="0x40801" mod="0x4" sgo="Composer:Grade:Bands:White:Cont:Knob"/>
+            <bind dv="0x40801" sgo="Composer:Grade:Bands:BandsTB4"/>
+            <bind dv="0x410101" mod="0x200" sgo="Composer:Grade:Bands:BandsTB4:RB"/>
+            <bind dv="0x410101" sgo="Composer:Grade:Bands:BandsTB4:RB"/>
+            <bind dv="0x420101" mod="0x1" sgo="Composer:Grade:Bands:White:Hue:Knob"/>
+            <bind dv="0x420101" mod="0x2" sgo="Composer:Grade:Reset:WhiteSatReset"/>
+            <bind dv="0x420101" mod="0x200" sgo="Composer:Grade:Bands:BandsTB4:RR"/>
+            <bind dv="0x420101" mod="0x4" sgo="Composer:Grade:Reset:WhiteContReset"/>
+            <bind dv="0x420101" sgo="Composer:Grade:Bands:BandsTB4:RR"/>
+            <bind dv="0x4c000" sgo="Composer:Grade:Options:BlurMode"/>
+            <bind dv="0x50400" sgo="Composer:Grade:Keyer:DestSpill:Knob"/>
+            <bind dv="0x5c000" sgo="Composer:Grade:Options:RecoverSource"/>
+            <bind dv="0x60400" sgo="Composer:Grade:Bands:All:Sat:Knob"/>
+            <bind dv="0x6c000" sgo="Composer:Grade:Options:ExtKeySource"/>
+            <bind dv="0x7c000" sgo="Composer:Grade:Options:KeySource"/>
+            <bind dv="0x8400" sgo="Composer:Grade:bands"/>
+            <bind dv="0xa0400" sgo="Composer:Grade:Bands:All:Hue:Knob"/>
+        </group>
+        <group name="0x8500">
+            <bind dv="0x10400" sgo="Composer:Grade:Ranges:0"/>
+            <bind dv="0x18000" sgo="Composer:Grade:Keyer:Inside"/>
+            <bind dv="0x18500" sgo="Composer:Grade:Keyer:MuteIn1"/>
+            <bind dv="0x18600" sgo="Composer:Grade:Keyer:MuteIn2"/>
+            <bind dv="0x1c000" sgo="Vector"/>
+            <bind dv="0x28000" sgo="Composer:Grade:Keyer:Outside"/>
+            <bind dv="0x2c000" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
+            <bind dv="0x38500" sgo="Composer:Grade:Keyer:MuteOut1"/>
+            <bind dv="0x38600" sgo="Composer:Grade:Keyer:MuteOut2"/>
+            <bind dv="0x3c000" sgo="Composer:Grade:Keyer:BlurBlend:Knob"/>
+            <bind dv="0x4c000" sgo="Composer:Grade:Keyer:BlurMode"/>
+            <bind dv="0x50400" sgo="Composer:Grade:Ranges:2"/>
+            <bind dv="0x5c000" sgo="Composer:Grade:Keyer:RecoverSource"/>
+            <bind dv="0x60400" sgo="Composer:Grade:Ranges:1"/>
+            <bind dv="0x6c000" sgo="Composer:Grade:Keyer:ExtKeySource"/>
+            <bind dv="0x7c000" sgo="Composer:Grade:Keyer:KeySource"/>
+            <bind dv="0x8500" sgo="Composer:Grade:ranges"/>
+            <bind dv="0xa0400" sgo="Composer:Grade:Ranges:3"/>
+        </group>
+        <group name="0x8600">
+            <bind dv="0x10801" mod="0x1" sgo="Composer:Grade:FixVectors:Hue:R"/>
+            <bind dv="0x10801" mod="0x2" sgo="Composer:Grade:FixVectors:Sat:B"/>
+            <bind dv="0x10801" mod="0x201" sgo="Composer:Grade:FixVectors:Hue:B"/>
+            <bind dv="0x10801" mod="0x204" sgo="Composer:Grade:FixVectors:Lum:B"/>
+            <bind dv="0x10801" mod="0x4" sgo="Composer:Grade:FixVectors:Lum:R"/>
+            <bind dv="0x18000" sgo="Composer:Grade:Keyer:Inside"/>
+            <bind dv="0x18600" sgo="Composer:Grade:Keyer:MuteIn2"/>
+            <bind dv="0x1c000" sgo="Vector"/>
+            <bind dv="0x20801" mod="0x1" sgo="Composer:Grade:FixVectors:Hue:Y"/>
+            <bind dv="0x20801" mod="0x2" sgo="Composer:Grade:FixVectors:Sat:M"/>
+            <bind dv="0x20801" mod="0x201" sgo="Composer:Grade:FixVectors:Hue:M"/>
+            <bind dv="0x20801" mod="0x204" sgo="Composer:Grade:FixVectors:Lum:M"/>
+            <bind dv="0x20801" mod="0x4" sgo="Composer:Grade:FixVectors:Lum:Y"/>
+            <bind dv="0x28000" sgo="Composer:Grade:Keyer:Outside"/>
+            <bind dv="0x2c000" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
+            <bind dv="0x30801" mod="0x1" sgo="Composer:Grade:FixVectors:Hue:G"/>
+            <bind dv="0x30801" mod="0x2" sgo="Composer:Grade:FixVectors:Sat:C"/>
+            <bind dv="0x30801" mod="0x201" sgo="Composer:Grade:FixVectors:Hue:C"/>
+            <bind dv="0x30801" mod="0x204" sgo="Composer:Grade:FixVectors:Lum:C"/>
+            <bind dv="0x30801" mod="0x4" sgo="Composer:Grade:FixVectors:Lum:G"/>
+            <bind dv="0x370101" mod="0x2" sgo="Composer:Grade:FixVectors:Sat:C:Reset"/>
+            <bind dv="0x370101" mod="0x204" sgo="Composer:Grade:FixVectors:Lum:C:Reset"/>
+            <bind dv="0x370101" mod="0x4" sgo="Composer:Grade:FixVectors:Lum:R:Reset"/>
+            <bind dv="0x38600" sgo="Composer:Grade:Keyer:MuteOut2"/>
+            <bind dv="0x3b0101" mod="0x1" sgo="Composer:Grade:FixVectors:Hue:G:Reset"/>
+            <bind dv="0x3b0101" mod="0x2" sgo="Composer:Grade:FixVectors:Sat:M:Reset"/>
+            <bind dv="0x3b0101" mod="0x201" sgo="Composer:Grade:FixVectors:Hue:M:Reset"/>
+            <bind dv="0x3b0101" mod="0x204" sgo="Composer:Grade:FixVectors:Lum:M:Reset"/>
+            <bind dv="0x3b0101" mod="0x4" sgo="Composer:Grade:FixVectors:Lum:G:Reset"/>
+            <bind dv="0x3c000" sgo="Composer:Grade:Keyer:BlurBlend:Knob"/>
+            <bind dv="0x3e0101" mod="0x1" sgo="Composer:Grade:FixVectors:Hue:B:Reset"/>
+            <bind dv="0x3e0101" mod="0x2" sgo="Composer:Grade:FixVectors:Sat:Y:Reset"/>
+            <bind dv="0x3e0101" mod="0x201" sgo="Composer:Grade:FixVectors:Hue:C"/>
+            <bind dv="0x3e0101" mod="0x204" sgo="Composer:Grade:FixVectors:Lum:Y:Reset"/>
+            <bind dv="0x3e0101" mod="0x4" sgo="Composer:Grade:FixVectors:Lum:B:Reset"/>
+            <bind dv="0x4c000" sgo="Composer:Grade:Options:BlurMode"/>
+            <bind dv="0x5c000" sgo="Composer:Grade:Options:RecoverSource"/>
+            <bind dv="0x6c000" sgo="Composer:Grade:Options:ExtKeySource"/>
+            <bind dv="0x7c000" sgo="Composer:Grade:Options:KeySource"/>
+            <bind dv="0x8600" sgo="Composer:Grade:fixed"/>
+        </group>
+        <group name="0x8700">
+            <bind dv="0x128700" sgo="Composer:Grade:Curve:HueHue-Curve"/>
+            <bind dv="0x138700" sgo="Composer:Grade:Curve:HueSat-Curve"/>
+            <bind dv="0x148700" sgo="Composer:Grade:Curve:HueLuma-Curve"/>
+            <bind dv="0x18000" sgo="Composer:Grade:Keyer:Inside"/>
+            <bind dv="0x18700" sgo="Composer:Grade:Keyer:MuteIn3"/>
+            <bind dv="0x1c000" sgo="Vector"/>
+            <bind dv="0x20400" sgo="Composer:Grade:Curve:Curve1"/>
+            <bind dv="0x218700" sgo="Composer:Grade:Curve:All-LS-Curves"/>
+            <bind dv="0x28000" sgo="Composer:Grade:Keyer:Outside"/>
+            <bind dv="0x2c000" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Curve:Curve2"/>
+            <bind dv="0x38700" sgo="Composer:Grade:Keyer:MuteOut3"/>
+            <bind dv="0x3c000" sgo="Composer:Grade:Keyer:BlurBlend:Knob"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Curve:Curve3"/>
+            <bind dv="0x4c000" sgo="Composer:Grade:Options:BlurMode"/>
+            <bind dv="0x5c000" sgo="Composer:Grade:Options:RecoverSource"/>
+            <bind dv="0x6c000" sgo="Composer:Grade:Options:ExtKeySource"/>
+            <bind dv="0x70400" sgo="Composer:Grade:Curve:Curve4"/>
+            <bind dv="0x7c000" sgo="Composer:Grade:Options:KeySource"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Curve:Curve5"/>
+            <bind dv="0x8700" sgo="Composer:Grade:curve"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Curve:Curve6"/>
+        </group>
+        <group name="0x8900">
+            <bind dv="0x118900" sgo="Composer:Grade:Primary:PrinterLights:R-Plus"/>
+            <bind dv="0x128900" sgo="Composer:Grade:Primary:PrinterLights:G-Plus"/>
+            <bind dv="0x138900" sgo="Composer:Grade:Primary:PrinterLights:B-Plus"/>
+            <bind dv="0x148900" sgo="Composer:Grade:Primary:PrinterLights:All-Plus"/>
+            <bind dv="0x158900" sgo="Composer:Grade:Primary:PrinterLights:C-Plus"/>
+            <bind dv="0x168900" sgo="Composer:Grade:Primary:PrinterLights:M-Plus"/>
+            <bind dv="0x178900" sgo="Composer:Grade:Primary:PrinterLights:Y-Plus"/>
+            <bind dv="0x188900" sgo="Composer:Grade:Primary:PrinterLights:R-Minus"/>
+            <bind dv="0x198900" sgo="Composer:Grade:Primary:PrinterLights:G-Minus"/>
+            <bind dv="0x208900" sgo="Composer:Grade:Primary:PrinterLights:B-Minus"/>
+            <bind dv="0x218900" sgo="Composer:Grade:Primary:PrinterLights:All-Minus"/>
+            <bind dv="0x228900" sgo="Composer:Grade:Primary:PrinterLights:C-Minus"/>
+            <bind dv="0x238900" sgo="Composer:Grade:Primary:PrinterLights:M-Minus"/>
+            <bind dv="0x248900" sgo="Composer:Grade:Primary:PrinterLights:Y-Minus"/>
+            <bind dv="0x258900" sgo="Composer:Grade:Primary:PrinterLights:StepFracion1"/>
+            <bind dv="0x268900" sgo="Composer:Grade:Primary:PrinterLights:StepFracion1_2"/>
+            <bind dv="0x278900" sgo="Composer:Grade:Primary:PrinterLights:StepFracion1_4"/>
+            <bind dv="0x288900" sgo="Composer:Grade:Primary:PrinterLights:ModeB+W+"/>
+            <bind dv="0x298900" sgo="Composer:Grade:Primary:PrinterLights:ModeB+"/>
+            <bind dv="0x308900" sgo="Composer:Grade:Primary:PrinterLights:ModeW+"/>
+            <bind dv="0x318900" sgo="Composer:Grade:Primary:PrinterLights:ModeB-W+"/>
+            <bind dv="0x4010200" sgo="Composer:Grade:Primary:PrinterLights:R-Plus"/>
+            <bind dv="0x4020200" sgo="Composer:Grade:Primary:PrinterLights:G-Plus"/>
+            <bind dv="0x4030200" sgo="Composer:Grade:Primary:PrinterLights:B-Plus"/>
+            <bind dv="0x4040200" sgo="Composer:Grade:Primary:PrinterLights:All-Plus"/>
+            <bind dv="0x4060200" sgo="Composer:Grade:Primary:PrinterLights:C-Plus"/>
+            <bind dv="0x4070200" sgo="Composer:Grade:Primary:PrinterLights:M-Plus"/>
+            <bind dv="0x4080200" sgo="Composer:Grade:Primary:PrinterLights:Y-Plus"/>
+            <bind dv="0x5010200" sgo="Composer:Grade:Primary:PrinterLights:R-Minus"/>
+            <bind dv="0x5020200" sgo="Composer:Grade:Primary:PrinterLights:G-Minus"/>
+            <bind dv="0x5030200" sgo="Composer:Grade:Primary:PrinterLights:B-Minus"/>
+            <bind dv="0x5040200" sgo="Composer:Grade:Primary:PrinterLights:All-Minus"/>
+            <bind dv="0x5060200" sgo="Composer:Grade:Primary:PrinterLights:C-Minus"/>
+            <bind dv="0x5070200" sgo="Composer:Grade:Primary:PrinterLights:M-Minus"/>
+            <bind dv="0x5080200" sgo="Composer:Grade:Primary:PrinterLights:Y-Minus"/>
+        </group>
+        <group name="0x8a00">
+            <bind dv="0x10400" sgo="Snapshot:MoveWipe.X"/>
+            <bind dv="0x10801" sgo="Snapshot:MoveLive"/>
+            <bind dv="0x118a00" sgo="Snapshot:ShowLive"/>
+            <bind dv="0x128a00" sgo="Snapshot:ShowSplit"/>
+            <bind dv="0x138a00" sgo="Snapshot:ShowSnapshot"/>
+            <bind dv="0x148a00" sgo="Snapshot:DrawOutline"/>
+            <bind dv="0x158a00" sgo="Snapshot:SnapshotCurrent"/>
+            <bind dv="0x168a00" sgo="Snapshot:SnapshotASelected"/>
+            <bind dv="0x178a00" sgo="Snapshot:SplitWipe"/>
+            <bind dv="0x188a00" sgo="Snapshot:SplitSBS"/>
+            <bind dv="0x20400" sgo="Snapshot:MoveLive.X"/>
+            <bind dv="0x20801" sgo="Snapshot:MoveWipe"/>
+            <bind dv="0x30400" sgo="Snapshot:MoveLive.Y"/>
+            <bind dv="0x30801" sgo="Snapshot:MoveSnap"/>
+            <bind dv="0x350101" sgo="Snapshot:SplitSBS"/>
+            <bind dv="0x360101" sgo="Snapshot:SplitWipe"/>
+            <bind dv="0x370101" sgo="Snapshot:ShowSnapshot"/>
+            <bind dv="0x390101" sgo="Snapshot:ChangePreset"/>
+            <bind dv="0x3a0101" sgo="Snapshot:ChangeSnapshotMode"/>
+            <bind dv="0x3b0101" sgo="Snapshot:PrevSnapshotMode"/>
+            <bind dv="0x3c0101" sgo="Snapshot:ShowSnapshot"/>
+            <bind dv="0x3d0101" sgo="Snapshot:ChangePreset"/>
+            <bind dv="0x3e0101" sgo="Snapshot:PrevSnapshotMode"/>
+            <bind dv="0x40400" sgo="Snapshot:MoveLive.Z"/>
+            <bind dv="0x60400" sgo="Snapshot:MoveWipe.Z"/>
+            <bind dv="0x70400" sgo="Snapshot:MoveSnap.X"/>
+            <bind dv="0x80400" sgo="Snapshot:MoveSnap.Y"/>
+            <bind dv="0x90400" sgo="Snapshot:MoveSnap.Z"/>
+        </group>
+        <group name="0x8f00">
+            <bind dv="0x10400" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
+            <bind dv="0x118f00" sgo="Composer:Grade:Options:MuteR"/>
+            <bind dv="0x128f00" sgo="Composer:Grade:Options:MuteG"/>
+            <bind dv="0x138f00" sgo="Composer:Grade:Options:MuteB"/>
+            <bind dv="0x148f00" sgo="Composer:Grade:Options:Legalize"/>
+            <bind dv="0x18000" sgo="Composer:Grade:Keyer:Inside"/>
+            <bind dv="0x1c000" sgo="Vector"/>
+            <bind dv="0x20400" sgo="Composer:Grade:Keyer:BlurRad:Knob"/>
+            <bind dv="0x218f00" sgo="Composer:Grade:Options:MuteY"/>
+            <bind dv="0x228f00" sgo="Composer:Grade:Options:MuteC"/>
+            <bind dv="0x28000" sgo="Composer:Grade:Keyer:Outside"/>
+            <bind dv="0x2c000" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Keyer:BlurBlend:Knob"/>
+            <bind dv="0x3c000" sgo="Composer:Grade:Keyer:BlurBlend:Knob"/>
+            <bind dv="0x4c000" sgo="Composer:Grade:Options:BlurMode"/>
+            <bind dv="0x5c000" sgo="Composer:Grade:Options:RecoverSource"/>
+            <bind dv="0x60400" sgo="Composer:Grade:Keyer:DestFilt:Knob"/>
+            <bind dv="0x6c000" sgo="Composer:Grade:Options:ExtKeySource"/>
+            <bind dv="0x70400" sgo="Composer:Grade:Keyer:MaskTolerance:Knob"/>
+            <bind dv="0x7c000" sgo="Composer:Grade:Options:KeySource"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Keyer:MaskSoftness:Knob"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Keyer:KeyCorrectRad:Knob"/>
+        </group>
+        <group name="0x9000">
+            <bind dv="0x10400" sgo="ReelPanelProject:PrevNext:Normal"/>
+            <bind dv="0x10801" sgo="ReelPanelProject:PrevNext:Normal"/>
+            <bind dv="0x19000" sgo="Project:Load"/>
+            <bind dv="0x29000" sgo="Project:New"/>
+            <bind dv="0x360101" sgo="Project:Load"/>
+            <bind dv="0x370101" sgo="Project:Set"/>
+            <bind dv="0x39000" sgo="Project:Delete"/>
+            <bind dv="0x9000" sgo="Project"/>
+        </group>
+        <group name="0x9100">
+            <bind dv="0x10801" sgo="ReelPanelImport:PrevNext:Normal"/>
+            <bind dv="0x119100" sgo="ReelPanelImport:Mode:2"/>
+            <bind dv="0x129100" sgo="ReelPanelImport:Scroll:Left"/>
+            <bind dv="0x139100" sgo="ReelPanelImport:Scroll:Right"/>
+            <bind dv="0x149100" sgo="ReelPanelImport:Import"/>
+            <bind dv="0x159100" sgo="ReelPanelImport:AllSec"/>
+            <bind dv="0x169100" sgo="ReelPanelImport:AllMovies"/>
+            <bind dv="0x179100" sgo="ReelPanelImport:Setup"/>
+            <bind dv="0x189100" sgo="ReelPanelImport:Source:Load"/>
+            <bind dv="0x19100" sgo="ReelPanelImport:Home"/>
+            <bind dv="0x199100" sgo="ReelPanelImport:Source:Save"/>
+            <bind dv="0x29100" sgo="ReelPanelImport:Parent"/>
+            <bind dv="0x360101" sgo="ReelPanelImport:Import"/>
+            <bind dv="0x370101" sgo="ReelPanelImport:Select"/>
+            <bind dv="0x39100" sgo="ReelPanelImport:Refresh"/>
+            <bind dv="0x49100" sgo="ReelPanelImport:Current"/>
+            <bind dv="0x59100" sgo="ReelPanelImport:SelFolder"/>
+            <bind dv="0x69100" sgo="ReelPanelImport:New"/>
+            <bind dv="0x79100" sgo="ReelPanelImport:Remove"/>
+            <bind dv="0x89100" sgo="ReelPanelImport:Maximize"/>
+            <bind dv="0x9100" sgo="Import"/>
+            <bind dv="0x99100" sgo="ReelPanelImport:Mode:0"/>
+            <bind dv="0xa9100" sgo="ReelPanelImport:Mode:1"/>
+        </group>
+        <group name="0x9300">
+            <bind dv="0x10400" sgo="ReelPanelBrowser:PrevNext:Normal"/>
+            <bind dv="0x10801" sgo="ReelPanelBrowser:PrevNext:Normal"/>
+            <bind dv="0x119300" sgo="ReelPanelBrowser:Mode:2"/>
+            <bind dv="0x129300" sgo="ReelPanelBrowser:Scroll:Left"/>
+            <bind dv="0x139300" sgo="ReelPanelBrowser:Scroll:Right"/>
+            <bind dv="0x149300" sgo="ReelPanelBrowser:Open"/>
+            <bind dv="0x159300" sgo="ReelPanelBrowser:Save"/>
+            <bind dv="0x169300" sgo="ReelPanelBrowser:SaveAs"/>
+            <bind dv="0x179300" sgo="ReelPanelBrowser:New"/>
+            <bind dv="0x189300" sgo="ReelPanelBrowser:Source:Load"/>
+            <bind dv="0x19300" sgo="ReelPanelBrowser:Home"/>
+            <bind dv="0x199300" sgo="ReelPanelBrowser:Source:Save"/>
+            <bind dv="0x1a9300" sgo="ReelPanelBrowser:CreateGroup"/>
+            <bind dv="0x29300" sgo="ReelPanelBrowser:Parent"/>
+            <bind dv="0x360101" sgo="ReelPanelBrowser:Open"/>
+            <bind dv="0x370101" sgo="ReelPanelBrowser:Select"/>
+            <bind dv="0x39300" sgo="ReelPanelBrowser:Refresh"/>
+            <bind dv="0x49300" sgo="ReelPanelBrowser:Current"/>
+            <bind dv="0x59300" sgo="ReelPanelBrowser:SelFolder"/>
+            <bind dv="0x69300" sgo="Browser:New"/>
+            <bind dv="0x79300" sgo="Browser:Remove"/>
+            <bind dv="0x89300" sgo="ReelPanelBrowser:Maximize"/>
+            <bind dv="0x9300" sgo="Media"/>
+            <bind dv="0x99300" sgo="ReelPanelBrowser:Mode:0"/>
+            <bind dv="0xa9300" sgo="ReelPanelBrowser:Mode:1"/>
+        </group>
+        <group name="0x9400">
+            <bind dv="0x119400" sgo="Edit:Cmd:ACombine"/>
+            <bind dv="0x129400" sgo="Edit:Cmd:StereoRecover"/>
+            <bind dv="0x139400" sgo="Edit:Get:Position"/>
+            <bind dv="0x149400" sgo="Edit:Attr:Unlock"/>
+            <bind dv="0x159400" sgo="Edit:Attr:Hide"/>
+            <bind dv="0x169400" sgo="Edit:Attr:Reveal"/>
+            <bind dv="0x179400" sgo="Edit:Get:Position"/>
+            <bind dv="0x189400" sgo="Edit:Set:Position"/>
+            <bind dv="0x19400" sgo="Edit:Cmd:Group"/>
+            <bind dv="0x199400" sgo="Edit:Get:ClipTC"/>
+            <bind dv="0x219400" sgo="Edit:Set:Duration"/>
+            <bind dv="0x229400" sgo="Edit:Pulldown:TrimMode:2"/>
+            <bind dv="0x239400" sgo="Edit:Pulldown:TrimMode:1"/>
+            <bind dv="0x249400" sgo="Edit:Pulldown:TrimMode:0"/>
+            <bind dv="0x259400" sgo="Edit:Pulldown:TimeWarpCurves:0"/>
+            <bind dv="0x269400" sgo="Edit:Pulldown:TimeWarpCurves:1"/>
+            <bind dv="0x29400" sgo="Edit:Cmd:Timewarp"/>
+            <bind dv="0x2a9400" sgo="Edit:Get:Duration"/>
+            <bind dv="0x39400" sgo="Edit:Cmd:Split"/>
+            <bind dv="0x49400" sgo="Edit:Cmd:AVBreak"/>
+            <bind dv="0x59400" sgo="Edit:Cmd:ABreak"/>
+            <bind dv="0x69400" sgo="Edit:Cmd:StereoBreak"/>
+            <bind dv="0x79400" sgo="Edit:Cmd:Ungroup"/>
+            <bind dv="0x89400" sgo="Edit:Cmd:Reverse"/>
+            <bind dv="0x9400" sgo="Edit"/>
+            <bind dv="0x99400" sgo="Edit:Cmd:Join"/>
+            <bind dv="0xa9400" sgo="Edit:Cmd:AVCombine"/>
+        </group>
+        <group name="0x9500">
+            <bind dv="0x10801" sgo="ReelPanelImport:PrevNext:Normal"/>
+            <bind dv="0x9500" sgo="FX"/>
+            <bind dv="0xf0102" mod="0x2" sgo="Edit"/>
+        </group>
+        <group name="0xe18400">
+            <bind dv="0x70400" sgo="Composer:Grade:Bands:MidtnR"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Bands:MidtnG"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Bands:MidtnB"/>
+        </group>
+        <group name="0xe18500">
+            <bind dv="0x70400" sgo="Composer:Grade:Bands:Black:Hue:Knob"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Bands:Midtones:Hue:Knob"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Bands:White:Hue:Knob"/>
+        </group>
+        <group name="0xe19400">
+            <bind dv="0x279400" sgo="Edit:Move:Left"/>
+            <bind dv="0x289400" sgo="Edit:Move:Right"/>
+        </group>
+        <group name="0xe19f00">
+            <bind dv="0x10400" sgo="Canon:INPUTCHANNEL"/>
+        </group>
+        <group name="0xe28200">
+            <bind dv="0x70400" sgo="Composer:Grade:Keyer:LeftSoft"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Keyer:Rotation"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Keyer:Range"/>
+            <bind dv="0xa0400" sgo="Composer:Grade:Keyer:RightSoft"/>
+        </group>
+        <group name="0xe28300">
+            <bind dv="0x70400" sgo="Composer:Grade:Primary:GammaR"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Primary:GammaG"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Primary:GammaB"/>
+        </group>
+        <group name="0xe28400">
+            <bind dv="0x70400" sgo="Composer:Grade:Bands:ShadwR"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Bands:ShadwG"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Bands:ShadwB"/>
+        </group>
+        <group name="0xe28500">
+            <bind dv="0x70400" sgo="Composer:Grade:Bands:All:Hue:Knob"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Bands:All:Sat:Knob"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Bands:All:Cont:Knob"/>
+        </group>
+        <group name="0xe29400">
+            <bind dv="0x279400" sgo="Edit:Shift:Left"/>
+            <bind dv="0x289400" sgo="Edit:Shift:Right"/>
+        </group>
+        <group name="0xe29f00">
+            <bind dv="0x10400" sgo="Canon:PICTUREMODE"/>
+        </group>
+        <group name="0xe38200">
+            <bind dv="0x70400" sgo="Composer:Grade:Keyer:LumBar:LowLimit"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Keyer:LumBar:LowSoft"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Keyer:LumBar:HiSoft"/>
+            <bind dv="0xa0400" sgo="Composer:Grade:Keyer:LumBar:HiLimit"/>
+        </group>
+        <group name="0xe38300">
+            <bind dv="0x70400" sgo="Composer:Grade:Primary:BlackR"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Primary:BlackG"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Primary:BlackB"/>
+        </group>
+        <group name="0xe38400">
+            <bind dv="0x70400" sgo="Composer:Grade:Bands:BlackR"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Bands:BlackG"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Bands:BlackB"/>
+        </group>
+        <group name="0xe39400">
+            <bind dv="0x279400" sgo="Edit:Head:Ext"/>
+            <bind dv="0x289400" sgo="Edit:Head:Trim"/>
+        </group>
+        <group name="0xe39f00">
+            <bind dv="0x10400" sgo="Canon:LEVELGAMMA"/>
+            <bind dv="0x20400" sgo="Canon:CONTRAST"/>
+            <bind dv="0x30400" sgo="Canon:BRIGHTNESS"/>
+            <bind dv="0x40400" sgo="Canon:CHROMA"/>
+            <bind dv="0x60400" sgo="Canon:SHARPNESS"/>
+            <bind dv="0x70400" sgo="Canon:BACKLIGHTCONTROL"/>
+            <bind dv="0x80400" sgo="Canon:GAMMA"/>
+            <bind dv="0x90400" sgo="Canon:COLORGAMUT"/>
+            <bind dv="0xa0400" sgo="Canon:ODT"/>
+        </group>
+        <group name="0xe48200">
+            <bind dv="0x60400" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
+            <bind dv="0x70400" sgo="Composer:Grade:Keyer:DestFilt:Knob"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Keyer:MaskSoftness:Knob"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Keyer:BlurRad:Knob"/>
+            <bind dv="0xa0400" sgo="Composer:Grade:Keyer:BlurBlend:Knob"/>
+        </group>
+        <group name="0xe48300">
+            <bind dv="0x210100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:B-Minus"/>
+            <bind dv="0x70400" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelR"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelG"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Primary:PrimaryLevel:PrimaryLevelB"/>
+        </group>
+        <group name="0xe48400">
+            <bind dv="0x70400" sgo="Composer:Grade:Bands:Black:Sat:Knob"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Bands:Midtones:Sat:Knob"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Bands:White:Sat:Knob"/>
+        </group>
+        <group name="0xe48500">
+            <bind dv="0x70400" sgo="Composer:Grade:Bands:Black:Sat:Knob"/>
+            <bind dv="0x80400" sgo="Composer:Grade:Bands:Midtones:Sat:Knob"/>
+            <bind dv="0x90400" sgo="Composer:Grade:Bands:White:Sat:Knob"/>
+        </group>
+        <group name="0xe49400">
+            <bind dv="0x279400" sgo="Edit:Tail:Trim"/>
+            <bind dv="0x289400" sgo="Edit:Tail:Ext"/>
+        </group>
+        <group name="0xe49f00">
+            <bind dv="0x10400" sgo="Canon:COLORTEMP"/>
+            <bind dv="0x20400" sgo="Canon:COLORTEMPBIASR"/>
+            <bind dv="0x30400" sgo="Canon:COLORTEMPBIASG"/>
+            <bind dv="0x40400" sgo="Canon:COLORTEMPBIASB"/>
+            <bind dv="0x50400" sgo="Canon:COLORTEMPUSERX"/>
+            <bind dv="0x70400" sgo="Canon:COLORTEMPGAINR"/>
+            <bind dv="0x80400" sgo="Canon:COLORTEMPGAING"/>
+            <bind dv="0x90400" sgo="Canon:COLORTEMPGAINB"/>
+            <bind dv="0xa0400" sgo="Canon:COLORTEMPUSERY"/>
+        </group>
+        <group name="0xf09500">
+            <bind dv="0x19500" sgo="FX:Comp3D"/>
+            <bind dv="0x29500" sgo="FX:HaloComp"/>
+            <bind dv="0x39500" sgo="FX:Feedback"/>
+            <bind dv="0x49500" sgo="FX:Scope"/>
+            <bind dv="0x59500" sgo="FX:Connect"/>
+        </group>
+        <group name="0xf18300">
+            <bind dv="0x20400" sgo="Composer:Grade:Primary:PivotBlack:Knob"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Primary:PivotWhite:Knob"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Primary:PivotSuperWhite:Knob"/>
+            <bind dv="0x50400" sgo="Composer:Grade:Primary:PivotRolloff:Knob"/>
+        </group>
+        <group name="0xf18400">
+            <bind dv="0x20400" sgo="Composer:Grade:Bands:Black:Hue:Knob"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Bands:Midtones:Hue:Knob"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Bands:White:Hue:Knob"/>
+        </group>
+        <group name="0xf18500">
+            <bind dv="0x20400" sgo="Composer:Grade:Bands:Black:Hue:Knob"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Bands:Midtones:Hue:Knob"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Bands:White:Hue:Knob"/>
+        </group>
+        <group name="0xf19400">
+            <bind dv="0x229400" sgo="Edit:Move:Left"/>
+            <bind dv="0x239400" sgo="Edit:Move:Right"/>
+        </group>
+        <group name="0xf19500">
+            <bind dv="0x19500" sgo="FX:R3DParams"/>
+            <bind dv="0x29500" sgo="FX:ArriParams"/>
+            <bind dv="0x39500" sgo="FX:F65Params"/>
+            <bind dv="0x49500" sgo="FX:CanonParams"/>
+            <bind dv="0x59500" sgo="FX:PhantomParams"/>
+            <bind dv="0x69500" sgo="FX:Debayer"/>
+            <bind dv="0x79500" sgo="FX:HDRMerge"/>
+        </group>
+        <group name="0xf28200">
+            <bind dv="0x20400" sgo="Composer:Grade:Keyer:LeftSoft"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Keyer:Rotation"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Keyer:Range"/>
+            <bind dv="0x50400" sgo="Composer:Grade:Keyer:RightSoft"/>
+        </group>
+        <group name="0xf28300">
+            <bind dv="0x20400" sgo="Composer:Grade:Primary:WhiteR"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Primary:WhiteG"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Primary:WhiteB"/>
+        </group>
+        <group name="0xf28400">
+            <bind dv="0x20400" sgo="Composer:Grade:Bands:WhiteR"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Bands:WhiteG"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Bands:WhiteB"/>
+        </group>
+        <group name="0xf28500">
+            <bind dv="0x20400" sgo="Composer:Grade:Bands:All:Hue:Knob"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Bands:All:Sat:Knob"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Bands:All:Cont:Knob"/>
+        </group>
+        <group name="0xf28600">
+            <bind dv="0x20400" sgo="Composer:Grade:FixVectors:Hue:R"/>
+            <bind dv="0x30400" sgo="Composer:Grade:FixVectors:Hue:G"/>
+            <bind dv="0x40400" sgo="Composer:Grade:FixVectors:Hue:B"/>
+            <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Hue:Y"/>
+            <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Hue:C"/>
+            <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Hue:M"/>
+        </group>
+        <group name="0xf29400">
+            <bind dv="0x229400" sgo="Edit:Shift:Left"/>
+            <bind dv="0x239400" sgo="Edit:Shift:Right"/>
+        </group>
+        <group name="0xf29500">
+            <bind dv="0x19500" sgo="FX:Add"/>
+            <bind dv="0x29500" sgo="FX:Or"/>
+            <bind dv="0x39500" sgo="FX:And"/>
+            <bind dv="0x49500" sgo="FX:Sub"/>
+            <bind dv="0x59500" sgo="FX:Channels"/>
+        </group>
+        <group name="0xf38200">
+            <bind dv="0x20400" sgo="Composer:Grade:Keyer:SatBar:LowLimit"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Keyer:SatBar:LowSoft"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Keyer:SatBar:HiSoft"/>
+            <bind dv="0x50400" sgo="Composer:Grade:Keyer:SatBar:HiLimit"/>
+        </group>
+        <group name="0xf38203">
+            <bind dv="0x10400" sgo="Composer:Grade:FreeVec:SatRst"/>
+            <bind dv="0x20400" sgo="Composer:Grade:FreeVec:SatBar:0"/>
+        </group>
+        <group name="0xf38300">
+            <bind dv="0x20400" sgo="Composer:Grade:Primary:GammaR"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Primary:GammaG"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Primary:GammaB"/>
+        </group>
+        <group name="0xf38400">
+            <bind dv="0x20400" sgo="Composer:Grade:Bands:HigltR"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Bands:HigltG"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Bands:HigltB"/>
+        </group>
+        <group name="0xf38600">
+            <bind dv="0x20400" sgo="Composer:Grade:FixVectors:Sat:R"/>
+            <bind dv="0x30400" sgo="Composer:Grade:FixVectors:Sat:G"/>
+            <bind dv="0x40400" sgo="Composer:Grade:FixVectors:Sat:B"/>
+            <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Sat:Y"/>
+            <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Sat:C"/>
+            <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Sat:M"/>
+        </group>
+        <group name="0xf39400">
+            <bind dv="0x229400" sgo="Edit:Head:Ext"/>
+            <bind dv="0x239400" sgo="Edit:Head:Trim"/>
+        </group>
+        <group name="0xf39500">
+            <bind dv="0x119500" sgo="FX:Legalize"/>
+            <bind dv="0x129500" sgo="FX:RGBtoZYZ"/>
+            <bind dv="0x139500" sgo="FX:DolbyEDR"/>
+            <bind dv="0x149500" sgo="FX:ACES"/>
+            <bind dv="0x19500" sgo="FX:ColorGrade"/>
+            <bind dv="0x1a9500" sgo="FX:Remap"/>
+            <bind dv="0x29500" sgo="FX:BW"/>
+            <bind dv="0x39500" sgo="FX:Negative"/>
+            <bind dv="0x49500" sgo="FX:CineonCorrect"/>
+            <bind dv="0x59500" sgo="FX:CineonExport"/>
+            <bind dv="0x69500" sgo="FX:LogCorrect"/>
+            <bind dv="0x79500" sgo="FX:LogExport"/>
+            <bind dv="0x89500" sgo="FX:VideoToData"/>
+            <bind dv="0x99500" sgo="FX:DataToVideo"/>
+        </group>
+        <group name="0xf48200">
+            <bind dv="0x10400" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
+            <bind dv="0x20400" sgo="Composer:Grade:Keyer:DestFilt:Knob"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Keyer:MaskSoftness:Knob"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Keyer:BlurRad:Knob"/>
+            <bind dv="0x50400" sgo="Composer:Grade:Keyer:BlurBlend:Knob"/>
+        </group>
+        <group name="0xf48300">
+            <bind dv="0x20400" sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContR"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContG"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContB"/>
+        </group>
+        <group name="0xf48400">
+            <bind dv="0x20400" sgo="Composer:Grade:Bands:Black:Cont:Knob"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Bands:Midtones:Cont:Knob"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Bands:White:Cont:Knob"/>
+        </group>
+        <group name="0xf48500">
+            <bind dv="0x20400" sgo="Composer:Grade:Bands:Black:Cont:Knob"/>
+            <bind dv="0x30400" sgo="Composer:Grade:Bands:Midtones:Cont:Knob"/>
+            <bind dv="0x40400" sgo="Composer:Grade:Bands:White:Cont:Knob"/>
+        </group>
+        <group name="0xf48600">
+            <bind dv="0x20400" sgo="Composer:Grade:FixVectors:Lum:R"/>
+            <bind dv="0x30400" sgo="Composer:Grade:FixVectors:Lum:G"/>
+            <bind dv="0x40400" sgo="Composer:Grade:FixVectors:Lum:B"/>
+            <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Lum:Y"/>
+            <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Lum:C"/>
+            <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Lum:M"/>
+        </group>
+        <group name="0xf49400">
+            <bind dv="0x229400" sgo="Edit:Tail:Trim"/>
+            <bind dv="0x239400" sgo="Edit:Tail:Ext"/>
+        </group>
+        <group name="0xf49500">
+            <bind dv="0x19500" sgo="FX:GreenScreen"/>
+            <bind dv="0x1a9500" sgo="FX:ScreenBuild"/>
+            <bind dv="0x29500" sgo="FX:BlueScreen"/>
+            <bind dv="0x39500" sgo="FX:ExternalKey"/>
+            <bind dv="0x49500" sgo="FX:RGBKey"/>
+            <bind dv="0x59500" sgo="FX:ColorKey"/>
+            <bind dv="0x69500" sgo="FX:LumaKey"/>
+            <bind dv="0x79500" sgo="FX:SpatialKey"/>
+            <bind dv="0x89500" sgo="FX:Stroke"/>
+            <bind dv="0x99500" sgo="FX:EdgeBuild"/>
+        </group>
+        <group name="0xf58600">
+            <bind dv="0x20400" sgo="Composer:Grade:FixVectors:Hue:R"/>
+            <bind dv="0x30400" sgo="Composer:Grade:FixVectors:Hue:G"/>
+            <bind dv="0x40400" sgo="Composer:Grade:FixVectors:Hue:B"/>
+            <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Hue:Y"/>
+            <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Hue:C"/>
+            <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Hue:M"/>
+        </group>
+        <group name="0xf59500">
+            <bind dv="0x19500" sgo="FX:ShowAlpha"/>
+            <bind dv="0x29500" sgo="FX:PlugClearAlpha"/>
+            <bind dv="0x39500" sgo="FX:PlugInvertAlpha"/>
+            <bind dv="0x49500" sgo="FX:Grow"/>
+            <bind dv="0x59500" sgo="FX:Shrink"/>
+            <bind dv="0x69500" sgo="FX:BlurAlpha"/>
+            <bind dv="0x79500" sgo="FX:ForeBlur"/>
+        </group>
+        <group name="0xf68600">
+            <bind dv="0x20400" sgo="Composer:Grade:FixVectors:Sat:R"/>
+            <bind dv="0x30400" sgo="Composer:Grade:FixVectors:Sat:G"/>
+            <bind dv="0x40400" sgo="Composer:Grade:FixVectors:Sat:B"/>
+            <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Sat:Y"/>
+            <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Sat:C"/>
+            <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Sat:M"/>
+        </group>
+        <group name="0xf69500">
+            <bind dv="0x19500" sgo="FX:Crop"/>
+            <bind dv="0x29500" sgo="FX:CropExpand"/>
+        </group>
+        <group name="0xf78600">
+            <bind dv="0x20400" sgo="Composer:Grade:FixVectors:Lum:R"/>
+            <bind dv="0x30400" sgo="Composer:Grade:FixVectors:Lum:G"/>
+            <bind dv="0x40400" sgo="Composer:Grade:FixVectors:Lum:B"/>
+            <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Lum:Y"/>
+            <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Lum:C"/>
+            <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Lum:M"/>
+        </group>
+        <group name="0xf79500">
+            <bind dv="0x19500" sgo="FX:Warper"/>
+            <bind dv="0x29500" sgo="FX:Refract"/>
+            <bind dv="0x39500" sgo="FX:Distort"/>
+            <bind dv="0x49500" sgo="FX:Twirl"/>
+            <bind dv="0x59500" sgo="FX:Kaleido"/>
+            <bind dv="0x69500" sgo="FX:Bump"/>
+            <bind dv="0x79500" sgo="FX:LiquidBump"/>
+        </group>
+        <group name="0xf89500">
+            <bind dv="0x19500" sgo="FX:VectorPaint"/>
+            <bind dv="0x1a9500" sgo="FX:OpticalMotionBlur"/>
+            <bind dv="0x29500" sgo="FX:PlugGrow"/>
+            <bind dv="0x39500" sgo="FX:PlugShrink"/>
+            <bind dv="0x49500" sgo="FX:TimeWarp"/>
+            <bind dv="0x59500" sgo="FX:Denoise"/>
+            <bind dv="0x69500" sgo="FX:Grain"/>
+            <bind dv="0x79500" sgo="FX:Repair"/>
+            <bind dv="0x89500" sgo="FX:Reverb"/>
+            <bind dv="0x99500" sgo="FX:BulletTime"/>
+        </group>
+        <group name="0xf99500">
+            <bind dv="0x29500" sgo="FX:FadeDown"/>
+            <bind dv="0x39500" sgo="FX:FadeColorD"/>
+            <bind dv="0x49500" sgo="FX:FadeColorU"/>
+            <bind dv="0x59500" sgo="FX:NonLinearMix"/>
+            <bind dv="0x69500" sgo="FX:MultipleMix"/>
+            <bind dv="0x79500" sgo="FX:AlphaMix"/>
+            <bind dv="0x89500" sgo="FX:PageTurn"/>
+        </group>
+        <group name="0xfa9500">
+            <bind dv="0x119500" sgo="FX:ContrastBand"/>
+            <bind dv="0x129500" sgo="TimeEditor:knob:2"/>
+            <bind dv="0x139500" sgo="FX:SpotPoster"/>
+            <bind dv="0x149500" sgo="FX:BrushStroke"/>
+            <bind dv="0x159500" sgo="FX:Flare"/>
+            <bind dv="0x169500" sgo="FX:Rain"/>
+            <bind dv="0x19500" sgo="FX:Glint"/>
+            <bind dv="0x1a9500" sgo="FX:BandDither"/>
+            <bind dv="0x29500" sgo="FX:Posterize"/>
+            <bind dv="0x39500" sgo="FX:Crystallize"/>
+            <bind dv="0x49500" sgo="FX:Pointillize"/>
+            <bind dv="0x59500" sgo="FX:QuadTree"/>
+            <bind dv="0x69500" sgo="FX:Mosaic"/>
+            <bind dv="0x79500" sgo="FX:MosaicTiles"/>
+            <bind dv="0x89500" sgo="FX:Outlines"/>
+            <bind dv="0x99500" sgo="FX:Dither"/>
+        </group>
+        <group name="0xfb9500">
+            <bind dv="0x19500" sgo="FX:Title"/>
+            <bind dv="0x29500" sgo="FX:Solid"/>
+            <bind dv="0x39500" sgo="FX:Grade"/>
+            <bind dv="0x49500" sgo="FX:Circle"/>
+            <bind dv="0x59500" sgo="FX:Stripe"/>
+            <bind dv="0x69500" sgo="FX:Wave"/>
+            <bind dv="0x79500" sgo="FX:Noise"/>
+            <bind dv="0x89500" sgo="FX:Fractal"/>
+            <bind dv="0x99500" sgo="FX:Mandelbrot"/>
+        </group>
+        <group name="0xfc9500">
+            <bind dv="0x19500" sgo="FX:Blur"/>
+            <bind dv="0x29500" sgo="FX:DirBlur"/>
+            <bind dv="0x39500" sgo="FX:RaidalBlur"/>
+            <bind dv="0x49500" sgo="FX:SlopeBlur"/>
+            <bind dv="0x59500" sgo="FX:Sharpen"/>
+        </group>
+        <group name="0xfd9500">
+            <bind dv="0x19500" sgo="FX:Interlace"/>
+            <bind dv="0x29500" sgo="FX:MixedFields"/>
+            <bind dv="0x39500" sgo="FX:InterpFields"/>
+            <bind dv="0x49500" sgo="FX:DuplicateFields"/>
+        </group>
+        <group name="0xfe9500">
+            <bind dv="0x19500" sgo="FX:Stereo3D"/>
+            <bind dv="0x29500" sgo="FX:StereoHandoff"/>
+            <bind dv="0x39500" sgo="FX:StereoExtract"/>
+            <bind dv="0x49500" sgo="FX:DepthGrade"/>
+            <bind dv="0x59500" sgo="FX:SwitchEye"/>
+        </group>
+        <group name="0xff9500">
+            <bind dv="0x19500" sgo="FX:Framing"/>
+            <bind dv="0x29500" sgo="FX:GLSL"/>
+            <bind dv="0x39500" sgo="FX:LUT3D"/>
+            <bind dv="0x49500" sgo="FX:LayerRoute"/>
+        </group>
+    </map>
+</precisionDriver>

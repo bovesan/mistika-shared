@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIvalues>
+  <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
+  <composer_BallSpeed_16>1</composer_BallSpeed_16>
+  <composer_JogSpeed_16>1</composer_JogSpeed_16>
+  <composer_KnobSpeed_16>1</composer_KnobSpeed_16>
+  <composer_PrinterLights_1>1</composer_PrinterLights_1>
+  <composer_PrinterLights_B_W_>1</composer_PrinterLights_B_W_>
+  <composer_RingSpeed_16>1</composer_RingSpeed_16>
+  <filebrowser>
+    <SORT_FIELD>0</SORT_FIELD>
+    <SORT_INVERSE>0</SORT_INVERSE>
+  </filebrowser>
+  <grade_PrinterLights_1>1</grade_PrinterLights_1>
+  <grade_PrinterLights_Mode_B_W_>1</grade_PrinterLights_Mode_B_W_>
+  <project>
+    <current>1001_Test</current>
+  </project>
+  <render2_Clip_TC>0</render2_Clip_TC>
+  <render2_Filter>0</render2_Filter>
+  <render2_Source>0</render2_Source>
+  <render2_Split>0</render2_Split>
+  <render2_Stereo>1</render2_Stereo>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
+  <tangent>
+    <BALL_SPEED>16</BALL_SPEED>
+    <JOG_SPEED>16</JOG_SPEED>
+    <KNOB_SPEED>16</KNOB_SPEED>
+    <RING_SPEED>16</RING_SPEED>
+  </tangent>
+</UIvalues>

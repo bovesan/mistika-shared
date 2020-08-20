@@ -1,0 +1,4 @@
+MESSAGES                       FALSE
+PATH                           /REALTIME_STORAGE
+DEVICETYPE                     XFS
+MAX_FILES_OPENED               4096

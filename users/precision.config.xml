@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<precisionDriver>
+  <config>
+    <cmdLength>14</cmdLength>
+    <defaultDisplay>0</defaultDisplay>
+    <joystickAutoSync>true</joystickAutoSync>
+    <backlightIntensity>128</backlightIntensity>
+    <forceReset>true</forceReset>
+    <trackBall>
+      <number>4</number>
+      <mouseSensitivity>5</mouseSensitivity>
+      <wheelSensitivity>5</wheelSensitivity>
+      <leftHanded>false</leftHanded>
+      <enabled>false</enabled>
+    </trackBall>
+    <tablet>
+      <sizeX>1920</sizeX>
+      <sizeY>1080</sizeY>
+    </tablet>
+    <sensitivity>
+      <knobs>8</knobs>
+      <jog>8</jog>
+      <wheels>2</wheels>
+    </sensitivity>
+    <defaults>
+      <menu id="0x8300" left="0x83F2" right="0x83E4"/>
+      <menu id="0x8400" left="0x84F4" right="0x84E4"/>
+      <menu id="0x8500" left="0x85F1" right="0x85E2"/>
+      <menu id="0x8600" left="0x86F2"/>
+      <menu id="0x8200" left="0x82F3" right="0x82E3"/>
+      <menu id="0x8F00" left="0x8FF4" right="0x8FE4"/>
+      <menu id="0x9500" left="0x95F3"/>
+      <display id="0" menu="tools" option="0x8600"/>
+      <display id="1" menu="tools" option="0x8300"/>
+      <display id="2" menu="tools" option="0x8400"/>
+      <display id="3" menu="tools" option="0x8500"/>
+    </defaults>
+    <menus>
+      <group name="tools">
+        <item id="0x8300" default="true"/>
+        <item id="0x8400"/>
+        <item id="0x8500"/>
+        <item id="0x8600"/>
+        <item id="0x8900"/>
+      </group>
+      <group name="iso">
+        <item id="0x8200"/>
+        <item id="0x8F00"/>
+        <item id="0x8100" default="true"/>
+        <item id="0x8A00"/>
+        <item id="0x9F00"/>
+      </group>
+      <group name="lock">
+        <item id="0x9000" default="true"/>
+        <item id="0x9400"/>
+        <item id="0x9500"/>
+      </group>
+      <group name="mon">
+        <item id="0x9A00" default="true"/>
+        <item id="0x9B00"/>
+        <item id="0x9C00"/>
+        <item id="0x9D00"/>
+      </group>
+    </menus>
+    <leds>
+      <masterIntensity>1.0</masterIntensity>
+      <default>
+         <positive red="72" green="146" blue ="67" intensity="1"/>
+         <default intensity="0.5"/>
+         <negative red="12" green="67" blue ="146" intensity="1"/>
+      </default>
+      <display>
+         <positive red="72" green="146" blue ="67" intensity="1"/>
+         <default intensity="0.5"/>
+         <negative red="12" green="67" blue ="146" intensity="1"/>
+      </display>
+      <overlay>
+         <positive red="146" green="146" blue ="12" intensity="1"/>
+      </overlay>
+      <joystick>
+         <positive red="0" green="120" blue ="120" intensity="1"/>
+      </joystick>
+    </leds>
+    <learn>
+      <auto>false</auto>
+      <ids>14</ids>
+      <idsPerPage>18</idsPerPage>
+      <firstStaticID>0xFF81</firstStaticID>
+      <refreshMilliseconds>150</refreshMilliseconds>
+      <bind sgo="External:NextColCor"/>
+      <bind sgo="External:NextFraming"/>
+      <bind sgo="External:NextStereo3D"/>
+      <bind sgo="Composer:Grade:Curve:Curve1"/>
+      <bind sgo="Composer:Grade:Curve:Curve2"/>
+      <bind sgo="Composer:Grade:Curve:Curve3"/>
+      <bind sgo="Composer:Grade:Curve:Curve4"/>
+      <bind sgo="Composer:Grade:Curve:Curve5"/>
+      <bind sgo="Composer:Grade:Curve:Curve6"/>
+      <bind sgo="Composer:Grade:Curve:LL-Curve"/>
+      <bind sgo="Composer:Grade:Curve:SS-Curve"/>
+      <bind sgo="Composer:Grade:Curve:LS-Curve"/>
+      <bind sgo="Composer:Grade:Primary:WhiteR"/>
+      <bind sgo="Composer:Grade:Primary:WhiteG"/>
+      <bind sgo="Composer:Grade:Primary:WhiteB"/>
+      <bind sgo="Composer:Grade:Primary:GammaR"/>
+      <bind sgo="Composer:Grade:Primary:GammaG"/>
+      <bind sgo="Composer:Grade:Primary:GammaB"/>
+      <bind sgo="Composer:Grade:Primary:BlackR"/>
+      <bind sgo="Composer:Grade:Primary:BlackG"/>
+      <bind sgo="Composer:Grade:Primary:BlackB"/>
+      <bind sgo="Composer:Grade:Bands:WhiteR"/>
+      <bind sgo="Composer:Grade:Bands:WhiteG"/>
+      <bind sgo="Composer:Grade:Bands:WhiteB"/>
+      <bind sgo="Composer:Grade:Bands:HigltR"/>
+      <bind sgo="Composer:Grade:Bands:HigltG"/>
+      <bind sgo="Composer:Grade:Bands:HigltB"/>
+      <bind sgo="Composer:Grade:Bands:MidtnR"/>
+      <bind sgo="Composer:Grade:Bands:MidtnG"/>
+      <bind sgo="Composer:Grade:Bands:MidtnB"/>
+      <bind sgo="Composer:Grade:Bands:ShadwR"/>
+      <bind sgo="Composer:Grade:Bands:ShadwG"/>
+      <bind sgo="Composer:Grade:Bands:ShadwB"/>
+      <bind sgo="Composer:Grade:Bands:BlackR"/>
+      <bind sgo="Composer:Grade:Bands:BlackG"/>
+      <bind sgo="Composer:Grade:Bands:BlackB"/>
+      <bind sgo="Curves:Layer:RemoveAllLayers"/>
+      <bind sgo="Composer:Grade:PrevNext"/>
+      <bind sgo="Composer:Grade:Prev"/>
+      <bind sgo="Composer:Grade:Next"/>
+      <bind sgo="Window:Move"/>
+      <bind sgo="Window:Move.X"/>
+      <bind sgo="Window:Move.Y"/>
+      <bind sgo="Window:Size"/>
+      <bind sgo="Window:Size.X"/>
+      <bind sgo="Window:Size.Y"/>
+      <bind sgo="Preset:DelLib"/>
+      <bind sgo="External:Edit:PrevNext"/>
+      <bind sgo="External:Select:PrevNext"/>
+      <bind sgo="External:Bring:PrevNext"/>
+      <bind sgo="External:NewOld:PrevNext"/>
+      <bind sgo="External:Key:PrevNext"/>
+      <bind sgo="Snapshot:PrevSnapshotMode"/>
+      <bind sgo="External:ChangeSnapshotMode"/>
+      <bind sgo="Composer:Grade:PrimaryLevel:PrimaryLevelAll:reset"/>
+      <bind sgo="Composer:Grade:PrimaryLevel:PrimaryLevelR:reset"/>
+      <bind sgo="Composer:Grade:PrimaryLevel:PrimaryLevelG:reset"/>
+      <bind sgo="Composer:Grade:PrimaryLevel:PrimaryLevelB:reset"/>
+      <bind sgo="Composer:Grade:PrimaryLevel:PrimaryLevelC:reset"/>
+      <bind sgo="Composer:Grade:PrimaryLevel:PrimaryLevelM:reset"/>
+      <bind sgo="Composer:Grade:PrimaryLevel:PrimaryLevelY:reset"/>
+      <bind sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContAll:reset"/>
+      <bind sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContR:reset"/>
+      <bind sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContG:reset"/>
+      <bind sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContB:reset"/>
+      <bind sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContC:reset"/>
+      <bind sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContM:reset"/>
+      <bind sgo="Composer:Grade:Primary:PrimaryCont:PrimaryContY:reset"/>
+      <bind sgo="Snapshot:MoveWipe.X"/>
+      <bind sgo="Snapshot:MoveWipe.Y"/>
+      <bind sgo="Snapshot:MoveWipe.Z"/>
+      <bind sgo="Snapshot:MoveWipe"/>
+      <bind sgo="Snapshot:MoveSnap.X"/>
+      <bind sgo="Snapshot:MoveSnap.Y"/>
+      <bind sgo="Snapshot:MoveSnap.Z"/>
+      <bind sgo="Snapshot:MoveSnap"/>
+      <bind sgo="Snapshot:MoveLive.X"/>
+      <bind sgo="Snapshot:MoveLive.Y"/>
+      <bind sgo="Snapshot:MoveLive.Z"/>
+      <bind sgo="Snapshot:MoveLive"/>
+      <bind sgo="Snapshot:ChangePreset"/>
+      <bind sgo="FXPreset:Select:Prev"/>
+      <bind sgo="FXPreset:Select:Next"/>
+      <bind sgo="FXPreset:Select:Both"/>
+      <bind sgo="FXPreset:Bring:Prev"/>
+      <bind sgo="FXPreset:Bring:Next"/>
+      <bind sgo="FXPreset:Bring:Both"/>
+      <bind sgo="Composer:Grade:Keyer:DstOut"/>
+      <bind sgo="External:IncPlaySpeed"/>
+      <bind sgo="External:DecPlaySpeed"/>
+      <bind sgo="Edit:Shuttle"/>
+      <bind sgo="Edit:JOG"/>
+      <bind sgo="Edit:Position"/>
+      <bind sgo="Edit:Position.X"/>
+      <bind sgo="Edit:Position.Y"/>
+      <bind sgo="ReelPanelBrowser:PrevNext:Normal"/>
+      <bind sgo="ReelPanelBrowser:Select"/>
+      <bind sgo="ReelPanelImport:PrevNext:Normal"/>
+      <bind sgo="ReelPanelImport:Select"/>
+      <bind sgo="ReelPanelProject:PrevNext:Normal"/>
+      <bind sgo="ReelPanelProject:Select"/>
+      <bind sgo="presetsBrowser:PrevNext:Normal"/>
+      <bind sgo="presetsBrowser:Select"/>
+      <bind sgo="Composer:Grade:Keyer:ExtKeyMode:Rotate"/>
+      <bind sgo="Composer:Grade:Keyer:ExtKeyMode:PrevNext"/>
+      <bind sgo="Composer:Grade:Keyer:ExtKeyChannel:Rotate"/>
+      <bind sgo="Composer:Grade:Keyer:ExtKeyChannel:PrevNext"/>
+      <bind sgo="Composer:Grade:Keyer:HSMode:Rotate"/>
+      <bind sgo="Composer:Grade:Keyer:HSMode:PrevNext"/>
+      <bind sgo="Composer:Grade:Keyer:ExtKeyMode:Rotate"/>
+      <bind sgo="Composer:Grade:Keyer:ExtKeyMode:PrevNext"/>
+      <bind sgo="Composer:Grade:Keyer:KeyChannels:Rotate"/>
+      <bind sgo="Composer:Grade:Keyer:KeyChannels:PrevNext"/>
+      <bind sgo="Composer:Grade:Keyer:RecoverMode:Rotate"/>
+      <bind sgo="Composer:Grade:Keyer:RecoverMode:PrevNext"/>
+      <bind sgo="Composer:Shapes:Select:Prev"/>
+      <bind sgo="Composer:Shapes:Select:Next"/>
+      <bind sgo="Composer:Shapes:Select:Both"/>
+      <bind sgo="Composer:Shapes:Move"/>
+      <bind sgo="Composer:Shapes:Move.X"/>
+      <bind sgo="Composer:Shapes:Move.Y"/>
+      <bind sgo="Composer:Shapes:Move.Z"/>
+      <bind sgo="Composer:Grade:GradeVecI:RGBlevels"/>
+      <bind sgo="Composer:Grade:GradeVecI:RGBlevels.X"/>
+      <bind sgo="Composer:Grade:GradeVecI:RGBlevels.Y"/>
+      <bind sgo="Composer:Grade:GradeVecI:RGBlevels.Z"/>
+      <bind sgo="Composer:Grade:Options:Legalize"/>
+      <bind sgo="Composer:Grade:Options:BlurMode"/>
+      <bind sgo="Composer:Grade:Options:BlurMode:PrevNext"/>
+      <bind sgo="Canon:INPUTCHANNEL"/>
+      <bind sgo="Canon:PICTUREMODE"/>
+      <bind sgo="Canon:LEVELGAMMA"/>
+      <bind sgo="Canon:CONTRAST"/>
+      <bind sgo="Canon:BRIGHTNESS"/>
+      <bind sgo="Canon:CHROMA"/>
+      <bind sgo="Canon:SHARPNESS"/>
+      <bind sgo="Canon:BACKLIGHTCONTROL"/>
+      <bind sgo="Canon:COLORTEMP"/>
+      <bind sgo="Canon:COLORTEMPBIASR"/>
+      <bind sgo="Canon:COLORTEMPBIASG"/>
+      <bind sgo="Canon:COLORTEMPBIASB"/>
+      <bind sgo="Canon:COLORTEMPGAINR"/>
+      <bind sgo="Canon:COLORTEMPGAING"/>
+      <bind sgo="Canon:COLORTEMPGAINB"/>
+      <bind sgo="Canon:COLORTEMPUSERX"/>
+      <bind sgo="Canon:COLORTEMPUSERY"/>
+      <bind sgo="Canon:GAMMA"/>
+      <bind sgo="Canon:COLORGAMUT"/>
+      <bind sgo="Canon:ODT"/>
+    </learn>
+  </config>
+</precisionDriver>
+
+

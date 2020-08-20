@@ -1,0 +1,61 @@
+<xsd:schema xmlns:sgo="http://www.sgo.es/2017/sgo.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <xsd:element name="colorpanels" sgo:visibility="0" sgo:sortOrder="0">
+  <xsd:complexType>
+   <xsd:sequence>
+    <xsd:element name="tangent" sgo:visibility="0" sgo:sortOrder="0">
+     <xsd:complexType>
+      <xsd:sequence>
+	<xsd:element name="colouristMode" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="2"/>
+	<xsd:element sgo:categoryType="category1" name="cp200" sgo:visibility="0" sgo:sortOrder="0">
+	  <xsd:complexType>
+	    <xsd:sequence>
+	    <xsd:element name="bk" sgo:visibility="0" sgo:sortOrder="0">
+	      <xsd:complexType>
+	      <xsd:sequence>
+		<xsd:element name="identifier" type="xsd:string" sgo:visibility="0" sgo:sortOrder="2"/>
+		<xsd:element name="ipAddress" type="ipAddress" sgo:visibility="0" sgo:sortOrder="1"/>
+		<xsd:element name="use" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="0"/>
+	      </xsd:sequence>
+	      </xsd:complexType>
+	    </xsd:element>
+	    <xsd:element name="k" sgo:visibility="0" sgo:sortOrder="1">
+	      <xsd:complexType>
+	      <xsd:sequence>
+		<xsd:element name="identifier" type="xsd:string" sgo:visibility="0" sgo:sortOrder="2"/>
+		<xsd:element name="ipAddress" type="ipAddress" sgo:visibility="0" sgo:sortOrder="1"/>
+		<xsd:element name="use" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="0"/>
+	      </xsd:sequence>
+	      </xsd:complexType>
+	    </xsd:element>
+	    <xsd:element name="ts" sgo:visibility="0" sgo:sortOrder="2">
+	      <xsd:complexType>
+	      <xsd:sequence>
+		<xsd:element name="identifier" type="xsd:string" sgo:visibility="0" sgo:sortOrder="2"/>
+		<xsd:element name="ipAddress" type="ipAddress" sgo:visibility="0" sgo:sortOrder="1"/>
+		<xsd:element name="use" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="0"/>
+	      </xsd:sequence>
+	      </xsd:complexType>
+	    </xsd:element>
+	    </xsd:sequence>
+	  </xsd:complexType>
+	  </xsd:element>
+	<xsd:element sgo:categoryType="category1" name="element" sgo:visibility="0" sgo:sortOrder="1">
+	  <xsd:complexType>
+	    <xsd:sequence>
+	    <xsd:element name="bt1" type="xsd:string" sgo:visibility="0" sgo:sortOrder="1"/>
+	    <xsd:element name="bt2" type="xsd:string" sgo:visibility="0" sgo:sortOrder="4"/>
+	    <xsd:element name="bt3" type="xsd:string" sgo:visibility="0" sgo:sortOrder="6"/>
+	    <xsd:element name="kb" type="xsd:string" sgo:visibility="0" sgo:sortOrder="2"/>
+	    <xsd:element name="mf" type="xsd:string" sgo:visibility="0" sgo:sortOrder="5"/>
+	    <xsd:element name="tk" type="xsd:string" sgo:visibility="0" sgo:sortOrder="3"/>
+	    <xsd:element name="use" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="0"/>
+	    </xsd:sequence>
+	  </xsd:complexType>
+	</xsd:element>
+      </xsd:sequence>
+     </xsd:complexType>
+    </xsd:element>
+   </xsd:sequence>
+  </xsd:complexType>
+ </xsd:element>
+</xsd:schema>

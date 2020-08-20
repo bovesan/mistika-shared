@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<DCP>
+  <dcp>
+    <tab name="Options">
+      <group name="Labeling 2D/3D">
+	<item name="2D"/>
+	<item name="3D"/>
+      </group>
+      <group name="Content Type">
+	<item name="FTR Feature" data="feature"/>
+	<item name="TLR Trailer" data="trailer"/>
+	<item name="TSR Teaser" data="teaser"/>
+	<item name="PRO Promo" data="promo"/>
+	<item name="TST Test" data="test"/>
+	<item name="RTG Rating Tag" data="rating"/>
+	<item name="SHR Short Subject" data="short"/>
+	<item name="ADV Advertisement" data="advertisement"/>
+	<item name="XSN Transitional" data="transitional"/>
+	<item name="PSA Public Service Announcement" data="psa"/>
+	<item name="POL Policy Trailer" data="policy"/>
+      </group>
+      <group name="Content Version">
+	<item name=" "/>
+	<item name="1"/>
+	<item name="2"/>
+	<item name="3"/>
+	<item name="4"/>
+	<item name="5"/>
+	<item name="6"/>
+	<item name="7"/>
+	<item name="8"/>
+	<item name="9"/>
+	<item name="F"/>
+	<item name="T"/>
+      </group>
+      <group name="3D Specs" data=" ">
+	<item name=" "/>
+	<item name="i3D"/>
+	<item name="i3D-gb"/>
+	<item name="i3D-ngb"/>
+      </group>
+      <group name="Ratio">
+	<item name="C (Full Container)"/>
+	<item name="F (Flat)"/>
+	<item name="S (Scope)"/>
+      </group>
+      <group name="Language">
+	<item name="AR (Arabic)"/>
+	<item name="BG (Bulgarian)"/>
+	<item name="BS (Bosnian)"/>
+	<item name="CA (Catalan)"/>
+	<item name="CMN (Chinese - Mandarin PRC)"/>
+	<item name="CS (Czech)"/>
+	<item name="DA (Danish)"/>
+	<item name="DE (German)"/>
+	<item name="EL (Greek)"/>
+	<item name="EN (English)"/>
+	<item name="ES (Spanish - Castilian)"/>
+	<item name="ET (Estonian)"/>
+	<item name="FI (Finnish)"/>
+	<item name="FR (French)"/>
+	<item name="GSW (German - Swiss)"/>
+	<item name="HE (Hebrew)"/>
+	<item name="HI (Hindi)"/>
+	<item name="HR (Croatian)"/>
+	<item name="HU (Hungarian)"/>
+	<item name="IND (Indonesian Bahasa)"/>
+	<item name="IS (Icelandic)"/>
+	<item name="IT (Italian)"/>
+	<item name="JA (Japanese)"/>
+	<item name="KO (Korean)"/>
+	<item name="LAS (Spanish - Latin American)"/>
+	<item name="LT (Lithuanian)"/>
+	<item name="LV (Latvian)"/>
+	<item name="MSA (Malay Bahasa)"/>
+	<item name="NAN (Chinese - Taiwanese)"/>
+	<item name="NL (Dutch)"/>
+	<item name="NO (Norwegian)"/>
+	<item name="PL (Polish)"/>
+	<item name="PT (Portuguese - European)"/>
+	<item name="QBP (Portuguese - Brazilian)"/>
+	<item name="QFC (French - Canadian)"/>
+	<item name="QSA (Spanish - Argentinian)"/>
+	<item name="QSM (Spanish - Mexican)"/>
+	<item name="QTM (Chinese - Taiwanese Mandarin)"/>
+	<item name="RO (Romanian)"/>
+	<item name="RU (Russian)"/>
+	<item name="SK (Slovak)"/>
+	<item name="SL (Slovenian)"/>
+	<item name="SQ (Albanian)"/>
+	<item name="SR (Serbian)"/>
+	<item name="SV (Swedish)"/>
+	<item name="TA (Tamil)"/>
+	<item name="TE (Telugu)"/>
+	<item name="TH (Thai)"/>
+	<item name="TR (Turkish)"/>
+	<item name="UK (Ukrainian)"/>
+	<item name="VI (Vietnamese)"/>
+	<item name="VLS (Flemish)"/>
+	<item name="YUE (Chinese - Cantonese)"/>
+      </group>
+      <group name="Subtitle">
+	<item name="No Subtitle" data="XX"/>
+	<item name="AR (Arabic)"/>
+	<item name="BG (Bulgarian)"/>
+	<item name="BS (Bosnian)"/>
+	<item name="CA (Catalan)"/>
+	<item name="CS (Czech)"/>
+	<item name="DA (Danish)"/>
+	<item name="DE (German)"/>
+	<item name="EL (Greek)"/>
+	<item name="EN (English)"/>
+	<item name="ES (Spanish - Castilian)"/>
+	<item name="ET (Estonian)"/>
+	<item name="FI (Finnish)"/>
+	<item name="FR (French)"/>
+	<item name="GSW (German - Swiss)"/>
+	<item name="HE (Hebrew)"/>
+	<item name="HI (Hindi)"/>
+	<item name="HR (Croatian)"/>
+	<item name="HU (Hungarian)"/>
+	<item name="IND (Indonesian Bahasa)"/>
+	<item name="IS (Icelandic)"/>
+	<item name="IT (Italian)"/>
+	<item name="JA (Japanese)"/>
+	<item name="KO (Korean)"/>
+	<item name="LAS (Spanish - Latin American)"/>
+	<item name="LT (Lithuanian)"/>
+	<item name="LV (Latvian)"/>
+	<item name="MSA (Malay Bahasa)"/>
+	<item name="NL (Dutch)"/>
+	<item name="NO (Norwegian)"/>
+	<item name="PL (Polish)"/>
+	<item name="PT (Portuguese - European)"/>
+	<item name="QBP (Portuguese - Brazilian)"/>
+	<item name="QFC (French - Canadian)"/>
+	<item name="QMS (Chinese - Mandarin Simp)"/>
+	<item name="QMT (Chinese - Mandarin Trad)"/>
+	<item name="QSA (Spanish - Argentinian)"/>
+	<item name="QSM (Spanish - Mexican)"/>
+	<item name="RO (Romanian)"/>
+	<item name="RU (Russian)"/>
+	<item name="SK (Slovak)"/>
+	<item name="SL (Slovenian)"/>
+	<item name="SQ (Albanian)"/>
+	<item name="SR (Serbian)"/>
+	<item name="SV (Swedish)"/>
+	<item name="TA (Tamil)"/>
+	<item name="TE (Telugu)"/>
+	<item name="TH (Thai)"/>
+	<item name="TR (Turkish)"/>
+	<item name="UK (Ukrainian)"/>
+	<item name="VI (Vietnamese)"/>
+	<item name="VLS (Flemish)"/>
+	<item name="YUE (Chinese - Cantonese)"/>
+      </group>
+      <group name="Ratings">
+	<territory name="Australia">
+	    <item name="AE"/>
+	    <item name="G"/>
+	    <item name="M"/>
+	    <item name="M5"/>
+	    <item name="PG"/>
+	    <item name="R"/>
+	</territory>
+	<territory name="Germany">
+	    <item name="AA"/>
+	    <item name="12"/>
+	    <item name="16"/>
+	    <item name="18"/>
+	    <item name="06"/>
+	</territory>
+	<territory name="Spain">
+	    <item name="AA"/>
+	    <item name="013"/>
+	    <item name="18"/>
+	    <item name="07"/>
+	</territory>
+	<territory name="Hong Kong">
+	    <item name="1"/>
+	    <item name="2A"/>
+	    <item name="2B"/>
+	    <item name="3"/>
+	</territory>
+	<territory name="Italy">
+	    <item name="BN"/>
+	    <item name="G"/>
+	    <item name="V4"/>
+	    <item name="V8"/>
+	</territory>
+	<territory name="Japan">
+	    <item name="G"/>
+	    <item name="P2"/>
+	    <item name="R5"/>
+	    <item name="R8"/>
+	</territory>
+	<territory name="South Korea">
+	    <item name="AA"/>
+	    <item name="P2"/>
+	    <item name="P5"/>
+	    <item name="18"/>
+	</territory>
+	<territory name="United Kingdom">
+	    <item name="12A"/>
+	    <item name="18R"/>
+	    <item name="PG"/>
+	    <item name="U"/>
+	    <item name="15"/>
+	    <item name="18"/>
+	</territory>
+	<territory name="United States">
+	    <item name="G"/>
+	    <item name="NC"/>
+	    <item name="PG"/>
+	    <item name="13"/>
+	    <item name="R"/>
+	</territory>
+	<territory name="Poland">
+	    <item name="GC"/>
+	    <item name="RC8"/>
+	    <item name="18"/>
+	    <item name="Y12"/>
+	    <item name="Y7"/>
+	    <item name="Y16"/>
+	</territory>
+	<territory name="Portugal">
+	    <item name="M12"/>
+	    <item name="M16"/>
+	    <item name="M18"/>
+	    <item name="M4"/>
+	    <item name="M6"/>
+	</territory>
+	<territory name="International">
+	    <item name="TL"/>
+	    <item name="TR"/>
+	</territory>
+	<territory name="default">
+	    <item name="12A"/>
+	    <item name="18R"/>
+	    <item name="PG"/>
+	    <item name="U"/>
+	    <item name="15"/>
+	    <item name="18"/>
+	</territory>
+      </group>
+      <group name="Territory" data="AU (Australia)">
+	<item name="AU (Australia)" data="AU (Australia)"/>
+	<item name="BR (Brazil)" data="BR (Brazil)"/>
+	<item name="CA (Canada)" data="CA (Canada)"/>
+	<item name="CN (China)" data="CN (China)"/>
+	<item name="DE (Germany)" data="DE (Germany)"/>
+	<item name="ES (Spain)" data="ES (Spain)"/>
+	<item name="HK (Hong Kong)" data="HK (Hong Kong)"/>
+	<item name="INT (International)" data="INT (International)"/>
+	<item name="IT (Italy)" data="IT (Italy)"/>
+	<item name="JP (Japan)" data="JP (Japan)"/>
+	<item name="KR (South Korea)" data="KR (South Korea)"/>
+	<item name="MX (Mexico)" data="MX (Mexico)"/>
+	<item name="NZ (New Zealand)" data="NZ (New Zealand)"/>
+	<item name="PL (Poland)" data="PL (Poland)"/>
+	<item name="PT (Portugal)" data="PT (Portugal)"/>
+	<item name="UK (United Kingdom)" data="UK (United Kingdom)"/>
+	<item name="US (United States)" data="US (United States)"/>
+      </group>
+      <group name="Audio">
+	<item name="No Audio" data="XX"/>
+	<item name="2.0" data="20"/>
+	<item name="5.1" data="51"/>
+	<item name="7.1" data="71"/>
+	<item name="2.0-Atmos" data="20-Atmos"/>
+	<item name="5.1-Atmos" data="51-Atmos"/>
+	<item name="7.1-Atmos" data="71-Atmos"/>
+      </group>
+      <group name="Resolution">
+	<item name="2K"/>
+	<item name="4K"/>
+      </group>
+      <group name="Frame Rate">
+	<item name=" "/>
+	<item name="48"/>
+	<item name="60"/>
+	<item name="90"/>
+      </group>
+      <group name="Package Type">
+	<item name="OV"/>
+	<item name="VF"/>
+      </group>
+      <group name="File Version">
+	<item name=" "/>
+	<item name="1"/>
+	<item name="2"/>
+	<item name="3"/>
+	<item name="4"/>
+	<item name="5"/>
+	<item name="6"/>
+	<item name="7"/>
+	<item name="8"/>
+	<item name="9"/>
+      </group>
+      <group name="Standard">
+	<item name="Interop"/>
+	<item name="Smpte"/>
+      </group>
+    </tab>
+    <tab name="Reel Creation">
+      <group name="Mxf Frame Rate">
+	<item name="23.98" data="23"/>
+	<item name="24" data="24"/>
+	<item name="25" data="25"/>
+	<item name="30" data="30"/>
+	<item name="48" data="48"/>
+	<item name="50" data="50"/>
+	<item name="60" data="60"/>
+      </group>
+    </tab>
+    <tab name="Kdm Creation">
+      <group name="Kdm Formulation List" data="DCI Specific">
+	<item name="Transitional 1" data="0"/>
+	<item name="Modified Transitional 1" data="1"/>
+	<item name="DCI Any" data="2"/>
+	<item name="DCI Specific" data="3"/>
+      </group>
+    </tab>
+  </dcp>
+</DCP>

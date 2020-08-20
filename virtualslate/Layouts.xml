@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<layoutdescription  version="1.0" type="xml">
+  <layoutlist>
+      
+	      <layout name="Clip_w_TC">
+	      <rmddatalist> 
+		<rmddata name="ClipName">
+		      <rmdshadow line="2" column="5" width="15" height="1" color="0,0,0,40"/>
+			  <rmdvalueslist>
+			  <rmdcursor line="2" column="6"/>
+			  <rmdvalue format="string" 	value="inputname:"/>
+			    <rmdvalue format="data" 		source="r3dfile" 	value="tapename"/>
+			  </rmdvalueslist>
+	      </rmddata>
+  
+	      <rmddata name="TimeCode">
+		  <rmdshadow line="28" column="5" width="11" height="2" color="0,0,0,40"/>
+			  <rmdvalueslist>
+			      <rmdcursor line="28" column="6"/>
+				  <rmdvalue format="string" 	value="SRC TC: "/>
+				  <rmdvalue format="data" 	source="r3dfile" 	value="sourcetimecode"/>
+			      <rmdcursor line="29" column="6"/>
+				  <rmdvalue format="string"  	value="REC TC: "/>
+			      <rmdvalue format="data" 		source="r3dfile" 	value="recordtimecode"/>
+			  </rmdvalueslist>
+	      </rmddata>
+	      </rmddatalist> 
+	      </layout>
+	      
+	      
+	      
+	      
+	      <layout name="TC_Only">
+	      <rmddatalist> 
+	      <rmddata name="TimeCode">
+		  <rmdshadow line="28" column="5" width="11" height="2" color="0,0,0,40"/>
+			  <rmdvalueslist>
+			      <rmdcursor line="28" column="6"/>
+				  <rmdvalue format="string" 	value="SRC TC: "/>
+				  <rmdvalue format="data" 	source="r3dfile" 	value="sourcetimecode"/>
+			      <rmdcursor line="29" column="6"/>
+				  <rmdvalue format="string"  	value="REC TC: "/>
+			      <rmdvalue format="data" 		source="r3dfile" 	value="recordtimecode"/>
+			  </rmdvalueslist>
+	      </rmddata>
+	      </rmddatalist> 
+	      </layout>
+	      
+  </layoutlist>
+</layoutdescription>
+
+
+
+  
+  
