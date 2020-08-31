@@ -369,9 +369,9 @@
             <bind dv="0x20801" mod="0x204" sgo="Composer:Grade:Primary:WhiteG"/>
             <bind dv="0x20801" mod="0x4" sgo="Composer:Grade:Primary:WhiteG"/>
             <bind dv="0x20801" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB2"/>
-            <bind dv="0x230100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:StepFracion1"/>
-            <bind dv="0x240100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:StepFracion1_2"/>
-            <bind dv="0x250100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:StepFracion1_4"/>
+            <bind dv="0x230100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:StepFraction1"/>
+            <bind dv="0x240100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:StepFraction1_2"/>
+            <bind dv="0x250100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:StepFraction1_4"/>
             <bind dv="0x260100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:ModeB+W+"/>
             <bind dv="0x270100" mod="0x200" sgo="Composer:Grade:Primary:PrinterLights:ModeB+"/>
             <bind dv="0x28000" sgo="Composer:Grade:Keyer:Outside"/>
@@ -586,9 +586,9 @@
             <bind dv="0x228900" sgo="Composer:Grade:Primary:PrinterLights:C-Minus"/>
             <bind dv="0x238900" sgo="Composer:Grade:Primary:PrinterLights:M-Minus"/>
             <bind dv="0x248900" sgo="Composer:Grade:Primary:PrinterLights:Y-Minus"/>
-            <bind dv="0x258900" sgo="Composer:Grade:Primary:PrinterLights:StepFracion1"/>
-            <bind dv="0x268900" sgo="Composer:Grade:Primary:PrinterLights:StepFracion1_2"/>
-            <bind dv="0x278900" sgo="Composer:Grade:Primary:PrinterLights:StepFracion1_4"/>
+            <bind dv="0x258900" sgo="Composer:Grade:Primary:PrinterLights:StepFraction1"/>
+            <bind dv="0x268900" sgo="Composer:Grade:Primary:PrinterLights:StepFraction1_2"/>
+            <bind dv="0x278900" sgo="Composer:Grade:Primary:PrinterLights:StepFraction1_4"/>
             <bind dv="0x288900" sgo="Composer:Grade:Primary:PrinterLights:ModeB+W+"/>
             <bind dv="0x298900" sgo="Composer:Grade:Primary:PrinterLights:ModeB+"/>
             <bind dv="0x308900" sgo="Composer:Grade:Primary:PrinterLights:ModeW+"/>
