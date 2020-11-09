@@ -2,8 +2,8 @@
 <RenderConfig>
   <Video>
     <Enabled>1</Enabled>
-    <Encoder>ffmpeg_AVI</Encoder>
-    <Format>ffmpeg_AVI.MOVIE_AVI_UYVY</Format>
+    <Encoder>ffmpeg_MOV</Encoder>
+    <Format>ffmpeg_MOV.MOVIE_MOV_PRORES444</Format>
     <Options>
       <Framing>
         <Active>0</Active>
@@ -19,9 +19,9 @@
         <CropD>0.000000</CropD>
       </Framing>
       <Location>
-        <Target>MP600</Target>
+        <Target>SAN3_intermediate</Target>
         <Device>Movie.dev</Device>
-        <Path>/Volumes/MP600/Projects/[project]/RENDER/[renderName][_segmentIndex].[ext]</Path>
+        <Path>/Volumes/SAN3/Intermediate/[project]/[tapeName][_segmentIndex].[ext]</Path>
       </Location>
       <Framerate>0.000000</Framerate>
       <Interlace>0</Interlace>
@@ -41,8 +41,7 @@
   </Video>
   <Audio>
     <Enabled>1</Enabled>
-    <Encoder>WAVE</Encoder>
-    <Format>WAVE.AUDIO_W64_32</Format>
+    <Encoder>IN_MOVIE</Encoder>
     <Options>
       <Location>
         <Target>SAN3</Target>
@@ -62,14 +61,14 @@
   <SplitToSegments>
     <Enabled>2</Enabled>
     <FirstIndex>0</FirstIndex>
-    <TapeSource>2</TapeSource>
-    <TcSource>3</TcSource>
+    <TapeSource>1</TapeSource>
+    <TcSource>0</TcSource>
     <TcPrefer>0</TcPrefer>
     <IgnoreJs>0</IgnoreJs>
     <PreferedClip>0</PreferedClip>
     <FilterUsedClips>1</FilterUsedClips>
   </SplitToSegments>
-  <ScriptAfter>HF_Delivery</ScriptAfter>
+  <ScriptAfter>None</ScriptAfter>
   <Head>0</Head>
   <Tail>0</Tail>
   <RenderType>0</RenderType>
