@@ -17,6 +17,21 @@
  <xsd:simpleType name="universalPath">
   <xsd:list itemType="xsd:string"/>
  </xsd:simpleType>
+ <xsd:simpleType name="nameConventionEditor">
+  <xsd:list itemType="xsd:string"/>
+ </xsd:simpleType>
+ <xsd:simpleType name="scaleForScreenWidget">
+  <xsd:list itemType="xsd:string"/>
+ </xsd:simpleType>
+ <xsd:simpleType name="mediaFileInfoWidget">
+  <xsd:list itemType="xsd:string"/>
+ </xsd:simpleType>
+ <xsd:simpleType name="slider">
+  <xsd:list itemType="xsd:decimal"/>
+ </xsd:simpleType>
+ <xsd:simpleType name="sizeXY">
+  <xsd:list itemType="xsd:decimal"/>
+ </xsd:simpleType>
  <xsd:simpleType name="integerPulldown">
   <xsd:list itemType="xsd:integer"/>
  </xsd:simpleType>
@@ -63,7 +78,7 @@
  </xsd:simpleType>
  <xsd:simpleType name="property">
   <xsd:restriction base="xsd:string">
-   <xsd:pattern value="(readOnly|showDirsOnly|clickable|hideTextField|pathNameFilters('All Files (\*)'))*"/>
+   <xsd:pattern value="(readOnly|showDirsOnly|urlVisibleButtonBrowser|clickable|hideTextField|alphaSort|pathNameFilters('All Files (\*)')|acceptMode('OpenMode')|acceptMode('SaveMode')|acceptMode('SaveAsMode')|acceptMode('LinkMode')|textFromValue('')|fileDialogWindowTitle('')|dataValueFromSourceProperty(''))*"/>
   </xsd:restriction>
  </xsd:simpleType>
  <xsd:simpleType name="actionTypeProperty">

@@ -1,4 +1,4 @@
-PATH_MOVIES                    /home/mistika/SGO Data/Media/MOVIES
+PATH_MOVIES                    /REALTIME_STORAGE/MOVIES
 BITRATE_VIDEO                  40000000
 GOP_SIZE                       1
 DEVICETYPE                     MOVIE

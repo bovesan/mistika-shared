@@ -21,7 +21,7 @@
       <Location>
         <Target>MASTER</Target>
         <Device>Movie.dev</Device>
-        <Path>/Volumes/SAN3/Masters/[project]/[project][_renderName]/[envName][_renderName][_segmentIndex]/[_renderName][_segmentIndex][_eye?Left:Right].[ext]</Path>
+        <Path>/Volumes/SAN3/Masters/[project]/[_tapeName][_segmentIndex][_eye?Left:Right][.ext]</Path>
       </Location>
       <Framerate>0.000000</Framerate>
       <Interlace>0</Interlace>
