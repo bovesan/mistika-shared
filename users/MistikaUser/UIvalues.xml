@@ -69,9 +69,9 @@
   <Offset_X>0.000</Offset_X>
   <Offset_Y>0.000</Offset_Y>
   <ReelPanelTreeMove_Win>2159 -31 309 650</ReelPanelTreeMove_Win>
-  <Scale_X>316.049</Scale_X>
+  <Scale_X>177.778</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>-109 -102 522 552</Scope1Move_Win>
+  <Scope1Move_Win>0 0 522 552</Scope1Move_Win>
   <Scope1_Mode_>4</Scope1_Mode_>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>2</Scope1_Sizes_>
@@ -158,7 +158,7 @@
     </colorGrade>
   </mistika>
   <project>
-    <current>22070_Tekna</current>
+    <current>22083_Fibo</current>
   </project>
   <relink>
     <mistika>
@@ -184,7 +184,7 @@
   <render_L_NullFormat>0</render_L_NullFormat>
   <render_Movie_dev_Target>0</render_Movie_dev_Target>
   <render_Prefered_source_clip>0</render_Prefered_source_clip>
-  <render_Scale>1</render_Scale>
+  <render_Scale>0</render_Scale>
   <render_Segments_Mode>0</render_Segments_Mode>
   <render_Slate_1>0</render_Slate_1>
   <render_Slate_1_During>0</render_Slate_1_During>
