@@ -6,7 +6,7 @@
     <Format>ffmpeg_MOV.MOVIE_MOV_PRORES_HQ</Format>
     <Options>
       <Framing>
-        <Active>0</Active>
+        <Active>1</Active>
         <SizeX>1080</SizeX>
         <SizeY>1080</SizeY>
         <ScaleX>177.777786</ScaleX>
