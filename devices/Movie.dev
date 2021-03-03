@@ -1,19 +1,1 @@
-PATH_MOVIES                    /home/mistika/SGO Data/Media/MOVIES
-BITRATE_VIDEO                  40000000
-GOP_SIZE                       1
-DEVICETYPE                     MOVIE
-COMPRESSION_MPEG1_I_ONLY       8
-BITRATE_AUDIO                  192000
-#max                           distance
-#0:                            one
-VIDEO_PASS                     0
-#CODEC_CUSTOM                  libx264
-#CODEC_CUSTOM                  mpeg1video
-#CODEC_CUSTOM                  mpeg2video
-#CODEC_CUSTOM                  mpeg4
-#CODEC_CUSTOM                  ffvhuff
-#CODEC_CUSTOM                  asv1
-#CODEC_CUSTOM                  asv2
-#CODEC_CUSTOM                  ffv1
-CODEC_CUSTOM                   dvvideo
 

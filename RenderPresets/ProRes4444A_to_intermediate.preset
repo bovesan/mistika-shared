@@ -19,11 +19,11 @@
         <CropD>0.000000</CropD>
       </Framing>
       <Location>
-        <Target>SAN3_intermediate</Target>
+        <Target>User defined</Target>
         <Device>Movie.dev</Device>
         <Path>/Volumes/SAN3/Intermediate/[project]/[tapeName][_segmentIndex].[ext]</Path>
       </Location>
-      <Framerate>0.000000</Framerate>
+      <Framerate>-1.000000</Framerate>
       <Interlace>0</Interlace>
       <Pulldown>0</Pulldown>
       <Stereo3D>0</Stereo3D>

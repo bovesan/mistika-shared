@@ -31,6 +31,6 @@ CHECK_VTR_USER_DATA            0
 MONITORS_DOUBLE_BUFFER         1
 MONITOR_RESOLUTION             RES_HIGH
 USE_LIVE_VIDEO                 1
-MAXMEM                         1024
+MAXMEM                         17000
 QUALITY_OF_SERVICE_MB          25
 RED_REDUCE_FACTOR              2

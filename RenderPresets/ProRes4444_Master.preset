@@ -7,9 +7,9 @@
     <Options>
       <Framing>
         <Active>0</Active>
-        <SizeX>1080</SizeX>
+        <SizeX>608</SizeX>
         <SizeY>1080</SizeY>
-        <ScaleX>177.777786</ScaleX>
+        <ScaleX>315.789459</ScaleX>
         <ScaleY>100.000000</ScaleY>
         <OffsetX>0.000000</OffsetX>
         <OffsetY>0.000000</OffsetY>
@@ -19,11 +19,11 @@
         <CropD>0.000000</CropD>
       </Framing>
       <Location>
-        <Target>MASTER</Target>
+        <Target>User defined</Target>
         <Device>Movie.dev</Device>
-        <Path>/Volumes/SAN3/Masters/[project]/[project][_renderName]/[envName][_renderName][_segmentIndex]/[_renderName][_segmentIndex][_eye?Left:Right].[ext]</Path>
+        <Path>/Volumes/SAN3/Masters/[project]/[envName][_renderName][_segmentIndex]/[_renderName][_segmentIndex][_eye?Left:Right].[ext]</Path>
       </Location>
-      <Framerate>0.000000</Framerate>
+      <Framerate>-1.000000</Framerate>
       <Interlace>0</Interlace>
       <Pulldown>0</Pulldown>
       <Stereo3D>0</Stereo3D>

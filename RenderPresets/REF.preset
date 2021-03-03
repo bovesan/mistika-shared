@@ -23,7 +23,7 @@
         <Device>Movie.dev</Device>
         <Path>/Volumes/CENTRAL/Projects/[project]/Exports/REF/From_Mistika/[project][_renderName][_segmentIndex][_eye?Left:Right][.ext]</Path>
       </Location>
-      <Framerate>0.000000</Framerate>
+      <Framerate>-1.000000</Framerate>
       <Interlace>0</Interlace>
       <Pulldown>0</Pulldown>
       <Stereo3D>0</Stereo3D>
@@ -43,6 +43,11 @@
     <Enabled>1</Enabled>
     <Encoder>IN_MOVIE</Encoder>
     <Options>
+      <Location>
+        <Target>SAN3</Target>
+        <Device>Sound.dev</Device>
+        <Path>/Volumes/SAN3/Limbo/[project][_tapeName][_renderName][_segmentIndex][_eye?Left:Right][.ext]</Path>
+      </Location>
       <ChannelsPerFile>0</ChannelsPerFile>
     </Options>
   </Audio>
@@ -63,7 +68,7 @@
     <PreferedClip>0</PreferedClip>
     <FilterUsedClips>1</FilterUsedClips>
   </SplitToSegments>
-  <ScriptAfter>Move_to_Ref</ScriptAfter>
+  <ScriptAfter>Rename_to_group_name</ScriptAfter>
   <Head>0</Head>
   <Tail>0</Tail>
   <RenderType>0</RenderType>

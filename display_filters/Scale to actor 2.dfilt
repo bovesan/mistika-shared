@@ -1,0 +1,59 @@
+Group(
+groupType(1)
+trimDesc( head(0) speed(1) )
+ungroup(1)
+p(
+	n(B_1_2020-07-20_1445_C0010+1)
+	X(3067) Y(34) W(250) F(36)
+)
+F(
+T(142)
+p(
+	n(Framing)
+	X(3067) Y(34) W(250) F(36)
+	L(33)
+s(
+	T(n() C(14) t(1))
+	NamingRules(3)
+	c(R(0)	n(Options/Result Size)	m(0)	M(3)	d(0) s(Input) s(Project) s(Live Output) s(Custom)F(v(2)))
+	c(R(1)	n(Options/Custom Size)	m(0)	M(29)	d(5) s(CGA           320x200) s(VGA           640x480) s(NTSC           720x486) s(PAL            720x576) s(HD720         1280x720) s(HD1080       1920x1080) s(4k UHD       3840x2160) s(8k UHD       7680x4320) s(2k DCP Full  2048x1080) s(2k DCP Flat  1998x1080) s(2k DCP Scope 2048x858) s(2k Full Ap   2048x1556) s(4k DCP Full  4096x2160) s(4k DCP Flat  3996x2160) s(4k DCP Scope 4096x1716) s(4k Full Ap   4096x3112) s(2k  LatLong  2048x1024) s(UHD Latlong  3840x1920) s(4k  LatLong  4096x2048) s(6k  LatLong  6144x3072) s(8k  LatLong  8192x4096) s(10k LatLong 10240x5120) s(12k LatLong 12288x6144) s(1k Square   1024x1024) s(HD Square   1920x1920) s(2k Square   2048x2048) s(3k Square   3072x3072) s(4k Square   4096x4096) s(6k Square   6144x6144) s(8k Square   8192x8192))
+	c(R(2)	n(Options/Fit$NL)	m(0)	M(5)	d(0) s(Pad to fit) s(Crop to fit) s(Fit width) s(Fit height) s(Fit to fill (uneven scale)) s(1:1 pixels, centre crop/pad))
+	c(R(3)	n(Options/Filter)	m(0)	M(4)	d(2) s(Nearest) s(Bilinear) s(Bicubic) s(7 Taps) s(15 Taps)F(v(3)))
+	c(R(4)	n(Transform/Mirror)	m(0)	M(3)	d(0) s(None) s(Horizontal) s(Vertical) s(Rotate 180 degrees))
+	c(R(5)	n(Transform/Roll)	m(-100000)	M(100000)	d(0))
+	c(R(6)	n(Transform/Scale X$NL)	m(0)	M(100000)	d(100)F(v(125)))
+	c(R(7)	n(Transform/Scale Y)	m(0)	M(100000)	d(100)F(v(125)))
+	c(R(8)	n(Transform/Offset X$NL)	m(-100000)	M(100000)	d(0))
+	c(R(9)	n(Transform/Offset Y)	m(-100000)	M(100000)	d(0)F(v(5)))
+	c(R(10)	n(Crop/Left)	m(0)	M(100)	d(0))
+	c(R(11)	n(Crop/Right)	m(0)	M(100)	d(100))
+	c(R(12)	n(Crop/Top$NL)	m(0)	M(100)	d(100))
+	c(R(13)	n(Crop/Bottom)	m(0)	M(100)	d(0))
+)
+)
+)
+
+C(
+f(0) l(250)
+F(/Volumes/SLOW_HF/PROJECTS/21815_Greenscreen_key/DATA/Volumes_SLOW_HF_PROJECTS_21815_Greenscreen_key_CENTRAL_Raw_fra_try_tryfilm-51e0af/B_1_2020-07-20_1445_C0010.lnk)
+p(
+	n(B_1_2020-07-20_1445_C0010)
+	X(3067) Y(33) W(250) F(0)
+)
+d(
+	I(
+		s(0) e(249) t(B_1_2020-07-20_1445_C0010|B_1_2020-07-20_1445_C0010) T(1000@25.000000)  i(0)
+		L(
+			d(Xfs.dev) p(/Volumes/SLOW_HF/PROJECTS/21815_Greenscreen_key/CENTRAL/Raw/fra_try/tryfilm-51e0af/) n(L_B_1_2020-07-20_1445_C0010.mov) f(RGB:RGB24)
+		)
+		H(
+			d(Movie.dev) p(/Volumes/SLOW_HF/PROJECTS/21815_Greenscreen_key/CENTRAL/Raw/fra_try/tryfilm-51e0af/) n(B_1_2020-07-20_1445_C0010.mov) f(YUV:ff:QuickTime / MOV:ap4h:4000x2160)
+		)
+	)
+)
+AudioRoute(
+)
+)
+
+)
+
