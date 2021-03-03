@@ -3,7 +3,7 @@ IMAGESIZEY                     2160
 FRAMESSEG                      23.98
 NTSCFIELDS                     0
 LOWRESRATIO                    2
-SCREENRATIO 1.7777777777777777
+SCREENRATIO                    1.7777
 EXTRA_VITC_LINES               0
 COLOR_SPACE_709                1
 BITRATE_VIDEO                  32000000
@@ -34,4 +34,3 @@ USE_LIVE_VIDEO                 1
 MAXMEM                         1024
 QUALITY_OF_SERVICE_MB          25
 RED_REDUCE_FACTOR              2
-MODE_8K SQD

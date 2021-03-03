@@ -1,1 +1,1 @@
-PCACHE_MAX                     0
+PCACHE_MAX                     1000000
