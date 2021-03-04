@@ -69,9 +69,9 @@
   <Offset_X>0.000</Offset_X>
   <Offset_Y>0.000</Offset_Y>
   <ReelPanelTreeMove_Win>2159 -31 309 650</ReelPanelTreeMove_Win>
-  <Scale_X>177.778</Scale_X>
+  <Scale_X>316.049</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>108 75 522 552</Scope1Move_Win>
+  <Scope1Move_Win>11 63 522 552</Scope1Move_Win>
   <Scope1_Mode_>4</Scope1_Mode_>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>2</Scope1_Sizes_>
@@ -184,7 +184,7 @@
   <render_L_NullFormat>0</render_L_NullFormat>
   <render_Movie_dev_Target>0</render_Movie_dev_Target>
   <render_Prefered_source_clip>0</render_Prefered_source_clip>
-  <render_Scale>0</render_Scale>
+  <render_Scale>1</render_Scale>
   <render_Segments_Mode>0</render_Segments_Mode>
   <render_Slate_1>0</render_Slate_1>
   <render_Slate_1_During>0</render_Slate_1_During>
@@ -194,13 +194,13 @@
   <render_Tape_Name_Source>0</render_Tape_Name_Source>
   <render_Time_Code_Source>0</render_Time_Code_Source>
   <render_Xfs_dev_Target>0</render_Xfs_dev_Target>
-  <setup_All_Objects>0</setup_All_Objects>
+  <setup_All_Objects>1</setup_All_Objects>
   <setup_Auto_Expand>0</setup_Auto_Expand>
   <setup_Auto_Snapshot>0</setup_Auto_Snapshot>
   <setup_Auto_Sync_Editor_to_Timeline>0</setup_Auto_Sync_Editor_to_Timeline>
   <setup_Constrain_X>0</setup_Constrain_X>
   <setup_Current_Layer>1</setup_Current_Layer>
-  <setup_Current_Track>1</setup_Current_Track>
+  <setup_Current_Track>0</setup_Current_Track>
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
   <setup_Flow_Monitor>0</setup_Flow_Monitor>
@@ -211,7 +211,7 @@
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
   <setup_S3D_Live>2</setup_S3D_Live>
-  <setup_Selected>1</setup_Selected>
+  <setup_Selected>0</setup_Selected>
   <setup_Show_Overtrim>0</setup_Show_Overtrim>
   <setup_Single>0</setup_Single>
   <tangent>
