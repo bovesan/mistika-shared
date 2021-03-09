@@ -21,7 +21,7 @@
       <Location>
         <Target>MASTER</Target>
         <Device>Movie.dev</Device>
-        <Path>/Volumes/SAN3/Masters/[project]/[_tapeName][_segmentIndex]/[_tapeName][_segmentIndex][_eye?Left:Right].[ext]</Path>
+        <Path>/Volumes/SAN3/Masters/[project]/[renderName][_segmentIndex]/[renderName][_segmentIndex][_eye?Left:Right].[ext]</Path>
       </Location>
       <Framerate>-1.000000</Framerate>
       <Interlace>0</Interlace>
@@ -68,7 +68,7 @@
     <PreferedClip>0</PreferedClip>
     <FilterUsedClips>1</FilterUsedClips>
   </SplitToSegments>
-  <ScriptAfter>Rename_to_group_name</ScriptAfter>
+  <ScriptAfter>HF_Delivery</ScriptAfter>
   <Head>0</Head>
   <Tail>0</Tail>
   <RenderType>0</RenderType>
