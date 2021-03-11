@@ -71,9 +71,9 @@
   <ReelPanelTreeMove_Win>2159 -31 309 650</ReelPanelTreeMove_Win>
   <Scale_X>100.000</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>-64 100 522 552</Scope1Move_Win>
+  <Scope1Move_Win>3059 120 522 552</Scope1Move_Win>
   <Scope1_Mode_>4</Scope1_Mode_>
-  <Scope1_Scale_>7</Scope1_Scale_>
+  <Scope1_Scale_>6</Scope1_Scale_>
   <Scope1_Sizes_>2</Scope1_Sizes_>
   <Scope2Move_Win>49 109 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
@@ -86,7 +86,7 @@
   <Scope4Move_Win>1656 324 264 324</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size_X>3200</Size_X>
-  <Size_Y>1080</Size_Y>
+  <Size_Y>1800</Size_Y>
   <Snapshot2Move_Win>3442 11 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
@@ -173,7 +173,7 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>1</render2_Source>
+  <render2_Source>0</render2_Source>
   <render2_Split>2</render2_Split>
   <render2_Stereo>0</render2_Stereo>
   <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
@@ -184,7 +184,7 @@
   <render_L_NullFormat>0</render_L_NullFormat>
   <render_Movie_dev_Target>0</render_Movie_dev_Target>
   <render_Prefered_source_clip>0</render_Prefered_source_clip>
-  <render_Scale>0</render_Scale>
+  <render_Scale>1</render_Scale>
   <render_Segments_Mode>0</render_Segments_Mode>
   <render_Slate_1>0</render_Slate_1>
   <render_Slate_1_During>0</render_Slate_1_During>
@@ -194,7 +194,7 @@
   <render_Tape_Name_Source>0</render_Tape_Name_Source>
   <render_Time_Code_Source>0</render_Time_Code_Source>
   <render_Xfs_dev_Target>0</render_Xfs_dev_Target>
-  <setup_All_Objects>1</setup_All_Objects>
+  <setup_All_Objects>0</setup_All_Objects>
   <setup_Auto_Expand>0</setup_Auto_Expand>
   <setup_Auto_Snapshot>0</setup_Auto_Snapshot>
   <setup_Auto_Sync_Editor_to_Timeline>0</setup_Auto_Sync_Editor_to_Timeline>
@@ -211,7 +211,7 @@
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
   <setup_S3D_Live>2</setup_S3D_Live>
-  <setup_Selected>0</setup_Selected>
+  <setup_Selected>1</setup_Selected>
   <setup_Show_Overtrim>0</setup_Show_Overtrim>
   <setup_Single>0</setup_Single>
   <tangent>
