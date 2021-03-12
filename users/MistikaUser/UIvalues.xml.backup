@@ -18,12 +18,12 @@
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>true</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
+    <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
-    <Snapshot>false</Snapshot>
+    <Snapshot>true</Snapshot>
     <StereoMode_Disp>9056</StereoMode_Disp>
     <StereoMode_Live>9073</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
@@ -71,14 +71,14 @@
   <ReelPanelTreeMove_Win>2159 -31 309 650</ReelPanelTreeMove_Win>
   <Scale_X>100.000</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>3059 120 522 552</Scope1Move_Win>
+  <Scope1Move_Win>33 27 266 326</Scope1Move_Win>
   <Scope1_Mode_>4</Scope1_Mode_>
   <Scope1_Scale_>6</Scope1_Scale_>
-  <Scope1_Sizes_>2</Scope1_Sizes_>
-  <Scope2Move_Win>49 109 522 552</Scope2Move_Win>
+  <Scope1_Sizes_>0</Scope1_Sizes_>
+  <Scope2Move_Win>43 362 266 326</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Scale_>6</Scope2_Scale_>
-  <Scope2_Sizes_>1</Scope2_Sizes_>
+  <Scope2_Sizes_>0</Scope2_Sizes_>
   <Scope3Move_Win>1528 0 266 326</Scope3Move_Win>
   <Scope3_Mode_>4</Scope3_Mode_>
   <Scope3_Scale_>5</Scope3_Scale_>
@@ -87,7 +87,7 @@
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size_X>3200</Size_X>
   <Size_Y>1800</Size_Y>
-  <Snapshot2Move_Win>3442 11 244 264</Snapshot2Move_Win>
+  <Snapshot2Move_Win>3408 171 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
     <AutoSnapshot>true</AutoSnapshot>
@@ -100,7 +100,7 @@
   </StoryBoard>
   <Tracker_Rotate>0</Tracker_Rotate>
   <Tracker_Round>0</Tracker_Round>
-  <Tracker_Size>0</Tracker_Size>
+  <Tracker_Size>1</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
   <calc_Base>2</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
