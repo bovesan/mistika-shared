@@ -71,11 +71,11 @@
   <ReelPanelTreeMove_Win>2159 -31 309 650</ReelPanelTreeMove_Win>
   <Scale_X>100.000</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>33 27 266 326</Scope1Move_Win>
+  <Scope1Move_Win>74 25 266 326</Scope1Move_Win>
   <Scope1_Mode_>4</Scope1_Mode_>
   <Scope1_Scale_>6</Scope1_Scale_>
   <Scope1_Sizes_>0</Scope1_Sizes_>
-  <Scope2Move_Win>43 362 266 326</Scope2Move_Win>
+  <Scope2Move_Win>88 373 266 326</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Scale_>6</Scope2_Scale_>
   <Scope2_Sizes_>0</Scope2_Sizes_>
@@ -114,7 +114,7 @@
   <edit_>2</edit_>
   <edit_Audio_Icons>2</edit_Audio_Icons>
   <edit_Auto_Key_State>0</edit_Auto_Key_State>
-  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>1</edit_Number_of_VU_Meters_to_Show_>
   <filebrowser>
     <HEADER_SIZE0>0</HEADER_SIZE0>
@@ -158,14 +158,14 @@
     </colorGrade>
   </mistika>
   <project>
-    <current>22102_Rema1000_paaske</current>
+    <current>22103_VW_ID4</current>
   </project>
   <relink>
     <mistika>
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>1</render2_Audio>
+  <render2_Audio>0</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Filter>1</render2_Filter>
@@ -173,8 +173,8 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>1</render2_Source>
-  <render2_Split>2</render2_Split>
+  <render2_Source>0</render2_Source>
+  <render2_Split>1</render2_Split>
   <render2_Stereo>0</render2_Stereo>
   <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
