@@ -4,10 +4,10 @@
   <CommonControls>
     <AlignMode>false</AlignMode>
     <CameraOverlay>true</CameraOverlay>
-    <Curves>false</Curves>
+    <Curves>true</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
-    <FeatherOverlay>true</FeatherOverlay>
+    <FeatherOverlay>false</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
     <GridOverlay>false</GridOverlay>
@@ -70,7 +70,7 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>24</Opacity>
   <ReelPanelTreeMove_Win>2000 -15 223 661</ReelPanelTreeMove_Win>
-  <Scale_X>177.778</Scale_X>
+  <Scale_X>100.000</Scale_X>
   <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>3288 5 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
@@ -156,7 +156,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22115_Ice_mars</current>
+    <current>21983_Bremykt_des_2020</current>
   </project>
   <relink>
     <mistika>
@@ -172,7 +172,7 @@
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>0</render2_Source>
-  <render2_Split>1</render2_Split>
+  <render2_Split>0</render2_Split>
   <render2_Stereo>0</render2_Stereo>
   <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
@@ -182,7 +182,7 @@
   <render_L_NullFormat>0</render_L_NullFormat>
   <render_Movie_dev_Target>0</render_Movie_dev_Target>
   <render_Prefered_source_clip>0</render_Prefered_source_clip>
-  <render_Scale>0</render_Scale>
+  <render_Scale>1</render_Scale>
   <render_Segments_Mode>0</render_Segments_Mode>
   <render_Slate_1>0</render_Slate_1>
   <render_Slate_1_During>0</render_Slate_1_During>
