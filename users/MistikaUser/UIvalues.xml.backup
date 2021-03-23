@@ -4,7 +4,7 @@
   <CommonControls>
     <AlignMode>false</AlignMode>
     <CameraOverlay>true</CameraOverlay>
-    <Curves>true</Curves>
+    <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
     <FeatherOverlay>false</FeatherOverlay>
@@ -70,14 +70,15 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>24</Opacity>
   <ReelPanelTreeMove_Win>2000 -15 223 661</ReelPanelTreeMove_Win>
-  <Scale_X>100.000</Scale_X>
+  <Scale_X>177.778</Scale_X>
   <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>3288 5 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
   <Scope2Move_Win>1343 28 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
-  <Scope2_Scale_>7</Scope2_Scale_>
+  <Scope2_Negative_>1</Scope2_Negative_>
+  <Scope2_Scale_>6</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>1377 0 522 552</Scope3Move_Win>
   <Scope3_Scale_>7</Scope3_Scale_>
@@ -143,27 +144,27 @@
         </EditorRGB>
       </Curves>
       <Setup>
-        <BALL_SPEED>4</BALL_SPEED>
+        <BALL_SPEED>2</BALL_SPEED>
         <DrawOverlay>true</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>8</JOG_SPEED>
         <KNOB_SPEED>16</KNOB_SPEED>
         <PrinterLightsStep>1.217</PrinterLightsStep>
-        <RING_SPEED>4</RING_SPEED>
+        <RING_SPEED>2</RING_SPEED>
         <TrackballRGBValuesOn>true</TrackballRGBValuesOn>
       </Setup>
     </colorGrade>
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>21983_Bremykt_des_2020</current>
+    <current>22156_Dr_Greve</current>
   </project>
   <relink>
     <mistika>
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>0</render2_Audio>
+  <render2_Audio>1</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Filter>1</render2_Filter>
@@ -172,9 +173,9 @@
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>0</render2_Source>
-  <render2_Split>0</render2_Split>
+  <render2_Split>2</render2_Split>
   <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
+  <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
