@@ -2,14 +2,14 @@
 <RenderConfig>
   <Video>
     <Enabled>1</Enabled>
-    <Encoder>ffmpeg_AVI</Encoder>
-    <Format>ffmpeg_AVI.MOVIE_AVI_UYVY</Format>
+    <Encoder>ffmpeg_MOV</Encoder>
+    <Format>ffmpeg_MOV.MOVIE_MOV_PRORES_HQ</Format>
     <Options>
       <Framing>
-        <Active>1</Active>
-        <SizeX>1080</SizeX>
-        <SizeY>1350</SizeY>
-        <ScaleX>222.222229</ScaleX>
+        <Active>0</Active>
+        <SizeX>1920</SizeX>
+        <SizeY>1080</SizeY>
+        <ScaleX>100.000000</ScaleX>
         <ScaleY>100.000000</ScaleY>
         <OffsetX>0.000000</OffsetX>
         <OffsetY>0.000000</OffsetY>
@@ -19,9 +19,9 @@
         <CropD>0.000000</CropD>
       </Framing>
       <Location>
-        <Target>MASTER</Target>
+        <Target>User defined</Target>
         <Device>Movie.dev</Device>
-        <Path>/Volumes/SAN3/Masters/[project]/[envName][_segmentIndex]/[renderName][_segmentIndex][_eye?Left:Right].[ext]</Path>
+        <Path>/Volumes/SAN3/Masters/[project]/DELIVERY/[_renderName][_segmentIndex][_eye?Left:Right].[ext]</Path>
       </Location>
       <Framerate>-1.000000</Framerate>
       <Interlace>0</Interlace>
@@ -58,12 +58,12 @@
     <Format>XFS.YUV422</Format>
   </Proxy>
   <AutoName>1</AutoName>
-  <RenderName>auto+master+noupload</RenderName>
+  <RenderName>auto+noupload</RenderName>
   <SplitToSegments>
     <Enabled>2</Enabled>
     <FirstIndex>0</FirstIndex>
-    <TapeSource>2</TapeSource>
-    <TcSource>3</TcSource>
+    <TapeSource>1</TapeSource>
+    <TcSource>0</TcSource>
     <TcPrefer>0</TcPrefer>
     <IgnoreJs>0</IgnoreJs>
     <PreferedClip>0</PreferedClip>

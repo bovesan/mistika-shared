@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+<<<<<<<                        HEAD
 PATH_MOVIES                    /REALTIME_STORAGE/MOVIES
 BITRATE_VIDEO                  40000000
 GOP_SIZE                       1
@@ -18,5 +17,5 @@ VIDEO_PASS                     0
 #CODEC_CUSTOM                  asv2
 #CODEC_CUSTOM                  ffv1
 CODEC_CUSTOM                   dvvideo
->>>>>>> f79792877a689d5f581f6cb21fce2f91746c4ec9
+>>>>>>>                        f79792877a689d5f581f6cb21fce2f91746c4ec9
 

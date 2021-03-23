@@ -2,8 +2,8 @@
 <RenderConfig>
   <Video>
     <Enabled>1</Enabled>
-    <Encoder>ffmpeg_MOV</Encoder>
-    <Format>ffmpeg_MOV.MOVIE_MOV_PRORES_HQ</Format>
+    <Encoder>ffmpeg_AVI</Encoder>
+    <Format>ffmpeg_AVI.MOVIE_AVI_UYVY</Format>
     <Options>
       <Framing>
         <Active>1</Active>

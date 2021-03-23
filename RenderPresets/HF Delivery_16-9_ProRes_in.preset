@@ -6,10 +6,10 @@
     <Format>ffmpeg_AVI.MOVIE_AVI_UYVY</Format>
     <Options>
       <Framing>
-        <Active>1</Active>
+        <Active>0</Active>
         <SizeX>1080</SizeX>
-        <SizeY>1350</SizeY>
-        <ScaleX>222.222229</ScaleX>
+        <SizeY>1920</SizeY>
+        <ScaleX>316.049408</ScaleX>
         <ScaleY>100.000000</ScaleY>
         <OffsetX>0.000000</OffsetX>
         <OffsetY>0.000000</OffsetY>
@@ -58,7 +58,7 @@
     <Format>XFS.YUV422</Format>
   </Proxy>
   <AutoName>1</AutoName>
-  <RenderName>auto+master+noupload</RenderName>
+  <RenderName>auto+master</RenderName>
   <SplitToSegments>
     <Enabled>2</Enabled>
     <FirstIndex>0</FirstIndex>
