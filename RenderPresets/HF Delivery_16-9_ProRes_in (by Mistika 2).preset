@@ -66,7 +66,7 @@
     <TcSource>3</TcSource>
     <TcPrefer>0</TcPrefer>
     <IgnoreJs>0</IgnoreJs>
-    <PreferedClip>0</PreferedClip>
+    <PreferedClip>1</PreferedClip>
     <FilterUsedClips>1</FilterUsedClips>
   </SplitToSegments>
   <ScriptAfter>HF_Delivery</ScriptAfter>
