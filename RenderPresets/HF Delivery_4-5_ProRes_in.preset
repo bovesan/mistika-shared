@@ -2,8 +2,8 @@
 <RenderConfig>
   <Video>
     <Enabled>1</Enabled>
-    <Encoder>ffmpeg_AVI</Encoder>
-    <Format>ffmpeg_AVI.MOVIE_AVI_UYVY</Format>
+    <Encoder>ffmpeg_MOV</Encoder>
+    <Format>ffmpeg_MOV.MOVIE_MOV_PRORES_HQ</Format>
     <Options>
       <Framing>
         <Active>1</Active>
@@ -21,7 +21,7 @@
       <Location>
         <Target>MASTER</Target>
         <Device>Movie.dev</Device>
-        <Path>/Volumes/SAN3/Masters/[project]/[envName][_segmentIndex]/[renderName][_segmentIndex][_eye?Left:Right].[ext]</Path>
+        <Path>/Volumes/SAN3/Masters/[project]/[renderName][_segmentIndex]/[renderName][_segmentIndex][_eye?Left:Right].[ext]</Path>
       </Location>
       <Framerate>-1.000000</Framerate>
       <Interlace>0</Interlace>
@@ -58,7 +58,7 @@
     <Format>XFS.YUV422</Format>
   </Proxy>
   <AutoName>1</AutoName>
-  <RenderName>auto+master+noupload</RenderName>
+  <RenderName>auto</RenderName>
   <SplitToSegments>
     <Enabled>2</Enabled>
     <FirstIndex>0</FirstIndex>
