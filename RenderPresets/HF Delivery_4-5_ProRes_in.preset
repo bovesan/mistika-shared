@@ -58,7 +58,7 @@
     <Format>XFS.YUV422</Format>
   </Proxy>
   <AutoName>1</AutoName>
-  <RenderName>auto</RenderName>
+  <RenderName>auto+master</RenderName>
   <SplitToSegments>
     <Enabled>2</Enabled>
     <FirstIndex>0</FirstIndex>
