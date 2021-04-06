@@ -35,7 +35,7 @@
   <Crop_Left>0.000</Crop_Left>
   <Crop_Right>100.000</Crop_Right>
   <Crop_Up>100.000</Crop_Up>
-  <DepthGraphMove_Win>1656 648 266 326</DepthGraphMove_Win>
+  <DepthGraphMove_Win>1654 648 266 326</DepthGraphMove_Win>
   <Display>100</Display>
   <GangEditorMove_Win>1536 34 300 250</GangEditorMove_Win>
   <ImportOptionsMove_Win>100 100 1020 300</ImportOptionsMove_Win>
@@ -83,7 +83,7 @@
   <Scope3Move_Win>1377 0 522 552</Scope3Move_Win>
   <Scope3_Scale_>7</Scope3_Scale_>
   <Scope3_Sizes_>1</Scope3_Sizes_>
-  <Scope4Move_Win>1656 324 266 326</Scope4Move_Win>
+  <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>12</Size>
   <Size_X>1920</Size_X>
