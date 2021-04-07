@@ -51,7 +51,7 @@
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>true</LinkByFile>
+    <LinkByFile>false</LinkByFile>
     <ReplicateTree>false</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
@@ -100,7 +100,7 @@
     <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
-  <Tracker_Rotate>1</Tracker_Rotate>
+  <Tracker_Rotate>0</Tracker_Rotate>
   <Tracker_Size>0</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
   <calc_Base>2</calc_Base>
@@ -150,21 +150,21 @@
         <JOG_SPEED>8</JOG_SPEED>
         <KNOB_SPEED>16</KNOB_SPEED>
         <PrinterLightsStep>1.217</PrinterLightsStep>
-        <RING_SPEED>4</RING_SPEED>
+        <RING_SPEED>2</RING_SPEED>
         <TrackballRGBValuesOn>true</TrackballRGBValuesOn>
       </Setup>
     </colorGrade>
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22030_New_Energy</current>
+    <current>21879_Trygg_Trafikk</current>
   </project>
   <relink>
     <mistika>
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>0</render2_Audio>
+  <render2_Audio>1</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Filter>1</render2_Filter>
@@ -172,10 +172,10 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>0</render2_Source>
-  <render2_Split>1</render2_Split>
+  <render2_Source>1</render2_Source>
+  <render2_Split>2</render2_Split>
   <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
+  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
