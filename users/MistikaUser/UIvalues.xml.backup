@@ -70,8 +70,8 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>36</Opacity>
   <ReelPanelTreeMove_Win>2000 -15 223 661</ReelPanelTreeMove_Win>
-  <Scale_X>1200.000</Scale_X>
-  <Scale_Y>540.000</Scale_Y>
+  <Scale_X>100.000</Scale_X>
+  <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>814 22 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
@@ -157,14 +157,14 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>2021_Mastering</current>
+    <current>22130_Jean_Paul_2021</current>
   </project>
   <relink>
     <mistika>
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>0</render2_Audio>
+  <render2_Audio>1</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Filter>1</render2_Filter>
@@ -183,7 +183,7 @@
   <render_L_NullFormat>0</render_L_NullFormat>
   <render_Movie_dev_Target>0</render_Movie_dev_Target>
   <render_Prefered_source_clip>0</render_Prefered_source_clip>
-  <render_Scale>1</render_Scale>
+  <render_Scale>0</render_Scale>
   <render_Segments_Mode>0</render_Segments_Mode>
   <render_Slate_1>0</render_Slate_1>
   <render_Slate_1_During>0</render_Slate_1_During>
