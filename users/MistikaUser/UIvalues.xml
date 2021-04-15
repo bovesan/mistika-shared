@@ -18,12 +18,12 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>false</Scopes_Scope1>
+    <Scopes_Scope1>true</Scopes_Scope1>
     <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
-    <ShowOneInput>false</ShowOneInput>
+    <ShowOneInput>true</ShowOneInput>
     <Snapshot>true</Snapshot>
     <StereoMode_Disp>9060</StereoMode_Disp>
     <StereoMode_Live>9078</StereoMode_Live>
@@ -72,10 +72,10 @@
   <ReelPanelTreeMove_Win>2000 -15 223 661</ReelPanelTreeMove_Win>
   <Scale_X>100.000</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>814 22 522 552</Scope1Move_Win>
+  <Scope1Move_Win>24 27 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>1347 22 522 552</Scope2Move_Win>
+  <Scope2Move_Win>3282 25 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
@@ -144,13 +144,13 @@
         </EditorRGB>
       </Curves>
       <Setup>
-        <BALL_SPEED>2</BALL_SPEED>
+        <BALL_SPEED>4</BALL_SPEED>
         <DrawOverlay>true</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>8</JOG_SPEED>
         <KNOB_SPEED>16</KNOB_SPEED>
         <PrinterLightsStep>1.217</PrinterLightsStep>
-        <RING_SPEED>2</RING_SPEED>
+        <RING_SPEED>4</RING_SPEED>
         <TrackballRGBValuesOn>true</TrackballRGBValuesOn>
       </Setup>
     </colorGrade>
@@ -172,10 +172,10 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>0</render2_Source>
+  <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
   <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
+  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
