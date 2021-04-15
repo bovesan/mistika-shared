@@ -12,7 +12,7 @@ VIDEO_CONNECTOR                QUADSDI
 VIDEO_IO_MODE                  YUV422
 USE_3G                         0
 3G_LEVEL                       3GA
-VIDEO_STEREO                   1
+VIDEO_STEREOFALSE
 MULTICHANNEL_MODE              STEREO_DUAL_CHANNEL
 STEREO_DUAL_LINK_LEFT_MIRROR   0
 INTERNAL_VIDEO_STORAGE         YUV422

@@ -22,7 +22,7 @@ VIDEO_MODE                     Progressive
 VIDEO_CONNECTOR                DVI_HDMI
 INTERNAL_VIDEO_STORAGE         YUV422
 VIDEO_IO_MODE                  YUV422
-VIDEO_STEREO                   0
+VIDEO_STEREOFALSE
 USE_3G                         1.5G
 SYNC_SOURCE                    SYNC_INTERNAL
 STEREO_DUAL_LINK_LEFT_MIRROR   0
