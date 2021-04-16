@@ -70,8 +70,8 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>36</Opacity>
   <ReelPanelTreeMove_Win>2000 -15 223 661</ReelPanelTreeMove_Win>
-  <Scale_X>100.000</Scale_X>
-  <Scale_Y>100.000</Scale_Y>
+  <Scale_X>600.000</Scale_X>
+  <Scale_Y>270.000</Scale_Y>
   <Scope1Move_Win>24 27 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
@@ -103,7 +103,7 @@
   <Tracker_Rotate>0</Tracker_Rotate>
   <Tracker_Size>0</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
-  <calc_Base>2</calc_Base>
+  <calc_Base>0</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
   <composer_JogSpeed_16>1</composer_JogSpeed_16>
   <composer_KnobSpeed_16>1</composer_KnobSpeed_16>
@@ -157,7 +157,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22030_New_Energy</current>
+    <current>2021_Mastering</current>
   </project>
   <relink>
     <mistika>
@@ -174,8 +174,8 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
+  <render2_Stereo>0</render2_Stereo>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
