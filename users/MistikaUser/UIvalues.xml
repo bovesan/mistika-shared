@@ -20,7 +20,7 @@
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>true</Scopes_Scope1>
     <Scopes_Scope2>true</Scopes_Scope2>
-    <Scopes_Scope3>false</Scopes_Scope3>
+    <Scopes_Scope3>true</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
@@ -72,23 +72,24 @@
   <ReelPanelTreeMove_Win>2000 -15 223 661</ReelPanelTreeMove_Win>
   <Scale_X>600.000</Scale_X>
   <Scale_Y>270.000</Scale_Y>
-  <Scope1Move_Win>1043 32 522 552</Scope1Move_Win>
+  <Scope1Move_Win>-43 110 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>3284 -262 522 552</Scope2Move_Win>
+  <Scope2Move_Win>3321 -155 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
-  <Scope2_Scale_>6</Scope2_Scale_>
+  <Scope2_Scale_>5</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
-  <Scope3Move_Win>1377 0 522 552</Scope3Move_Win>
-  <Scope3_Scale_>7</Scope3_Scale_>
+  <Scope3Move_Win>1365 49 522 552</Scope3Move_Win>
+  <Scope3_Mode_>2</Scope3_Mode_>
+  <Scope3_Scale_>6</Scope3_Scale_>
   <Scope3_Sizes_>1</Scope3_Sizes_>
   <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>12</Size>
   <Size_X>320</Size_X>
   <Size_Y>400</Size_Y>
-  <Snapshot2Move_Win>1154 22 244 264</Snapshot2Move_Win>
+  <Snapshot2Move_Win>579 137 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
     <AutoSnapshot>false</AutoSnapshot>
@@ -148,7 +149,7 @@
         <DrawOverlay>true</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>8</JOG_SPEED>
-        <KNOB_SPEED>16</KNOB_SPEED>
+        <KNOB_SPEED>4</KNOB_SPEED>
         <PrinterLightsStep>1.217</PrinterLightsStep>
         <RING_SPEED>4</RING_SPEED>
         <TrackballRGBValuesOn>true</TrackballRGBValuesOn>
@@ -175,7 +176,7 @@
   <render2_Source>0</render2_Source>
   <render2_Split>1</render2_Split>
   <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
