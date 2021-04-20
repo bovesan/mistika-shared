@@ -41,7 +41,8 @@
   </Video>
   <Audio>
     <Enabled>1</Enabled>
-    <Encoder>IN_MOVIE</Encoder>
+    <Encoder>WAVE</Encoder>
+    <Format>WAVE.AUDIO_W64_32</Format>
     <Options>
       <Location>
         <Target>SAN3</Target>
@@ -57,7 +58,7 @@
     <Format>XFS.YUV422</Format>
   </Proxy>
   <AutoName>1</AutoName>
-  <RenderName>auto</RenderName>
+  <RenderName>auto+master</RenderName>
   <SplitToSegments>
     <Enabled>2</Enabled>
     <FirstIndex>0</FirstIndex>
