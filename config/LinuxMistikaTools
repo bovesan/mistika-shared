@@ -1,12 +1,4 @@
 <<<<<<< HEAD
-Consolidate /home/mistika/mistika-hyperspeed/Tools/Consolidate/wrapper %a
-Housekeeping /home/mistika/mistika-hyperspeed/Tools/Housekeeping/wrapper %a
-XML_TC_Strip /home/mistika/mistika-hyperspeed/Tools/XML-tc-strip/wrapper %a
-XML_Fix /home/mistika/mistika-hyperspeed/Tools/XML_Fix/wrapper %a
-SystemMonitor "/home/mistika/SGO AppData/Mistika/utils/appLauncher_SystemMonitor"
-NVIDIA_Stats "/home/mistika/SGO AppData/Mistika/utils/appLauncher_NvidiaStats"
-
-=======
 XML_TC_Strip /home/mistika/git/mistika-hyperspeed/Tools/XML-tc-strip/wrapper %a
 XML_Fix /home/mistika/git/mistika-hyperspeed/Tools/XML_Fix/wrapper %a
->>>>>>> f79792877a689d5f581f6cb21fce2f91746c4ec9
+Fetch /home/mistika/git/mistika-hyperspeed/Tools/Fetch/wrapper %a
