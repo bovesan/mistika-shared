@@ -72,10 +72,10 @@
   <ReelPanelTreeMove_Win>1960 3 285 467</ReelPanelTreeMove_Win>
   <Scale_X>600.000</Scale_X>
   <Scale_Y>270.000</Scale_Y>
-  <Scope1Move_Win>-187 -202 522 552</Scope1Move_Win>
+  <Scope1Move_Win>0 0 522 552</Scope1Move_Win>
   <Scope1_Scale_>6</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>3228 -83 522 552</Scope2Move_Win>
+  <Scope2Move_Win>3228 0 522 552</Scope2Move_Win>
   <Scope2_Mode_>4</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>6</Scope2_Scale_>
@@ -158,7 +158,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22198_Innovasjon_Norge_IN_SF</current>
+    <current>22069_VikingPlanet</current>
   </project>
   <relink>
     <mistika>
@@ -176,7 +176,7 @@
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
   <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
