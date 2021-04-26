@@ -19,12 +19,12 @@
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
-    <Scopes_Scope3>false</Scopes_Scope3>
+    <Scopes_Scope2>true</Scopes_Scope2>
+    <Scopes_Scope3>true</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
-    <Snapshot>true</Snapshot>
+    <Snapshot>false</Snapshot>
     <StereoMode_Disp>9060</StereoMode_Disp>
     <StereoMode_Live>9078</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
@@ -75,7 +75,7 @@
   <Scope1Move_Win>76 88 522 552</Scope1Move_Win>
   <Scope1_Scale_>6</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>3218 -51 522 552</Scope2Move_Win>
+  <Scope2Move_Win>2091 -24 522 552</Scope2Move_Win>
   <Scope2_Mode_>4</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>6</Scope2_Scale_>
@@ -158,7 +158,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22197_Tekna_2021</current>
+    <current>22070_Tekna</current>
   </project>
   <relink>
     <mistika>
