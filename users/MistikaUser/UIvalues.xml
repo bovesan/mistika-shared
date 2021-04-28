@@ -70,12 +70,12 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>36</Opacity>
   <ReelPanelTreeMove_Win>1955 0 210 661</ReelPanelTreeMove_Win>
-  <Scale_X>177.778</Scale_X>
-  <Scale_Y>100.000</Scale_Y>
+  <Scale_X>123.077</Scale_X>
+  <Scale_Y>228.571</Scale_Y>
   <Scope1Move_Win>76 88 522 552</Scope1Move_Win>
   <Scope1_Scale_>6</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>2091 0 522 552</Scope2Move_Win>
+  <Scope2Move_Win>1712 48 522 552</Scope2Move_Win>
   <Scope2_Mode_>4</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>6</Scope2_Scale_>
@@ -87,9 +87,9 @@
   <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>12</Size>
-  <Size_X>320</Size_X>
-  <Size_Y>400</Size_Y>
-  <Snapshot2Move_Win>3651 265 244 264</Snapshot2Move_Win>
+  <Size_X>3120</Size_X>
+  <Size_Y>945</Size_Y>
+  <Snapshot2Move_Win>3491 28 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
     <AutoSnapshot>false</AutoSnapshot>
@@ -158,14 +158,14 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22189_Hurtigruta</current>
+    <current>22069_VikingPlanet</current>
   </project>
   <relink>
     <mistika>
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>1</render2_Audio>
+  <render2_Audio>0</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Filter>1</render2_Filter>
@@ -184,7 +184,7 @@
   <render_L_NullFormat>0</render_L_NullFormat>
   <render_Movie_dev_Target>0</render_Movie_dev_Target>
   <render_Prefered_source_clip>0</render_Prefered_source_clip>
-  <render_Scale>0</render_Scale>
+  <render_Scale>1</render_Scale>
   <render_Segments_Mode>0</render_Segments_Mode>
   <render_Slate_1>0</render_Slate_1>
   <render_Slate_1_During>0</render_Slate_1_During>
