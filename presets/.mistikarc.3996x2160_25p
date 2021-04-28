@@ -2,9 +2,9 @@ MISTIKA_WORK                   /Volumes/SLOW_HF/PROJECTS
 PATH                           /REALTIME_STORAGE
 AUDIO_PATH                     /REALTIME_STORAGE/DELIVERY/Audio_Tools
 CACHE_STEREO_EYE               NO_STEREO
-IMAGESIZEX                     4096
+IMAGESIZEX                     3996
 IMAGESIZEY                     2160
-SCREENRATIO                    1.8962962962962964
+SCREENRATIO                    1.85
 COLOR_SPACE_YUV                709
 NTSCFIELDS                     0
 FRAMESSEG                      25
