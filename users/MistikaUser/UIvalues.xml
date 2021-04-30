@@ -113,7 +113,7 @@
   <composer_RingSpeed_16>1</composer_RingSpeed_16>
   <config>216 613 530 487</config>
   <edit_>2</edit_>
-  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
   <filebrowser>
     <HEADER_SIZE0>0</HEADER_SIZE0>
@@ -158,14 +158,14 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22069_VikingPlanet</current>
+    <current>22059_Rod</current>
   </project>
   <relink>
     <mistika>
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>1</render2_Audio>
+  <render2_Audio>0</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Filter>1</render2_Filter>
