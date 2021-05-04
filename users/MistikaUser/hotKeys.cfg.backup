@@ -4333,6 +4333,8 @@ ButtonOverrides(
 	b(n(TimeEditor/Curve/2/13)           k())
 	b(n(TimeEditor/Curve/2/14)           k())
 	b(n(TimeEditor/Curve/2/15)           k())
+	b(n(TimeEditor/Curve/2/16)           k())
+	b(n(TimeEditor/Curve/2/17)           k())
 	b(n(TimeEditor/Curve/2/2)            k())
 	b(n(TimeEditor/Curve/2/3)            k())
 	b(n(TimeEditor/Curve/2/4)            k())
