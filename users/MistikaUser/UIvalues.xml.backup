@@ -72,10 +72,10 @@
   <ReelPanelTreeMove_Win>1955 0 210 661</ReelPanelTreeMove_Win>
   <Scale_X>200.000</Scale_X>
   <Scale_Y>200.000</Scale_Y>
-  <Scope1Move_Win>76 88 522 552</Scope1Move_Win>
+  <Scope1Move_Win>979 27 522 552</Scope1Move_Win>
   <Scope1_Scale_>6</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>2032 41 522 552</Scope2Move_Win>
+  <Scope2Move_Win>164 24 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
@@ -168,7 +168,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22208_Natusan_kids</current>
+    <current>22198_Innovasjon_Norge_IN_SF</current>
   </project>
   <relink>
     <mistika>
@@ -185,7 +185,7 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>0</render2_Source>
   <render2_Split>0</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
+  <render2_Stereo>1</render2_Stereo>
   <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
