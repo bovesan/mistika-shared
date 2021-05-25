@@ -323,8 +323,8 @@
       <bind Label="GAMMA G" dv="0x000001F4">PrimaryGammaG</bind>
       <bind Label="GAMMA R" dv="0x000001F3">PrimaryGammaR</bind>
       <bind Label="GAMMA" dv="0x00000004">PrimaryTB2_X</bind>
-      <bind Label="GAMMA" dv="0x00000234">TimeEditor:Curve:59</bind>
-      <bind Label="GAMMA" dv="0x00000234_R">TimeEditor:Curve:59:Reset</bind>
+      <bind Label="GAMMA" dv="0x00000234">TimeEditor:Image/Gamma</bind>
+      <bind Label="GAMMA" dv="0x00000234_R">TimeEditor:Image/Gamma:Reset</bind>
       <bind Label="GAMMA" dv="0x00007022">Composer:CommonControls:DolbyVision:Sliders:Gamma:Knob</bind>
       <bind Label="GAMMA" dv="0x07000008">PrimaryTB2_Y</bind>
       <bind Label="GANG RGB" dv="0x00002006">Composer:Grade:Curve:GangRGB</bind>

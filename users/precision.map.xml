@@ -478,6 +478,7 @@
       <bind dv="0x38600" sgo="Composer:Grade:Keyer:MuteOut2"/>
       <bind dv="0x3c000" sgo="Composer:Grade:Keyer:BlurBlend:Knob"/>
       <bind dv="0x4c000" sgo="Composer:Grade:Options:BlurMode"/>
+      <bind dv="0x50400" sgo="Composer:Grade:Ranges:2"/>
       <bind dv="0x50400" sgo="Composer:Grade:Ranges:3"/>
       <bind dv="0x5c000" sgo="Composer:Grade:Options:RecoverSource"/>
       <bind dv="0x60400" sgo="Composer:Grade:Ranges:1"/>
@@ -485,6 +486,7 @@
       <bind dv="0x7c000" sgo="Composer:Grade:Keyer:KeySource"/>
       <bind dv="0x8500" sgo="Composer:Grade:ranges"/>
       <bind dv="0xa0400" sgo="Composer:Grade:Ranges:2"/>
+      <bind dv="0xa0400" sgo="Composer:Grade:Ranges:3"/>
     </group>
     <group name="0x8600">
       <bind dv="0x10801" mod="0x200" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Cyan"/>
@@ -493,11 +495,11 @@
       <bind dv="0x18600" sgo="Composer:Grade:Keyer:MuteIn2"/>
       <bind dv="0x1c000" sgo="Vector"/>
       <bind dv="0x20801" mod="0x200" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Magenta"/>
-      <bind dv="0x20801" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Blue"/>
+      <bind dv="0x20801" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Green"/>
       <bind dv="0x28000" sgo="Composer:Grade:Keyer:Outside"/>
       <bind dv="0x2c000" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
       <bind dv="0x30801" mod="0x200" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Yellow"/>
-      <bind dv="0x30801" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Green"/>
+      <bind dv="0x30801" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Blue"/>
       <bind dv="0x360101" mod="0x200" sgo="Composer:Grade:FixVectors:Hue:C:Reset"/>
       <bind dv="0x360101" sgo="Composer:Grade:FixVectors:Hue:R:Reset"/>
       <bind dv="0x370101" mod="0x2" sgo="Composer:Grade:FixVectors:Sat:C:Reset"/>
@@ -591,7 +593,9 @@
       <bind dv="0x318900" sgo="Composer:Grade:Primary:PrinterLights:ModeW+"/>
       <bind dv="0x360101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB1:RB"/>
       <bind dv="0x370101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB1:RR"/>
+      <bind dv="0x3a0101" sgo="Composer:Grade:Bands:BandsTB2:RB"/>
       <bind dv="0x3a0101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB2:RB"/>
+      <bind dv="0x3b0101" sgo="Composer:Grade:Bands:BandsTB2:RR"/>
       <bind dv="0x3b0101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB2:RR"/>
       <bind dv="0x3d0101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB3:RB"/>
       <bind dv="0x3e0101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB3:RR"/>
@@ -601,6 +605,7 @@
       <bind dv="0x4040200" sgo="Composer:Grade:Primary:PrinterLights:All-Plus"/>
       <bind dv="0x4060200" sgo="Composer:Grade:Primary:PrinterLights:C-Plus"/>
       <bind dv="0x4070200" sgo="Composer:Grade:Primary:PrinterLights:M-Plus"/>
+      <bind dv="0x40801" sgo="Composer:Grade:Bands:BandsTB4"/>
       <bind dv="0x40801" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB4"/>
       <bind dv="0x4080200" sgo="Composer:Grade:Primary:PrinterLights:Y-Plus"/>
       <bind dv="0x410101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB4:RB"/>
@@ -650,11 +655,11 @@
       <bind dv="0x18000" sgo="Composer:Grade:Keyer:Inside"/>
       <bind dv="0x1c000" sgo="Vector"/>
       <bind dv="0x20801" mod="0x200" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Magenta"/>
-      <bind dv="0x20801" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Blue"/>
+      <bind dv="0x20801" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Green"/>
       <bind dv="0x28000" sgo="Composer:Grade:Keyer:Outside"/>
       <bind dv="0x2c000" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
       <bind dv="0x30801" mod="0x200" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Yellow"/>
-      <bind dv="0x30801" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Green"/>
+      <bind dv="0x30801" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Blue"/>
       <bind dv="0x360101" mod="0x200" sgo="Composer:Grade:FixVectors:Hue:C:Reset"/>
       <bind dv="0x360101" sgo="Composer:Grade:FixVectors:Hue:R:Reset"/>
       <bind dv="0x370101" mod="0x200" sgo="Composer:Grade:FixVectors:Sat:C:Reset"/>
@@ -682,11 +687,11 @@
       <bind dv="0x18000" sgo="Composer:Grade:Keyer:Inside"/>
       <bind dv="0x1c000" sgo="Vector"/>
       <bind dv="0x20801" mod="0x200" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Magenta"/>
-      <bind dv="0x20801" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Blue"/>
+      <bind dv="0x20801" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Green"/>
       <bind dv="0x28000" sgo="Composer:Grade:Keyer:Outside"/>
       <bind dv="0x2c000" sgo="Composer:Grade:Keyer:BlendIn:Knob"/>
       <bind dv="0x30801" mod="0x200" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Yellow"/>
-      <bind dv="0x30801" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Green"/>
+      <bind dv="0x30801" sgo="Composer:FixedScopeWithControlsWidget:FixedScope:Chroma:Blue"/>
       <bind dv="0x360101" mod="0x200" sgo="Composer:Grade:FixVectors:Hue:C:Reset"/>
       <bind dv="0x360101" sgo="Composer:Grade:FixVectors:Hue:R:Reset"/>
       <bind dv="0x370101" mod="0x200" sgo="Composer:Grade:FixVectors:Sat:C:Reset"/>
@@ -1109,9 +1114,9 @@
       <bind dv="0x20400" sgo="Composer:Grade:FixVectors:Hue:R"/>
       <bind dv="0x30400" sgo="Composer:Grade:FixVectors:Hue:G"/>
       <bind dv="0x40400" sgo="Composer:Grade:FixVectors:Hue:B"/>
-      <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Hue:Y"/>
-      <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Hue:C"/>
-      <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Hue:M"/>
+      <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Hue:C"/>
+      <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Hue:M"/>
+      <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Hue:Y"/>
     </group>
     <group name="0xf28b00">
       <bind dv="0x10400" sgo=""/>
@@ -1180,9 +1185,9 @@
       <bind dv="0x20400" sgo="Composer:Grade:FixVectors:Sat:R"/>
       <bind dv="0x30400" sgo="Composer:Grade:FixVectors:Sat:G"/>
       <bind dv="0x40400" sgo="Composer:Grade:FixVectors:Sat:B"/>
-      <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Sat:Y"/>
-      <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Sat:C"/>
-      <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Sat:M"/>
+      <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Sat:C"/>
+      <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Sat:M"/>
+      <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Sat:Y"/>
     </group>
     <group name="0xf38b00">
       <bind dv="0x10400" sgo=""/>
@@ -1256,9 +1261,9 @@
       <bind dv="0x20400" sgo="Composer:Grade:FixVectors:Lum:R"/>
       <bind dv="0x30400" sgo="Composer:Grade:FixVectors:Lum:G"/>
       <bind dv="0x40400" sgo="Composer:Grade:FixVectors:Lum:B"/>
-      <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Lum:Y"/>
-      <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Lum:C"/>
-      <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Lum:M"/>
+      <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Lum:C"/>
+      <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Lum:M"/>
+      <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Lum:Y"/>
     </group>
     <group name="0xf48b00">
       <bind dv="0x10400" sgo=""/>
@@ -1304,9 +1309,9 @@
       <bind dv="0x20400" sgo="Composer:Grade:FixVectors:Hue:R"/>
       <bind dv="0x30400" sgo="Composer:Grade:FixVectors:Hue:G"/>
       <bind dv="0x40400" sgo="Composer:Grade:FixVectors:Hue:B"/>
-      <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Hue:Y"/>
-      <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Hue:C"/>
-      <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Hue:M"/>
+      <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Hue:C"/>
+      <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Hue:M"/>
+      <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Hue:Y"/>
     </group>
     <group name="0xf58b00">
       <bind dv="0x10400" sgo=""/>
@@ -1345,9 +1350,9 @@
       <bind dv="0x20400" sgo="Composer:Grade:FixVectors:Sat:R"/>
       <bind dv="0x30400" sgo="Composer:Grade:FixVectors:Sat:G"/>
       <bind dv="0x40400" sgo="Composer:Grade:FixVectors:Sat:B"/>
-      <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Sat:Y"/>
-      <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Sat:C"/>
-      <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Sat:M"/>
+      <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Sat:C"/>
+      <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Sat:M"/>
+      <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Sat:Y"/>
     </group>
     <group name="0xf68b00">
       <bind dv="0x10400" sgo=""/>
@@ -1381,9 +1386,9 @@
       <bind dv="0x20400" sgo="Composer:Grade:FixVectors:Lum:R"/>
       <bind dv="0x30400" sgo="Composer:Grade:FixVectors:Lum:G"/>
       <bind dv="0x40400" sgo="Composer:Grade:FixVectors:Lum:B"/>
-      <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Lum:Y"/>
-      <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Lum:C"/>
-      <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Lum:M"/>
+      <bind dv="0x70400" sgo="Composer:Grade:FixVectors:Lum:C"/>
+      <bind dv="0x80400" sgo="Composer:Grade:FixVectors:Lum:M"/>
+      <bind dv="0x90400" sgo="Composer:Grade:FixVectors:Lum:Y"/>
     </group>
     <group name="0xf78b00">
       <bind dv="0x10400" sgo=""/>
