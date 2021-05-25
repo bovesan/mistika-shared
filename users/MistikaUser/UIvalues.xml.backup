@@ -168,7 +168,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22233_Aldri_I_Livet</current>
+    <current>21765_Telia_sponsor</current>
   </project>
   <relink>
     <mistika>
@@ -215,7 +215,7 @@
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
   <setup_Flow_Monitor>0</setup_Flow_Monitor>
-  <setup_Free_capturing_in_one_clip>0</setup_Free_capturing_in_one_clip>
+  <setup_Free_capturing_in_one_clip>1</setup_Free_capturing_in_one_clip>
   <setup_Loop>1</setup_Loop>
   <setup_Mute_Audio>0</setup_Mute_Audio>
   <setup_Mute_Video>0</setup_Mute_Video>
