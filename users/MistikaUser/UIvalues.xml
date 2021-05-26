@@ -24,7 +24,7 @@
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
-    <Snapshot>true</Snapshot>
+    <Snapshot>false</Snapshot>
     <StereoMode_Disp>9056</StereoMode_Disp>
     <StereoMode_Live>9078</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
@@ -169,7 +169,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22211_Solo_mai_2021</current>
+    <current>22232_Come_on</current>
   </project>
   <relink>
     <mistika>
