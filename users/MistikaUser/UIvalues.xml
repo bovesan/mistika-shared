@@ -4,7 +4,7 @@
   <CommonControls>
     <AlignMode>false</AlignMode>
     <CameraOverlay>false</CameraOverlay>
-    <Curves>true</Curves>
+    <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
     <FeatherOverlay>false</FeatherOverlay>
@@ -72,10 +72,10 @@
   <ReelPanelTreeMove_Win>2116 -24 210 661</ReelPanelTreeMove_Win>
   <Scale_X>316.310</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>1297 32 522 552</Scope1Move_Win>
-  <Scope1_Scale_>7</Scope1_Scale_>
+  <Scope1Move_Win>3108 -23 522 552</Scope1Move_Win>
+  <Scope1_Scale_>6</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>5 44 522 552</Scope2Move_Win>
+  <Scope2Move_Win>146 54 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
