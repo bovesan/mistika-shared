@@ -4,7 +4,7 @@
   <CommonControls>
     <AlignMode>false</AlignMode>
     <CameraOverlay>true</CameraOverlay>
-    <Curves>true</Curves>
+    <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>true</FXPresets>
     <FeatherOverlay>false</FeatherOverlay>
@@ -23,7 +23,7 @@
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
-    <ShowOneInput>true</ShowOneInput>
+    <ShowOneInput>false</ShowOneInput>
     <Snapshot>true</Snapshot>
     <StereoMode_Disp>9060</StereoMode_Disp>
     <StereoMode_Live>9078</StereoMode_Live>
@@ -51,7 +51,7 @@
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>false</LinkByFile>
+    <LinkByFile>true</LinkByFile>
     <ReplicateTree>true</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
@@ -73,12 +73,12 @@
   <Scale_X>200.000</Scale_X>
   <Scale_Y>200.000</Scale_Y>
   <Scope1Move_Win>25 62 522 552</Scope1Move_Win>
-  <Scope1_Scale_>6</Scope1_Scale_>
+  <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
   <Scope2Move_Win>1256 100 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
-  <Scope2_Scale_>6</Scope2_Scale_>
+  <Scope2_Scale_>7</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>1253 373 522 552</Scope3Move_Win>
   <Scope3_Mode_>4</Scope3_Mode_>
@@ -123,7 +123,7 @@
   <dcp_Year>7</dcp_Year>
   <edit_>2</edit_>
   <edit_Animation>1</edit_Animation>
-  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
   <filebrowser>
@@ -169,7 +169,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22257_KRF</current>
+    <current>22133_Obs_Helgematkuppet</current>
   </project>
   <relink>
     <mistika>
