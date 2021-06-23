@@ -4,7 +4,7 @@
   <CommonControls>
     <AlignMode>false</AlignMode>
     <CameraOverlay>true</CameraOverlay>
-    <Curves>true</Curves>
+    <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>true</FXPresets>
     <FeatherOverlay>false</FeatherOverlay>
@@ -23,7 +23,7 @@
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
-    <ShowOneInput>true</ShowOneInput>
+    <ShowOneInput>false</ShowOneInput>
     <Snapshot>true</Snapshot>
     <StereoMode_Disp>9060</StereoMode_Disp>
     <StereoMode_Live>9078</StereoMode_Live>
@@ -51,8 +51,8 @@
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>false</LinkByFile>
-    <ReplicateTree>true</ReplicateTree>
+    <LinkByFile>true</LinkByFile>
+    <ReplicateTree>false</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
       <Dir1>false</Dir1>
@@ -70,15 +70,15 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>49</Opacity>
   <ReelPanelTreeMove_Win>3435 -24 285 749</ReelPanelTreeMove_Win>
-  <Scale_X>200.000</Scale_X>
-  <Scale_Y>200.000</Scale_Y>
-  <Scope1Move_Win>0 71 522 552</Scope1Move_Win>
-  <Scope1_Scale_>6</Scope1_Scale_>
+  <Scale_X>222.222</Scale_X>
+  <Scale_Y>100.000</Scale_Y>
+  <Scope1Move_Win>25 62 522 552</Scope1Move_Win>
+  <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>1404 0 522 552</Scope2Move_Win>
+  <Scope2Move_Win>1256 100 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
-  <Scope2_Scale_>6</Scope2_Scale_>
+  <Scope2_Scale_>7</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>1253 373 522 552</Scope3Move_Win>
   <Scope3_Mode_>4</Scope3_Mode_>
@@ -88,8 +88,8 @@
   <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>12</Size>
-  <Size_X>1920</Size_X>
-  <Size_Y>2160</Size_Y>
+  <Size_X>1440</Size_X>
+  <Size_Y>1800</Size_Y>
   <Snapshot2Move_Win>3491 28 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
@@ -169,7 +169,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22257_KRF</current>
+    <current>22260_OCFB_Oslo_2021</current>
   </project>
   <relink>
     <mistika>
@@ -187,7 +187,7 @@
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
   <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
