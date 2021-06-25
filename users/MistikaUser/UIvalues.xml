@@ -99,7 +99,7 @@
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
     <View>1</View>
-    <Zoom>2</Zoom>
+    <Zoom>1</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>0</Tracker_Rotate>
@@ -123,7 +123,7 @@
   <dcp_Year>7</dcp_Year>
   <edit_>2</edit_>
   <edit_Animation>1</edit_Animation>
-  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
   <filebrowser>
@@ -169,7 +169,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22288_Vitaepro_Effekt_2021_NO_DK</current>
+    <current>22248_Northlamb</current>
   </project>
   <relink>
     <mistika>
@@ -186,7 +186,7 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
+  <render2_Stereo>1</render2_Stereo>
   <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
