@@ -73,10 +73,10 @@
   <ReelPanelTreeMove_Win>3435 -24 285 749</ReelPanelTreeMove_Win>
   <Scale_X>222.222</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>0 0 522 552</Scope1Move_Win>
+  <Scope1Move_Win>85 117 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>0 208 522 552</Scope2Move_Win>
+  <Scope2Move_Win>746 240 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
