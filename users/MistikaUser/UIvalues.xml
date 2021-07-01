@@ -105,7 +105,7 @@
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>0</Tracker_Rotate>
   <Tracker_Size>0</Tracker_Size>
-  <Tracker_SizeXY>1</Tracker_SizeXY>
+  <Tracker_SizeXY>0</Tracker_SizeXY>
   <calc_Base>2</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
   <composer_JogSpeed_16>1</composer_JogSpeed_16>
@@ -170,7 +170,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22295_Kirkens_SOS</current>
+    <current>22282_Rekrutteringsfilm_2021</current>
   </project>
   <relink>
     <mistika>
