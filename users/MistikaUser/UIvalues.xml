@@ -100,7 +100,7 @@
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
     <View>1</View>
-    <Zoom>2</Zoom>
+    <Zoom>1</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>0</Tracker_Rotate>
@@ -170,7 +170,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22295_Kirkens_SOS</current>
+    <current>22248_Northlamb</current>
   </project>
   <relink>
     <mistika>
