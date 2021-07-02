@@ -73,7 +73,7 @@
   <ReelPanelTreeMove_Win>3435 -24 285 749</ReelPanelTreeMove_Win>
   <Scale_X>222.222</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>-207 111 522 552</Scope1Move_Win>
+  <Scope1Move_Win>0 111 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
   <Scope2Move_Win>188 267 522 552</Scope2Move_Win>
@@ -187,7 +187,7 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
+  <render2_Stereo>1</render2_Stereo>
   <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
@@ -223,7 +223,7 @@
   <setup_Mute_Video>0</setup_Mute_Video>
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
-  <setup_Selected>0</setup_Selected>
+  <setup_Selected>1</setup_Selected>
   <setup_Single>0</setup_Single>
   <setup_Text_Shadows>1</setup_Text_Shadows>
   <setup_record_monitor_Active_Burn>0</setup_record_monitor_Active_Burn>
