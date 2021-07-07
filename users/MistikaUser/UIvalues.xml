@@ -3,11 +3,11 @@
   <Background_Luma>8</Background_Luma>
   <CommonControls>
     <AlignMode>false</AlignMode>
-    <CameraOverlay>false</CameraOverlay>
+    <CameraOverlay>true</CameraOverlay>
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>true</FXPresets>
-    <FeatherOverlay>false</FeatherOverlay>
+    <FeatherOverlay>true</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
     <GridOverlay>false</GridOverlay>
@@ -28,7 +28,7 @@
     <StereoMode_Disp>9060</StereoMode_Disp>
     <StereoMode_Live>9069</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
-    <UnscaledRes>false</UnscaledRes>
+    <UnscaledRes>true</UnscaledRes>
   </CommonControls>
   <Comp3D_Auto_Select>0</Comp3D_Auto_Select>
   <Comp3D_Layers>1</Comp3D_Layers>
@@ -212,12 +212,12 @@
   <setup_Constrain_X>0</setup_Constrain_X>
   <setup_Current_Gang>0</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
-  <setup_Current_Track>1</setup_Current_Track>
+  <setup_Current_Track>0</setup_Current_Track>
   <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
   <setup_Flow_Monitor>0</setup_Flow_Monitor>
-  <setup_Free_capturing_in_one_clip>0</setup_Free_capturing_in_one_clip>
+  <setup_Free_capturing_in_one_clip>1</setup_Free_capturing_in_one_clip>
   <setup_Loop>1</setup_Loop>
   <setup_Mute_Audio>0</setup_Mute_Audio>
   <setup_Mute_Video>0</setup_Mute_Video>
