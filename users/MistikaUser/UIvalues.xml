@@ -25,7 +25,7 @@
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
     <Snapshot>false</Snapshot>
-    <StereoMode_Disp>9059</StereoMode_Disp>
+    <StereoMode_Disp>9055</StereoMode_Disp>
     <StereoMode_Live>9069</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
     <UnscaledRes>true</UnscaledRes>
@@ -87,7 +87,7 @@
   <Scope3_Scale_>5</Scope3_Scale_>
   <Scope3_Sizes_>1</Scope3_Sizes_>
   <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
-  <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
+  <Sequences_Setup_Default_result_sizeDefault_result_size__>0</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>12</Size>
   <Size_X>1080</Size_X>
   <Size_Y>1080</Size_Y>
