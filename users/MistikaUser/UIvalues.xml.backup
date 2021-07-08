@@ -20,7 +20,7 @@
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
     <Scopes_Scope2>false</Scopes_Scope2>
-    <Scopes_Scope3>false</Scopes_Scope3>
+    <Scopes_Scope3>true</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
@@ -81,11 +81,11 @@
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>6</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
-  <Scope3Move_Win>12 412 522 552</Scope3Move_Win>
+  <Scope3Move_Win>3450 41 266 326</Scope3Move_Win>
   <Scope3_Mode_>4</Scope3_Mode_>
   <Scope3_Negative_>0</Scope3_Negative_>
-  <Scope3_Scale_>5</Scope3_Scale_>
-  <Scope3_Sizes_>1</Scope3_Sizes_>
+  <Scope3_Scale_>7</Scope3_Scale_>
+  <Scope3_Sizes_>0</Scope3_Sizes_>
   <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>0</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>12</Size>
@@ -177,7 +177,7 @@
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>1</render2_Audio>
+  <render2_Audio>0</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Filter>1</render2_Filter>
@@ -185,9 +185,9 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>1</render2_Source>
-  <render2_Split>2</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
+  <render2_Source>0</render2_Source>
+  <render2_Split>1</render2_Split>
+  <render2_Stereo>1</render2_Stereo>
   <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
