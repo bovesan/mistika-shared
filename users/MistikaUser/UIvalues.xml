@@ -71,8 +71,8 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>49</Opacity>
   <ReelPanelTreeMove_Win>3435 -24 285 749</ReelPanelTreeMove_Win>
-  <Scale_X>100.000</Scale_X>
-  <Scale_Y>100.000</Scale_Y>
+  <Scale_X>355.556</Scale_X>
+  <Scale_Y>112.500</Scale_Y>
   <Scope1Move_Win>3121 69 266 326</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>0</Scope1_Sizes_>
@@ -90,7 +90,7 @@
   <Sequences_Setup_Default_result_sizeDefault_result_size__>0</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>12</Size>
   <Size_X>1080</Size_X>
-  <Size_Y>1080</Size_Y>
+  <Size_Y>1920</Size_Y>
   <Snapshot2Move_Win>3491 28 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
@@ -170,7 +170,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22295_Kirkens_SOS</current>
+    <current>21905_Av_og_til</current>
   </project>
   <relink>
     <mistika>
@@ -185,10 +185,10 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>0</render2_Source>
+  <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
   <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
