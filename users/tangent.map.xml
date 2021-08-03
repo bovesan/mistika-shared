@@ -257,6 +257,22 @@
       <bind Label="DEPTH MAX" dv="0x0000009E_R">TimeEditor:Optical Flow/Depth Map/Max:Reset</bind>
       <bind Label="DEPTH MIN" dv="0x0000009D">TimeEditor:Optical Flow/Depth Map/Min</bind>
       <bind Label="DEPTH MIN" dv="0x0000009D_R">TimeEditor:Optical Flow/Depth Map/Min:Reset</bind>
+      <bind Label="DEPTH Z" dv="0x00007061">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007062">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007063">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007064">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007065">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007066">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007067">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007068">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007069">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007071">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007072">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007073">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007074">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007075">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007076">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x0000707A">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
       <bind Label="DEPTH" dv="0x00000238">TimeEditor:Optical Flow/Params/Mode:ShowDepth</bind>
       <bind Label="DEPTH" dv="0x00000558_R">TimeEditor:Optical Flow/Params/Mode:ShowDepth</bind>
       <bind Label="DISABLE SHAPE" dv="0x0000006D">Composer:Grade:Window:WinShp</bind>
@@ -458,8 +474,6 @@
       <bind Label="LINE DRAW" dv="0x0000200B">Composer:Shapes:Modes:Line</bind>
       <bind Label="LINE" dv="0x0000006A">Composer:Grade:Window:WinLine</bind>
       <bind Label="LINE" dv="0x0000051D_R">Composer:Grade:Window:WinLine</bind>
-      <bind Label="LINE" dv="0x0000006A">Composer:Grade:Window:WinLine</bind>
-      <bind Label="LINE" dv="0x0000051D_R">Composer:Grade:Window:WinLine</bind>
       <bind Label="LINEARIZE" dv="0x0000700D">Edit:Macros:Linearize</bind>
       <bind Label="LIVE" dv="0x0000008C">Composer:CommonControls:S3D:Live</bind>
       <bind Label="LO LIMIT" dv="0x0000002F">Composer:Grade:Ranges:1</bind>
@@ -518,6 +532,7 @@
       <bind Label="MID CONT" dv="0x0000002B">BandsMidCont</bind>
       <bind Label="MID CONT" dv="0x00007027">Composer:CommonControls:DolbyVision:Sliders:MidContrastBias:Knob</bind>
       <bind Label="MID HUE" dv="0x00000029">BandsMidHue</bind>
+      <bind Label="MID OFFSET" dv="0x00007053">TimeEditor:Midtone Offset</bind>
       <bind Label="MID PIVOTS" dv="0x00007003">Composer:Grade:Primary:PivotsSuperwhiteMode:Midtones</bind>
       <bind Label="MID RANGE" dv="0x00007007">Composer:Grade:Bands:Ranges:Mode:Midtones</bind>
       <bind Label="MID SAT" dv="0x0000002A">BandsMidSat</bind>
@@ -572,6 +587,7 @@
       <bind Label="NEXT VECT" dv="0x0000015D">Composer:Grade:Next</bind>
       <bind Label="NEXT VECT" dv="0x00000241">Composer:Grade:Next</bind>
       <bind Label="NEXT" dv="0x000000CE">Composer:CommonControls:Generic:NextShot</bind>
+      <bind Label="OBJ ID" dv="0x00007060">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
       <bind Label="OFF" dv="0x00000237">TimeEditor:Optical Flow/Params/Mode:Off</bind>
       <bind Label="OFF" dv="0x00000557_R">TimeEditor:Optical Flow/Params/Mode:Off</bind>
       <bind Label="OFFSET B" dv="0x0000000E">PrimaryLevelB</bind>
