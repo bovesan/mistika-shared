@@ -71,7 +71,7 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>49</Opacity>
   <ReelPanelTreeMove_Win>3435 -24 285 749</ReelPanelTreeMove_Win>
-  <Scale_X>316.049</Scale_X>
+  <Scale_X>316.310</Scale_X>
   <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>3121 69 266 326</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
@@ -89,7 +89,7 @@
   <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>0</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>12</Size>
-  <Size_X>1215</Size_X>
+  <Size_X>1214</Size_X>
   <Size_Y>2160</Size_Y>
   <Snapshot2Move_Win>3491 28 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
@@ -170,7 +170,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22030_New_Energy</current>
+    <current>22069_VikingPlanet</current>
   </project>
   <relink>
     <mistika>
