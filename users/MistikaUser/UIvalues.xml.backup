@@ -73,7 +73,7 @@
   <ReelPanelTreeMove_Win>3435 -24 285 749</ReelPanelTreeMove_Win>
   <Scale_X>316.310</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>3264 78 266 326</Scope1Move_Win>
+  <Scope1Move_Win>2465 79 266 326</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>0</Scope1_Sizes_>
   <Scope2Move_Win>1142 496 522 552</Scope2Move_Win>
@@ -81,7 +81,7 @@
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>6</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
-  <Scope3Move_Win>3450 41 266 326</Scope3Move_Win>
+  <Scope3Move_Win>3179 170 266 326</Scope3Move_Win>
   <Scope3_Mode_>4</Scope3_Mode_>
   <Scope3_Negative_>0</Scope3_Negative_>
   <Scope3_Scale_>7</Scope3_Scale_>
@@ -100,7 +100,7 @@
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
     <View>1</View>
-    <Zoom>1</Zoom>
+    <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>0</Tracker_Rotate>
@@ -187,8 +187,8 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
+  <render2_Stereo>1</render2_Stereo>
+  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
