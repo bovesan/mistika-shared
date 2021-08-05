@@ -100,7 +100,7 @@
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
     <View>1</View>
-    <Zoom>2</Zoom>
+    <Zoom>1</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>0</Tracker_Rotate>
@@ -170,7 +170,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22221_Linje5</current>
+    <current>22069_VikingPlanet</current>
   </project>
   <relink>
     <mistika>
@@ -187,8 +187,8 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
+  <render2_Stereo>0</render2_Stereo>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
