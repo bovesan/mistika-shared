@@ -6,7 +6,7 @@
     <CameraOverlay>true</CameraOverlay>
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
-    <FXPresets>true</FXPresets>
+    <FXPresets>false</FXPresets>
     <FeatherOverlay>false</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
@@ -70,22 +70,22 @@
   <Offset_X>0.000</Offset_X>
   <Offset_Y>0.000</Offset_Y>
   <Opacity>49</Opacity>
-  <ReelPanelTreeMove_Win>3435 -24 285 749</ReelPanelTreeMove_Win>
+  <ReelPanelTreeMove_Win>1977 -20 210 675</ReelPanelTreeMove_Win>
   <Scale_X>316.310</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>2465 79 266 326</Scope1Move_Win>
+  <Scope1Move_Win>2486 21 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
-  <Scope1_Sizes_>0</Scope1_Sizes_>
+  <Scope1_Sizes_>2</Scope1_Sizes_>
   <Scope2Move_Win>1142 496 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>6</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
-  <Scope3Move_Win>3179 170 266 326</Scope3Move_Win>
+  <Scope3Move_Win>3074 0 522 552</Scope3Move_Win>
   <Scope3_Mode_>4</Scope3_Mode_>
-  <Scope3_Negative_>0</Scope3_Negative_>
-  <Scope3_Scale_>7</Scope3_Scale_>
-  <Scope3_Sizes_>0</Scope3_Sizes_>
+  <Scope3_Negative_>1</Scope3_Negative_>
+  <Scope3_Scale_>10</Scope3_Scale_>
+  <Scope3_Sizes_>1</Scope3_Sizes_>
   <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>0</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>12</Size>
@@ -218,6 +218,7 @@
   <setup_Eval_Tree>1</setup_Eval_Tree>
   <setup_Flow_Monitor>0</setup_Flow_Monitor>
   <setup_Free_capturing_in_one_clip>1</setup_Free_capturing_in_one_clip>
+  <setup_Hide_Text>1</setup_Hide_Text>
   <setup_Loop>1</setup_Loop>
   <setup_Mute_Audio>0</setup_Mute_Audio>
   <setup_Mute_Video>0</setup_Mute_Video>
