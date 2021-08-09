@@ -4,7 +4,7 @@
     <datalist>
       <data name="TapeName">
         <active value="enable"/>
-        <tolive value="enable"/>
+        <tolive value="disable"/>
         <shadow color="0,0,0,40"/>
         <valueslist>
           <cursor line="1" column="1"/>
