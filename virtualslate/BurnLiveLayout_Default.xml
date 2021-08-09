@@ -24,7 +24,7 @@
       </data>
       <data name="Record TC">
         <active value="enable"/>
-        <tolive value="disable"/>
+        <tolive value="enable"/>
         <shadow color="0,0,0,40"/>
         <valueslist>
           <cursor line="3" column="1"/>
