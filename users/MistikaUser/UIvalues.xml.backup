@@ -16,7 +16,7 @@
     <LiveRes>false</LiveRes>
     <Notes_Color>0</Notes_Color>
     <Panel>false</Panel>
-    <Resolution>2</Resolution>
+    <Resolution>0</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
     <Scopes_Scope2>false</Scopes_Scope2>
@@ -81,7 +81,7 @@
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>6</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
-  <Scope3Move_Win>3360 -76 522 552</Scope3Move_Win>
+  <Scope3Move_Win>3318 552 522 552</Scope3Move_Win>
   <Scope3_Mode_>4</Scope3_Mode_>
   <Scope3_Negative_>1</Scope3_Negative_>
   <Scope3_Scale_>6</Scope3_Scale_>
@@ -187,7 +187,7 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>0</render2_Source>
   <render2_Split>1</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
+  <render2_Stereo>1</render2_Stereo>
   <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
@@ -227,7 +227,7 @@
   <setup_Selected>1</setup_Selected>
   <setup_Single>0</setup_Single>
   <setup_Text_Shadows>1</setup_Text_Shadows>
-  <setup_record_monitor_Active_Burn>1</setup_record_monitor_Active_Burn>
+  <setup_record_monitor_Active_Burn>0</setup_record_monitor_Active_Burn>
   <setup_sdr_or_hdr_>0</setup_sdr_or_hdr_>
   <setup_source_monitor_Stereo_Mode>0</setup_source_monitor_Stereo_Mode>
   <tangent>
