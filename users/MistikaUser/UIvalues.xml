@@ -19,13 +19,13 @@
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>true</Scopes_Scope2>
+    <Scopes_Scope2>false</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
-    <ShowOneInput>false</ShowOneInput>
-    <Snapshot>true</Snapshot>
-    <StereoMode_Disp>9056</StereoMode_Disp>
+    <ShowOneInput>true</ShowOneInput>
+    <Snapshot>false</Snapshot>
+    <StereoMode_Disp>9062</StereoMode_Disp>
     <StereoMode_Live>9069</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
     <UnscaledRes>true</UnscaledRes>
@@ -71,7 +71,7 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>49</Opacity>
   <ReelPanelTreeMove_Win>1977 -20 210 675</ReelPanelTreeMove_Win>
-  <Scale_X>316.310</Scale_X>
+  <Scale_X>100.000</Scale_X>
   <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>2230 0 522 552</Scope1Move_Win>
   <Scope1_Scale_>6</Scope1_Scale_>
@@ -89,7 +89,7 @@
   <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>0</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>12</Size>
-  <Size_X>1214</Size_X>
+  <Size_X>1920</Size_X>
   <Size_Y>2160</Size_Y>
   <Snapshot2Move_Win>3491 28 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
@@ -99,11 +99,11 @@
     <LockHeadB>false</LockHeadB>
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
-    <View>1</View>
+    <View>0</View>
     <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
-  <Tracker_Rotate>0</Tracker_Rotate>
+  <Tracker_Rotate>1</Tracker_Rotate>
   <Tracker_Size>0</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
   <calc_Base>2</calc_Base>
@@ -170,25 +170,26 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22281_Bla_Kors_2021</current>
+    <current>22221_Linje5</current>
   </project>
   <relink>
     <mistika>
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>0</render2_Audio>
+  <render2_Audio>1</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
+  <render2_Except_JS_clips>0</render2_Except_JS_clips>
   <render2_Filter>1</render2_Filter>
   <render2_Slate_1>0</render2_Slate_1>
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>0</render2_Source>
-  <render2_Split>1</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
+  <render2_Source>1</render2_Source>
+  <render2_Split>2</render2_Split>
+  <render2_Stereo>0</render2_Stereo>
+  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
