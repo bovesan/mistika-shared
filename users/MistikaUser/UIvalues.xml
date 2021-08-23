@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UIvalues>
+  <Auto_Snap_Pixels>20</Auto_Snap_Pixels>
   <Background_Luma>8</Background_Luma>
   <CommonControls>
     <AlignMode>false</AlignMode>
@@ -7,10 +8,10 @@
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
-    <FeatherOverlay>false</FeatherOverlay>
+    <FeatherOverlay>true</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
-    <GridOverlay>true</GridOverlay>
+    <GridOverlay>false</GridOverlay>
     <Interlaced>false</Interlaced>
     <Live>false</Live>
     <LiveRes>false</LiveRes>
@@ -25,20 +26,24 @@
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
     <Snapshot>false</Snapshot>
-    <StereoMode_Disp>9062</StereoMode_Disp>
-    <StereoMode_Live>9069</StereoMode_Live>
+    <StereoMode_Disp>9057</StereoMode_Disp>
+    <StereoMode_Live>9073</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
     <UnscaledRes>true</UnscaledRes>
   </CommonControls>
   <Comp3D_Auto_Select>0</Comp3D_Auto_Select>
-  <Comp3D_Layers>1</Comp3D_Layers>
+  <Comp3D_Axis>1</Comp3D_Axis>
+  <Comp3D_Hide_Arcs>0</Comp3D_Hide_Arcs>
   <Crop_Down>0.000</Crop_Down>
   <Crop_Left>0.000</Crop_Left>
   <Crop_Right>100.000</Crop_Right>
   <Crop_Up>100.000</Crop_Up>
-  <DepthGraphMove_Win>1654 648 266 326</DepthGraphMove_Win>
-  <Display>100</Display>
-  <GangEditorMove_Win>1536 34 300 250</GangEditorMove_Win>
+  <DepthGraphMove_Win>3134 310 266 326</DepthGraphMove_Win>
+  <DepthGraph_Mode_>0</DepthGraph_Mode_>
+  <DepthGraph_Sizes_>0</DepthGraph_Sizes_>
+  <GangEditorMove_Win>2730 475 300 250</GangEditorMove_Win>
+  <GradeSetup_Display_Key>0</GradeSetup_Display_Key>
+  <GradeSetup_On_Black>1</GradeSetup_On_Black>
   <ImportOptionsMove_Win>100 100 1020 300</ImportOptionsMove_Win>
   <Import_Setup>
     <ClipName>
@@ -54,7 +59,7 @@
     <Interlaced>false</Interlaced>
     <LinkByFile>true</LinkByFile>
     <ReplicateTree>false</ReplicateTree>
-    <Separator>~</Separator>
+    <Separator>None</Separator>
     <TapeName>
       <Dir1>false</Dir1>
       <Dir2>false</Dir2>
@@ -65,65 +70,57 @@
       <Name>false</Name>
     </TapeName>
   </Import_Setup>
-  <Mix_>0</Mix_>
-  <Offset>0</Offset>
   <Offset_X>0.000</Offset_X>
   <Offset_Y>0.000</Offset_Y>
-  <Opacity>49</Opacity>
-  <ReelPanelTreeMove_Win>1977 -20 210 675</ReelPanelTreeMove_Win>
+  <ReelPanelTreeMove_Win>1958 -80 210 755</ReelPanelTreeMove_Win>
   <Scale_X>100.000</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>2230 0 522 552</Scope1Move_Win>
+  <Scope1Move_Win>12 89 522 552</Scope1Move_Win>
+  <Scope1_Mode_>4</Scope1_Mode_>
   <Scope1_Scale_>6</Scope1_Scale_>
-  <Scope1_Sizes_>2</Scope1_Sizes_>
-  <Scope2Move_Win>1099 85 522 552</Scope2Move_Win>
-  <Scope2_Mode_>1</Scope2_Mode_>
-  <Scope2_Negative_>0</Scope2_Negative_>
+  <Scope1_Sizes_>1</Scope1_Sizes_>
+  <Scope2Move_Win>33 169 522 552</Scope2Move_Win>
+  <Scope2_Mode_>0</Scope2_Mode_>
   <Scope2_Scale_>7</Scope2_Scale_>
-  <Scope2_Sizes_>1</Scope2_Sizes_>
-  <Scope3Move_Win>54 9 522 552</Scope3Move_Win>
-  <Scope3_Mode_>4</Scope3_Mode_>
-  <Scope3_Negative_>1</Scope3_Negative_>
-  <Scope3_Scale_>0</Scope3_Scale_>
+  <Scope2_Sizes_>2</Scope2_Sizes_>
+  <Scope3Move_Win>1198 35 522 552</Scope3Move_Win>
+  <Scope3_Mode_>1</Scope3_Mode_>
+  <Scope3_Quality_>0</Scope3_Quality_>
+  <Scope3_Scale_>7</Scope3_Scale_>
   <Scope3_Sizes_>1</Scope3_Sizes_>
-  <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
+  <Scope4Move_Win>0 49 266 326</Scope4Move_Win>
+  <Scope4_Mode_>1</Scope4_Mode_>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>0</Sequences_Setup_Default_result_sizeDefault_result_size__>
-  <Size>12</Size>
   <Size_X>1920</Size_X>
-  <Size_Y>2160</Size_Y>
-  <Snapshot2Move_Win>3491 28 244 264</Snapshot2Move_Win>
+  <Size_Y>1350</Size_Y>
+  <Snapshot2Move_Win>3444 134 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
     <AutoSnapshot>false</AutoSnapshot>
-    <CurrentGroup>0</CurrentGroup>
+    <CurrentGroup>1</CurrentGroup>
     <LockHeadB>false</LockHeadB>
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
     <View>0</View>
     <Zoom>2</Zoom>
   </StoryBoard>
-  <Text_Opacity>42</Text_Opacity>
-  <Tracker_Rotate>1</Tracker_Rotate>
-  <Tracker_Size>0</Tracker_Size>
-  <Tracker_SizeXY>1</Tracker_SizeXY>
-  <calc_Base>2</calc_Base>
+  <Tracker_Rotate>0</Tracker_Rotate>
+  <Tracker_Round>0</Tracker_Round>
+  <Tracker_Size>1</Tracker_Size>
+  <Tracker_SizeXY>0</Tracker_SizeXY>
+  <calc_Base>1</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
   <composer_JogSpeed_16>1</composer_JogSpeed_16>
   <composer_KnobSpeed_16>1</composer_KnobSpeed_16>
   <composer_PrinterLights_1>1</composer_PrinterLights_1>
   <composer_PrinterLights_B_W_>1</composer_PrinterLights_B_W_>
   <composer_RingSpeed_16>1</composer_RingSpeed_16>
-  <config>216 613 530 487</config>
-  <dcp_Content_Type>6</dcp_Content_Type>
-  <dcp_Day>3</dcp_Day>
-  <dcp_Language>30</dcp_Language>
-  <dcp_Month>4</dcp_Month>
-  <dcp_Ratings>0</dcp_Ratings>
-  <dcp_Studio>0</dcp_Studio>
-  <dcp_Territory>16</dcp_Territory>
-  <dcp_Year>7</dcp_Year>
+  <composer_RingSpeed_4>0</composer_RingSpeed_4>
+  <config>220 523 530 577</config>
   <edit_>2</edit_>
   <edit_Animation>1</edit_Animation>
+  <edit_Audio_Icons>2</edit_Audio_Icons>
+  <edit_Auto_Key_State>0</edit_Auto_Key_State>
   <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
@@ -152,17 +149,23 @@
   <mistika>
     <colorGrade>
       <Curves>
+        <EditorHSL>
+          <winMaximizeGeometry>2884 25 952 571</winMaximizeGeometry>
+        </EditorHSL>
+        <EditorLS>
+          <winMaximizeGeometry>2035 205 500 400</winMaximizeGeometry>
+        </EditorLS>
         <EditorRGB>
-          <winMaximizeGeometry>1920 21 1920 1179</winMaximizeGeometry>
+          <winMaximizeGeometry>901 326 500 400</winMaximizeGeometry>
         </EditorRGB>
       </Curves>
       <Setup>
-        <BALL_SPEED>8</BALL_SPEED>
+        <BALL_SPEED>4</BALL_SPEED>
         <DrawOverlay>true</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>16</JOG_SPEED>
         <KNOB_SPEED>16</KNOB_SPEED>
-        <PrinterLightsStep>1.217</PrinterLightsStep>
+        <PrinterLightsStep>0.19999999999999996</PrinterLightsStep>
         <RING_SPEED>4</RING_SPEED>
         <TrackballRGBValuesOn>true</TrackballRGBValuesOn>
       </Setup>
@@ -170,7 +173,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22326_Gilde_Hverdagslam_2021_V</current>
+    <current>22278_Den_Norske_Kirke</current>
   </project>
   <relink>
     <mistika>
@@ -180,16 +183,15 @@
   <render2_Audio>1</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
-  <render2_Except_JS_clips>0</render2_Except_JS_clips>
   <render2_Filter>1</render2_Filter>
   <render2_Slate_1>0</render2_Slate_1>
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>1</render2_Source>
-  <render2_Split>2</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
+  <render2_Source>0</render2_Source>
+  <render2_Split>1</render2_Split>
+  <render2_Stereo>0</render2_Stereo>
+  <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
@@ -208,29 +210,28 @@
   <render_Time_Code_Source>0</render_Time_Code_Source>
   <render_Xfs_dev_Target>0</render_Xfs_dev_Target>
   <setup_All_Objects>0</setup_All_Objects>
-  <setup_Auto_Expand>0</setup_Auto_Expand>
+  <setup_Auto_Expand>1</setup_Auto_Expand>
+  <setup_Auto_Snapshot>0</setup_Auto_Snapshot>
   <setup_Auto_Sync_Editor_to_Timeline>0</setup_Auto_Sync_Editor_to_Timeline>
   <setup_Constrain_X>0</setup_Constrain_X>
-  <setup_Current_Gang>0</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
   <setup_Current_Track>0</setup_Current_Track>
-  <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
   <setup_Flow_Monitor>0</setup_Flow_Monitor>
   <setup_Free_capturing_in_one_clip>1</setup_Free_capturing_in_one_clip>
-  <setup_Hide_Text>1</setup_Hide_Text>
+  <setup_Limit_Y>0</setup_Limit_Y>
   <setup_Loop>1</setup_Loop>
   <setup_Mute_Audio>0</setup_Mute_Audio>
   <setup_Mute_Video>0</setup_Mute_Video>
+  <setup_Mute_moving_clips>0</setup_Mute_moving_clips>
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
+  <setup_S3D_Live>2</setup_S3D_Live>
+  <setup_Select_Monitor>1</setup_Select_Monitor>
   <setup_Selected>1</setup_Selected>
+  <setup_Show_Overtrim>1</setup_Show_Overtrim>
   <setup_Single>0</setup_Single>
-  <setup_Text_Shadows>1</setup_Text_Shadows>
-  <setup_record_monitor_Active_Burn>0</setup_record_monitor_Active_Burn>
-  <setup_sdr_or_hdr_>0</setup_sdr_or_hdr_>
-  <setup_source_monitor_Stereo_Mode>0</setup_source_monitor_Stereo_Mode>
   <tangent>
     <BALL_SPEED>16</BALL_SPEED>
     <JOG_SPEED>16</JOG_SPEED>
@@ -243,4 +244,8 @@
       <mode>1</mode>
     </visualEditorTC>
   </timeCodeStackWidget>
+  <visoualEditor_Off>0</visoualEditor_Off>
+  <visoualEditor_Split>1</visoualEditor_Split>
+  <visoualEditor_Zoom_1>1</visoualEditor_Zoom_1>
+  <visoualEditor_Zoom_2>0</visoualEditor_Zoom_2>
 </UIvalues>
