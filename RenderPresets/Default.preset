@@ -2,13 +2,22 @@
 <RenderConfig>
   <Video>
     <Enabled>1</Enabled>
-    <Encoder>XFS</Encoder>
-    <Format>XFS.RGB10</Format>
+    <Encoder>ffmpeg_MOV</Encoder>
+    <Format>ffmpeg_MOV.MOVIE_MOV_MPEG4</Format>
+    <Config>
+      <Video>
+        <Param>b=10000000</Param>
+        <Param>g=1</Param>
+      </Video>
+      <Audio>
+        <Param>b=192000</Param>
+      </Audio>
+    </Config>
     <Options>
       <Framing>
         <Active>0</Active>
         <SizeX>1920</SizeX>
-        <SizeY>1080</SizeY>
+        <SizeY>2160</SizeY>
         <ScaleX>100.000000</ScaleX>
         <ScaleY>100.000000</ScaleY>
         <OffsetX>0.000000</OffsetX>
@@ -19,9 +28,9 @@
         <CropD>0.000000</CropD>
       </Framing>
       <Location>
-        <Target>User defined</Target>
-        <Device>Xfs.dev</Device>
-        <Path>/Volumes/MATERIAL_HF/MISTIKA_MEDIA/[project]/MISTIKA_JS/[renderName][_segmentIndex][_eye?Left:Right].[ext]</Path>
+        <Target>DEFAULT.RenderName</Target>
+        <Device>Movie.dev</Device>
+        <Path>/Volumes/MATERIAL_HF/MISTIKA_MEDIA/DELIVERY/DI/[project]/[ext]/[renderName][_eye?Left:Right]/[renderName][_segmentIndex].[ext]</Path>
       </Location>
       <Framerate>0.000000</Framerate>
       <Interlace>0</Interlace>
@@ -40,9 +49,8 @@
     </Options>
   </Video>
   <Audio>
-    <Enabled>0</Enabled>
-    <Encoder>WAVE</Encoder>
-    <Format>WAVE.AUDIO_WAVE_24</Format>
+    <Enabled>1</Enabled>
+    <Encoder>IN_MOVIE</Encoder>
     <Options>
       <Location>
         <Target>SAN3</Target>
@@ -58,16 +66,16 @@
     <Format>XFS.YUV422</Format>
   </Proxy>
   <AutoName>1</AutoName>
-  <RenderName>M3</RenderName>
+  <RenderName>RENDER</RenderName>
   <SplitToSegments>
-    <Enabled>1</Enabled>
+    <Enabled>2</Enabled>
     <FirstIndex>0</FirstIndex>
-    <TapeSource>0</TapeSource>
+    <TapeSource>1</TapeSource>
     <TcSource>0</TcSource>
     <TcPrefer>0</TcPrefer>
     <IgnoreJs>0</IgnoreJs>
     <PreferedClip>0</PreferedClip>
-    <FilterUsedClips>1</FilterUsedClips>
+    <FilterUsedClips>0</FilterUsedClips>
   </SplitToSegments>
   <ScriptAfter>None</ScriptAfter>
   <Head>0</Head>
