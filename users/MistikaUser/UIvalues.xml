@@ -58,7 +58,7 @@
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
     <LinkByFile>true</LinkByFile>
-    <ReplicateTree>false</ReplicateTree>
+    <ReplicateTree>true</ReplicateTree>
     <Separator>None</Separator>
     <TapeName>
       <Dir1>false</Dir1>
@@ -123,7 +123,7 @@
   <edit_Auto_Key_State>0</edit_Auto_Key_State>
   <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
-  <edit_Trim>2</edit_Trim>
+  <edit_Trim>1</edit_Trim>
   <filebrowser>
     <HEADER_SIZE0>0</HEADER_SIZE0>
     <HEADER_SIZE1>0</HEADER_SIZE1>
@@ -173,7 +173,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22306_Coop_Mega_Tine</current>
+    <current>22326_Gilde_Hverdagslam_2021_V</current>
   </project>
   <relink>
     <mistika>
