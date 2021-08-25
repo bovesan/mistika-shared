@@ -6760,6 +6760,8 @@ ButtonOverrides(
 	b(n(TimeEditor/Image size/QFHD 1.30) k())
 	b(n(TimeEditor/Image size/QFHD DSQ)  k())
 	b(n(TimeEditor/Image size/QFHD Entire)k())
+	b(n(TimeEditor/InAlpha/No)           k())
+	b(n(TimeEditor/InAlpha/Yes)          k())
 	b(n(TimeEditor/Input/IgnoreBottom/No)k())
 	b(n(TimeEditor/Input/IgnoreBottom/Yes)k())
 	b(n(TimeEditor/Input/IgnoreLeft/No)  k())
