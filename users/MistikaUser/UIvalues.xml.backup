@@ -8,7 +8,7 @@
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
-    <FeatherOverlay>true</FeatherOverlay>
+    <FeatherOverlay>false</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
     <GridOverlay>false</GridOverlay>
@@ -25,8 +25,8 @@
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
-    <Snapshot>false</Snapshot>
-    <StereoMode_Disp>9057</StereoMode_Disp>
+    <Snapshot>true</Snapshot>
+    <StereoMode_Disp>9056</StereoMode_Disp>
     <StereoMode_Live>9073</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
     <UnscaledRes>true</UnscaledRes>
@@ -101,7 +101,7 @@
     <LockHeadB>false</LockHeadB>
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
-    <View>0</View>
+    <View>1</View>
     <Zoom>2</Zoom>
   </StoryBoard>
   <Tracker_Rotate>0</Tracker_Rotate>
@@ -123,7 +123,7 @@
   <edit_Auto_Key_State>0</edit_Auto_Key_State>
   <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
-  <edit_Trim>1</edit_Trim>
+  <edit_Trim>2</edit_Trim>
   <filebrowser>
     <HEADER_SIZE0>0</HEADER_SIZE0>
     <HEADER_SIZE1>0</HEADER_SIZE1>
@@ -189,8 +189,8 @@
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>0</render2_Source>
-  <render2_Split>1</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
+  <render2_Split>0</render2_Split>
+  <render2_Stereo>0</render2_Stereo>
   <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
@@ -209,7 +209,7 @@
   <render_Tape_Name_Source>0</render_Tape_Name_Source>
   <render_Time_Code_Source>0</render_Time_Code_Source>
   <render_Xfs_dev_Target>0</render_Xfs_dev_Target>
-  <setup_All_Objects>1</setup_All_Objects>
+  <setup_All_Objects>0</setup_All_Objects>
   <setup_Auto_Expand>1</setup_Auto_Expand>
   <setup_Auto_Snapshot>0</setup_Auto_Snapshot>
   <setup_Auto_Sync_Editor_to_Timeline>0</setup_Auto_Sync_Editor_to_Timeline>
@@ -229,7 +229,7 @@
   <setup_S3D_Disp>2</setup_S3D_Disp>
   <setup_S3D_Live>2</setup_S3D_Live>
   <setup_Select_Monitor>1</setup_Select_Monitor>
-  <setup_Selected>0</setup_Selected>
+  <setup_Selected>1</setup_Selected>
   <setup_Show_Overtrim>1</setup_Show_Overtrim>
   <setup_Single>0</setup_Single>
   <tangent>
