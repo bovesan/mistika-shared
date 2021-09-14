@@ -76,10 +76,10 @@
   <ReelPanelTreeMove_Win>1977 -20 210 675</ReelPanelTreeMove_Win>
   <Scale_X>177.778</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>1040 62 522 552</Scope1Move_Win>
+  <Scope1Move_Win>441 501 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>2</Scope1_Sizes_>
-  <Scope2Move_Win>1352 53 522 552</Scope2Move_Win>
+  <Scope2Move_Win>115 13 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
@@ -173,7 +173,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22317_Wideroe_2021</current>
+    <current>22223_Ane_Brun_musikkvideo</current>
   </project>
   <relink>
     <mistika>
@@ -200,7 +200,7 @@
   <render_L_NullFormat>0</render_L_NullFormat>
   <render_Movie_dev_Target>0</render_Movie_dev_Target>
   <render_Prefered_source_clip>0</render_Prefered_source_clip>
-  <render_Scale>0</render_Scale>
+  <render_Scale>1</render_Scale>
   <render_Segments_Mode>0</render_Segments_Mode>
   <render_Slate_1>0</render_Slate_1>
   <render_Slate_1_During>0</render_Slate_1_During>
