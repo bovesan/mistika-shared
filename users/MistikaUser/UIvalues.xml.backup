@@ -75,7 +75,7 @@
   <Opacity>54</Opacity>
   <ReelPanelTreeMove_Win>1977 -20 210 675</ReelPanelTreeMove_Win>
   <Scale_X>100.000</Scale_X>
-  <Scale_Y>100.000</Scale_Y>
+  <Scale_Y>134.663</Scale_Y>
   <Scope1Move_Win>17 606 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>2</Scope1_Sizes_>
@@ -93,7 +93,7 @@
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>29</Size>
   <Size_X>1920</Size_X>
-  <Size_Y>1080</Size_Y>
+  <Size_Y>802</Size_Y>
   <Snapshot2Move_Win>3491 28 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
@@ -127,7 +127,7 @@
   <dcp_Year>7</dcp_Year>
   <edit_>2</edit_>
   <edit_Animation>1</edit_Animation>
-  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
   <filebrowser>
@@ -173,7 +173,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22328_Nidar_Ny_Replikk</current>
+    <current>22316_BabyBoom</current>
   </project>
   <relink>
     <mistika>
@@ -234,7 +234,7 @@
   <setup_Text_Shadows>1</setup_Text_Shadows>
   <setup_record_monitor_Active_Burn>0</setup_record_monitor_Active_Burn>
   <setup_record_monitor_Stereo_Mode>0</setup_record_monitor_Stereo_Mode>
-  <setup_sdr_or_hdr_>0</setup_sdr_or_hdr_>
+  <setup_sdr_or_hdr_>1</setup_sdr_or_hdr_>
   <setup_source_monitor_Stereo_Mode>0</setup_source_monitor_Stereo_Mode>
   <tangent>
     <BALL_SPEED>16</BALL_SPEED>
