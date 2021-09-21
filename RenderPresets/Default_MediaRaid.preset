@@ -19,9 +19,9 @@
         <CropD>0.000000</CropD>
       </Framing>
       <Location>
-        <Target>User defined</Target>
+        <Target>MEDIARAID</Target>
         <Device>Xfs.dev</Device>
-        <Path>/Volumes/mediaraid/Projects/[project]/MISTIKA_JS/[renderName][_segmentIndex][_eye?Left:Right].[ext]</Path>
+        <Path>/Volumes/mediaraid/Projects/Meida/[project]/DI/[tapeName]_[_segmentIndex].[ext]</Path>
       </Location>
       <Framerate>0.000000</Framerate>
       <Interlace>0</Interlace>
