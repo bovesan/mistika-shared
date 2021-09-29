@@ -4,11 +4,16 @@
     <Enabled>1</Enabled>
     <Encoder>ffmpeg_MOV</Encoder>
     <Format>ffmpeg_MOV.MOVIE_MOV_PRORES_HQ</Format>
+    <Config>
+      <Audio>
+        <Param>b=192000</Param>
+      </Audio>
+    </Config>
     <Options>
       <Framing>
         <Active>1</Active>
-        <SizeX>1080</SizeX>
-        <SizeY>1350</SizeY>
+        <SizeX>1728</SizeX>
+        <SizeY>2160</SizeY>
         <ScaleX>222.222229</ScaleX>
         <ScaleY>100.000000</ScaleY>
         <OffsetX>0.000000</OffsetX>
