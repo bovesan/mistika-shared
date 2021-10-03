@@ -55,7 +55,7 @@
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>false</LinkByFile>
+    <LinkByFile>true</LinkByFile>
     <ReplicateTree>true</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
@@ -81,20 +81,20 @@
   <Scope1_Sizes_>2</Scope1_Sizes_>
   <Scope2Move_Win>1353 40 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
-  <Scope2_Negative_>0</Scope2_Negative_>
-  <Scope2_Scale_>6</Scope2_Scale_>
+  <Scope2_Negative_>1</Scope2_Negative_>
+  <Scope2_Scale_>7</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>48 120 522 552</Scope3Move_Win>
   <Scope3_Mode_>4</Scope3_Mode_>
   <Scope3_Negative_>1</Scope3_Negative_>
-  <Scope3_Scale_>6</Scope3_Scale_>
+  <Scope3_Scale_>7</Scope3_Scale_>
   <Scope3_Sizes_>1</Scope3_Sizes_>
   <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>29</Size>
   <Size_X>1920</Size_X>
   <Size_Y>1920</Size_Y>
-  <Snapshot2Move_Win>3491 28 244 264</Snapshot2Move_Win>
+  <Snapshot2Move_Win>3329 167 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
     <AutoSnapshot>false</AutoSnapshot>
@@ -102,7 +102,7 @@
     <LockHeadB>false</LockHeadB>
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
-    <View>0</View>
+    <View>1</View>
     <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
@@ -127,7 +127,7 @@
   <dcp_Year>7</dcp_Year>
   <edit_>2</edit_>
   <edit_Animation>1</edit_Animation>
-  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
   <filebrowser>
@@ -160,7 +160,7 @@
         </EditorRGB>
       </Curves>
       <Setup>
-        <BALL_SPEED>2</BALL_SPEED>
+        <BALL_SPEED>4</BALL_SPEED>
         <DrawOverlay>true</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>16</JOG_SPEED>
@@ -173,7 +173,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22222_Chachimo</current>
+    <current>22316_BabyBoom</current>
   </project>
   <relink>
     <mistika>
@@ -189,10 +189,10 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>1</render2_Source>
-  <render2_Split>2</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
+  <render2_Source>0</render2_Source>
+  <render2_Split>0</render2_Split>
+  <render2_Stereo>0</render2_Stereo>
+  <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
