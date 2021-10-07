@@ -7516,6 +7516,8 @@ ButtonOverrides(
 	b(n(TimeEditor/Settings/OLPFCompensation/Medium)k())
 	b(n(TimeEditor/Settings/OLPFCompensation/Off)k())
 	b(n(TimeEditor/Settings/OLPFCompensation/Source)k())
+	b(n(TimeEditor/Settings/Output/Capsule)k())
+	b(n(TimeEditor/Settings/Output/Composite)k())
 	b(n(TimeEditor/Settings/RMD/No)      k())
 	b(n(TimeEditor/Settings/RMD/Yes)     k())
 	b(n(TimeEditor/Settings/RMD/mConfig) k())

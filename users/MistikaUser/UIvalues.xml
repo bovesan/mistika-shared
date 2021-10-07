@@ -7,10 +7,10 @@
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
-    <FeatherOverlay>true</FeatherOverlay>
+    <FeatherOverlay>false</FeatherOverlay>
     <FrameRate>-1</FrameRate>
-    <Gang>true</Gang>
-    <GridOverlay>false</GridOverlay>
+    <Gang>false</Gang>
+    <GridOverlay>true</GridOverlay>
     <Interlaced>false</Interlaced>
     <Live>false</Live>
     <LiveRes>false</LiveRes>
@@ -19,7 +19,7 @@
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
+    <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
@@ -79,7 +79,7 @@
   <Scope1Move_Win>3275 5 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>2</Scope1_Sizes_>
-  <Scope2Move_Win>2169 9 522 552</Scope2Move_Win>
+  <Scope2Move_Win>1297 30 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
@@ -102,7 +102,7 @@
     <LockHeadB>false</LockHeadB>
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
-    <View>1</View>
+    <View>0</View>
     <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
@@ -191,7 +191,7 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
+  <render2_Stereo>1</render2_Stereo>
   <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
