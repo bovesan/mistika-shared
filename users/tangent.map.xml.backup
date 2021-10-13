@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <tangentDriver>
   <map>
     <group name="0">
@@ -19,7 +19,6 @@
       <bind Label=" " dv="0x0000001E">BandsTB0_Z</bind>
       <bind Label=" " dv="0x00000020">BandsTB4_Y</bind>
       <bind Label=" " dv="0x00000021">BandsTB4_Z</bind>
-      <bind Label=" " dv="0x00000047_R">Composer:Grade:Keyer:HueRst</bind>
       <bind Label=" " dv="0x000000F6">Composer:CommonControls:Bring:SwapPlayheads</bind>
       <bind Label=" " dv="0x0000015F">Edit:JOG</bind>
       <bind Label=" " dv="0x000001FC">Composer:CommonControls:Bring:HeadBToSelected</bind>
@@ -29,6 +28,34 @@
       <bind Label=" " dv="0x00000404_R">Composer:Grade:Keyer:PostSat:Reset</bind>
       <bind Label=" " dv="0x0000055B_R">Snapshot:ShowSplit</bind>
       <bind Label=" " dv="0x0000055C_R">Snapshot:ShowSnapshot</bind>
+      <bind Label=" " dv="0x00003004">PrimaryTBOffset_Y</bind>
+      <bind Label=" " dv="0x0000300B">PrimaryTBContrast_Y</bind>
+      <bind Label=" " dv="0x00004007">KeyerPoint1Y</bind>
+      <bind Label=" " dv="0x00004008">KeyerPoint2Y</bind>
+      <bind Label=" " dv="0x00004009">KeyerPoint3Y</bind>
+      <bind Label=" " dv="0x0000400A">KeyerPoint4Y</bind>
+      <bind Label=" " dv="0x0000400B">KeyerPoint5Y</bind>
+      <bind Label=" " dv="0x0000400C">KeyerPoint6Y</bind>
+      <bind Label=" " dv="0x0000800A">FixedHexagonChromaRed_Y</bind>
+      <bind Label=" " dv="0x0000800B">FixedHexagonLumaRed_Z</bind>
+      <bind Label=" " dv="0x0000800D">FixedHexagonChromaYellow_Y</bind>
+      <bind Label=" " dv="0x0000800E">FixedHexagonLumaYellow_Z</bind>
+      <bind Label=" " dv="0x00009002">FixedHexagonChromaGreen_Y</bind>
+      <bind Label=" " dv="0x00009003">FixedHexagonLumaGreen_Z</bind>
+      <bind Label=" " dv="0x00009005">FixedHexagonChromaCyan_Y</bind>
+      <bind Label=" " dv="0x00009006">FixedHexagonLumaCyan_Z</bind>
+      <bind Label=" " dv="0x00009008">FixedHexagonChromaBlue_Y</bind>
+      <bind Label=" " dv="0x00009009">FixedHexagonLumaBlue_Z</bind>
+      <bind Label=" " dv="0x0000900B">FixedHexagonChromaMagenta_Y</bind>
+      <bind Label=" " dv="0x0000900C">FixedHexagonLumaMagenta_Z</bind>
+      <bind Label=" " dv="0x00010034">PrimaryLevelAll</bind>
+      <bind Label=" " dv="0x00010035">PrimaryContrastAll</bind>
+      <bind Label=" " dv="0x00010038">CurvePoint1</bind>
+      <bind Label=" " dv="0x0001003A">CurvePoint2</bind>
+      <bind Label=" " dv="0x0001003C">CurvePoint3</bind>
+      <bind Label=" " dv="0x0001003E">CurvePoint4</bind>
+      <bind Label=" " dv="0x00010040">CurvePoint5</bind>
+      <bind Label=" " dv="0x00010042">CurvePoint6</bind>
       <bind Label=" " dv="0x0100013D">PrimaryLevelAll</bind>
       <bind Label=" " dv="0x07000001">PrimaryTB1_X</bind>
       <bind Label=" " dv="0x07000003">PrimaryTB1_Z</bind>
@@ -60,35 +87,43 @@
       <bind Label="" dv="0x01000010_R">Composer:Grade:Primary:PrinterLights:All-Plus</bind>
       <bind Label="" dv="0x01000011_R">Composer:Grade:Primary:PrinterLights:All-Minus</bind>
       <bind Label="0" dv="0x0000055D">FXPreset:PR0:Use</bind>
-      <bind Label="1 POINT" dv="0x00000134">Composer:Grade:Primary:PrinterLights:StepFracion1</bind>
-      <bind Label="1 POINT" dv="0x01000134_R">Composer:Grade:Primary:PrinterLights:StepFracion1</bind>
+      <bind Label="1 POINT" dv="0x00000134">Composer:Grade:Primary:PrinterLights:StepFraction1</bind>
+      <bind Label="1 POINT" dv="0x01000134_R">Composer:Grade:Primary:PrinterLights:StepFraction1</bind>
       <bind Label="1" dv="0x000000D7">FXPreset:PR1:Use</bind>
       <bind Label="1.8500000000000001" dv="0x0000007F">Composer:Framing:Crop:Ratio_185</bind>
-      <bind Label="16:9" dv="0x00000080">Composer:Framing:Crop:Ratio_16_9</bind>
-      <bind Label="1:2 POINT" dv="0x00000135">Composer:Grade:Primary:PrinterLights:StepFracion1_2</bind>
-      <bind Label="1:2 POINT" dv="0x01000135_R">Composer:Grade:Primary:PrinterLights:StepFracion1_2</bind>
-      <bind Label="1:4 POINT" dv="0x00000136">Composer:Grade:Primary:PrinterLights:StepFracion1_4</bind>
-      <bind Label="1:4 POINT" dv="0x01000136_R">Composer:Grade:Primary:PrinterLights:StepFracion1_4</bind>
+      <bind Label="1/2 POINT" dv="0x00000135">Composer:Grade:Primary:PrinterLights:StepFraction1_2</bind>
+      <bind Label="1/2 POINT" dv="0x01000135_R">Composer:Grade:Primary:PrinterLights:StepFraction1_2</bind>
+      <bind Label="1/4 POINT" dv="0x00000136">Composer:Grade:Primary:PrinterLights:StepFraction1_4</bind>
+      <bind Label="1/4 POINT" dv="0x01000136_R">Composer:Grade:Primary:PrinterLights:StepFraction1_4</bind>
+      <bind Label="16/9" dv="0x00000080">Composer:Framing:Crop:Ratio_16_9</bind>
       <bind Label="2" dv="0x000000D8">FXPreset:PR2:Use</bind>
-      <bind Label="2.3500000000000001" dv="0x0000007E">Composer:Framing:Crop:Ratio_235</bind>
+      <bind Label="2.39" dv="0x0000007E">Composer:Framing:Crop:Ratio_239</bind>
       <bind Label="3" dv="0x000000D9">FXPreset:PR3:Use</bind>
       <bind Label="3D" dv="0x00000503">Composer:Grade:Keyer:Tabs:3D</bind>
+      <bind Label="3DLUT" dv="0x00006009">Composer:Grade:Options:Lut3D</bind>
       <bind Label="4" dv="0x000000DA">FXPreset:PR4:Use</bind>
-      <bind Label="4:3" dv="0x00000081">Composer:Framing:Crop:Ratio_4_3</bind>
+      <bind Label="4/3" dv="0x00000081">Composer:Framing:Crop:Ratio_4_3</bind>
       <bind Label="5" dv="0x000000DB">FXPreset:PR5:Use</bind>
       <bind Label="6" dv="0x000000DC">FXPreset:PR6:Use</bind>
       <bind Label="7" dv="0x000000DD">FXPreset:PR7:Use</bind>
       <bind Label="8" dv="0x000000DE">FXPreset:PR8:Use</bind>
       <bind Label="9" dv="0x000000DF">FXPreset:PR9:Use</bind>
+      <bind Label="ADD KEY SHAPE" dv="0x00010049">Composer:Shapes:Key:Add</bind>
+      <bind Label="ADD KEY" dv="0x0000040D">Composer:Grade:Keyer:Add</bind>
+      <bind Label="ADD POINT" dv="0x00000802">Composer:Grade:Curve:Curve-AddPoint</bind>
+      <bind Label="ADD POINT" dv="0x0000300C">Composer:Grade:Keyer:KeyGraph:AddPoint</bind>
       <bind Label="ADD POINTS" dv="0x00000267">Composer:Grade:Curve:Curve-AddPoints</bind>
       <bind Label="ADD POINTS" dv="0x0000052D_R">Composer:Grade:Curve:Curve-AddPoints</bind>
-      <bind Label="ADD SOFT" dv="0x0000040E">Composer:Grade:Keyer:AddSoft</bind>
+      <bind Label="ADD POINTS" dv="0x00000809">Composer:Grade:Curve:Curve-AddPoints</bind>
+      <bind Label="ADD POINTS" dv="0x0000300E">Composer:Grade:Keyer:KeyGraph:AddPoints</bind>
+      <bind Label="ADD SOFTNESS KEY" dv="0x0000040E">Composer:Grade:Keyer:AddSoft</bind>
       <bind Label="ADD VECT" dv="0x000000FA">Curves:Layer:AddLayer</bind>
-      <bind Label="ADD" dv="0x0000040D">Composer:Grade:Keyer:Add</bind>
-      <bind Label="ALIGN XY" dv="0x0000023B">TimeEditor:Curve:32:4</bind>
-      <bind Label="ALIGN XY" dv="0x00000554_R">TimeEditor:Curve:32:4</bind>
-      <bind Label="ALIGN" dv="0x0000023A">TimeEditor:Curve:32:3</bind>
-      <bind Label="ALIGN" dv="0x00000559_R">TimeEditor:Curve:32:3</bind>
+      <bind Label="ALIGN L" dv="0x00000706">Edit:Align:Left</bind>
+      <bind Label="ALIGN R" dv="0x00000707">Edit:Align:Right</bind>
+      <bind Label="ALIGN XY" dv="0x0000023B">TimeEditor:Optical Flow/Params/Mode:AlignXY</bind>
+      <bind Label="ALIGN XY" dv="0x00000554_R">TimeEditor:Optical Flow/Params/Mode:AlignXY</bind>
+      <bind Label="ALIGN" dv="0x0000023A">TimeEditor:Optical Flow/Params/Mode:Align</bind>
+      <bind Label="ALIGN" dv="0x00000559_R">TimeEditor:Optical Flow/Params/Mode:Align</bind>
       <bind Label="ALL CONT" dv="0x00000025">BandsAllCont</bind>
       <bind Label="ALL HUE" dv="0x00000023">BandsAllHue</bind>
       <bind Label="ALL SAT" dv="0x00000024">BandsAllSat</bind>
@@ -96,52 +131,90 @@
       <bind Label="ALL+" dv="0x01000010"/>
       <bind Label="ALL-" dv="0x00000133">Composer:Grade:Primary:PrinterLights:All-Minus</bind>
       <bind Label="ALL-" dv="0x01000011"/>
-      <bind Label="APPLY COL" dv="0x00000090">TimeEditor:Curve:18:Rotate</bind>
-      <bind Label="APPLY COL" dv="0x00000543_R">TimeEditor:Curve:18:Rotate</bind>
+      <bind Label="APPLY COLOR" dv="0x00000090">TimeEditor:Balance Color/Apply/Apply:Rotate</bind>
+      <bind Label="APPLY COLOR" dv="0x00000543_R">TimeEditor:Balance Color/Apply/Apply:Rotate</bind>
       <bind Label="APPLY CUS" dv="0x00000082">Composer:Framing:Crop:Custom</bind>
       <bind Label="APPLY CUSTOM" dv="0x00000540_R">Composer:Framing:Crop:Custom</bind>
-      <bind Label="APPLY GEO" dv="0x0000022D">TimeEditor:Curve:6:Rotate</bind>
-      <bind Label="APPLY GEO" dv="0x00000547_R">TimeEditor:Curve:6:Rotate</bind>
+      <bind Label="APPLY GEO" dv="0x0000022D">TimeEditor:Balance Geometry/Apply:Rotate</bind>
+      <bind Label="APPLY GEO" dv="0x00000547_R">TimeEditor:Balance Geometry/Apply:Rotate</bind>
+      <bind Label="AUTOKEY SHAPE" dv="0x00010048">Composer:Shapes:Key:Auto</bind>
       <bind Label="AUTOKEY" dv="0x000001E0">Composer:CommonControls:Key:AutoKey</bind>
-      <bind Label="B+ MODE" dv="0x00000139">Composer:Grade:Primary:PrinterLights:ModeB+</bind>
-      <bind Label="B+ MODE" dv="0x01000139_R">Composer:Grade:Primary:PrinterLights:ModeB+</bind>
+      <bind Label="B CURVE" dv="0x00003001">Composer:Grade:Curve:B-Curve</bind>
       <bind Label="B+" dv="0x00000128">Composer:Grade:Primary:PrinterLights:B-Plus</bind>
       <bind Label="B+" dv="0x0100000C"/>
-      <bind Label="B+W+ MODE" dv="0x00000137">Composer:Grade:Primary:PrinterLights:ModeB+W+</bind>
-      <bind Label="B+W+ MODE" dv="0x01000137_R">Composer:Grade:Primary:PrinterLights:ModeB+W+</bind>
       <bind Label="B-" dv="0x0000012E">Composer:Grade:Primary:PrinterLights:B-Minus</bind>
       <bind Label="B-" dv="0x0100000F"/>
       <bind Label="B-BLEND" dv="0x00000166">B-Blend</bind>
       <bind Label="B-GAMMA" dv="0x0000024D">Composer:Grade:Keyer:BlurGamma:Knob</bind>
       <bind Label="B-RADIUS" dv="0x00000165">B-Radius</bind>
-      <bind Label="B-W+ MODE" dv="0x00000138">Composer:Grade:Primary:PrinterLights:ModeB-W+</bind>
-      <bind Label="B-W+ MODE" dv="0x01000138_R">Composer:Grade:Primary:PrinterLights:ModeB-W+</bind>
       <bind Label="B.PIVOT" dv="0x00000406">BlackPivot</bind>
-      <bind Label="BLACK B" dv="0x000001F8">PrimaryBlackB</bind>
-      <bind Label="BLACK G" dv="0x000001F7">PrimaryBlackG</bind>
-      <bind Label="BLACK R" dv="0x000001F6">PrimaryBlackR</bind>
-      <bind Label="BLACK" dv="0x00000001">PrimaryTB1_X</bind>
+      <bind Label="BLACK CONT" dv="0x00000028">BandsDarkCont</bind>
+      <bind Label="BLACK HUE" dv="0x00000026">BandsDarkHue</bind>
+      <bind Label="BLACK RANGES" dv="0x00000031">Composer:Grade:Ranges:0</bind>
+      <bind Label="BLACK RANGES" dv="0x00000031_R">Composer:Grade:Ranges:Reset</bind>
+      <bind Label="BLACK SAT" dv="0x00000027">BandsDarkSat</bind>
       <bind Label="BLACK" dv="0x0000001C">BandsTB0_X</bind>
-      <bind Label="BLACK" dv="0x07000002">PrimaryTB1_Y</bind>
       <bind Label="BLACK" dv="0x0700001C">BandsTB0_X</bind>
       <bind Label="BLEND" dv="0x00000163">Blend</bind>
+      <bind Label="BLRBLEND" dv="0x00000166">B-Blend</bind>
+      <bind Label="BLUE B" dv="0x0001002A">FixedChannelMixerBlueB</bind>
+      <bind Label="BLUE G" dv="0x00010029">FixedChannelMixerBlueG</bind>
+      <bind Label="BLUE HUE" dv="0x00000905">Composer:Grade:Keyer:Hexagon:Blue</bind>
+      <bind Label="BLUE POINTS" dv="0x0000070D">Composer:Grade:Curve:HSL:Modes:Blue</bind>
+      <bind Label="BLUE R" dv="0x00010028">FixedChannelMixerBlueR</bind>
+      <bind Label="BLUE" dv="0x00007045">DolbyVisionHexagonChromaBlue_X</bind>
+      <bind Label="BLUE" dv="0x00007046">DolbyVisionHexagonChromaBlue_Y</bind>
+      <bind Label="BLUR TYPE" dv="0x0000500A">Composer:Grade:Keyer:BlurSharMode</bind>
+      <bind Label="BLUR" dv="0x0000400F">Composer:Grade:Keyer:Blur</bind>
+      <bind Label="BLUR/SHARP" dv="0x00000165">B-Radius</bind>
+      <bind Label="BLUR/SHARP" dv="0x00005003">Composer:Grade:Keyer:BlurSharp</bind>
       <bind Label="BORDER" dv="0x00000245">TimeEditor:Curve:60:Rotate</bind>
+      <bind Label="BRING FX" dv="0x0000010B">Composer:CommonControls:Bring:BringFx</bind>
+      <bind Label="BRING MODIFIED" dv="0x000000FF">Composer:CommonControls:Bring:BringModif</bind>
+      <bind Label="BRING NEXT" dv="0x00000103">Composer:CommonControls:Bring:BringNext</bind>
       <bind Label="BRING OR" dv="0x0100013B">Composer:CommonControls:Bring:BringOrig</bind>
+      <bind Label="BRING PREV" dv="0x00000102">Composer:CommonControls:Bring:BringPrev</bind>
+      <bind Label="BYPASS" dv="0x0000801A">Edit:Attr:Bypass:On</bind>
       <bind Label="C+" dv="0x00000129">Composer:Grade:Primary:PrinterLights:C-Plus</bind>
       <bind Label="C+" dv="0x01000012_R">Composer:Grade:Primary:PrinterLights:C-Plus</bind>
       <bind Label="C-" dv="0x0000012F">Composer:Grade:Primary:PrinterLights:C-Minus</bind>
       <bind Label="C-" dv="0x01000015_R">Composer:Grade:Primary:PrinterLights:C-Minus</bind>
+      <bind Label="CANCEL TOTEM" dv="0x00000607">Edit:PlaybackCache:Totem:Cancel</bind>
       <bind Label="CENT CURR" dv="0x0000015F_R">Composer:CommonControls:StoryBoard:Commands:CenterCurrent</bind>
+      <bind Label="CENT CURR" dv="0x00001100">Composer:CommonControls:StoryBoard:Commands:CenterCurrent</bind>
       <bind Label="CENT SEL" dv="0x00000116">Composer:CommonControls:StoryBoard:Commands:CenterSelected</bind>
       <bind Label="CENT SEL" dv="0x000001E7_R">Composer:CommonControls:StoryBoard:Commands:CenterSelected</bind>
+      <bind Label="CHANNEL MIXER" dv="0x00010001">Composer:Grade:FixVectors:Mode:ChannelMixer</bind>
+      <bind Label="CHROMA" dv="0x00007025">Composer:CommonControls:DolbyVision:Sliders:ChromaWeightOffset:Knob</bind>
+      <bind Label="CLAMP" dv="0x0000600A">Composer:Grade:Options:Legalize</bind>
+      <bind Label="COLORGRADE FX" dv="0x0000700A">FX:ColorGrade</bind>
+      <bind Label="CONSTANT" dv="0x00000806">Composer:Grade:Curve:CT</bind>
       <bind Label="CONT B" dv="0x00000011">PrimaryContrastB</bind>
       <bind Label="CONT G" dv="0x00000010">PrimaryContrastG</bind>
       <bind Label="CONT R" dv="0x0000000F">PrimaryContrastR</bind>
+      <bind Label="CONTRAST MODE" dv="0x00000138">Composer:Grade:Primary:PrinterLights:ModeB-W+</bind>
+      <bind Label="CONTRAST MODE" dv="0x00001007">Composer:Grade:Primary:Mode:Contrast</bind>
+      <bind Label="CONTRAST MODE" dv="0x01000138_R">Composer:Grade:Primary:PrinterLights:ModeB-W+</bind>
       <bind Label="CONTRAST" dv="0x0000000B">PrimaryContrastAll</bind>
+      <bind Label="CONTRAST" dv="0x0000300A">PrimaryTBContrast_X</bind>
+      <bind Label="CONVERT TO SHAPE" dv="0x00003005">Composer:Grade:Window:ToShape</bind>
+      <bind Label="CREATE SHAPE" dv="0x00010044">Composer:Shapes:Create</bind>
+      <bind Label="CROP DOWN" dv="0x00000175">TimeEditor:Crop/Bottom</bind>
+      <bind Label="CROP DOWN" dv="0x00000175_R">TimeEditor:Crop/Bottom:Reset</bind>
+      <bind Label="CROP LEFT" dv="0x00000074">TimeEditor:Crop/Left</bind>
+      <bind Label="CROP LEFT" dv="0x00000074_R">TimeEditor:Crop/Left:Reset</bind>
+      <bind Label="CROP RIGHT" dv="0x00000076">TimeEditor:Crop/Right</bind>
+      <bind Label="CROP RIGHT" dv="0x00000076_R">TimeEditor:Crop/Right:Reset</bind>
+      <bind Label="CROP UP" dv="0x00000174">TimeEditor:Crop/Top</bind>
+      <bind Label="CROP UP" dv="0x00000174_R">TimeEditor:Crop/Top:Reset</bind>
       <bind Label="CUSTOM" dv="0x00000201">Composer:Framing:Custom</bind>
-      <bind Label="DARK CONT" dv="0x00000028">BandsDarkCont</bind>
-      <bind Label="DARK HUE" dv="0x00000026">BandsDarkHue</bind>
-      <bind Label="DARK SAT" dv="0x00000027">BandsDarkSat</bind>
+      <bind Label="CYAN B" dv="0x0001002D">FixedChannelMixerCyanB</bind>
+      <bind Label="CYAN G" dv="0x0001002C">FixedChannelMixerCyanG</bind>
+      <bind Label="CYAN HUE" dv="0x00000907">Composer:Grade:Keyer:Hexagon:Cyan</bind>
+      <bind Label="CYAN POINTS" dv="0x0000070C">Composer:Grade:Curve:HSL:Modes:Cyan</bind>
+      <bind Label="CYAN R" dv="0x0001002B">FixedChannelMixerCyanR</bind>
+      <bind Label="CYAN" dv="0x00007047">DolbyVisionHexagonChromaCyan_X</bind>
+      <bind Label="CYAN" dv="0x00007048">DolbyVisionHexagonChromaCyan_Y</bind>
       <bind Label="DEF 0" dv="0x0620055D">FXPreset:PR0:Def</bind>
       <bind Label="DEF 1" dv="0x062000D7">FXPreset:PR1:Def</bind>
       <bind Label="DEF 2" dv="0x062000D8">FXPreset:PR2:Def</bind>
@@ -176,17 +249,36 @@
       <bind Label="DEL ALL V" dv="0x000001DE">Curves:Layer:RemoveAllLayers</bind>
       <bind Label="DEL HIST" dv="0x000000FD">Composer:CommonControls:Bring:DeleteCurrentH</bind>
       <bind Label="DEL POINT" dv="0x0000010D">Composer:CommonControls:Key:DeleteKey</bind>
-      <bind Label="DELETE VE" dv="0x0000011D">Curves:Edit:RemoveSelect</bind>
+      <bind Label="DELETE KEY SHAPE" dv="0x0001004A">Composer:Shapes:Key:Delete</bind>
+      <bind Label="DELETE POINT" dv="0x00000803">Composer:Grade:Curve:Curve-DelPoint</bind>
+      <bind Label="DELETE POINT" dv="0x0000300D">Composer:Grade:Keyer:KeyGraph:DelPoint</bind>
       <bind Label="DEPTH GRA" dv="0x00000218">Windows:DepthGraph</bind>
-      <bind Label="DEPTH MAX" dv="0x0000009E">TimeEditor:Curve:40</bind>
-      <bind Label="DEPTH MAX" dv="0x0000009E_R">TimeEditor:Curve:40:Reset</bind>
-      <bind Label="DEPTH MIN" dv="0x0000009D">TimeEditor:Curve:39</bind>
-      <bind Label="DEPTH MIN" dv="0x0000009D_R">TimeEditor:Curve:39:Reset</bind>
-      <bind Label="DEPTH" dv="0x00000238">TimeEditor:Curve:32:1</bind>
-      <bind Label="DEPTH" dv="0x00000558_R">TimeEditor:Curve:32:1</bind>
+      <bind Label="DEPTH MAX" dv="0x0000009E">TimeEditor:Optical Flow/Depth Map/Max</bind>
+      <bind Label="DEPTH MAX" dv="0x0000009E_R">TimeEditor:Optical Flow/Depth Map/Max:Reset</bind>
+      <bind Label="DEPTH MIN" dv="0x0000009D">TimeEditor:Optical Flow/Depth Map/Min</bind>
+      <bind Label="DEPTH MIN" dv="0x0000009D_R">TimeEditor:Optical Flow/Depth Map/Min:Reset</bind>
+      <bind Label="DEPTH Z" dv="0x00007061">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007062">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007063">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007064">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007065">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007066">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007067">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007068">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007069">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007071">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007072">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007073">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007074">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007075">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x00007076">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH Z" dv="0x0000707A">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="DEPTH" dv="0x00000238">TimeEditor:Optical Flow/Params/Mode:ShowDepth</bind>
+      <bind Label="DEPTH" dv="0x00000558_R">TimeEditor:Optical Flow/Params/Mode:ShowDepth</bind>
+      <bind Label="DISABLE SHAPE" dv="0x0000006D">Composer:Grade:Window:WinShp</bind>
+      <bind Label="DISABLE SHAPE" dv="0x00000520_R">Composer:Grade:Window:WinShp</bind>
       <bind Label="DISPLAY" dv="0x0000008B">Composer:CommonControls:S3D:Disp</bind>
-      <bind Label="DOWN" dv="0x00000076">TimeEditor:Curve:11</bind>
-      <bind Label="DOWN" dv="0x00000076_R">TimeEditor:Curve:11:Reset</bind>
+      <bind Label="DOLBY EXPORT" dv="0x00010043">Edit:Macros:DolbyExport</bind>
       <bind Label="DefTemp0" dv="0x0630055D">FXPreset:PR0:DefTemp</bind>
       <bind Label="DefTemp1" dv="0x063000D7">FXPreset:PR1:DefTemp</bind>
       <bind Label="DefTemp2" dv="0x063000D8">FXPreset:PR2:DefTemp</bind>
@@ -199,30 +291,90 @@
       <bind Label="DefTemp9" dv="0x063000DF">FXPreset:PR9:DefTemp</bind>
       <bind Label="ELIPSE" dv="0x0000006B">Composer:Grade:Window:WinElip</bind>
       <bind Label="ELIPSE" dv="0x0000051E_R">Composer:Grade:Window:WinElip</bind>
+      <bind Label="ELLIPSE DRAW" dv="0x0000200C">Composer:Shapes:Modes:Ellipse</bind>
+      <bind Label="ELLIPSE" dv="0x0000006B">Composer:Grade:Window:WinElip</bind>
+      <bind Label="ELLIPSE" dv="0x0000051E_R">Composer:Grade:Window:WinElip</bind>
       <bind Label="EXP KEY" dv="0x00000069">Composer:Grade:Keyer:ExportKey:Rotate</bind>
+      <bind Label="EXPKIN/OUT" dv="0x00006001">Composer:Grade:Keyer:ExportKey</bind>
+      <bind Label="EXPORT KEY MODE" dv="0x00000072">Composer:Grade:Keyer:KeyModes:Rotate</bind>
+      <bind Label="EXPORT KEY MODE" dv="0x0000051A_R">Composer:Grade:Keyer:KeyModes:Rotate</bind>
+      <bind Label="EXPORT KEY" dv="0x00005008">KeyerExportKey</bind>
+      <bind Label="EXT KEY CHANNEL" dv="0x00002005">Composer:Grade:Keyer:KeyExt</bind>
+      <bind Label="EXTK CHANNEL" dv="0x00005006">KeyerKeyExt</bind>
+      <bind Label="EXTK CHANNELS" dv="0x0000500D">Composer:Grade:Keyer:KeyExt</bind>
+      <bind Label="EXTK SOURCE" dv="0x00005005">KeyerExtKeySource</bind>
+      <bind Label="EXTK SOURCE" dv="0x0000500C">Composer:Grade:Keyer:ExtKeySource</bind>
+      <bind Label="F1 TYPE" dv="0x00002002">Filter-1-Options</bind>
+      <bind Label="F2 TYPE" dv="0x00002004">Filter-2-Options</bind>
+      <bind Label="FILTER 1 TYPE" dv="0x00006003">Composer:Grade:Keyer:Key:CorrectMode</bind>
+      <bind Label="FILTER 1" dv="0x00002001">Filter-1</bind>
+      <bind Label="FILTER 2 TYPE" dv="0x00006004">Composer:Grade:Keyer:Key:CorrectBMode</bind>
+      <bind Label="FILTER 2" dv="0x00002003">Filter-2</bind>
+      <bind Label="FILTER MODE" dv="0x0000090E">Composer:Grade:filters&gt;</bind>
+      <bind Label="FILTER" dv="0x0000024B">TimeEditor:Curve:3:Rotate</bind>
+      <bind Label="FILTER" dv="0x0000024B_R">TimeEditor:Curve:3:Reset</bind>
       <bind Label="FIRST HIS" dv="0x0100013C">Composer:CommonControls:Bring:BringOlder</bind>
-      <bind Label="FIT ANAMO" dv="0x00000248">Composer:Framing:AutoResize:FitAnamorphic</bind>
-      <bind Label="FIT X" dv="0x00000249">Composer:Framing:AutoResize:FitX</bind>
-      <bind Label="FIT Y" dv="0x0000024A">Composer:Framing:AutoResize:FitY</bind>
+      <bind Label="FIT ANAMO" dv="0x00000248">TimeEditor:Options/Fit:Fit to fill (uneven scale)</bind>
+      <bind Label="FIT X" dv="0x00000249">TimeEditor:Options/Fit:Pad to fit</bind>
+      <bind Label="FIT Y" dv="0x0000024A">TimeEditor:Options/Fit:Crop to fit</bind>
+      <bind Label="FIT" dv="0x000001FF">TimeEditor:Options/Fit:Pad to fit</bind>
+      <bind Label="FIXED SLIDERS" dv="0x0000900D">Composer:Grade:FixVectors:Mode:FixedSliders</bind>
+      <bind Label="FLUSH CACHE" dv="0x00000608">Edit:PlaybackCache:Cache:Reload</bind>
+      <bind Label="FRAMING FX" dv="0x0000700B">FX:Framing</bind>
+      <bind Label="FULL RANGE" dv="0x00007005">Composer:Grade:Bands:Ranges:Mode:Full</bind>
+      <bind Label="G CURVE" dv="0x0000200F">Composer:Grade:Curve:G-Curve</bind>
       <bind Label="G+" dv="0x00000127">Composer:Grade:Primary:PrinterLights:G-Plus</bind>
       <bind Label="G+" dv="0x0100000B"/>
       <bind Label="G-" dv="0x0000012D">Composer:Grade:Primary:PrinterLights:G-Minus</bind>
       <bind Label="G-" dv="0x0100000E"/>
+      <bind Label="GAIN B" dv="0x000001F2">PrimaryWhiteB</bind>
+      <bind Label="GAIN G" dv="0x000001F1">PrimaryWhiteG</bind>
+      <bind Label="GAIN MODE" dv="0x0000013A">Composer:Grade:Primary:PrinterLights:ModeW+</bind>
+      <bind Label="GAIN MODE" dv="0x0100013A_R">Composer:Grade:Primary:PrinterLights:ModeW+</bind>
+      <bind Label="GAIN R" dv="0x000001F0">PrimaryWhiteR</bind>
+      <bind Label="GAIN" dv="0x00000007">PrimaryTB3_X</bind>
+      <bind Label="GAIN" dv="0x00007023">Composer:CommonControls:DolbyVision:Sliders:Gain:Knob</bind>
+      <bind Label="GAIN" dv="0x0700000E">PrimaryTB3_Y</bind>
       <bind Label="GAMMA B" dv="0x000001F5">PrimaryGammaB</bind>
       <bind Label="GAMMA G" dv="0x000001F4">PrimaryGammaG</bind>
       <bind Label="GAMMA R" dv="0x000001F3">PrimaryGammaR</bind>
       <bind Label="GAMMA" dv="0x00000004">PrimaryTB2_X</bind>
-      <bind Label="GAMMA" dv="0x00000234">TimeEditor:Curve:59</bind>
-      <bind Label="GAMMA" dv="0x00000234_R">TimeEditor:Curve:59:Reset</bind>
+      <bind Label="GAMMA" dv="0x00000234">TimeEditor:Image/Gamma</bind>
+      <bind Label="GAMMA" dv="0x00000234_R">TimeEditor:Image/Gamma:Reset</bind>
+      <bind Label="GAMMA" dv="0x00007022">Composer:CommonControls:DolbyVision:Sliders:Gamma:Knob</bind>
       <bind Label="GAMMA" dv="0x07000008">PrimaryTB2_Y</bind>
+      <bind Label="GANG RGB" dv="0x00002006">Composer:Grade:Curve:GangRGB</bind>
       <bind Label="GOTO SEL" dv="0x000000D3">Composer:CommonControls:Bring:GoToSelected</bind>
+      <bind Label="GREEN B" dv="0x00010027">FixedChannelMixerGreenB</bind>
+      <bind Label="GREEN G" dv="0x00010026">FixedChannelMixerGreenG</bind>
+      <bind Label="GREEN HUE" dv="0x00000904">Composer:Grade:Keyer:Hexagon:Green</bind>
+      <bind Label="GREEN POINTS" dv="0x0000070B">Composer:Grade:Curve:HSL:Modes:Green</bind>
+      <bind Label="GREEN R" dv="0x00010025">FixedChannelMixerGreenR</bind>
+      <bind Label="GREEN" dv="0x00007043">DolbyVisionHexagonChromaGreen_X</bind>
+      <bind Label="GREEN" dv="0x00007044">DolbyVisionHexagonChromaGreen_Y</bind>
+      <bind Label="GROUP SEGMENTS" dv="0x00008001">Edit:Macros:GroupSegments</bind>
+      <bind Label="HDR" dv="0x0000200A">Composer:Grade:Primary:PivotsSuperwhiteMode:HDRMode</bind>
+      <bind Label="HEAD" dv="0x0000011B">Composer:CommonControls:Shuttle:GotoHead</bind>
+      <bind Label="HEXAGON BLUE" dv="0x00009007">FixedHexagonChromaBlue_X</bind>
+      <bind Label="HEXAGON CYAN" dv="0x00009004">FixedHexagonChromaCyan_X</bind>
+      <bind Label="HEXAGON GREEN" dv="0x00009001">FixedHexagonChromaGreen_X</bind>
+      <bind Label="HEXAGON MAGENTA" dv="0x0000900A">FixedHexagonChromaMagenta_X</bind>
+      <bind Label="HEXAGON MIXER" dv="0x0000900E">Composer:Grade:FixVectors:Mode:HexagonMixer</bind>
+      <bind Label="HEXAGON RED" dv="0x00008009">FixedHexagonChromaRed_X</bind>
+      <bind Label="HEXAGON YELLOW" dv="0x0000800C">FixedHexagonChromaYellow_X</bind>
       <bind Label="HI LIMIT" dv="0x00000031">Composer:Grade:Ranges:0</bind>
       <bind Label="HI LIMIT" dv="0x00000031_R">Composer:Grade:Ranges:Reset</bind>
       <bind Label="HI SLOPE" dv="0x00000032">Composer:Grade:Ranges:2</bind>
       <bind Label="HI SLOPE" dv="0x00000032_R">Composer:Grade:Ranges:Reset</bind>
+      <bind Label="HIDE" dv="0x00000700">Edit:Attr:Hide</bind>
+      <bind Label="HIGH CLIP" dv="0x00007028">Composer:CommonControls:DolbyVision:Sliders:HighlightClipping:Knob</bind>
       <bind Label="HIGH CONT" dv="0x0000002E">BandsHighCont</bind>
       <bind Label="HIGH HUE" dv="0x0000002C">BandsHighHue</bind>
+      <bind Label="HIGH PIVOTS" dv="0x00007004">Composer:Grade:Primary:PivotsSuperwhiteMode:Highlights</bind>
+      <bind Label="HIGH RANGE" dv="0x00007008">Composer:Grade:Bands:Ranges:Mode:Highlights</bind>
       <bind Label="HIGH SAT" dv="0x0000002D">BandsHighSat</bind>
+      <bind Label="HIGHLIGHT RANGES" dv="0x00000030">Composer:Grade:Ranges:3</bind>
+      <bind Label="HIGHLIGHT RANGES" dv="0x00000030_R">Composer:Grade:Ranges:Reset</bind>
       <bind Label="HIGHLIGHT" dv="0x07000025">BandsTB3_X</bind>
       <bind Label="HILGT" dv="0x00000067">Composer:Grade:Keyer:Solo</bind>
       <bind Label="HILGT" dv="0x00000246">Composer:Grade:Keyer:Solo</bind>
@@ -238,12 +390,19 @@
       <bind Label="HSL" dv="0x00000501">Composer:Grade:Keyer:Tabs:HSL</bind>
       <bind Label="HUE ANGLE" dv="0x00000045">HueAngle</bind>
       <bind Label="HUE B" dv="0x00000037">FixedHueB</bind>
+      <bind Label="HUE B" dv="0x00007037">TimeEditor:Hue/Hue Blue</bind>
       <bind Label="HUE C" dv="0x00000036">FixedHueC</bind>
+      <bind Label="HUE C" dv="0x00007038">TimeEditor:Hue/Hue Cyan</bind>
       <bind Label="HUE G" dv="0x00000035">FixedHueG</bind>
+      <bind Label="HUE G" dv="0x00007036">TimeEditor:Hue/Hue Green</bind>
       <bind Label="HUE M" dv="0x00000038">FixedHueM</bind>
+      <bind Label="HUE M" dv="0x00007039">TimeEditor:Hue/Hue Magenta</bind>
       <bind Label="HUE R" dv="0x00000033">FixedHueR</bind>
+      <bind Label="HUE R" dv="0x00007035">TimeEditor:Hue/Hue Red</bind>
       <bind Label="HUE RANGE" dv="0x00000047">HueRange</bind>
+      <bind Label="HUE RANGE" dv="0x00000047_R">Composer:Grade:Keyer:HueRst</bind>
       <bind Label="HUE Y" dv="0x00000034">FixedHueY</bind>
+      <bind Label="HUE Y" dv="0x00007040">TimeEditor:Hue/Hue Yellow</bind>
       <bind Label="HUE-HUE" dv="0x00000262">Composer:Grade:Curve:HueHue-Curve</bind>
       <bind Label="HUE-HUE" dv="0x00000534_R">Composer:Grade:Curve:HueHue-Curve</bind>
       <bind Label="HUE-LUMA" dv="0x00000264">Composer:Grade:Curve:HueLuma-Curve</bind>
@@ -251,57 +410,71 @@
       <bind Label="HUE-SAT" dv="0x00000263">Composer:Grade:Curve:HueSat-Curve</bind>
       <bind Label="HUE-SAT" dv="0x00000535_R">Composer:Grade:Curve:HueSat-Curve</bind>
       <bind Label="HiLgt" dv="0x00000524_R">Composer:Grade:Keyer:Solo</bind>
-      <bind Label="IN-OUT" Limit="1" dv="0x0100013E_0">Composer:Grade:Keyer:Inside</bind>
-      <bind Label="IN-OUT" Limit="1" dv="0x0100013E_1">Composer:Grade:Keyer:Outside</bind>
+      <bind Label="IN-OUT" Limit="1" dv="0x0100013E_0">Composer:Grade:Keyer:Outside</bind>
+      <bind Label="IN-OUT" Limit="1" dv="0x0100013E_1">Composer:Grade:Keyer:Inside</bind>
+      <bind Label="INDEPENDANT" dv="0x00002007">Composer:Grade:Curve:IT</bind>
+      <bind Label="INPUT" dv="0x000001FE">TimeEditor:Options/Result Size:Input</bind>
+      <bind Label="INSIDE SOFTNESS" dv="0x00003008">Composer:Shapes:Softness:Inside</bind>
       <bind Label="INSIDE" dv="0x00000071">Composer:Grade:Keyer:Inside</bind>
+      <bind Label="INSIDE" dv="0x00000523_R">Composer:Grade:Keyer:Inside</bind>
       <bind Label="INVERT" dv="0x0000006F">Composer:Grade:Window:WinInv</bind>
       <bind Label="INVERT" dv="0x0000040C">Composer:Grade:Keyer:ColorKeyInvert</bind>
       <bind Label="INVERT" dv="0x00000522_R">Composer:Grade:Window:WinInv</bind>
-      <bind Label="IO ALL" dv="0x0000009F">TimeEditor:Curve:41</bind>
-      <bind Label="IO ALL" dv="0x0000009F_R">TimeEditor:Curve:41:Reset</bind>
-      <bind Label="ITERATIONS" dv="0x000000A5">TimeEditor:Curve:37</bind>
-      <bind Label="ITERATIONS" dv="0x000000A5_R">TimeEditor:Curve:37:Reset</bind>
+      <bind Label="IO ALL" dv="0x0000009F">TimeEditor:Optical Flow/IOcular Warp/All</bind>
+      <bind Label="IO ALL" dv="0x0000009F_R">TimeEditor:Optical Flow/IOcular Warp/All:Reset</bind>
+      <bind Label="ITERATIONS" dv="0x000000A5">TimeEditor:Optical Flow/Params/Iterations</bind>
+      <bind Label="ITERATIONS" dv="0x000000A5_R">TimeEditor:Optical Flow/Params/Iterations:Reset</bind>
       <bind Label="JOG" dv="0x06400002">TimeEditor:Curve:4</bind>
       <bind Label="K-BLUR" dv="0x00000049">K-Blur</bind>
       <bind Label="K-SOFTNES" dv="0x00000168">K-Softness</bind>
       <bind Label="K-TOLERAN" dv="0x00000167">K-Tolerance</bind>
       <bind Label="KEY IN" dv="0x00000108">Composer:CommonControls:Key:AddKeyIn</bind>
-      <bind Label="KEY MODE" dv="0x00000072">Composer:Grade:Keyer:KeyModes:Rotate</bind>
-      <bind Label="KEY MODE" dv="0x0000051A_R">Composer:Grade:Keyer:KeyModes:Rotate</bind>
       <bind Label="KEY OUT" dv="0x00000109">Composer:CommonControls:Key:AddKeyOut</bind>
+      <bind Label="KEY SOURCE CHANNEL" dv="0x00006006">Composer:Grade:Keyer:KeyChannels</bind>
+      <bind Label="KEY SOURCE" dv="0x00006005">Composer:Grade:Keyer:KeySource</bind>
       <bind Label="KEYGRAPH" dv="0x000001F9">Windows:Curves</bind>
-      <bind Label="KEYSTONE" dv="0x00000088">TimeEditor:Curve:11</bind>
-      <bind Label="KEYSTONE" dv="0x00000088_R">TimeEditor:Curve:11:Reset</bind>
-      <bind Label="KEYSTONEX" dv="0x0000023F">TimeEditor:Curve:58</bind>
-      <bind Label="KEYSTONEX" dv="0x0000023F_R">TimeEditor:Curve:58:Reset</bind>
+      <bind Label="KEYPOINT 1" dv="0x00004001">KeyerPoint1X</bind>
+      <bind Label="KEYPOINT 2" dv="0x00004002">KeyerPoint2X</bind>
+      <bind Label="KEYPOINT 3" dv="0x00004003">KeyerPoint3X</bind>
+      <bind Label="KEYPOINT 4" dv="0x00004004">KeyerPoint4X</bind>
+      <bind Label="KEYPOINT 5" dv="0x00004005">KeyerPoint5X</bind>
+      <bind Label="KEYPOINT 6" dv="0x00004006">KeyerPoint6X</bind>
+      <bind Label="KEYSTONE" dv="0x00000088">TimeEditor:Balance Geometry/Keystone</bind>
+      <bind Label="KEYSTONE" dv="0x00000088_R">TimeEditor:Balance Geometry/Keystone:Reset</bind>
+      <bind Label="KEYSTONEX" dv="0x0000023F">TimeEditor:Balance Geo 2/KeystoneX</bind>
+      <bind Label="KEYSTONEX" dv="0x0000023F_R">TimeEditor:Balance Geo 2/KeystoneX:Reset</bind>
       <bind Label="KNEESOFT" dv="0x00000512">KneeSoft</bind>
-      <bind Label="L MIRROR" dv="0x0000008F">TimeEditor:Curve:0:Rotate</bind>
-      <bind Label="L MIRROR" dv="0x00000544_R">TimeEditor:Curve:0:Rotate</bind>
-      <bind Label="L SLANT" dv="0x00000098">TimeEditor:Curve:29</bind>
-      <bind Label="L SLANT" dv="0x00000098_R">TimeEditor:Curve:29:Reset</bind>
+      <bind Label="L MIRROR" dv="0x0000008F">TimeEditor:Mirror/Mirror Left Eye:Rotate</bind>
+      <bind Label="L MIRROR" dv="0x00000544_R">TimeEditor:Mirror/Mirror Left Eye:Rotate</bind>
+      <bind Label="L SLANT" dv="0x00000098">TimeEditor:Floating Window/Left/Slant</bind>
+      <bind Label="L SLANT" dv="0x00000098_R">TimeEditor:Floating Window/Left/Slant:Reset</bind>
       <bind Label="L SOFT" dv="0x00000046">LSoft</bind>
-      <bind Label="L WIDTH" dv="0x00000096">TimeEditor:Curve:28</bind>
-      <bind Label="L WIDTH" dv="0x00000096_R">TimeEditor:Curve:28:Reset</bind>
+      <bind Label="L WIDTH" dv="0x00000096">TimeEditor:Floating Window/Left/Width</bind>
+      <bind Label="L WIDTH" dv="0x00000096_R">TimeEditor:Floating Window/Left/Width:Reset</bind>
       <bind Label="L-L CURVE" dv="0x00000261">Composer:Grade:Curve:LL-Curve</bind>
       <bind Label="L-L CURVE" dv="0x00000531_R">Composer:Grade:Curve:LL-Curve</bind>
       <bind Label="L-S CURVE" dv="0x00000266">Composer:Grade:Curve:LS-Curve</bind>
       <bind Label="L-S CURVE" dv="0x00000533_R">Composer:Grade:Curve:LS-Curve</bind>
-      <bind Label="LAST HIST" dv="0x000000FE">Composer:CommonControls:Bring:BringNewer</bind>
+      <bind Label="LAST HISTORY" dv="0x000000FE">Composer:CommonControls:Bring:BringOrig</bind>
       <bind Label="LEARNING" dv="0x09999999">LEARNING</bind>
-      <bind Label="LEFT" dv="0x00000073">TimeEditor:Curve:8</bind>
-      <bind Label="LEFT" dv="0x00000073_R">TimeEditor:Curve:8:Reset</bind>
-      <bind Label="LEVEL B" dv="0x0000000E">PrimaryLevelB</bind>
-      <bind Label="LEVEL G" dv="0x0000000D">PrimaryLevelG</bind>
-      <bind Label="LEVEL R" dv="0x0000000C">PrimaryLevelR</bind>
-      <bind Label="LEVEL" dv="0x0000000A">PrimaryLevelAll</bind>
       <bind Label="LEVEL" dv="0x0700000B"/>
-      <bind Label="LEVELS" dv="0x00000236">TimeEditor:Curve:36</bind>
-      <bind Label="LEVELS" dv="0x00000236_R">TimeEditor:Curve:36:Reset</bind>
+      <bind Label="LEVELS" dv="0x00000236">TimeEditor:Optical Flow/Params/Levels</bind>
+      <bind Label="LEVELS" dv="0x00000236_R">TimeEditor:Optical Flow/Params/Levels:Reset</bind>
       <bind Label="LIB ACTIV" dv="0x0000015E">Windows:FXPresets</bind>
       <bind Label="LIB MAX" dv="0x000001DA">FXPreset:Window:Max</bind>
       <bind Label="LIB ONTOP" dv="0x000001D9">FXPreset:Commands:OnTop</bind>
+      <bind Label="LIFT B" dv="0x000001F8">PrimaryBlackB</bind>
+      <bind Label="LIFT G" dv="0x000001F7">PrimaryBlackG</bind>
+      <bind Label="LIFT MODE" dv="0x00000139">Composer:Grade:Primary:PrinterLights:ModeB+</bind>
+      <bind Label="LIFT MODE" dv="0x01000139_R">Composer:Grade:Primary:PrinterLights:ModeB+</bind>
+      <bind Label="LIFT R" dv="0x000001F6">PrimaryBlackR</bind>
+      <bind Label="LIFT" dv="0x00000001">PrimaryTB1_X</bind>
+      <bind Label="LIFT" dv="0x00007021">Composer:CommonControls:DolbyVision:Sliders:Lift:Knob</bind>
+      <bind Label="LIFT" dv="0x07000002">PrimaryTB1_Y</bind>
+      <bind Label="LINE DRAW" dv="0x0000200B">Composer:Shapes:Modes:Line</bind>
       <bind Label="LINE" dv="0x0000006A">Composer:Grade:Window:WinLine</bind>
       <bind Label="LINE" dv="0x0000051D_R">Composer:Grade:Window:WinLine</bind>
+      <bind Label="LINEARIZE" dv="0x0000700D">Edit:Macros:Linearize</bind>
       <bind Label="LIVE" dv="0x0000008C">Composer:CommonControls:S3D:Live</bind>
       <bind Label="LO LIMIT" dv="0x0000002F">Composer:Grade:Ranges:1</bind>
       <bind Label="LO LIMIT" dv="0x0000002F_R">Composer:Grade:Ranges:Reset</bind>
@@ -309,17 +482,27 @@
       <bind Label="LO SLOPE" dv="0x00000030_R">Composer:Grade:Ranges:Reset</bind>
       <bind Label="LOCK CROP" dv="0x0000007C">Composer:Framing:Crop:LockRatio</bind>
       <bind Label="LOCK CURR" dv="0x00000200">Composer:Framing:Resize:LockActualRatio</bind>
+      <bind Label="LOCK HUE" dv="0x0000090C">Composer:Grade:Keyer:Hexagon:Lock</bind>
+      <bind Label="LOCK LUM" dv="0x0000100D">Composer:Grade:Keyer:LumLock</bind>
       <bind Label="LOCK RATIO" dv="0x00000541_R">Composer:Framing:Crop:LockRatio</bind>
       <bind Label="LOCK RESU" dv="0x00000083">Composer:Framing:Resize:LockResultRatio</bind>
       <bind Label="LOCK RESUL" dv="0x0000053A_R">Composer:Framing:Resize:LockResultRatio</bind>
+      <bind Label="LOCK SAT" dv="0x0000100A">Composer:Grade:Keyer:SatLock</bind>
       <bind Label="LOCK SEL" dv="0x000001FB">Composer:CommonControls:StoryBoard:Setup:LockCenterSelected</bind>
+      <bind Label="LOCK X" dv="0x0000070F">Composer:Grade:Curve:ConstraintX</bind>
+      <bind Label="LOCK Y" dv="0x00000801">Composer:Grade:Curve:ConstraintY</bind>
+      <bind Label="LOCK" dv="0x00000702">Edit:Attr:Lock</bind>
       <bind Label="LUM B" dv="0x00000043">FixedLumB</bind>
       <bind Label="LUM C" dv="0x00000042">FixedLumC</bind>
       <bind Label="LUM G" dv="0x00000041">FixedLumG</bind>
       <bind Label="LUM HI" dv="0x0000004F">Composer:Grade:Keyer:LumBar:HiLimit</bind>
       <bind Label="LUM HI" dv="0x0000004F_R">Composer:Grade:Keyer:ResetL</bind>
+      <bind Label="LUM HIGH" dv="0x0000004F">Composer:Grade:Keyer:LumBar:HiLimit</bind>
+      <bind Label="LUM HIGH" dv="0x0000004F_R">Composer:Grade:Keyer:ResetL</bind>
       <bind Label="LUM LO" dv="0x0000004E">Composer:Grade:Keyer:LumBar:LowLimit</bind>
       <bind Label="LUM LO" dv="0x0000004E_R">Composer:Grade:Keyer:ResetL</bind>
+      <bind Label="LUM LOW" dv="0x0000004E">Composer:Grade:Keyer:LumBar:LowLimit</bind>
+      <bind Label="LUM LOW" dv="0x0000004E_R">Composer:Grade:Keyer:ResetL</bind>
       <bind Label="LUM M" dv="0x00000044">FixedLumM</bind>
       <bind Label="LUM R" dv="0x0000003F">FixedLumR</bind>
       <bind Label="LUM Y" dv="0x00000040">FixedLumY</bind>
@@ -328,146 +511,266 @@
       <bind Label="M+" dv="0x01000013_R">Composer:Grade:Primary:PrinterLights:M-Plus</bind>
       <bind Label="M-" dv="0x00000130">Composer:Grade:Primary:PrinterLights:M-Minus</bind>
       <bind Label="M-" dv="0x01000016_R">Composer:Grade:Primary:PrinterLights:M-Minus</bind>
+      <bind Label="MAGENTA B" dv="0x00010031">FixedChannelMixerMagentaB</bind>
+      <bind Label="MAGENTA G" dv="0x00010030">FixedChannelMixerMagentaG</bind>
+      <bind Label="MAGENTA HUE" dv="0x00000908">Composer:Grade:Keyer:Hexagon:Magenta</bind>
+      <bind Label="MAGENTA POINTS" dv="0x0000070E">Composer:Grade:Curve:HSL:Modes:Magenta</bind>
+      <bind Label="MAGENTA R" dv="0x0001002E">FixedChannelMixerMagentaR</bind>
+      <bind Label="MAGENTA" dv="0x00007049">DolbyVisionHexagonChromaMagenta_X</bind>
+      <bind Label="MAGENTA" dv="0x00007050">DolbyVisionHexagonChromaMagenta_Y</bind>
       <bind Label="MATCH COL" dv="0x0000008D">Composer:Stereo:MatchColors</bind>
       <bind Label="MATCH COL" dv="0x00000545_R">Composer:Stereo:MatchColors</bind>
-      <bind Label="MATCH FIX" dv="0x00000240">TimeEditor:Curve:53:Rotate</bind>
-      <bind Label="MATCH FIX" dv="0x00000552_R">TimeEditor:Curve:53:Rotate</bind>
+      <bind Label="MATCH FIX" dv="0x00000240">TimeEditor:Balance Color 2/Warp Match/Fix:Rotate</bind>
+      <bind Label="MATCH FIX" dv="0x00000552_R">TimeEditor:Balance Color 2/Warp Match/Fix:Rotate</bind>
       <bind Label="MATCH GEO" dv="0x00000091">Composer:Stereo:MatchGeometry</bind>
       <bind Label="MATCH GEO" dv="0x00000549_R">Composer:Stereo:MatchGeometry</bind>
-      <bind Label="MAX DIFF" dv="0x00000233">TimeEditor:Curve:55</bind>
-      <bind Label="MAX DIFF" dv="0x00000233_R">TimeEditor:Curve:55:Reset</bind>
+      <bind Label="MAX DIFF" dv="0x00000233">TimeEditor:Balance Color 2/Warp Match/Max Diff</bind>
+      <bind Label="MAX DIFF" dv="0x00000233_R">TimeEditor:Balance Color 2/Warp Match/Max Diff:Reset</bind>
       <bind Label="MAX KEYFR" dv="0x000001FA">Curves:Window:Maximize</bind>
+      <bind Label="MEDIAGROUP" dv="0x00008006">Edit:Macros:GroupAsMediaGroup</bind>
+      <bind Label="MERGE KEY" dv="0x00007002">Composer:Grade:Keyer:ExtKeyEnable</bind>
       <bind Label="MID CONT" dv="0x0000002B">BandsMidCont</bind>
+      <bind Label="MID CONT" dv="0x00007027">Composer:CommonControls:DolbyVision:Sliders:MidContrastBias:Knob</bind>
       <bind Label="MID HUE" dv="0x00000029">BandsMidHue</bind>
+      <bind Label="MID OFFSET" dv="0x00007053">TimeEditor:Midtone Offset</bind>
+      <bind Label="MID PIVOTS" dv="0x00007003">Composer:Grade:Primary:PivotsSuperwhiteMode:Midtones</bind>
+      <bind Label="MID RANGE" dv="0x00007007">Composer:Grade:Bands:Ranges:Mode:Midtones</bind>
       <bind Label="MID SAT" dv="0x0000002A">BandsMidSat</bind>
-      <bind Label="MIDDLE" dv="0x000000A3">TimeEditor:Curve:44</bind>
-      <bind Label="MIDDLE" dv="0x000000A3_R">TimeEditor:Curve:44:Reset</bind>
+      <bind Label="MIDDLE" dv="0x000000A3">TimeEditor:Optical Flow/IOcular Warp/Middle</bind>
+      <bind Label="MIDDLE" dv="0x000000A3_R">TimeEditor:Optical Flow/IOcular Warp/Middle:Reset</bind>
       <bind Label="MIDTONES" dv="0x00000016">BandsTB2_X</bind>
       <bind Label="MIDTONES" dv="0x0700001F">BandsTB2_X</bind>
-      <bind Label="MIN LEVEL" dv="0x00000235">TimeEditor:Curve:35</bind>
-      <bind Label="MIN LEVEL" dv="0x00000235_R">TimeEditor:Curve:35:Reset</bind>
-      <bind Label="MIRROR" dv="0x000001FD">TimeEditor:Curve:0:Rotate</bind>
+      <bind Label="MIN LEVEL" dv="0x00000235">TimeEditor:Optical Flow/Params/MinLevel</bind>
+      <bind Label="MIN LEVEL" dv="0x00000235_R">TimeEditor:Optical Flow/Params/MinLevel:Reset</bind>
+      <bind Label="MIRROR" dv="0x00001101">TimeEditor:Curve:4:Rotate</bind>
+      <bind Label="MOVE LIVE X" dv="0x000000B2">Snapshot:MoveLive.X</bind>
+      <bind Label="MOVE LIVE Y" dv="0x000000B3">Snapshot:MoveLive.Y</bind>
+      <bind Label="MOVE SNAP X" dv="0x000000AC">Snapshot:MoveSnap.X</bind>
+      <bind Label="MOVE SNAP Y" dv="0x000000AD">Snapshot:MoveSnap.Y</bind>
+      <bind Label="MOVE WIPE X" dv="0x000000AF">Snapshot:MoveWipe.X</bind>
+      <bind Label="MOVE WIPE Y" dv="0x000000B0">Snapshot:MoveWipe.Y</bind>
       <bind Label="MOVE X" dv="0x00000052">Window:Move.X</bind>
       <bind Label="MOVE X" dv="0x00000526">Window:Move.X</bind>
+      <bind Label="MOVE X" dv="0x00007015">Composer:Shapes:Move.X</bind>
       <bind Label="MOVE Y" dv="0x00000053">Window:Move.Y</bind>
       <bind Label="MOVE Y" dv="0x00000527">Window:Move.Y</bind>
-      <bind Label="MUTE IN" dv="0x00000012">Composer:Grade:Keyer:MuteIn0</bind>
+      <bind Label="MOVE Y" dv="0x00007016">Composer:Shapes:Move.Y</bind>
+      <bind Label="MUTE B" dv="0x0000600D">Composer:Grade:Options:MuteB</bind>
+      <bind Label="MUTE C" dv="0x00007001">Composer:Grade:Options:MuteC</bind>
+      <bind Label="MUTE G" dv="0x0000600C">Composer:Grade:Options:MuteG</bind>
+      <bind Label="MUTE IN" dv="0x00000250">Composer:Grade:Keyer:MuteIn0</bind>
+      <bind Label="MUTE IN" dv="0x00000252">Composer:Grade:Keyer:MuteIn1</bind>
+      <bind Label="MUTE IN" dv="0x00000254">Composer:Grade:Keyer:MuteIn2</bind>
+      <bind Label="MUTE IN" dv="0x00000256">Composer:Grade:Keyer:MuteIn3</bind>
       <bind Label="MUTE OUT" dv="0x00000251">Composer:Grade:Keyer:MuteOut0</bind>
+      <bind Label="MUTE OUT" dv="0x00000253">Composer:Grade:Keyer:MuteOut1</bind>
+      <bind Label="MUTE OUT" dv="0x00000255">Composer:Grade:Keyer:MuteOut2</bind>
+      <bind Label="MUTE OUT" dv="0x00000257">Composer:Grade:Keyer:MuteOut3</bind>
+      <bind Label="MUTE R" dv="0x0000600B">Composer:Grade:Options:MuteR</bind>
+      <bind Label="MUTE Y" dv="0x0000600E">Composer:Grade:Options:MuteY</bind>
       <bind Label="MUTE" dv="0x00000068">Composer:Grade:Keyer:Mute</bind>
-      <bind Label="MUTE" dv="0x00000525_R">Composer:Grade:Keyer:Mute</bind>
-      <bind Label="NEGATIVE" dv="0x000000A2">TimeEditor:Curve:43</bind>
-      <bind Label="NEGATIVE" dv="0x000000A2_R">TimeEditor:Curve:43:Reset</bind>
+      <bind Label="NEGATIVE" dv="0x000000A2">TimeEditor:Optical Flow/IOcular Warp/Negative</bind>
+      <bind Label="NEGATIVE" dv="0x000000A2_R">TimeEditor:Optical Flow/IOcular Warp/Negative:Reset</bind>
       <bind Label="NEW POINT" dv="0x0000010C">Curves:Edit:InsertPoint</bind>
-      <bind Label="NEXT F" dv="0x000000D0">Composer:CommonControls:Generic:NextFrame</bind>
+      <bind Label="NEXT BLIP" dv="0x00008003">Edit:Macros:NextBlip</bind>
+      <bind Label="NEXT FRAME" dv="0x000000D0">Composer:CommonControls:Generic:FrameForward</bind>
       <bind Label="NEXT FRTM" dv="0x0000055F">Edit:Shuttle:NextFrame</bind>
       <bind Label="NEXT HIST" dv="0x00000105">Composer:CommonControls:Bring:BringNewer</bind>
       <bind Label="NEXT KEY" dv="0x000001DC">Composer:CommonControls:Shuttle:NextKey</bind>
       <bind Label="NEXT LIB" dv="0x000000F9">FXPreset:Select:Next</bind>
+      <bind Label="NEXT OVERLAP" dv="0x00008004">Edit:Macros:NextOverlap</bind>
       <bind Label="NEXT SB" dv="0x00000118">Composer:CommonControls:Bring:SelectNext</bind>
+      <bind Label="NEXT SHAPE" dv="0x00007013">Composer:Shapes:Select:Next</bind>
+      <bind Label="NEXT SHOT" dv="0x000000CE">Composer:CommonControls:Generic:NextShot</bind>
+      <bind Label="NEXT SHOT" dv="0x0001015F">Edit:JOG</bind>
+      <bind Label="NEXT SHOT" dv="0x0001015F_R">Composer:CommonControls:Generic:NextShot</bind>
       <bind Label="NEXT VECT" dv="0x0000015D">Composer:Grade:Next</bind>
       <bind Label="NEXT VECT" dv="0x00000241">Composer:Grade:Next</bind>
-      <bind Label="NEXT" dv="0x000000CE">Composer:CommonControls:ShuttleTL:NextEdit</bind>
-      <bind Label="OFF" dv="0x00000237">TimeEditor:Curve:32:0</bind>
-      <bind Label="OFF" dv="0x00000557_R">TimeEditor:Curve:32:0</bind>
-      <bind Label="OFFSET X" dv="0x00000079">TimeEditor:Curve:6</bind>
-      <bind Label="OFFSET X" dv="0x00000079_R">TimeEditor:Curve:6:Reset</bind>
-      <bind Label="OFFSET Y" dv="0x0000007A">TimeEditor:Curve:7</bind>
-      <bind Label="OFFSET Y" dv="0x0000007A_R">TimeEditor:Curve:7:Reset</bind>
+      <bind Label="NEXT" dv="0x000000CE">Composer:CommonControls:Generic:NextShot</bind>
+      <bind Label="OBJ ID" dv="0x00007060">Composer:Grade:Keyer:MultiLayer:DepthLayer:DepthZ</bind>
+      <bind Label="OFF" dv="0x00000237">TimeEditor:Optical Flow/Params/Mode:Off</bind>
+      <bind Label="OFF" dv="0x00000557_R">TimeEditor:Optical Flow/Params/Mode:Off</bind>
+      <bind Label="OFFSET B" dv="0x0000000E">PrimaryLevelB</bind>
+      <bind Label="OFFSET G" dv="0x0000000D">PrimaryLevelG</bind>
+      <bind Label="OFFSET MODE" dv="0x00000137">Composer:Grade:Primary:PrinterLights:ModeB+W+</bind>
+      <bind Label="OFFSET MODE" dv="0x00001006">Composer:Grade:Primary:Mode:Offset</bind>
+      <bind Label="OFFSET MODE" dv="0x01000137_R">Composer:Grade:Primary:PrinterLights:ModeB+W+</bind>
+      <bind Label="OFFSET R" dv="0x0000000C">PrimaryLevelR</bind>
+      <bind Label="OFFSET SOFTNESS" dv="0x00003007">Composer:Shapes:Softness:Offset</bind>
+      <bind Label="OFFSET X" dv="0x00000073">TimeEditor:Transform/Offset X</bind>
+      <bind Label="OFFSET X" dv="0x00000073_R">TimeEditor:Transform/Offset X:Reset</bind>
+      <bind Label="OFFSET Y" dv="0x00000075">TimeEditor:Transform/Offset Y</bind>
+      <bind Label="OFFSET Y" dv="0x00000075_R">TimeEditor:Transform/Offset Y:Reset</bind>
+      <bind Label="OFFSET" dv="0x0000000A">PrimaryLevelAll</bind>
+      <bind Label="OFFSET" dv="0x00003003">PrimaryTBOffset_X</bind>
+      <bind Label="OUTSIDE MODE" dv="0x00005007">KeyerKeyModes</bind>
+      <bind Label="OUTSIDE MODE" dv="0x0000500E">Composer:Grade:Keyer:KeyModes</bind>
+      <bind Label="OUTSIDE SOFTNESS" dv="0x00003009">Composer:Shapes:Softness:Outside</bind>
       <bind Label="OUTSIDE" dv="0x0000052C_R">Composer:Grade:Keyer:Outside</bind>
-      <bind Label="PIXEL 1:1" dv="0x00000247">Composer:Framing:AutoResize:Pixels_1_to_1</bind>
-      <bind Label="PLAY BACK" dv="0x000000D1">External:DecPlaySpeed</bind>
-      <bind Label="PLAY FOR" dv="0x000000D4">External:IncPlaySpeed</bind>
-      <bind Label="POINT 1" dv="0x0000025A">CurvePoint1</bind>
-      <bind Label="POINT 2" dv="0x0000025B">CurvePoint2</bind>
-      <bind Label="POINT 3" dv="0x0000025C">CurvePoint3</bind>
-      <bind Label="POINT 4" dv="0x0000025D">CurvePoint4</bind>
-      <bind Label="POINT 5" dv="0x0000025E">CurvePoint5</bind>
-      <bind Label="POINT 6" dv="0x0000025F">CurvePoint6</bind>
-      <bind Label="POS X" dv="0x00000085">TimeEditor:Curve:7</bind>
-      <bind Label="POS X" dv="0x00000085_R">TimeEditor:Curve:7:Reset</bind>
-      <bind Label="POS X" dv="0x00000092">TimeEditor:Curve:2</bind>
-      <bind Label="POS X" dv="0x00000092_R">TimeEditor:Curve:2:Reset</bind>
-      <bind Label="POS Y" dv="0x00000086">TimeEditor:Curve:8</bind>
-      <bind Label="POS Y" dv="0x00000086_R">TimeEditor:Curve:8:Reset</bind>
-      <bind Label="POS Y" dv="0x00000093">TimeEditor:Curve:3</bind>
-      <bind Label="POS Y" dv="0x00000093_R">TimeEditor:Curve:3:Reset</bind>
-      <bind Label="POSITIVE" dv="0x000000A4">TimeEditor:Curve:46</bind>
-      <bind Label="POSITIVE" dv="0x000000A4_R">TimeEditor:Curve:46:Reset</bind>
-      <bind Label="POST SAT" dv="0x00000405">Composer:Grade:Keyer:PostSat:Knob</bind>
-      <bind Label="POST SAT" dv="0x00000405_R">Composer:Grade:Keyer:PostSat:Reset</bind>
-      <bind Label="POST SAT" dv="0x00000562">Composer:Grade:Keyer:PostSat:Knob</bind>
-      <bind Label="POST SAT" dv="0x00000562_R">Composer:Grade:Keyer:PostSat:Reset</bind>
-      <bind Label="POST SAT" dv="0x07000005"/>
+      <bind Label="OVERLAYS" dv="0x0000701A">Composer:Grade:Setup:OverLays:DrawOver</bind>
+      <bind Label="PACK L" dv="0x00000704">Edit:Pack:Left</bind>
+      <bind Label="PACK R" dv="0x00000705">Edit:Pack:Right</bind>
+      <bind Label="PB CUR FG" dv="0x00000603">Edit:PlaybackCache:Render:Current_Fg</bind>
+      <bind Label="PB CUR TOTEM" dv="0x00000606">Edit:PlaybackCache:Render:Current_Totem</bind>
+      <bind Label="PB PEND BATCH" dv="0x00000605">Edit:PlaybackCache:Render:Pending_Batch</bind>
+      <bind Label="PB PEND FG" dv="0x00000604">Edit:PlaybackCache:Render:Pending_Fg</bind>
+      <bind Label="PB SEL INV" dv="0x00000602">Edit:PlaybackCache:Cache:Selected_Invalid</bind>
+      <bind Label="PB SEL OFF" dv="0x00000601">Edit:PlaybackCache:Cache:Selected_Off</bind>
+      <bind Label="PB SEL ON" dv="0x00000600">Edit:PlaybackCache:Cache:Selected_On</bind>
+      <bind Label="PICK 1" dv="0x00000807">Composer:Grade:Curve:Pick1</bind>
+      <bind Label="PICK 2" dv="0x00000808">Composer:Grade:Curve:Pick2</bind>
+      <bind Label="PIXEL 1:1" dv="0x00000247">TimeEditor:Options/Fit:1:1 pixels, centre crop/pad</bind>
+      <bind Label="PLAY BACK" dv="0x000000D1">Edit:Shuttle:PlayBackward</bind>
+      <bind Label="PLAY FWD" dv="0x000000D4">Edit:Shuttle:PlayForward</bind>
+      <bind Label="PLAYBACKWARD VISUAL EDITOR" dv="0x00020003">Composer:CommonControls:Shuttle:PlayBackward</bind>
+      <bind Label="PLAYFORWARD VISUAL EDITOR" dv="0x00020001">Composer:CommonControls:Shuttle:PlayForward</bind>
+      <bind Label="POINT 1 X" dv="0x0000080C">CurvePoint1X</bind>
+      <bind Label="POINT 1 Y" dv="0x0000025A">CurvePoint1</bind>
+      <bind Label="POINT 1" dv="0x00010037">CurvePoint1X</bind>
+      <bind Label="POINT 2 X" dv="0x0000080D">CurvePoint2X</bind>
+      <bind Label="POINT 2 Y" dv="0x0000025B">CurvePoint2</bind>
+      <bind Label="POINT 2" dv="0x00010039">CurvePoint2X</bind>
+      <bind Label="POINT 3 X" dv="0x0000080E">CurvePoint3X</bind>
+      <bind Label="POINT 3 Y" dv="0x0000025C">CurvePoint3</bind>
+      <bind Label="POINT 3" dv="0x0001003B">CurvePoint3X</bind>
+      <bind Label="POINT 4 X" dv="0x0000080F">CurvePoint4X</bind>
+      <bind Label="POINT 4 Y" dv="0x0000025D">CurvePoint4</bind>
+      <bind Label="POINT 4" dv="0x0001003D">CurvePoint4X</bind>
+      <bind Label="POINT 5 X" dv="0x00000901">CurvePoint5X</bind>
+      <bind Label="POINT 5 Y" dv="0x0000025E">CurvePoint5</bind>
+      <bind Label="POINT 5" dv="0x0001003F">CurvePoint5X</bind>
+      <bind Label="POINT 6 X" dv="0x00000902">CurvePoint6X</bind>
+      <bind Label="POINT 6 Y" dv="0x0000025F">CurvePoint6</bind>
+      <bind Label="POINT 6" dv="0x00010041">CurvePoint6X</bind>
+      <bind Label="POS X" dv="0x00000085">TimeEditor:Balance Geometry/PosX</bind>
+      <bind Label="POS X" dv="0x00000085_R">TimeEditor:Balance Geometry/PosX:Reset</bind>
+      <bind Label="POS X" dv="0x00000092">TimeEditor:Adjust Geometry/PosX</bind>
+      <bind Label="POS X" dv="0x00000092_R">TimeEditor:Adjust Geometry/PosX:Reset</bind>
+      <bind Label="POS Y" dv="0x00000086">TimeEditor:Balance Geometry/PosY</bind>
+      <bind Label="POS Y" dv="0x00000086_R">TimeEditor:Balance Geometry/PosY:Reset</bind>
+      <bind Label="POS Y" dv="0x00000093">TimeEditor:Adjust Geometry/PosY</bind>
+      <bind Label="POS Y" dv="0x00000093_R">TimeEditor:Adjust Geometry/PosY:Reset</bind>
+      <bind Label="POSITIVE" dv="0x000000A4">TimeEditor:Optical Flow/IOcular Warp/Positive</bind>
+      <bind Label="POSITIVE" dv="0x000000A4_R">TimeEditor:Optical Flow/IOcular Warp/Positive:Reset</bind>
+      <bind Label="PRE KEY BLUR TYPE" dv="0x00006002">Composer:Grade:Keyer:KeySourceBlurType</bind>
+      <bind Label="PREK BLUR TYPE" dv="0x00005009">KeySourceBlurType</bind>
+      <bind Label="PREKEYBLUR" dv="0x0000100F">Pre-K-Blur</bind>
       <bind Label="PRESET" dv="0x01000140">Windows:FXPresets</bind>
-      <bind Label="PREV F" dv="0x000000CF">Composer:CommonControls:Generic:PrevFrame</bind>
+      <bind Label="PREV FRAME" dv="0x000000CF">Composer:CommonControls:Generic:FrameBackward</bind>
       <bind Label="PREV FRTM" dv="0x00000560">Edit:Shuttle:PrevFrame</bind>
       <bind Label="PREV HIST" dv="0x00000104">Composer:CommonControls:Bring:BringOlder</bind>
       <bind Label="PREV KEY" dv="0x000001DB">Composer:CommonControls:Shuttle:PrevKey</bind>
       <bind Label="PREV LIB" dv="0x000000F8">FXPreset:Select:Prev</bind>
       <bind Label="PREV SB" dv="0x00000117">Composer:CommonControls:Bring:SelectPrev</bind>
+      <bind Label="PREV SHAPE" dv="0x00007012">Composer:Shapes:Select:Prev</bind>
+      <bind Label="PREV SHOT" dv="0x000000CD">Composer:CommonControls:Generic:PreviousShot</bind>
+      <bind Label="PREV SHOT" dv="0x000000CD_R">Composer:CommonControls:Generic:PreviousShot</bind>
+      <bind Label="PREV SHOT" dv="0x000101E7_R">Composer:CommonControls:Generic:PreviousShot</bind>
       <bind Label="PREV VECT" dv="0x0000015C">Composer:Grade:Prev</bind>
       <bind Label="PREV VECT" dv="0x00000242">Composer:Grade:Prev</bind>
-      <bind Label="PREV" dv="0x000000CD">Composer:CommonControls:ShuttleTL:PrevEdit</bind>
+      <bind Label="PREV" dv="0x000000CD">Composer:CommonControls:Generic:PreviousShot</bind>
+      <bind Label="PREV" dv="0x000000CD_R">Composer:CommonControls:Generic:PreviousShot</bind>
+      <bind Label="PROJECT" dv="0x000001FD">TimeEditor:Options/Result Size:Project</bind>
       <bind Label="PROP MODE" dv="0x0000040B">Composer:Grade:Keyer:Proportional</bind>
-      <bind Label="QUALITY" dv="0x000001FF">TimeEditor:Curve:2:Rotate</bind>
-      <bind Label="R MIRROR" dv="0x0000008E">TimeEditor:Curve:1:Rotate</bind>
-      <bind Label="R MIRROR" dv="0x00000548_R">TimeEditor:Curve:1:Rotate</bind>
-      <bind Label="R SLANT" dv="0x00000099">TimeEditor:Curve:31</bind>
-      <bind Label="R SLANT" dv="0x00000099_R">TimeEditor:Curve:31:Reset</bind>
+      <bind Label="R CURVE" dv="0x0000200E">Composer:Grade:Curve:R-Curve</bind>
+      <bind Label="R MIRROR" dv="0x0000008E">TimeEditor:Mirror/Mirror Right Eye</bind>
+      <bind Label="R MIRROR" dv="0x00000548_R">TimeEditor:Mirror/Mirror Right Eye:Rotate</bind>
+      <bind Label="R SLANT" dv="0x00000099">TimeEditor:Floating Window/Right/Slant</bind>
+      <bind Label="R SLANT" dv="0x00000099_R">TimeEditor:Floating Window/Right/Slant:Reset</bind>
       <bind Label="R SOFT" dv="0x00000048">RSoft</bind>
-      <bind Label="R WIDTH" dv="0x00000097">TimeEditor:Curve:30</bind>
-      <bind Label="R WIDTH" dv="0x00000097_R">TimeEditor:Curve:30:Reset</bind>
+      <bind Label="R WIDTH" dv="0x00000097">TimeEditor:Floating Window/Right/Width</bind>
+      <bind Label="R WIDTH" dv="0x00000097_R">TimeEditor:Floating Window/Right/Width:Reset</bind>
       <bind Label="R+" dv="0x00000126">Composer:Grade:Primary:PrinterLights:R-Plus</bind>
       <bind Label="R+" dv="0x0100000A"/>
       <bind Label="R+" dv="0x0100000A_R">Composer:Grade:Primary:PrinterLights:R-Plus</bind>
       <bind Label="R-" dv="0x0000012C">Composer:Grade:Primary:PrinterLights:R-Minus</bind>
       <bind Label="R-" dv="0x0100000D"/>
       <bind Label="R-" dv="0x0100000D_R">Composer:Grade:Primary:PrinterLights:R-Minus</bind>
-      <bind Label="RANGE" dv="0x0000023C">TimeEditor:Curve:34:Rotate</bind>
-      <bind Label="RANGE" dv="0x00000555_R">TimeEditor:Curve:34:Rotate</bind>
+      <bind Label="RANGE" dv="0x0000023C">TimeEditor:Optical Flow/Params/Range:Rotate</bind>
+      <bind Label="RANGE" dv="0x00000555_R">TimeEditor:Optical Flow/Params/Range:Rotate</bind>
       <bind Label="RATIO 16:9" dv="0x0000053E_R">Composer:Framing:Crop:Ratio_16_9</bind>
       <bind Label="RATIO 1:85" dv="0x0000053D_R">Composer:Framing:Crop:Ratio_185</bind>
       <bind Label="RATIO 2:35" dv="0x0000053C_R">Composer:Framing:Crop:Ratio_235</bind>
       <bind Label="RATIO 4:3" dv="0x0000053F_R">Composer:Framing:Crop:Ratio_4_3</bind>
+      <bind Label="RECOVER MODE" dv="0x00006007">Composer:Grade:Keyer:RecoverMode</bind>
+      <bind Label="RECOVER SOURCE" dv="0x00006008">Composer:Grade:Options:RecoverSource</bind>
       <bind Label="RECTANG" dv="0x0000006C">Composer:Grade:Window:WinRect</bind>
+      <bind Label="RECTANGLE DRAW" dv="0x0000200D">Composer:Shapes:Modes:Rectangle</bind>
+      <bind Label="RECTANGLE" dv="0x0000006C">Composer:Grade:Window:WinRect</bind>
+      <bind Label="RED B" dv="0x00010024">FixedChannelMixerRedB</bind>
+      <bind Label="RED G" dv="0x00010023">FixedChannelMixerRedG</bind>
+      <bind Label="RED HUE" dv="0x00000903">Composer:Grade:Keyer:Hexagon:Red</bind>
+      <bind Label="RED POINTS" dv="0x00000709">Composer:Grade:Curve:HSL:Modes:Red</bind>
+      <bind Label="RED R" dv="0x00010022">FixedChannelMixerRedR</bind>
+      <bind Label="RED" dv="0x00007041">DolbyVisionHexagonChromaRed_X</bind>
+      <bind Label="RED" dv="0x00007042">DolbyVisionHexagonChromaRed_Y</bind>
+      <bind Label="REDO" dv="0x000001E6">Curves:Edit:Redo</bind>
       <bind Label="REMOV LA" dv="0x000000FB">Curves:Layer:RemoveLayer</bind>
+      <bind Label="REMOVE AUDIO" dv="0x00008008">Edit:Macros:BreakAudioRemoveAudio</bind>
+      <bind Label="REMOVE VIDEO" dv="0x00008007">Edit:Macros:BreakAudioRemoveVideo</bind>
       <bind Label="REMOVE" dv="0x0000040F">Composer:Grade:Keyer:Remove</bind>
       <bind Label="REPLACE" dv="0x000000D6">FXPreset:Commands:Replace</bind>
+      <bind Label="RESET ALL PRIMARIES" dv="0x00001008">Composer:Grade:Primary:ResetAll</bind>
       <bind Label="RESET ALL" dv="0x00000269">Composer:Grade:Curve:Curve-ResetAll</bind>
       <bind Label="RESET ALL" dv="0x0000052F_R">Composer:Grade:Curve:Curve-ResetAll</bind>
+      <bind Label="RESET ALL" dv="0x0000080B">Composer:Grade:Curve:Curve-ResetAll</bind>
+      <bind Label="RESET ALL" dv="0x00001002">Composer:Grade:Bands:ResetAll</bind>
       <bind Label="RESET CRO" dv="0x0000007D">Composer:Framing:Crop:Reset</bind>
       <bind Label="RESET CROP" dv="0x0000053B_R">Composer:Framing:Crop:Reset</bind>
+      <bind Label="RESET FIXED" dv="0x00010021">Composer:Grade:FixVectors:ResetAll</bind>
+      <bind Label="RESET HUE" dv="0x0000090A">Composer:Grade:Keyer:Hexagon:Reset</bind>
+      <bind Label="RESET LUM" dv="0x0000100E">Composer:Grade:Keyer:ResetL</bind>
+      <bind Label="RESET POINTS" dv="0x0000300F">Composer:Grade:Keyer:KeyGraph:Reset</bind>
+      <bind Label="RESET RANGES" dv="0x00001003">Composer:Grade:Bands:ResetRanges</bind>
+      <bind Label="RESET SAT" dv="0x0000100B">Composer:Grade:Keyer:ResetS</bind>
       <bind Label="RESET SCA" dv="0x00000084">Composer:Framing:Resize:Reset</bind>
       <bind Label="RESET SEL" dv="0x00000268">Composer:Grade:Curve:Curve-DelSelected</bind>
       <bind Label="RESET SEL" dv="0x0000052E_R">Composer:Grade:Curve:Curve-DelSelected</bind>
-      <bind Label="RESULT" dv="0x000001FE">TimeEditor:Curve:1:Rotate</bind>
+      <bind Label="RESET VECTOR" dv="0x0000011D">Curves:Edit:RemoveSelect</bind>
+      <bind Label="REVEAL" dv="0x00000701">Edit:Attr:Reveal</bind>
       <bind Label="RGB CURVE" dv="0x00000260">Composer:Grade:Curve:RGB-Curve</bind>
       <bind Label="RGB CURVE" dv="0x00000530_R">Composer:Grade:Curve:RGB-Curve</bind>
       <bind Label="RGB" dv="0x00000502">Composer:Grade:Keyer:Tabs:RGB</bind>
-      <bind Label="RIGHT" dv="0x00000075">TimeEditor:Curve:9</bind>
-      <bind Label="RIGHT" dv="0x00000075_R">TimeEditor:Curve:9:Reset</bind>
-      <bind Label="ROLL" dv="0x00000087">TimeEditor:Curve:10</bind>
-      <bind Label="ROLL" dv="0x00000087_R">TimeEditor:Curve:10:Reset</bind>
-      <bind Label="ROLL" dv="0x00000094">TimeEditor:Curve:5</bind>
-      <bind Label="ROLL" dv="0x00000094_R">TimeEditor:Curve:5:Reset</bind>
-      <bind Label="ROLL" dv="0x0000024B">TimeEditor:Curve:3</bind>
-      <bind Label="ROLL" dv="0x0000024B_R">TimeEditor:Curve:3:Reset</bind>
+      <bind Label="ROLL" dv="0x00000087">TimeEditor:Balance Geometry/Roll</bind>
+      <bind Label="ROLL" dv="0x00000087_R">TimeEditor:Balance Geometry/Roll:Reset</bind>
+      <bind Label="ROLL" dv="0x00000094">TimeEditor:Adjust Geometry/Roll</bind>
+      <bind Label="ROLL" dv="0x00000094_R">TimeEditor:Adjust Geometry/Roll:Reset</bind>
+      <bind Label="ROLL" dv="0x0000024B">TimeEditor:Adjust Geometry/Roll</bind>
+      <bind Label="ROLL" dv="0x0000024B_R">TimeEditor:Adjust Geometry/Roll:Reset</bind>
+      <bind Label="ROLL" dv="0x00001102">TimeEditor:Transform/Roll</bind>
       <bind Label="ROLLOFF" dv="0x00000409">RolloffPivot</bind>
+      <bind Label="ROTATE" dv="0x00007017">Composer:Shapes:Rotate</bind>
       <bind Label="ROTATION" dv="0x00000054">Window:Move</bind>
       <bind Label="ROTATION" dv="0x00000528">Window:Move</bind>
       <bind Label="Recov Sel" dv="0x000001E9_R">Composer:CommonControls:Bring:RecoverSelected</bind>
       <bind Label="S-S CURVE" dv="0x00000265">Composer:Grade:Curve:SS-Curve</bind>
       <bind Label="S-S CURVE" dv="0x00000532_R">Composer:Grade:Curve:SS-Curve</bind>
       <bind Label="SAT B" dv="0x0000003D">FixedSatB</bind>
+      <bind Label="SAT B" dv="0x00007031">TimeEditor:Saturation/Sat Blue</bind>
       <bind Label="SAT C" dv="0x0000003C">FixedSatC</bind>
+      <bind Label="SAT C" dv="0x00007032">TimeEditor:Saturation/Sat Cyan</bind>
       <bind Label="SAT G" dv="0x0000003B">FixedSatG</bind>
+      <bind Label="SAT G" dv="0x00007030">TimeEditor:Saturation/Sat Green</bind>
       <bind Label="SAT HI" dv="0x0000004B">Composer:Grade:Keyer:SatBar:HiLimit</bind>
       <bind Label="SAT HI" dv="0x0000004B_R">Composer:Grade:Keyer:ResetS</bind>
+      <bind Label="SAT HIGH" dv="0x0000004B">Composer:Grade:Keyer:SatBar:HiLimit</bind>
+      <bind Label="SAT HIGH" dv="0x0000004B_R">Composer:Grade:Keyer:ResetS</bind>
       <bind Label="SAT LO" dv="0x0000004A">Composer:Grade:Keyer:SatBar:LowLimit</bind>
       <bind Label="SAT LO" dv="0x0000004A_R">Composer:Grade:Keyer:ResetS</bind>
+      <bind Label="SAT LOW" dv="0x0000004A">Composer:Grade:Keyer:SatBar:LowLimit</bind>
+      <bind Label="SAT LOW" dv="0x0000004A_R">Composer:Grade:Keyer:ResetS</bind>
       <bind Label="SAT M" dv="0x0000003E">FixedSatM</bind>
+      <bind Label="SAT M" dv="0x00007033">TimeEditor:Saturation/Sat Magenta</bind>
       <bind Label="SAT R" dv="0x00000039">FixedSatR</bind>
+      <bind Label="SAT R" dv="0x00007029">TimeEditor:Saturation/Sat Red</bind>
       <bind Label="SAT Y" dv="0x0000003A">FixedSatY</bind>
+      <bind Label="SAT Y" dv="0x00007034">TimeEditor:Saturation/Sat Yellow</bind>
+      <bind Label="SAT" dv="0x00000405">Composer:Grade:Keyer:PostSat:Knob</bind>
+      <bind Label="SAT" dv="0x00000405_R">Composer:Grade:Keyer:PostSat:Reset</bind>
+      <bind Label="SAT" dv="0x00000562">Composer:Grade:Keyer:PostSat:Knob</bind>
+      <bind Label="SAT" dv="0x00000562_R">Composer:Grade:Keyer:PostSat:Reset</bind>
+      <bind Label="SAT" dv="0x00007024">Composer:CommonControls:DolbyVision:Sliders:Saturation:Knob</bind>
+      <bind Label="SAT" dv="0x07000005"/>
       <bind Label="SAVE HIST" dv="0x000000FC">Composer:CommonControls:Bring:BringOk</bind>
       <bind Label="SAVE LIB" dv="0x0000010A">FXPreset:Commands:AutoMem</bind>
       <bind Label="SB ACTIVE" Limit="1" dv="0x000001D0_0">Composer:CommonControls:StoryBoard:View:SBOff</bind>
@@ -476,34 +779,52 @@
       <bind Label="SB MAX" dv="0x000001D2">Composer:CommonControls:StoryBoard:View:SBFull</bind>
       <bind Label="SB MIN" dv="0x000001E2">Composer:CommonControls:StoryBoard:View:SBSplit</bind>
       <bind Label="SB MORE" dv="0x000001D4">Composer:CommonControls:StoryBoard:Lines:SBMore</bind>
+      <bind Label="SC.PIVOT" dv="0x00000408">SuperWhitePivot</bind>
       <bind Label="SCALE RESET" dv="0x00000542_R">Composer:Framing:Resize:Reset</bind>
-      <bind Label="SCALE X" dv="0x00000077">TimeEditor:Curve:4</bind>
       <bind Label="SCALE X" dv="0x00000077_R">TimeEditor:Curve:4:Reset</bind>
-      <bind Label="SCALE X" dv="0x0000023E">TimeEditor:Curve:57</bind>
-      <bind Label="SCALE X" dv="0x0000023E_R">TimeEditor:Curve:57:Reset</bind>
-      <bind Label="SCALE Y" dv="0x00000078">TimeEditor:Curve:5</bind>
+      <bind Label="SCALE X" dv="0x00000079">TimeEditor:Transform/Scale X</bind>
+      <bind Label="SCALE X" dv="0x00000079_R">TimeEditor:Transform/Scale X:Reset</bind>
+      <bind Label="SCALE X" dv="0x0000023E">TimeEditor:Balance Geo 2/ScaleX</bind>
+      <bind Label="SCALE X" dv="0x0000023E_R">TimeEditor:Balance Geo 2/ScaleX:Reset</bind>
+      <bind Label="SCALE XY" dv="0x00000077">Composer:Framing:Scale:X</bind>
+      <bind Label="SCALE Y" dv="0x00000078">TimeEditor:Transform/Scale Y</bind>
       <bind Label="SCALE Y" dv="0x00000078_R">TimeEditor:Curve:5:Reset</bind>
+      <bind Label="SCALE Y" dv="0x0000007A">TimeEditor:Transform/Scale Y</bind>
+      <bind Label="SCALE Y" dv="0x0000007A_R">TimeEditor:Transform/Scale Y:Reset</bind>
       <bind Label="SCOPE 1" dv="0x00000214">Windows:Scope1</bind>
       <bind Label="SCOPE 2" dv="0x00000215">Windows:Scope2</bind>
       <bind Label="SCOPE 3" dv="0x00000216">Windows:Scope3</bind>
       <bind Label="SCOPE 4" dv="0x00000217">Windows:Scope4</bind>
+      <bind Label="SEL SHAPE" dv="0x00007014">Composer:Shapes:Select:Both</bind>
+      <bind Label="SELECT NEXT POINT" dv="0x0000400E">Composer:Grade:Curve:SelectNextPoint</bind>
+      <bind Label="SELECT PREV POINT" dv="0x0000400D">Composer:Grade:Curve:SelectPrevPoint</bind>
+      <bind Label="SHADOW RANGES" dv="0x0000002F">Composer:Grade:Ranges:1</bind>
+      <bind Label="SHADOW RANGES" dv="0x0000002F_R">Composer:Grade:Ranges:Reset</bind>
+      <bind Label="SHADOWPIVOTS" dv="0x00007009">Composer:Grade:Primary:PivotsSuperwhiteMode:Shadows</bind>
+      <bind Label="SHADOWS RANGE" dv="0x00007006">Composer:Grade:Bands:Ranges:Mode:Shadows</bind>
       <bind Label="SHADOWS" dv="0x00000013">BandsTB1_X</bind>
       <bind Label="SHADOWS" dv="0x07000019">BandsTB1_X</bind>
-      <bind Label="SHAPE I-O" dv="0x00000523_R">Composer:Grade:Keyer:Inside</bind>
-      <bind Label="SHAPE" dv="0x0000006D">Composer:Grade:Window:WinShp</bind>
       <bind Label="SHAPE" dv="0x00000520_R">Composer:Grade:Window:WinShp</bind>
-      <bind Label="SHEAR X" dv="0x0000023D">TimeEditor:Curve:56</bind>
+      <bind Label="SHARP" dv="0x00000805">Composer:Grade:Curve:Sh</bind>
+      <bind Label="SHARPEN" dv="0x00005001">Composer:Grade:Keyer:Sharp</bind>
+      <bind Label="SHEAR X" dv="0x0000023D">TimeEditor:Balance Geo 2/ShearX</bind>
       <bind Label="SHOW KEY" dv="0x00000070">Composer:Grade:Keyer:ExtKeyEnable</bind>
       <bind Label="SHOW SNAP" dv="0x00000106">Snapshot:PrevSnapshotMode</bind>
+      <bind Label="SHRPBLEND" dv="0x0000500B">B-Blend</bind>
       <bind Label="SHUTTLE" dv="0x06400003">TimeEditor:Curve:4</bind>
       <bind Label="SIZE X" dv="0x00000055">Window:Size.X</bind>
       <bind Label="SIZE X" dv="0x00000529">Window:Size.X</bind>
+      <bind Label="SIZE X" dv="0x00007018">Composer:Shapes:Size.X</bind>
       <bind Label="SIZE Y" dv="0x00000056">Window:Size.Y</bind>
       <bind Label="SIZE Y" dv="0x0000052A">Window:Size.Y</bind>
-      <bind Label="SMOOTH" dv="0x00000232">TimeEditor:Curve:54</bind>
-      <bind Label="SMOOTH" dv="0x00000232_R">TimeEditor:Curve:54:Reset</bind>
-      <bind Label="SMOOTHNES" dv="0x000000A6">TimeEditor:Curve:38</bind>
-      <bind Label="SMOOTHNES" dv="0x000000A6_R">TimeEditor:Curve:38:Reset</bind>
+      <bind Label="SIZE Y" dv="0x00007019">Composer:Shapes:Size.Y</bind>
+      <bind Label="SKIN HUE" dv="0x00000906">Composer:Grade:Keyer:Hexagon:Skin</bind>
+      <bind Label="SLIDERS" dv="0x00001001">Composer:Grade:Bands:Mode:Sliders</bind>
+      <bind Label="SMOOTH" dv="0x00000232">TimeEditor:Balance Color 2/Smoothness</bind>
+      <bind Label="SMOOTH" dv="0x00000232_R">TimeEditor:Balance Color 2/Smoothness:Reset</bind>
+      <bind Label="SMOOTH" dv="0x00000804">Composer:Grade:Curve:Sm</bind>
+      <bind Label="SMOOTHNES" dv="0x000000A6">TimeEditor:Optical Flow/Params/Smoothnes</bind>
+      <bind Label="SMOOTHNES" dv="0x000000A6_R">TimeEditor:Optical Flow/Params/Smoothnes:Reset</bind>
       <bind Label="SNAP CUR" dv="0x0000010E">Snapshot:SnapshotCurrent</bind>
       <bind Label="SNAP CURR" dv="0x00000561">Snapshot:SnapshotCurrent</bind>
       <bind Label="SNAP LIB" dv="0x00000101">FXPreset:SnapShot:Recover</bind>
@@ -518,65 +839,96 @@
       <bind Label="SOFT HI" dv="0x0000004D_R">Composer:Grade:Keyer:ResetS</bind>
       <bind Label="SOFT HI" dv="0x00000051">Composer:Grade:Keyer:LumBar:HiSoft</bind>
       <bind Label="SOFT HI" dv="0x00000051_R">Composer:Grade:Keyer:ResetL</bind>
+      <bind Label="SOFT HIGH" dv="0x0000004D">Composer:Grade:Keyer:SatBar:HiSoft</bind>
+      <bind Label="SOFT HIGH" dv="0x0000004D_R">Composer:Grade:Keyer:ResetS</bind>
+      <bind Label="SOFT HIGH" dv="0x00000051">Composer:Grade:Keyer:LumBar:HiSoft</bind>
+      <bind Label="SOFT HIGH" dv="0x00000051_R">Composer:Grade:Keyer:ResetL</bind>
       <bind Label="SOFT LO" dv="0x0000004C">Composer:Grade:Keyer:SatBar:LowSoft</bind>
       <bind Label="SOFT LO" dv="0x0000004C_R">Composer:Grade:Keyer:ResetS</bind>
       <bind Label="SOFT LO" dv="0x00000050">Composer:Grade:Keyer:LumBar:LowSoft</bind>
       <bind Label="SOFT LO" dv="0x00000050_R">Composer:Grade:Keyer:ResetL</bind>
+      <bind Label="SOFT LOW" dv="0x0000004C">Composer:Grade:Keyer:SatBar:LowSoft</bind>
+      <bind Label="SOFT LOW" dv="0x0000004C_R">Composer:Grade:Keyer:ResetS</bind>
+      <bind Label="SOFT LOW" dv="0x00000050">Composer:Grade:Keyer:LumBar:LowSoft</bind>
+      <bind Label="SOFT LOW" dv="0x00000050_R">Composer:Grade:Keyer:ResetL</bind>
       <bind Label="SOFT SIZE" dv="0x0000052B">Window:Size</bind>
       <bind Label="SOFTNESS" dv="0x00000057">Window:Size</bind>
       <bind Label="SOLO 3D" dv="0x00000506">Composer:Grade:Keyer:Solo3D</bind>
+      <bind Label="SOLO CURVE" dv="0x00003002">Composer:Grade:Curve:SoloRGB</bind>
       <bind Label="SOLO HSL" dv="0x00000504">Composer:Grade:Keyer:SoloHSL</bind>
+      <bind Label="SOLO HUE" dv="0x0000090B">Composer:Grade:Keyer:Hexagon:Solo</bind>
+      <bind Label="SOLO LUM" dv="0x0000100C">Composer:Grade:Keyer:SoloL</bind>
       <bind Label="SOLO RGB" dv="0x00000505">Composer:Grade:Keyer:SoloRGB</bind>
-      <bind Label="SPLIT NEG" dv="0x000000A0">TimeEditor:Curve:42</bind>
-      <bind Label="SPLIT NEG" dv="0x000000A0_R">TimeEditor:Curve:42:Reset</bind>
-      <bind Label="SPLIT POS" dv="0x000000A1">TimeEditor:Curve:45</bind>
-      <bind Label="SPLIT POS" dv="0x000000A1_R">TimeEditor:Curve:45</bind>
+      <bind Label="SOLO SAT" dv="0x00001009">Composer:Grade:Keyer:SoloS</bind>
+      <bind Label="SPLIT CONFORM" dv="0x0000700E">Edit:Macros:SplitConform</bind>
+      <bind Label="SPLIT NEG" dv="0x000000A0">TimeEditor:Optical Flow/IOcular Warp/Negative Split</bind>
+      <bind Label="SPLIT NEG" dv="0x000000A0_R">TimeEditor:Optical Flow/IOcular Warp/Negative Split:Reset</bind>
+      <bind Label="SPLIT POS" dv="0x000000A1">TimeEditor:Optical Flow/IOcular Warp/Positive Split</bind>
+      <bind Label="SPLIT POS" dv="0x000000A1_R">TimeEditor:Optical Flow/IOcular Warp/Positive Split:Reset</bind>
       <bind Label="SPLITSNAP" dv="0x000000B7">Snapshot:ChangePreset</bind>
       <bind Label="SQUARE" dv="0x0000051F_R">Composer:Grade:Window:WinRect</bind>
       <bind Label="STEREO ON" dv="0x0000008A">Composer:CommonControls:Generic:UseStereoMode</bind>
+      <bind Label="STOP VISUAL EDITOR" dv="0x00020002">Composer:CommonControls:Shuttle:Stop</bind>
       <bind Label="STOP" dv="0x000000D2">Edit:Shuttle:PlayForward</bind>
+      <bind Label="SUP WHITE" dv="0x00002008">Composer:Grade:Primary:PivotsSuperwhiteMode</bind>
       <bind Label="SWAP B" dv="0x000000F5">Composer:CommonControls:Bring:SwapPlayheads</bind>
-      <bind Label="SWAP ORIG" dv="0x000000FF">Composer:CommonControls:Bring:BringModif</bind>
-      <bind Label="SuperWhitePivot" dv="0x00000408">SuperWhitePivot</bind>
       <bind Label="T.NEXT LI" dv="0x0000011A">FXPreset:Bring:Next</bind>
       <bind Label="T.PREV LI" dv="0x00000119">FXPreset:Bring:Prev</bind>
-      <bind Label="TAKE NEXT" dv="0x00000103">Composer:CommonControls:Bring:BringNext</bind>
-      <bind Label="TAKE PREV" dv="0x00000102">Composer:CommonControls:Bring:BringPrev</bind>
-      <bind Label="TAKE SB" dv="0x0000010B">Composer:CommonControls:Bring:BringFx</bind>
+      <bind Label="TAIL" dv="0x0000011C">Composer:CommonControls:Shuttle:GotoTail</bind>
+      <bind Label="TEMP" dv="0x00001004">Composer:Grade:Primary:PrinterLights:Temperature</bind>
+      <bind Label="TIMELINE JOG" dv="0x00000708">Edit:Position.X</bind>
+      <bind Label="TINT" dv="0x00001005">Composer:Grade:Primary:PrinterLights:Tint</bind>
+      <bind Label="TONE DET" dv="0x00007026">Composer:CommonControls:DolbyVision:Sliders:ToneDetailWeight:Knob</bind>
+      <bind Label="TRACK BOTHW" dv="0x00010046">Composer:MotionTrack:ShapeTrack:Go_Both</bind>
+      <bind Label="TRACK BW" dv="0x00010045">Composer:MotionTrack:ShapeTrack:Go_Backward</bind>
+      <bind Label="TRACK FW" dv="0x00010047">Composer:MotionTrack:ShapeTrack:Go_Forward</bind>
+      <bind Label="TRACKBALLS" dv="0x0000090F">Composer:Grade:Bands:Mode:Trackballs</bind>
+      <bind Label="TRIM UNGROUP" dv="0x00008002">Edit:Macros:TrimUngroup</bind>
       <bind Label="UNDO" dv="0x000001DD">Curves:Edit:Undo</bind>
-      <bind Label="UP" dv="0x00000074">TimeEditor:Curve:10</bind>
-      <bind Label="UP" dv="0x00000074_R">TimeEditor:Curve:10:Reset</bind>
+      <bind Label="UNLOCK" dv="0x00000703">Edit:Attr:Unlock</bind>
+      <bind Label="UNSTRIP" dv="0x0000700C">Edit:Macros:Unstrip</bind>
+      <bind Label="UPDATE GRADES" dv="0x00008005">Edit:Macros:UpdateSelectedGrades</bind>
+      <bind Label="VIDEOGRADE" dv="0x00002009">Composer:Grade:Primary:PivotsSuperwhiteMode:SDRMode</bind>
       <bind Label="VIEW A" dv="0x00000125">Composer:CommonControls:View:A</bind>
       <bind Label="VIEW B" dv="0x00000124">Composer:CommonControls:View:B</bind>
       <bind Label="VIEW G" dv="0x00000123">Composer:CommonControls:View:G</bind>
       <bind Label="VIEW R" dv="0x00000122">Composer:CommonControls:View:R</bind>
       <bind Label="VIEW RGB" dv="0x00000120">Composer:CommonControls:View:RGB</bind>
       <bind Label="VIEW RGBA" dv="0x00000121">Composer:CommonControls:View:RGBA</bind>
-      <bind Label="W+ MODE" dv="0x0000013A">Composer:Grade:Primary:PrinterLights:ModeW+</bind>
-      <bind Label="W+ MODE" dv="0x0100013A_R">Composer:Grade:Primary:PrinterLights:ModeW+</bind>
       <bind Label="W.PIVOT" dv="0x00000407">WhitePivot</bind>
-      <bind Label="WARP" dv="0x00000239">TimeEditor:Curve:32:2</bind>
-      <bind Label="WARP" dv="0x00000553_R">TimeEditor:Curve:32:2</bind>
-      <bind Label="WHITE B" dv="0x000001F2">PrimaryWhiteB</bind>
-      <bind Label="WHITE G" dv="0x000001F1">PrimaryWhiteG</bind>
-      <bind Label="WHITE R" dv="0x000001F0">PrimaryWhiteR</bind>
-      <bind Label="WHITE" dv="0x00000007">PrimaryTB3_X</bind>
+      <bind Label="WARP" dv="0x00000239">TimeEditor:Optical Flow/Params/Mode:Warp</bind>
+      <bind Label="WARP" dv="0x00000553_R">TimeEditor:Optical Flow/Params/Mode:Warp</bind>
+      <bind Label="WHITE CONT" dv="0x0000002E">BandsHighCont</bind>
+      <bind Label="WHITE HUE" dv="0x0000002C">BandsHighHue</bind>
+      <bind Label="WHITE RANGES" dv="0x00000032">Composer:Grade:Ranges:2</bind>
+      <bind Label="WHITE RANGES" dv="0x00000032_R">Composer:Grade:Ranges:Reset</bind>
+      <bind Label="WHITE SAT" dv="0x0000002D">BandsHighSat</bind>
       <bind Label="WHITE" dv="0x00000019">BandsTB3_X</bind>
       <bind Label="WHITE" dv="0x0000001F">BandsTB4_X</bind>
-      <bind Label="WHITE" dv="0x0700000E">PrimaryTB3_Y</bind>
       <bind Label="WHITE" dv="0x07000028">BandsTB4_X</bind>
+      <bind Label="WIDTH SOFTNESS" dv="0x00003006">Composer:Shapes:Softness:Width</bind>
+      <bind Label="WIPE ANGLE" dv="0x000000B1">Snapshot:MoveWipe.Z</bind>
       <bind Label="Y CONST" dv="0x000000AB">Composer:Stereo:YConstrain</bind>
       <bind Label="Y CONST" dv="0x00000546_R">Composer:Stereo:YConstrain</bind>
       <bind Label="Y+" dv="0x0000012B">Composer:Grade:Primary:PrinterLights:Y-Plus</bind>
       <bind Label="Y+" dv="0x01000014_R">Composer:Grade:Primary:PrinterLights:Y-Plus</bind>
       <bind Label="Y-" dv="0x00000131">Composer:Grade:Primary:PrinterLights:Y-Minus</bind>
       <bind Label="Y-" dv="0x01000017_R">Composer:Grade:Primary:PrinterLights:Y-Minus</bind>
-      <bind Label="ZOOM" dv="0x00000089">TimeEditor:Curve:9</bind>
-      <bind Label="ZOOM" dv="0x00000089_R">TimeEditor:Curve:9:Reset</bind>
-      <bind Label="ZOOM" dv="0x00000095">TimeEditor:Curve:4</bind>
-      <bind Label="ZOOM" dv="0x00000095_R">TimeEditor:Curve:4:Reset</bind>
-      <bind Label="ZOOM" dv="0x00000210">TimeEditor:Curve:9</bind>
-      <bind Label="ZOOM" dv="0x00000210_R">TimeEditor:Curve:9:Reset</bind>
+      <bind Label="YELLOW B" dv="0x00010021">FixedChannelMixerYellowB</bind>
+      <bind Label="YELLOW G" dv="0x00010033">FixedChannelMixerYellowG</bind>
+      <bind Label="YELLOW HUE" dv="0x00000909">Composer:Grade:Keyer:Hexagon:Yellow</bind>
+      <bind Label="YELLOW POINTS" dv="0x0000070A">Composer:Grade:Curve:HSL:Modes:Yellow</bind>
+      <bind Label="YELLOW R" dv="0x00010032">FixedChannelMixerYellowR</bind>
+      <bind Label="YELLOW" dv="0x00007051">DolbyVisionHexagonChromaYellow_X</bind>
+      <bind Label="YELLOW" dv="0x00007052">DolbyVisionHexagonChromaYellow_Y</bind>
+      <bind Label="ZOOM LIVE" dv="0x000000B4">Snapshot:MoveLive.Z</bind>
+      <bind Label="ZOOM SNAP" dv="0x000000AE">Snapshot:MoveSnap.Z</bind>
+      <bind Label="ZOOM" dv="0x00000089">TimeEditor:Balance Geometry/Zoom</bind>
+      <bind Label="ZOOM" dv="0x00000089_R">TimeEditor:Balance Geometry/Zoom:Reset</bind>
+      <bind Label="ZOOM" dv="0x00000095">TimeEditor:Adjust Geometry/Zoom</bind>
+      <bind Label="ZOOM" dv="0x00000095_R">TimeEditor:Adjust Geometry/Zoom:Reset</bind>
+      <bind Label="ZOOM" dv="0x00000210">TimeEditor:Balance Geometry/Zoom</bind>
+      <bind Label="ZOOM" dv="0x00000210_R">TimeEditor:Balance Geometry/Zoom</bind>
     </group>
   </map>
 </tangentDriver>

@@ -139,11 +139,11 @@
       <bind dv="0x370100" sgo="Edit:PlayMarks:Selection"/>
       <bind dv="0x380100" sgo="Composer:CommonControls:Shuttle:GotoHead"/>
       <bind dv="0x390100" sgo="Composer:CommonControls:Shuttle:GotoTail"/>
-      <bind dv="0x3a0100" sgo="Composer:CommonControls:ShuttleTL:PrevEdit"/>
+      <bind dv="0x3a0100" sgo="Composer:CommonControls:Generic:PreviousShot"/>
       <bind dv="0x3b0100" sgo="Edit:Shuttle:PlayBackward"/>
       <bind dv="0x3c0100" sgo="Edit:Shuttle:PlayForward"/>
       <bind dv="0x3d0100" sgo="Edit:Shuttle:PlayForward"/>
-      <bind dv="0x3e0100" sgo="Composer:CommonControls:ShuttleTL:NextEdit"/>
+      <bind dv="0x3e0100" sgo="Composer:CommonControls:Generic:NextShot"/>
       <bind dv="0x3f0100" mod="0x2" sgo="Edit:Shuttle:PrevMark"/>
       <bind dv="0x3f0100" mod="0x80" sgo="Composer:CommonControls:Shuttle:PrevKey"/>
       <bind dv="0x3f0100" sgo="Edit:Shuttle:PrevFrame"/>
@@ -159,7 +159,7 @@
       <bind dv="0x4030501" sgo="Composer:Grade:Keyer:Inside"/>
       <bind dv="0x5020502" mod="0x4" sgo="External:BringNext"/>
       <bind dv="0x5020502" sgo="External:SelectNext"/>
-      <bind dv="0x5030501" sgo="Composer:Grade:Keyer:Outside"/>
+      <bind dv="0x5030501" sgo="External:Edit:PrevNext"/>
       <bind dv="0x5050201" sgo="Composer:Grade:Options:BlurMode"/>
       <bind dv="0x600" sgo="Edit:Shuttle"/>
       <bind dv="0x60100" mod="0x2" sgo="Composer:Grade:Keyer:ExtKeySource:0"/>
@@ -244,6 +244,11 @@
       <bind dv="0x40801" sgo="Composer:Grade:GradeVecI:RGBlevels"/>
       <bind dv="0x410101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB4:RB"/>
       <bind dv="0x420101" sgo="Composer:Grade:Primary:PrimaryTB:PrimaryTB4:RR"/>
+    </group>
+    <group name="0x400101">
+      <bind dv="0x10701" sgo="TimeEditor:HIT/HIT"/>
+      <bind dv="0x20801" sgo="TimeEditor:FW Left Edge/Both"/>
+      <bind dv="0x30801" sgo="TimeEditor:FW Right Edge/Both"/>
     </group>
     <group name="0x70102">
       <bind dv="0x20502" mod="0x1" sgo="External:Edit:PrevNext"/>
