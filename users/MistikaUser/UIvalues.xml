@@ -74,7 +74,7 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>47</Opacity>
   <ReelPanelTreeMove_Win>1977 -20 210 675</ReelPanelTreeMove_Win>
-  <Scale_X>316.049</Scale_X>
+  <Scale_X>100.000</Scale_X>
   <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>3275 5 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
@@ -103,7 +103,7 @@
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
     <View>0</View>
-    <Zoom>1</Zoom>
+    <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>1</Tracker_Rotate>
@@ -173,7 +173,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22103_VW_ID4</current>
+    <current>22363_Haag</current>
   </project>
   <relink>
     <mistika>
@@ -189,10 +189,10 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>1</render2_Source>
+  <render2_Source>0</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
+  <render2_Stereo>0</render2_Stereo>
+  <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
@@ -200,7 +200,7 @@
   <render_L_NullFormat>0</render_L_NullFormat>
   <render_Movie_dev_Target>0</render_Movie_dev_Target>
   <render_Prefered_source_clip>0</render_Prefered_source_clip>
-  <render_Scale>1</render_Scale>
+  <render_Scale>0</render_Scale>
   <render_Segments_Mode>0</render_Segments_Mode>
   <render_Slate_1>0</render_Slate_1>
   <render_Slate_1_During>0</render_Slate_1_During>
