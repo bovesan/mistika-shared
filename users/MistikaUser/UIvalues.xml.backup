@@ -19,7 +19,7 @@
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>true</Scopes_Scope2>
+    <Scopes_Scope2>false</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
@@ -74,7 +74,7 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>47</Opacity>
   <ReelPanelTreeMove_Win>1977 -20 210 675</ReelPanelTreeMove_Win>
-  <Scale_X>100.000</Scale_X>
+  <Scale_X>177.778</Scale_X>
   <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>3275 5 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
@@ -93,7 +93,7 @@
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>29</Size>
   <Size_X>1080</Size_X>
-  <Size_Y>1920</Size_Y>
+  <Size_Y>1350</Size_Y>
   <Snapshot2Move_Win>3329 167 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
@@ -173,7 +173,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22363_Haag</current>
+    <current>22395_Swims</current>
   </project>
   <relink>
     <mistika>
@@ -200,7 +200,7 @@
   <render_L_NullFormat>0</render_L_NullFormat>
   <render_Movie_dev_Target>0</render_Movie_dev_Target>
   <render_Prefered_source_clip>0</render_Prefered_source_clip>
-  <render_Scale>0</render_Scale>
+  <render_Scale>1</render_Scale>
   <render_Segments_Mode>0</render_Segments_Mode>
   <render_Slate_1>0</render_Slate_1>
   <render_Slate_1_During>0</render_Slate_1_During>
@@ -222,7 +222,7 @@
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
   <setup_Flow_Monitor>0</setup_Flow_Monitor>
-  <setup_Free_capturing_in_one_clip>0</setup_Free_capturing_in_one_clip>
+  <setup_Free_capturing_in_one_clip>1</setup_Free_capturing_in_one_clip>
   <setup_Hide_Text>1</setup_Hide_Text>
   <setup_Loop>1</setup_Loop>
   <setup_Mute_Audio>0</setup_Mute_Audio>
