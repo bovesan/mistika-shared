@@ -7,10 +7,10 @@ IMAGESIZEY                     2160
 SCREENRATIO                    1.7777777777777777
 COLOR_SPACE_YUV                709
 NTSCFIELDS                     0
-FRAMESSEG                      25
+FRAMESSEG                      30
 DROPFRAME                      0
 VIDEO_SIZE                     1920x1080
-VIDEO_RATE                     25
+VIDEO_RATE                     30
 VIDEO_MODE                     Progressive
 VIDEO_CONNECTOR                QUADSDI
 DVS_HDMI_BIT_DEPTH             8_B
