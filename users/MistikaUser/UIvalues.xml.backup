@@ -74,8 +74,8 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>47</Opacity>
   <ReelPanelTreeMove_Win>1977 -20 210 675</ReelPanelTreeMove_Win>
-  <Scale_X>355.556</Scale_X>
-  <Scale_Y>112.500</Scale_Y>
+  <Scale_X>102.503</Scale_X>
+  <Scale_Y>106.667</Scale_Y>
   <Scope1Move_Win>1293 31 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
@@ -92,7 +92,7 @@
   <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>29</Size>
-  <Size_X>1920</Size_X>
+  <Size_X>1998</Size_X>
   <Size_Y>1080</Size_Y>
   <Snapshot2Move_Win>3329 167 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
@@ -173,7 +173,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>2021_Mastering</current>
+    <current>22235_Jersey_Boys_bytte_aktor</current>
   </project>
   <relink>
     <mistika>
@@ -192,7 +192,7 @@
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
   <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
