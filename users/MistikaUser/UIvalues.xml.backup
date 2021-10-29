@@ -109,7 +109,7 @@
   <Tracker_Rotate>0</Tracker_Rotate>
   <Tracker_Size>1</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
-  <calc_Base>2</calc_Base>
+  <calc_Base>0</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
   <composer_JogSpeed_16>1</composer_JogSpeed_16>
   <composer_KnobSpeed_16>1</composer_KnobSpeed_16>
@@ -211,7 +211,7 @@
   <render_Time_Code_Source>0</render_Time_Code_Source>
   <render_Xfs_dev_Target>0</render_Xfs_dev_Target>
   <setup_All_Objects>0</setup_All_Objects>
-  <setup_Auto_Expand>0</setup_Auto_Expand>
+  <setup_Auto_Expand>1</setup_Auto_Expand>
   <setup_Auto_Sync_Editor_to_Timeline>0</setup_Auto_Sync_Editor_to_Timeline>
   <setup_Constrain_X>0</setup_Constrain_X>
   <setup_Constrain_Y>0</setup_Constrain_Y>
