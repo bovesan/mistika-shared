@@ -3002,6 +3002,8 @@ ButtonOverrides(
 	b(n(TimeEditor/Advanced/Filter/Filter Chroma/7x7)k())
 	b(n(TimeEditor/Advanced/Filter/Filter Chroma/9x9)k())
 	b(n(TimeEditor/Advanced/Filter/Filter Chroma/None)k())
+	b(n(TimeEditor/Advanced/RB Gain/Use/Source)k())
+	b(n(TimeEditor/Advanced/RB Gain/Use/Value)k())
 	b(n(TimeEditor/Alpha/InvertOut/No)   k())
 	b(n(TimeEditor/Alpha/InvertOut/Yes)  k())
 	b(n(TimeEditor/Alpha/InvertX/No)     k())
