@@ -3,11 +3,11 @@
   <Background_Luma>8</Background_Luma>
   <CommonControls>
     <AlignMode>false</AlignMode>
-    <CameraOverlay>false</CameraOverlay>
+    <CameraOverlay>true</CameraOverlay>
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
-    <FeatherOverlay>true</FeatherOverlay>
+    <FeatherOverlay>false</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
     <GridOverlay>true</GridOverlay>
@@ -173,7 +173,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22447_Rema_1000_Uke44</current>
+    <current>22316_BabyBoom</current>
   </project>
   <relink>
     <mistika>
@@ -200,7 +200,7 @@
   <render_L_NullFormat>0</render_L_NullFormat>
   <render_Movie_dev_Target>0</render_Movie_dev_Target>
   <render_Prefered_source_clip>0</render_Prefered_source_clip>
-  <render_Scale>0</render_Scale>
+  <render_Scale>1</render_Scale>
   <render_Segments_Mode>0</render_Segments_Mode>
   <render_Slate_1>0</render_Slate_1>
   <render_Slate_1_During>0</render_Slate_1_During>
