@@ -75,7 +75,7 @@
   <Opacity>42</Opacity>
   <ReelPanelTreeMove_Win>1977 -20 210 675</ReelPanelTreeMove_Win>
   <Scale_X>100.000</Scale_X>
-  <Scale_Y>100.000</Scale_Y>
+  <Scale_Y>248.848</Scale_Y>
   <Scope1Move_Win>1260 33 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
@@ -93,7 +93,7 @@
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>29</Size>
   <Size_X>1920</Size_X>
-  <Size_Y>1080</Size_Y>
+  <Size_Y>434</Size_Y>
   <Snapshot2Move_Win>3329 167 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
@@ -173,7 +173,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22387_Sparebank1_Nov_2021</current>
+    <current>22447_Rema_1000_Uke44</current>
   </project>
   <relink>
     <mistika>
@@ -200,7 +200,7 @@
   <render_L_NullFormat>0</render_L_NullFormat>
   <render_Movie_dev_Target>0</render_Movie_dev_Target>
   <render_Prefered_source_clip>0</render_Prefered_source_clip>
-  <render_Scale>0</render_Scale>
+  <render_Scale>1</render_Scale>
   <render_Segments_Mode>0</render_Segments_Mode>
   <render_Slate_1>0</render_Slate_1>
   <render_Slate_1_During>0</render_Slate_1_During>
