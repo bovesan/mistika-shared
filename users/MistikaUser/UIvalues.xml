@@ -74,26 +74,26 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>42</Opacity>
   <ReelPanelTreeMove_Win>1977 -20 210 675</ReelPanelTreeMove_Win>
-  <Scale_X>187.500</Scale_X>
-  <Scale_Y>251.748</Scale_Y>
-  <Scope1Move_Win>3271 0 522 552</Scope1Move_Win>
-  <Scope1_Scale_>6</Scope1_Scale_>
+  <Scale_X>355.556</Scale_X>
+  <Scale_Y>112.500</Scale_Y>
+  <Scope1Move_Win>1994 35 522 552</Scope1Move_Win>
+  <Scope1_Scale_>4</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>87 25 522 552</Scope2Move_Win>
+  <Scope2Move_Win>-221 -18 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>5</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
-  <Scope3Move_Win>46 0 522 552</Scope3Move_Win>
+  <Scope3Move_Win>1437 102 522 552</Scope3Move_Win>
   <Scope3_Mode_>4</Scope3_Mode_>
   <Scope3_Negative_>1</Scope3_Negative_>
-  <Scope3_Scale_>6</Scope3_Scale_>
+  <Scope3_Scale_>7</Scope3_Scale_>
   <Scope3_Sizes_>1</Scope3_Sizes_>
   <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>29</Size>
-  <Size_X>2048</Size_X>
-  <Size_Y>858</Size_Y>
+  <Size_X>1920</Size_X>
+  <Size_Y>868</Size_Y>
   <Snapshot2Move_Win>2294 53 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
@@ -127,7 +127,7 @@
   <dcp_Year>7</dcp_Year>
   <edit_>2</edit_>
   <edit_Animation>1</edit_Animation>
-  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
   <filebrowser>
@@ -173,15 +173,15 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22316_BabyBoom</current>
+    <current>22490_Xbox</current>
   </project>
   <relink>
     <mistika>
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>0</render2_Audio>
-  <render2_Auto_Name>0</render2_Auto_Name>
+  <render2_Audio>1</render2_Audio>
+  <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Except_JS_clips>0</render2_Except_JS_clips>
   <render2_Filter>1</render2_Filter>
@@ -190,9 +190,9 @@
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>0</render2_Source>
-  <render2_Split>0</render2_Split>
+  <render2_Split>2</render2_Split>
   <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
+  <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
@@ -222,7 +222,7 @@
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
   <setup_Flow_Monitor>0</setup_Flow_Monitor>
-  <setup_Free_capturing_in_one_clip>0</setup_Free_capturing_in_one_clip>
+  <setup_Free_capturing_in_one_clip>1</setup_Free_capturing_in_one_clip>
   <setup_Hide_Text>1</setup_Hide_Text>
   <setup_Loop>1</setup_Loop>
   <setup_Mute_Audio>0</setup_Mute_Audio>
