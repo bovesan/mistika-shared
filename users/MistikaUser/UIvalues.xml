@@ -79,7 +79,7 @@
   <Scope1Move_Win>1373 130 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>-144 58 522 552</Scope2Move_Win>
+  <Scope2Move_Win>0 58 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
@@ -173,7 +173,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22455_Europris</current>
+    <current>22030_New_Energy</current>
   </project>
   <relink>
     <mistika>
