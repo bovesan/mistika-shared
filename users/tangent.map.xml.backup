@@ -914,7 +914,7 @@
       <bind Label="Y+" dv="0x01000014_R">Composer:Grade:Primary:PrinterLights:Y-Plus</bind>
       <bind Label="Y-" dv="0x00000131">Composer:Grade:Primary:PrinterLights:Y-Minus</bind>
       <bind Label="Y-" dv="0x01000017_R">Composer:Grade:Primary:PrinterLights:Y-Minus</bind>
-      <bind Label="YELLOW B" dv="0x00010036">FixedChannelMixerYellowB</bind>
+      <bind Label="YELLOW B" dv="0x00010021">FixedChannelMixerYellowB</bind>
       <bind Label="YELLOW G" dv="0x00010033">FixedChannelMixerYellowG</bind>
       <bind Label="YELLOW HUE" dv="0x00000909">Composer:Grade:Keyer:Hexagon:Yellow</bind>
       <bind Label="YELLOW POINTS" dv="0x0000070A">Composer:Grade:Curve:HSL:Modes:Yellow</bind>
