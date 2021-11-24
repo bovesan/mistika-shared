@@ -72,7 +72,7 @@
     <PreferedClip>0</PreferedClip>
     <FilterUsedClips>1</FilterUsedClips>
   </SplitToSegments>
-  <ScriptAfter>Rename_to_group_name</ScriptAfter>
+  <ScriptAfter>None</ScriptAfter>
   <Head>0</Head>
   <Tail>0</Tail>
   <RenderType>0</RenderType>
