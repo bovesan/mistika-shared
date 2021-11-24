@@ -74,8 +74,8 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>42</Opacity>
   <ReelPanelTreeMove_Win>1977 -20 210 675</ReelPanelTreeMove_Win>
-  <Scale_X>187.500</Scale_X>
-  <Scale_Y>251.748</Scale_Y>
+  <Scale_X>100.000</Scale_X>
+  <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>1373 130 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
@@ -93,7 +93,7 @@
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>29</Size>
   <Size_X>2048</Size_X>
-  <Size_Y>858</Size_Y>
+  <Size_Y>1152</Size_Y>
   <Snapshot2Move_Win>2294 53 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
@@ -116,7 +116,7 @@
   <composer_PrinterLights_1>1</composer_PrinterLights_1>
   <composer_PrinterLights_B_W_>1</composer_PrinterLights_B_W_>
   <composer_RingSpeed_16>1</composer_RingSpeed_16>
-  <config>221 613 530 487</config>
+  <config>227 613 530 487</config>
   <dcp_Audio>0</dcp_Audio>
   <dcp_Content_Type>6</dcp_Content_Type>
   <dcp_Content_Version>1</dcp_Content_Version>
@@ -185,7 +185,7 @@
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>1</render2_Audio>
+  <render2_Audio>0</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Except_JS_clips>0</render2_Except_JS_clips>
