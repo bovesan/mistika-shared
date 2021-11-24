@@ -3,17 +3,17 @@
   <Video>
     <Enabled>1</Enabled>
     <Encoder>J2K</Encoder>
-    <Format>J2K.J2K_4k@25</Format>
+    <Format>J2K.J2K_2k@25</Format>
     <Config>
-      <BitrateScale>100.000000</BitrateScale>
+      <BitrateScale>96.000000</BitrateScale>
     </Config>
     <Options>
       <Framing>
-        <Active>0</Active>
-        <SizeX>1920</SizeX>
-        <SizeY>1080</SizeY>
-        <ScaleX>100.000000</ScaleX>
-        <ScaleY>100.000000</ScaleY>
+        <Active>1</Active>
+        <SizeX>2048</SizeX>
+        <SizeY>858</SizeY>
+        <ScaleX>187.500000</ScaleX>
+        <ScaleY>251.748245</ScaleY>
         <OffsetX>0.000000</OffsetX>
         <OffsetY>0.000000</OffsetY>
         <CropL>0.000000</CropL>
@@ -22,9 +22,9 @@
         <CropD>0.000000</CropD>
       </Framing>
       <Location>
-        <Target>MEDIARAID</Target>
+        <Target>MEDIARAID-DCP</Target>
         <Device>Disk.dev</Device>
-        <Path>/Volumes/mediaraid/Projects/[project]/DI/[tapeName]_[_segmentIndex]_[frameIndex%6].[ext]</Path>
+        <Path>/Volumes/mediaraid/Projects/[project]/Media/DCP/[renderName]/[renderName][_segmentIndex]_[frameIndex%6].[ext]</Path>
       </Location>
       <Framerate>0.000000</Framerate>
       <Interlace>0</Interlace>
@@ -48,9 +48,9 @@
     <Format>WAVE.AUDIO_WAVE_24</Format>
     <Options>
       <Location>
-        <Target>With Movie</Target>
+        <Target>SAN3</Target>
         <Device>Sound.dev</Device>
-        <Path>WITH_MOVIE</Path>
+        <Path>/Volumes/SAN3/Limbo/[project][_tapeName][_renderName][_segmentIndex][_eye?Left:Right][.ext]</Path>
       </Location>
       <ChannelsPerFile>1</ChannelsPerFile>
     </Options>
@@ -60,8 +60,8 @@
     <Encoder>XFS</Encoder>
     <Format>XFS.YUV422</Format>
   </Proxy>
-  <AutoName>1</AutoName>
-  <RenderName>auto</RenderName>
+  <AutoName>0</AutoName>
+  <RenderName>24nov</RenderName>
   <SplitToSegments>
     <Enabled>0</Enabled>
     <FirstIndex>0</FirstIndex>
