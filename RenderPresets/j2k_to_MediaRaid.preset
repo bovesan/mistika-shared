@@ -48,9 +48,9 @@
     <Format>WAVE.AUDIO_WAVE_24</Format>
     <Options>
       <Location>
-        <Target>SAN3</Target>
+        <Target>MEDIARAID</Target>
         <Device>Sound.dev</Device>
-        <Path>/Volumes/SAN3/Limbo/[project][_tapeName][_renderName][_segmentIndex][_eye?Left:Right][.ext]</Path>
+        <Path>/Volumes/mediaraid/Projects/[project]/DI/[tapeName]_[_segmentIndex].[ext]</Path>
       </Location>
       <ChannelsPerFile>1</ChannelsPerFile>
     </Options>
