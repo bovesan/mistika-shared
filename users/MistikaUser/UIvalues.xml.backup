@@ -19,8 +19,8 @@
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
-    <Scopes_Scope3>false</Scopes_Scope3>
+    <Scopes_Scope2>true</Scopes_Scope2>
+    <Scopes_Scope3>true</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
@@ -75,14 +75,14 @@
   <Opacity>42</Opacity>
   <ReelPanelTreeMove_Win>1977 -20 210 675</ReelPanelTreeMove_Win>
   <Scale_X>187.500</Scale_X>
-  <Scale_Y>251.748</Scale_Y>
+  <Scale_Y>187.500</Scale_Y>
   <Scope1Move_Win>1373 130 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
   <Scope2Move_Win>0 58 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
-  <Scope2_Scale_>6</Scope2_Scale_>
+  <Scope2_Scale_>7</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>795 37 522 552</Scope3Move_Win>
   <Scope3_Mode_>0</Scope3_Mode_>
@@ -93,7 +93,7 @@
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>29</Size>
   <Size_X>2048</Size_X>
-  <Size_Y>858</Size_Y>
+  <Size_Y>1152</Size_Y>
   <Snapshot2Move_Win>2294 53 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
@@ -102,7 +102,7 @@
     <LockHeadB>false</LockHeadB>
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
-    <View>0</View>
+    <View>1</View>
     <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
@@ -116,7 +116,7 @@
   <composer_PrinterLights_1>1</composer_PrinterLights_1>
   <composer_PrinterLights_B_W_>1</composer_PrinterLights_B_W_>
   <composer_RingSpeed_16>1</composer_RingSpeed_16>
-  <config>221 613 530 487</config>
+  <config>227 613 530 487</config>
   <dcp_Audio>0</dcp_Audio>
   <dcp_Content_Type>6</dcp_Content_Type>
   <dcp_Content_Version>1</dcp_Content_Version>
@@ -166,19 +166,19 @@
       </Curves>
       <Setup>
         <BALL_SPEED>2</BALL_SPEED>
-        <DrawOverlay>true</DrawOverlay>
+        <DrawOverlay>false</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>16</JOG_SPEED>
         <KNOB_SPEED>16</KNOB_SPEED>
         <PrinterLightsStep>1.217</PrinterLightsStep>
-        <RING_SPEED>2</RING_SPEED>
+        <RING_SPEED>4</RING_SPEED>
         <TrackballRGBValuesOn>true</TrackballRGBValuesOn>
       </Setup>
     </colorGrade>
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22479_Karpe_VFX</current>
+    <current>22316_BabyBoom</current>
   </project>
   <relink>
     <mistika>
@@ -194,10 +194,10 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>0</render2_Source>
+  <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
+  <render2_Stereo>1</render2_Stereo>
+  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
@@ -216,7 +216,7 @@
   <render_Time_Code_Source>0</render_Time_Code_Source>
   <render_Xfs_dev_Target>0</render_Xfs_dev_Target>
   <setup_All_Objects>0</setup_All_Objects>
-  <setup_Auto_Expand>1</setup_Auto_Expand>
+  <setup_Auto_Expand>0</setup_Auto_Expand>
   <setup_Auto_Sync_Editor_to_Timeline>0</setup_Auto_Sync_Editor_to_Timeline>
   <setup_Constrain_X>0</setup_Constrain_X>
   <setup_Constrain_Y>0</setup_Constrain_Y>
