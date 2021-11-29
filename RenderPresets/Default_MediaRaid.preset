@@ -21,7 +21,7 @@
       <Location>
         <Target>MEDIARAID</Target>
         <Device>Xfs.dev</Device>
-        <Path>/Volumes/mediaraid/Projects/Meida/[project]/DI/[tapeName]_[_segmentIndex].[ext]</Path>
+        <Path>/Volumes/mediaraid/Projects/[project]/Media/MISTIKA_JS/[renderName][_segmentIndex][_eye?Left:Right].[ext]</Path>
       </Location>
       <Framerate>0.000000</Framerate>
       <Interlace>0</Interlace>
@@ -60,7 +60,7 @@
   <AutoName>1</AutoName>
   <RenderName>MR2</RenderName>
   <SplitToSegments>
-    <Enabled>0</Enabled>
+    <Enabled>1</Enabled>
     <FirstIndex>0</FirstIndex>
     <TapeSource>0</TapeSource>
     <TcSource>0</TcSource>
