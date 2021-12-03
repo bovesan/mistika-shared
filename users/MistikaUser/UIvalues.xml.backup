@@ -3,14 +3,14 @@
   <Background_Luma>8</Background_Luma>
   <CommonControls>
     <AlignMode>false</AlignMode>
-    <CameraOverlay>false</CameraOverlay>
+    <CameraOverlay>true</CameraOverlay>
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
-    <FeatherOverlay>false</FeatherOverlay>
+    <FeatherOverlay>true</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
-    <GridOverlay>false</GridOverlay>
+    <GridOverlay>true</GridOverlay>
     <Interlaced>false</Interlaced>
     <Live>true</Live>
     <LiveRes>false</LiveRes>
@@ -82,7 +82,7 @@
   <Scope2Move_Win>1331 27 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
-  <Scope2_Scale_>6</Scope2_Scale_>
+  <Scope2_Scale_>7</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>175 45 522 552</Scope3Move_Win>
   <Scope3_Mode_>0</Scope3_Mode_>
@@ -102,14 +102,14 @@
     <LockHeadB>false</LockHeadB>
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
-    <View>0</View>
+    <View>1</View>
     <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>0</Tracker_Rotate>
   <Tracker_Size>1</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
-  <calc_Base>0</calc_Base>
+  <calc_Base>2</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
   <composer_JogSpeed_16>1</composer_JogSpeed_16>
   <composer_KnobSpeed_16>1</composer_KnobSpeed_16>
@@ -132,7 +132,7 @@
   <dcp_Year>7</dcp_Year>
   <edit_>2</edit_>
   <edit_Animation>0</edit_Animation>
-  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
   <filebrowser>
@@ -178,7 +178,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22519_Coop_Mega_TV_mastere</current>
+    <current>22455_Europris</current>
   </project>
   <relink>
     <mistika>
@@ -194,10 +194,10 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>0</render2_Source>
+  <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
+  <render2_Stereo>1</render2_Stereo>
+  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
@@ -216,7 +216,7 @@
   <render_Time_Code_Source>0</render_Time_Code_Source>
   <render_Xfs_dev_Target>0</render_Xfs_dev_Target>
   <setup_All_Objects>0</setup_All_Objects>
-  <setup_Auto_Expand>0</setup_Auto_Expand>
+  <setup_Auto_Expand>1</setup_Auto_Expand>
   <setup_Auto_Sync_Editor_to_Timeline>0</setup_Auto_Sync_Editor_to_Timeline>
   <setup_Constrain_X>0</setup_Constrain_X>
   <setup_Constrain_Y>0</setup_Constrain_Y>
