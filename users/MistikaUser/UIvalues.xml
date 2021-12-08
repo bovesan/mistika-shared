@@ -56,7 +56,7 @@
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
     <LinkByFile>true</LinkByFile>
-    <ReplicateTree>false</ReplicateTree>
+    <ReplicateTree>true</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
       <Dir1>false</Dir1>
@@ -134,7 +134,7 @@
   <edit_Animation>0</edit_Animation>
   <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
-  <edit_Trim>1</edit_Trim>
+  <edit_Trim>2</edit_Trim>
   <filebrowser>
     <HEADER_SIZE0>0</HEADER_SIZE0>
     <HEADER_SIZE1>0</HEADER_SIZE1>
@@ -178,7 +178,7 @@
   </mistika>
   <motiontrack_Track>1</motiontrack_Track>
   <project>
-    <current>22530_Coop_Prix_Tuk_Tuk</current>
+    <current>22425_Bruk_Hue</current>
   </project>
   <relink>
     <mistika>
