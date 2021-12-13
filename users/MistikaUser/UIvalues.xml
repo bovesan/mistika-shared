@@ -18,7 +18,7 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>false</Scopes_Scope1>
+    <Scopes_Scope1>true</Scopes_Scope1>
     <Scopes_Scope2>false</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
@@ -103,7 +103,7 @@
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
     <View>1</View>
-    <Zoom>1</Zoom>
+    <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>0</Tracker_Rotate>
