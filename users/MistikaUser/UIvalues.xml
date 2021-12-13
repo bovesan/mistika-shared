@@ -4,13 +4,13 @@
   <CommonControls>
     <AlignMode>false</AlignMode>
     <CameraOverlay>true</CameraOverlay>
-    <Curves>false</Curves>
+    <Curves>true</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
-    <FeatherOverlay>true</FeatherOverlay>
+    <FeatherOverlay>false</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
-    <GridOverlay>true</GridOverlay>
+    <GridOverlay>false</GridOverlay>
     <Interlaced>false</Interlaced>
     <Live>true</Live>
     <LiveRes>false</LiveRes>
@@ -19,12 +19,12 @@
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>true</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
+    <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
-    <Snapshot>true</Snapshot>
+    <Snapshot>false</Snapshot>
     <StereoMode_Disp>9057</StereoMode_Disp>
     <StereoMode_Live>9069</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
@@ -55,7 +55,7 @@
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>true</LinkByFile>
+    <LinkByFile>false</LinkByFile>
     <ReplicateTree>true</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
@@ -76,10 +76,10 @@
   <ReelPanelTreeMove_Win>1977 -20 210 675</ReelPanelTreeMove_Win>
   <Scale_X>200.000</Scale_X>
   <Scale_Y>200.000</Scale_Y>
-  <Scope1Move_Win>43 598 522 552</Scope1Move_Win>
+  <Scope1Move_Win>22 26 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>58 35 522 552</Scope2Move_Win>
+  <Scope2Move_Win>1313 33 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
@@ -132,7 +132,7 @@
   <dcp_Year>7</dcp_Year>
   <edit_>2</edit_>
   <edit_Animation>0</edit_Animation>
-  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
   <filebrowser>
@@ -165,7 +165,7 @@
         </EditorRGB>
       </Curves>
       <Setup>
-        <BALL_SPEED>8</BALL_SPEED>
+        <BALL_SPEED>4</BALL_SPEED>
         <DrawOverlay>false</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>16</JOG_SPEED>
