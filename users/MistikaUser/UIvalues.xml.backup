@@ -19,7 +19,7 @@
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
+    <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
@@ -79,7 +79,7 @@
   <Scope1Move_Win>22 26 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>1313 33 522 552</Scope2Move_Win>
+  <Scope2Move_Win>2542 94 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>6</Scope2_Scale_>
@@ -165,13 +165,13 @@
         </EditorRGB>
       </Curves>
       <Setup>
-        <BALL_SPEED>4</BALL_SPEED>
+        <BALL_SPEED>8</BALL_SPEED>
         <DrawOverlay>false</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>16</JOG_SPEED>
         <KNOB_SPEED>16</KNOB_SPEED>
         <PrinterLightsStep>1.217</PrinterLightsStep>
-        <RING_SPEED>4</RING_SPEED>
+        <RING_SPEED>8</RING_SPEED>
         <TrackballRGBValuesOn>true</TrackballRGBValuesOn>
       </Setup>
     </colorGrade>
@@ -186,7 +186,7 @@
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>1</render2_Audio>
+  <render2_Audio>0</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Except_JS_clips>0</render2_Except_JS_clips>
@@ -195,10 +195,10 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>1</render2_Source>
-  <render2_Split>2</render2_Split>
+  <render2_Source>0</render2_Source>
+  <render2_Split>1</render2_Split>
   <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
@@ -230,13 +230,13 @@
   <setup_Flow_Monitor>0</setup_Flow_Monitor>
   <setup_Free_capturing_in_one_clip>1</setup_Free_capturing_in_one_clip>
   <setup_Hide_Text>1</setup_Hide_Text>
-  <setup_Loop>0</setup_Loop>
+  <setup_Loop>1</setup_Loop>
   <setup_Mute_Audio>0</setup_Mute_Audio>
   <setup_Mute_Video>0</setup_Mute_Video>
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
-  <setup_Selected>0</setup_Selected>
-  <setup_Single>1</setup_Single>
+  <setup_Selected>1</setup_Selected>
+  <setup_Single>0</setup_Single>
   <setup_Text_Shadows>1</setup_Text_Shadows>
   <setup_record_monitor_Active_Burn>0</setup_record_monitor_Active_Burn>
   <setup_record_monitor_Stereo_Mode>0</setup_record_monitor_Stereo_Mode>
