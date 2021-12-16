@@ -19,15 +19,15 @@
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
+    <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>false</ShowOneInput>
-    <Snapshot>true</Snapshot>
+    <Snapshot>false</Snapshot>
     <StereoMode_Disp>9057</StereoMode_Disp>
     <StereoMode_Live>9069</StereoMode_Live>
-    <StereoMode_S3DactiveLive>true</StereoMode_S3DactiveLive>
+    <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
     <UnscaledRes>true</UnscaledRes>
   </CommonControls>
   <Comp3D_Auto_Select>0</Comp3D_Auto_Select>
@@ -79,7 +79,7 @@
   <Scope1Move_Win>22 26 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>1313 33 522 552</Scope2Move_Win>
+  <Scope2Move_Win>2542 94 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>6</Scope2_Scale_>
@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22425_Bruk_Hue</current>
+    <current>22507_Wenaas_des_2021</current>
   </project>
   <relink>
     <mistika>
@@ -230,16 +230,16 @@
   <setup_Flow_Monitor>0</setup_Flow_Monitor>
   <setup_Free_capturing_in_one_clip>1</setup_Free_capturing_in_one_clip>
   <setup_Hide_Text>1</setup_Hide_Text>
-  <setup_Loop>0</setup_Loop>
+  <setup_Loop>1</setup_Loop>
   <setup_Mute_Audio>0</setup_Mute_Audio>
   <setup_Mute_Video>0</setup_Mute_Video>
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
   <setup_Selected>1</setup_Selected>
-  <setup_Single>1</setup_Single>
+  <setup_Single>0</setup_Single>
   <setup_Text_Shadows>1</setup_Text_Shadows>
   <setup_record_monitor_Active_Burn>0</setup_record_monitor_Active_Burn>
-  <setup_record_monitor_Stereo_Mode>1</setup_record_monitor_Stereo_Mode>
+  <setup_record_monitor_Stereo_Mode>0</setup_record_monitor_Stereo_Mode>
   <setup_sdr_or_hdr_>0</setup_sdr_or_hdr_>
   <setup_source_monitor_Stereo_Mode>0</setup_source_monitor_Stereo_Mode>
   <tangent>
