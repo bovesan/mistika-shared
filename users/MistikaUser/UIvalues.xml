@@ -16,7 +16,7 @@
     <LiveRes>false</LiveRes>
     <Notes_Color>0</Notes_Color>
     <Panel>false</Panel>
-    <Resolution>2</Resolution>
+    <Resolution>0</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
     <Scopes_Scope2>false</Scopes_Scope2>
@@ -131,7 +131,7 @@
   <dcp_Territory>16</dcp_Territory>
   <dcp_Year>7</dcp_Year>
   <edit_>2</edit_>
-  <edit_Animation>0</edit_Animation>
+  <edit_Animation>1</edit_Animation>
   <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22525_Rema1000_Fema</current>
+    <current>22479_Karpe_VFX</current>
   </project>
   <relink>
     <mistika>
@@ -230,13 +230,13 @@
   <setup_Flow_Monitor>0</setup_Flow_Monitor>
   <setup_Free_capturing_in_one_clip>1</setup_Free_capturing_in_one_clip>
   <setup_Hide_Text>1</setup_Hide_Text>
-  <setup_Loop>1</setup_Loop>
+  <setup_Loop>0</setup_Loop>
   <setup_Mute_Audio>0</setup_Mute_Audio>
   <setup_Mute_Video>0</setup_Mute_Video>
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
   <setup_Selected>1</setup_Selected>
-  <setup_Single>0</setup_Single>
+  <setup_Single>1</setup_Single>
   <setup_Text_Shadows>1</setup_Text_Shadows>
   <setup_record_monitor_Active_Burn>0</setup_record_monitor_Active_Burn>
   <setup_record_monitor_Stereo_Mode>0</setup_record_monitor_Stereo_Mode>
