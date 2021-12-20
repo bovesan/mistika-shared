@@ -24,7 +24,7 @@
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>false</ShowOneInput>
-    <Snapshot>true</Snapshot>
+    <Snapshot>false</Snapshot>
     <StereoMode_Disp>9057</StereoMode_Disp>
     <StereoMode_Live>9069</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
@@ -73,7 +73,7 @@
   <Offset_X>0.000</Offset_X>
   <Offset_Y>0.000</Offset_Y>
   <Opacity>42</Opacity>
-  <ReelPanelTreeMove_Win>1977 -20 210 675</ReelPanelTreeMove_Win>
+  <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
   <Scale_X>355.556</Scale_X>
   <Scale_Y>112.500</Scale_Y>
   <Scope1Move_Win>22 26 522 552</Scope1Move_Win>
@@ -94,7 +94,7 @@
   <Size>29</Size>
   <Size_X>1080</Size_X>
   <Size_Y>1080</Size_Y>
-  <Snapshot2Move_Win>3231 354 244 264</Snapshot2Move_Win>
+  <Snapshot2Move_Win>1998 178 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
     <AutoSnapshot>false</AutoSnapshot>
@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22479_Karpe_VFX</current>
+    <current>22571_Sparebank1_pensjon</current>
   </project>
   <relink>
     <mistika>
@@ -198,7 +198,7 @@
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
   <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
