@@ -19,12 +19,12 @@
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
-    <Scopes_Scope3>false</Scopes_Scope3>
+    <Scopes_Scope2>true</Scopes_Scope2>
+    <Scopes_Scope3>true</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>false</ShowOneInput>
-    <Snapshot>false</Snapshot>
+    <Snapshot>true</Snapshot>
     <StereoMode_Disp>9057</StereoMode_Disp>
     <StereoMode_Live>9069</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
@@ -55,7 +55,7 @@
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>true</LinkByFile>
+    <LinkByFile>false</LinkByFile>
     <ReplicateTree>true</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
@@ -85,7 +85,7 @@
   <Scope2_Scale_>7</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>0 173 522 552</Scope3Move_Win>
-  <Scope3_Mode_>4</Scope3_Mode_>
+  <Scope3_Mode_>0</Scope3_Mode_>
   <Scope3_Negative_>1</Scope3_Negative_>
   <Scope3_Scale_>7</Scope3_Scale_>
   <Scope3_Sizes_>1</Scope3_Sizes_>
@@ -107,9 +107,9 @@
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>0</Tracker_Rotate>
-  <Tracker_Size>1</Tracker_Size>
+  <Tracker_Size>0</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
-  <calc_Base>0</calc_Base>
+  <calc_Base>2</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
   <composer_JogSpeed_16>1</composer_JogSpeed_16>
   <composer_KnobSpeed_16>1</composer_KnobSpeed_16>
@@ -206,7 +206,7 @@
   <render_L_NullFormat>0</render_L_NullFormat>
   <render_Movie_dev_Target>0</render_Movie_dev_Target>
   <render_Prefered_source_clip>0</render_Prefered_source_clip>
-  <render_Scale>1</render_Scale>
+  <render_Scale>0</render_Scale>
   <render_Segments_Mode>0</render_Segments_Mode>
   <render_Slate_1>0</render_Slate_1>
   <render_Slate_1_During>0</render_Slate_1_During>
@@ -221,7 +221,7 @@
   <setup_Auto_Sync_Editor_to_Timeline>0</setup_Auto_Sync_Editor_to_Timeline>
   <setup_Constrain_X>0</setup_Constrain_X>
   <setup_Constrain_Y>0</setup_Constrain_Y>
-  <setup_Current_Gang>1</setup_Current_Gang>
+  <setup_Current_Gang>0</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
   <setup_Current_Track>1</setup_Current_Track>
   <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
