@@ -7524,6 +7524,8 @@ ButtonOverrides(
 	b(n(TimeEditor/Quality/Bilinear)     k())
 	b(n(TimeEditor/Quality/High)         k())
 	b(n(TimeEditor/Quality/Nearest)      k())
+	b(n(TimeEditor/Quality/Off)          k())
+	b(n(TimeEditor/Quality/On)           k())
 	b(n(TimeEditor/Quality/Standard)     k())
 	b(n(TimeEditor/Quality/mConfig)      k())
 	b(n(TimeEditor/Rays/Active/No)       k())
