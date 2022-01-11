@@ -20,11 +20,11 @@
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
     <Scopes_Scope2>true</Scopes_Scope2>
-    <Scopes_Scope3>true</Scopes_Scope3>
+    <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>false</ShowOneInput>
-    <Snapshot>true</Snapshot>
+    <Snapshot>false</Snapshot>
     <StereoMode_Disp>9057</StereoMode_Disp>
     <StereoMode_Live>9069</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
@@ -74,17 +74,17 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>42</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>355.556</Scale_X>
-  <Scale_Y>112.500</Scale_Y>
+  <Scale_X>200.000</Scale_X>
+  <Scale_Y>200.000</Scale_Y>
   <Scope1Move_Win>1332 73 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>-89 82 522 552</Scope2Move_Win>
+  <Scope2Move_Win>0 82 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
-  <Scope3Move_Win>3277 0 522 552</Scope3Move_Win>
+  <Scope3Move_Win>3361 -130 522 552</Scope3Move_Win>
   <Scope3_Mode_>0</Scope3_Mode_>
   <Scope3_Negative_>1</Scope3_Negative_>
   <Scope3_Scale_>7</Scope3_Scale_>
@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22030_New_Energy</current>
+    <current>22540_Kondomeriet_2022</current>
   </project>
   <relink>
     <mistika>
@@ -206,7 +206,7 @@
   <render_L_NullFormat>0</render_L_NullFormat>
   <render_Movie_dev_Target>0</render_Movie_dev_Target>
   <render_Prefered_source_clip>0</render_Prefered_source_clip>
-  <render_Scale>0</render_Scale>
+  <render_Scale>1</render_Scale>
   <render_Segments_Mode>0</render_Segments_Mode>
   <render_Slate_1>0</render_Slate_1>
   <render_Slate_1_During>0</render_Slate_1_During>
@@ -235,7 +235,7 @@
   <setup_Mute_Video>0</setup_Mute_Video>
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
-  <setup_Selected>0</setup_Selected>
+  <setup_Selected>1</setup_Selected>
   <setup_Single>0</setup_Single>
   <setup_Text_Shadows>1</setup_Text_Shadows>
   <setup_record_monitor_Active_Burn>0</setup_record_monitor_Active_Burn>
