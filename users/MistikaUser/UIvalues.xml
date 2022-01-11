@@ -79,12 +79,12 @@
   <Scope1Move_Win>1332 73 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>1324 23 522 552</Scope2Move_Win>
+  <Scope2Move_Win>-89 82 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
-  <Scope3Move_Win>3277 -14 522 552</Scope3Move_Win>
+  <Scope3Move_Win>3277 0 522 552</Scope3Move_Win>
   <Scope3_Mode_>0</Scope3_Mode_>
   <Scope3_Negative_>1</Scope3_Negative_>
   <Scope3_Scale_>7</Scope3_Scale_>
@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22592_Obs_taktisk</current>
+    <current>22030_New_Energy</current>
   </project>
   <relink>
     <mistika>
