@@ -55,8 +55,8 @@
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>false</LinkByFile>
-    <ReplicateTree>true</ReplicateTree>
+    <LinkByFile>true</LinkByFile>
+    <ReplicateTree>false</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
       <Dir1>false</Dir1>
@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22537_Visit_B2B</current>
+    <current>22459_Interoptik</current>
   </project>
   <relink>
     <mistika>
