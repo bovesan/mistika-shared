@@ -6,7 +6,7 @@
     <CameraOverlay>false</CameraOverlay>
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
-    <FXPresets>false</FXPresets>
+    <FXPresets>true</FXPresets>
     <FeatherOverlay>true</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
@@ -18,7 +18,7 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>false</Scopes_Scope1>
+    <Scopes_Scope1>true</Scopes_Scope1>
     <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
@@ -166,7 +166,7 @@
       </Curves>
       <Setup>
         <BALL_SPEED>8</BALL_SPEED>
-        <DrawOverlay>false</DrawOverlay>
+        <DrawOverlay>true</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>16</JOG_SPEED>
         <KNOB_SPEED>16</KNOB_SPEED>
@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22624_Rema1000_kampanje</current>
+    <current>22459_Interoptik</current>
   </project>
   <relink>
     <mistika>
@@ -228,7 +228,7 @@
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
   <setup_Flow_Monitor>0</setup_Flow_Monitor>
-  <setup_Free_capturing_in_one_clip>0</setup_Free_capturing_in_one_clip>
+  <setup_Free_capturing_in_one_clip>1</setup_Free_capturing_in_one_clip>
   <setup_Hide_Text>1</setup_Hide_Text>
   <setup_Loop>1</setup_Loop>
   <setup_Mute_Audio>0</setup_Mute_Audio>
