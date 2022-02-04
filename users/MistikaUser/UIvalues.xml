@@ -56,7 +56,7 @@
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
     <LinkByFile>true</LinkByFile>
-    <ReplicateTree>false</ReplicateTree>
+    <ReplicateTree>true</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
       <Dir1>false</Dir1>
