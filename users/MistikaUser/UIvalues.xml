@@ -102,8 +102,8 @@
     <LockHeadB>false</LockHeadB>
     <LockOffset>false</LockOffset>
     <SelectedGroup>1</SelectedGroup>
-    <View>1</View>
-    <Zoom>1</Zoom>
+    <View>0</View>
+    <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>1</Tracker_Rotate>
@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22528_Europris_2022</current>
+    <current>22726_Norsk_Romsenter</current>
   </project>
   <relink>
     <mistika>
