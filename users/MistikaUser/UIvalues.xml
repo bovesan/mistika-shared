@@ -18,8 +18,8 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
+    <Scopes_Scope1>true</Scopes_Scope1>
+    <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
@@ -102,8 +102,8 @@
     <LockHeadB>false</LockHeadB>
     <LockOffset>false</LockOffset>
     <SelectedGroup>1</SelectedGroup>
-    <View>0</View>
-    <Zoom>2</Zoom>
+    <View>1</View>
+    <Zoom>1</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>1</Tracker_Rotate>
@@ -132,7 +132,7 @@
   <dcp_Year>7</dcp_Year>
   <edit_>2</edit_>
   <edit_Animation>1</edit_Animation>
-  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
   <filebrowser>
@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22726_Norsk_Romsenter</current>
+    <current>22528_Europris_2022</current>
   </project>
   <relink>
     <mistika>
