@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22528_Europris_2022</current>
+    <current>22537_Visit_B2B</current>
   </project>
   <relink>
     <mistika>
@@ -197,7 +197,7 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
+  <render2_Stereo>0</render2_Stereo>
   <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
@@ -221,7 +221,7 @@
   <setup_Auto_Sync_Editor_to_Timeline>0</setup_Auto_Sync_Editor_to_Timeline>
   <setup_Constrain_X>0</setup_Constrain_X>
   <setup_Constrain_Y>0</setup_Constrain_Y>
-  <setup_Current_Gang>1</setup_Current_Gang>
+  <setup_Current_Gang>0</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
   <setup_Current_Track>1</setup_Current_Track>
   <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
