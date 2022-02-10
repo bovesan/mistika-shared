@@ -82,7 +82,7 @@
   <Scope2Move_Win>72 58 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
-  <Scope2_Scale_>7</Scope2_Scale_>
+  <Scope2_Scale_>6</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>3318 552 522 552</Scope3Move_Win>
   <Scope3_Mode_>0</Scope3_Mode_>
@@ -103,7 +103,7 @@
     <LockOffset>false</LockOffset>
     <SelectedGroup>1</SelectedGroup>
     <View>1</View>
-    <Zoom>1</Zoom>
+    <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>1</Tracker_Rotate>
@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22528_Europris_2022</current>
+    <current>22367_JeanPaul_Q42021_Q1Q2_2022</current>
   </project>
   <relink>
     <mistika>
