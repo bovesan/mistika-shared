@@ -4,7 +4,7 @@
   <CommonControls>
     <AlignMode>false</AlignMode>
     <CameraOverlay>true</CameraOverlay>
-    <Curves>false</Curves>
+    <Curves>true</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>true</FXPresets>
     <FeatherOverlay>true</FeatherOverlay>
@@ -74,8 +74,8 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>22</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>200.000</Scale_X>
-  <Scale_Y>200.000</Scale_Y>
+  <Scale_X>600.000</Scale_X>
+  <Scale_Y>432.000</Scale_Y>
   <Scope1Move_Win>1328 53 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
@@ -92,8 +92,8 @@
   <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>29</Size>
-  <Size_X>1920</Size_X>
-  <Size_Y>1920</Size_Y>
+  <Size_X>320</Size_X>
+  <Size_Y>250</Size_Y>
   <Snapshot2Move_Win>3546 20 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22367_JeanPaul_Q42021_Q1Q2_2022</current>
+    <current>22637_Byggmakker</current>
   </project>
   <relink>
     <mistika>
