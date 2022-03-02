@@ -6662,6 +6662,8 @@ ButtonOverrides(
 	b(n(TimeEditor/External Key/Ext Key Source/V9)k())
 	b(n(TimeEditor/FLUT/FLUT Use/Source) k())
 	b(n(TimeEditor/FLUT/FLUT Use/Value)  k())
+	b(n(TimeEditor/Field/Field-0)        k())
+	b(n(TimeEditor/Field/Field-1)        k())
 	b(n(TimeEditor/Filter/Filter/1 Pass) k())
 	b(n(TimeEditor/Filter/Filter/2 Pass) k())
 	b(n(TimeEditor/Filter/Filter/3 Pass) k())
