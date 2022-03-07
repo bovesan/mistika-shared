@@ -18,8 +18,8 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
+    <Scopes_Scope1>true</Scopes_Scope1>
+    <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
@@ -103,7 +103,7 @@
     <LockOffset>false</LockOffset>
     <SelectedGroup>1</SelectedGroup>
     <View>1</View>
-    <Zoom>1</Zoom>
+    <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>1</Tracker_Rotate>
@@ -198,7 +198,7 @@
   <render2_Source>0</render2_Source>
   <render2_Split>1</render2_Split>
   <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
@@ -235,7 +235,7 @@
   <setup_Mute_Video>0</setup_Mute_Video>
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
-  <setup_Selected>1</setup_Selected>
+  <setup_Selected>0</setup_Selected>
   <setup_Single>0</setup_Single>
   <setup_Text_Shadows>1</setup_Text_Shadows>
   <setup_record_monitor_Active_Burn>0</setup_record_monitor_Active_Burn>
