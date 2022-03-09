@@ -18,12 +18,12 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>true</Scopes_Scope1>
-    <Scopes_Scope2>true</Scopes_Scope2>
+    <Scopes_Scope1>false</Scopes_Scope1>
+    <Scopes_Scope2>false</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
-    <ShowOneInput>true</ShowOneInput>
+    <ShowOneInput>false</ShowOneInput>
     <Snapshot>true</Snapshot>
     <StereoMode_Disp>9057</StereoMode_Disp>
     <StereoMode_Live>9069</StereoMode_Live>
@@ -74,10 +74,10 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>86</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>200.000</Scale_X>
-  <Scale_Y>200.000</Scale_Y>
+  <Scale_X>355.556</Scale_X>
+  <Scale_Y>160.000</Scale_Y>
   <Scope1Move_Win>1283 30 522 552</Scope1Move_Win>
-  <Scope1_Scale_>7</Scope1_Scale_>
+  <Scope1_Scale_>6</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
   <Scope2Move_Win>12 47 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
@@ -92,9 +92,9 @@
   <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
   <Size>29</Size>
-  <Size_X>1920</Size_X>
-  <Size_Y>1080</Size_Y>
-  <Snapshot2Move_Win>546 62 244 264</Snapshot2Move_Win>
+  <Size_X>1080</Size_X>
+  <Size_Y>1920</Size_Y>
+  <Snapshot2Move_Win>84 129 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StoryBoard>
     <AutoSnapshot>false</AutoSnapshot>
@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22753_OneCall_mars_2022</current>
+    <current>22588_Observasjon_kortfilm</current>
   </project>
   <relink>
     <mistika>
@@ -235,7 +235,7 @@
   <setup_Mute_Video>0</setup_Mute_Video>
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
-  <setup_Selected>0</setup_Selected>
+  <setup_Selected>1</setup_Selected>
   <setup_Single>0</setup_Single>
   <setup_Text_Shadows>1</setup_Text_Shadows>
   <setup_record_monitor_Active_Burn>0</setup_record_monitor_Active_Burn>
