@@ -4,7 +4,7 @@
   <CommonControls>
     <AlignMode>false</AlignMode>
     <CameraOverlay>false</CameraOverlay>
-    <Curves>true</Curves>
+    <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
     <FeatherOverlay>false</FeatherOverlay>
@@ -23,7 +23,7 @@
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
-    <ShowOneInput>true</ShowOneInput>
+    <ShowOneInput>false</ShowOneInput>
     <Snapshot>false</Snapshot>
     <StereoMode_Disp>9057</StereoMode_Disp>
     <StereoMode_Live>9069</StereoMode_Live>
