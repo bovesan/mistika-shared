@@ -7,7 +7,7 @@
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
-    <FeatherOverlay>false</FeatherOverlay>
+    <FeatherOverlay>true</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
     <GridOverlay>false</GridOverlay>
@@ -16,7 +16,7 @@
     <LiveRes>false</LiveRes>
     <Notes_Color>0</Notes_Color>
     <Panel>false</Panel>
-    <Resolution>2</Resolution>
+    <Resolution>1</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>true</Scopes_Scope1>
     <Scopes_Scope2>true</Scopes_Scope2>
@@ -132,7 +132,7 @@
   <dcp_Year>7</dcp_Year>
   <edit_>2</edit_>
   <edit_Animation>1</edit_Animation>
-  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
   <filebrowser>
@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22478_Nasjonalbiblioteket</current>
+    <current>22747_Europris_paaske</current>
   </project>
   <relink>
     <mistika>
