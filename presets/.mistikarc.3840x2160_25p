@@ -27,7 +27,7 @@ USE_EMBEDDED_AUDIO             1
 CHECK_VTR_USER_DATA            0
 EXR_DECOMPRESS                 SINGLE_LAYER
 MAXMEM                         17000
-VIDEO_RING_BUFFER              407
+VIDEO_RING_BUFFER              120
 PLAY_BUFFER                    194
 LOWRESRATIO                    2
 PIPE_UNITS                     4
