@@ -16,7 +16,7 @@
     <LiveRes>false</LiveRes>
     <Notes_Color>0</Notes_Color>
     <Panel>false</Panel>
-    <Resolution>2</Resolution>
+    <Resolution>0</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
     <Scopes_Scope2>false</Scopes_Scope2>
@@ -55,7 +55,7 @@
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>false</LinkByFile>
+    <LinkByFile>true</LinkByFile>
     <ReplicateTree>false</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
@@ -103,7 +103,7 @@
     <LockOffset>false</LockOffset>
     <SelectedGroup>1</SelectedGroup>
     <View>1</View>
-    <Zoom>2</Zoom>
+    <Zoom>1</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>1</Tracker_Rotate>
@@ -179,7 +179,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22656_NKVTS_Stress</current>
+    <current>22478_Nasjonalbiblioteket</current>
   </project>
   <relink>
     <mistika>
