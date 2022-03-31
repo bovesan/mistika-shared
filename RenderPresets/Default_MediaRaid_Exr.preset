@@ -22,9 +22,9 @@
         <CropD>0.000000</CropD>
       </Framing>
       <Location>
-        <Target>MEDIARAID</Target>
+        <Target>MEDIARAID_EXR</Target>
         <Device>Disk.dev</Device>
-        <Path>/Volumes/mediaraid/Projects/[project]/DI/[tapeName]_[_segmentIndex]_[frameIndex%6].[ext]</Path>
+        <Path>/Volumes/mediaraid/Projects/[project]/DI/[renderName]_[_segmentIndex]_[frameIndex%6].[ext]</Path>
       </Location>
       <Framerate>0.000000</Framerate>
       <DropFrame>0</DropFrame>
