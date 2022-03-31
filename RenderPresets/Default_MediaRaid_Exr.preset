@@ -2,8 +2,11 @@
 <RenderConfig>
   <Video>
     <Enabled>1</Enabled>
-    <Encoder>XFS</Encoder>
-    <Format>XFS.RGB10</Format>
+    <Encoder>EXR</Encoder>
+    <Format>EXR.EXR_RAW_RGB</Format>
+    <Config>
+      <DWACompressionLevel>45.000000</DWACompressionLevel>
+    </Config>
     <Options>
       <Framing>
         <Active>0</Active>
@@ -20,8 +23,8 @@
       </Framing>
       <Location>
         <Target>MEDIARAID</Target>
-        <Device>Xfs.dev</Device>
-        <Path>/Volumes/mediaraid/Projects/[project]/Media/MISTIKA_JS/[renderName][_segmentIndex][_eye?Left:Right].[ext]</Path>
+        <Device>Disk.dev</Device>
+        <Path>/Volumes/mediaraid/Projects/[project]/DI/[tapeName]_[_segmentIndex]_[frameIndex%6].[ext]</Path>
       </Location>
       <Framerate>0.000000</Framerate>
       <DropFrame>0</DropFrame>
