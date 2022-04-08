@@ -30,7 +30,7 @@ MAXMEM                         17000
 VIDEO_RING_BUFFER              120
 PLAY_BUFFER                    194
 LOWRESRATIO                    2
-PIPE_UNITS                     4
+PIPE_UNITS                     6
 CVFS_THREADS                   12
 RENDER_UNITS                   6
 ENCODE_THREADS                 22

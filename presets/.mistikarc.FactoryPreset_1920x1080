@@ -1,7 +1,7 @@
 CACHE_STEREO_EYE               NO_STEREO
 IMAGESIZEX                     1920
 IMAGESIZEY                     1080
-SCREENRATIO 1.7777777777777777
+SCREENRATIO                    1.7777777777777777
 COLOR_SPACE_YUV                709
 NTSCFIELDS                     0
 FRAMESSEG                      25
@@ -15,7 +15,7 @@ VIDEO_IO_MODE                  YUV422
 INTERNAL_VIDEO_STORAGE         YUV422
 USE_3G                         0
 3G_LEVEL                       3GA
-MODE_8K SQD
+MODE_8K                        SQD
 VIDEO_STEREO                   0
 STEREO_DUAL_LINK_LEFT_MIRROR   0
 MULTICHANNEL_MODE              MONO
@@ -30,7 +30,7 @@ REEL_SETUP_DO_PREWIEWS         0
 LOWRESRATIO                    2
 BACKLOAD                       1
 READMULTIPLEDISKS              0
-PIPE_UNITS                     10
+PIPE_UNITS                     6
 CVFS_THREADS                   12
 RENDER_UNITS                   22
 ENCODE_THREADS                 22

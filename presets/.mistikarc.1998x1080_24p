@@ -33,7 +33,7 @@ REEL_SETUP_DO_PREWIEWS         0
 LOWRESRATIO                    2
 BACKLOAD                       1
 READMULTIPLEDISKS              0
-PIPE_UNITS                     10
+PIPE_UNITS                     6
 CVFS_THREADS                   12
 RENDER_UNITS                   22
 ENCODE_THREADS                 22
