@@ -9,16 +9,16 @@
     <FXPresets>false</FXPresets>
     <FeatherOverlay>false</FeatherOverlay>
     <FrameRate>-1</FrameRate>
-    <Gang>false</Gang>
+    <Gang>true</Gang>
     <GridOverlay>true</GridOverlay>
     <Interlaced>false</Interlaced>
     <Live>true</Live>
     <LiveRes>false</LiveRes>
     <Notes_Color>0</Notes_Color>
     <Panel>false</Panel>
-    <Resolution>0</Resolution>
+    <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>false</Scopes_Scope1>
+    <Scopes_Scope1>true</Scopes_Scope1>
     <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
@@ -41,7 +41,7 @@
   <Gang>
     <AssignMode>1</AssignMode>
   </Gang>
-  <GangEditorMove_Win>1485 54 300 250</GangEditorMove_Win>
+  <GangEditorMove_Win>1464 174 300 250</GangEditorMove_Win>
   <ImportOptionsMove_Win>100 100 1020 300</ImportOptionsMove_Win>
   <Import_Setup>
     <ClipName>
@@ -91,6 +91,8 @@
   <Scope3_Sizes_>1</Scope3_Sizes_>
   <Scope4Move_Win>1654 324 266 326</Scope4Move_Win>
   <Sequences_Setup_Default_result_sizeDefault_result_size__>1</Sequences_Setup_Default_result_sizeDefault_result_size__>
+  <Sequences_Setup_Link_Media_As>0</Sequences_Setup_Link_Media_As>
+  <Sequences_Setup_ReplicateOrganize>0</Sequences_Setup_ReplicateOrganize>
   <Size>29</Size>
   <Size_X>2160</Size_X>
   <Size_Y>1080</Size_Y>
@@ -132,7 +134,8 @@
   <dcp_Year>7</dcp_Year>
   <edit_>2</edit_>
   <edit_Animation>1</edit_Animation>
-  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
+  <edit_Auto_Key_State>0</edit_Auto_Key_State>
+  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
   <filebrowser>
@@ -218,6 +221,8 @@
   <render_Time_Code_Source>0</render_Time_Code_Source>
   <render_Xfs_dev_Target>0</render_Xfs_dev_Target>
   <setup_All_Objects>0</setup_All_Objects>
+  <setup_Audio_Auto_Routing>0</setup_Audio_Auto_Routing>
+  <setup_Auto_Batch_Just_Modified>0</setup_Auto_Batch_Just_Modified>
   <setup_Auto_Expand>0</setup_Auto_Expand>
   <setup_Auto_Sync_Editor_to_Timeline>0</setup_Auto_Sync_Editor_to_Timeline>
   <setup_Constrain_X>0</setup_Constrain_X>
@@ -229,16 +234,23 @@
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
   <setup_Flow_Monitor>0</setup_Flow_Monitor>
+  <setup_Follow_Symbolic_links>0</setup_Follow_Symbolic_links>
   <setup_Free_capturing_in_one_clip>1</setup_Free_capturing_in_one_clip>
   <setup_Hide_Text>1</setup_Hide_Text>
   <setup_Loop>1</setup_Loop>
   <setup_Mute_Audio>0</setup_Mute_Audio>
   <setup_Mute_Video>0</setup_Mute_Video>
+  <setup_Mute_moving_clips>0</setup_Mute_moving_clips>
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
-  <setup_Selected>1</setup_Selected>
+  <setup_Select_Monitor>0</setup_Select_Monitor>
+  <setup_Selected>0</setup_Selected>
+  <setup_Show_Graffiti>1</setup_Show_Graffiti>
+  <setup_Show_Grid>1</setup_Show_Grid>
+  <setup_Show_Rulers>1</setup_Show_Rulers>
   <setup_Single>0</setup_Single>
-  <setup_Text_Shadows>1</setup_Text_Shadows>
+  <setup_Text_Shadows>0</setup_Text_Shadows>
+  <setup_Time_Code>1</setup_Time_Code>
   <setup_record_monitor_Active_Burn>0</setup_record_monitor_Active_Burn>
   <setup_record_monitor_Stereo_Mode>0</setup_record_monitor_Stereo_Mode>
   <setup_sdr_or_hdr_>0</setup_sdr_or_hdr_>
