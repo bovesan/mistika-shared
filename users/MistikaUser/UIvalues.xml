@@ -4,7 +4,7 @@
   <CommonControls>
     <AlignMode>false</AlignMode>
     <CameraOverlay>false</CameraOverlay>
-    <Curves>false</Curves>
+    <Curves>true</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
     <FeatherOverlay>false</FeatherOverlay>
@@ -19,7 +19,7 @@
     <Resolution>0</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
+    <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
@@ -74,7 +74,7 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>37</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>177.778</Scale_X>
+  <Scale_X>100.000</Scale_X>
   <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>129 89 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
@@ -82,7 +82,7 @@
   <Scope2Move_Win>1302 10 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
-  <Scope2_Scale_>7</Scope2_Scale_>
+  <Scope2_Scale_>10</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>3318 552 522 552</Scope3Move_Win>
   <Scope3_Mode_>0</Scope3_Mode_>
@@ -109,7 +109,7 @@
   <Tracker_Rotate>1</Tracker_Rotate>
   <Tracker_Size>0</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
-  <calc_Base>0</calc_Base>
+  <calc_Base>2</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
   <composer_JogSpeed_16>1</composer_JogSpeed_16>
   <composer_KnobSpeed_16>1</composer_KnobSpeed_16>
@@ -179,14 +179,14 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22785_Europris_hage_og_17mai</current>
+    <current>22745_Europris_jul</current>
   </project>
   <relink>
     <mistika>
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>1</render2_Audio>
+  <render2_Audio>0</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Except_JS_clips>0</render2_Except_JS_clips>
@@ -196,9 +196,9 @@
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>0</render2_Source>
-  <render2_Split>2</render2_Split>
+  <render2_Split>1</render2_Split>
   <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
