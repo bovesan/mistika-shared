@@ -929,6 +929,15 @@
       <bind Label="ZOOM" dv="0x00000095_R">TimeEditor:Adjust Geometry/Zoom:Reset</bind>
       <bind Label="ZOOM" dv="0x00000210">TimeEditor:Balance Geometry/Zoom</bind>
       <bind Label="ZOOM" dv="0x00000210_R">TimeEditor:Balance Geometry/Zoom</bind>
+      <bind Label="VECTOR 1" dv="0x00000311">Vector_1</bind>
+      <bind Label="VECTOR 2" dv="0x00000312">Vector_2</bind>
+      <bind Label="VECTOR 3" dv="0x00000313">Vector_3</bind>
+      <bind Label="VECTOR 4" dv="0x00000314">Vector_4</bind>
+      <bind Label="VECTOR 5" dv="0x00000315">Vector_5</bind>
+      <bind Label="VECTOR 6" dv="0x00000316">Vector_6</bind>
+      <bind Label="VECTOR 7" dv="0x00000317">Vector_7</bind>
+      <bind Label="VECTOR 8" dv="0x00000318">Vector_8</bind>
+      <bind Label="VECTOR 9" dv="0x00000319">Vector_9</bind>
     </group>
   </map>
 </tangentDriver>
