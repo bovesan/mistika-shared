@@ -74,8 +74,8 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>37</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>100.000</Scale_X>
-  <Scale_Y>100.000</Scale_Y>
+  <Scale_X>200.000</Scale_X>
+  <Scale_Y>200.000</Scale_Y>
   <Scope1Move_Win>129 89 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
@@ -182,7 +182,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22316_BabyBoom</current>
+    <current>22666_Moller_Misjon</current>
   </project>
   <relink>
     <mistika>
