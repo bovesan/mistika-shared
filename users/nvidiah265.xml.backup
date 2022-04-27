@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <NVidiaH265>
+    <DisplayFilter>
+      <displayFilter/>
+    </DisplayFilter>
+    <Lut3D>
+      <lut3D>---None---</lut3D>
+    </Lut3D>
+    <Transcoding>
+      <audioCodec>Null.dev</audioCodec>
+      <bitrate>85</bitrate>
+      <codec>ffmpeg_NVidia.MP4_NV_HEVC_8B_420_QP</codec>
+      <fit>1</fit>
+      <fps>0</fps>
+      <gop>50</gop>
+      <imageResX>0</imageResX>
+      <imageResY>0</imageResY>
+      <interlaced>false</interlaced>
+      <changetimecode>false</changetimecode>
+      <timecode></timecode>
+      <quality>10</quality>
+    </Transcoding>
+    <Unicolor>
+      <colorSpace>--- Same As Input ---</colorSpace>
+      <gamma/>
+      <gamut/>
+    </Unicolor>
+    <VirtualSlate>
+      <virtualSlate>---None---</virtualSlate>
+      <virtualSlateDuration>-1</virtualSlateDuration>
+    </VirtualSlate>
+    <color>#0063b4</color>
+    <objectName>NVidiaH265</objectName>
+    <url/>
+  </NVidiaH265>
+</nodeCommonRoot>

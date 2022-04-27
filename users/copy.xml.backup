@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <Copy>
+    <color>#677688</color>
+    <objectName>Copy</objectName>
+    <overwrite>0</overwrite>
+    <url/>
+  </Copy>
+</nodeCommonRoot>

@@ -361,7 +361,7 @@ AudioRoute(
 F(
 T(69)
 E(MorphedPaintedTitled/Title.so)
-D(#SHARED#/display_filters/watermark/watermark_dfilt_959a2740.dat)
+D(/home/mistika/MISTIKA-SHARED/display_filters/watermark/watermark_dfilt_959a2740.dat)
 p(
 	n(body)
 	X(628) Y(4) W(109) F(0)
@@ -397,7 +397,7 @@ s(
 F(
 T(69)
 E(MorphedPaintedTitled/Title.so)
-D(#SHARED#/display_filters/watermark/watermark_dfilt_959996c0.dat)
+D(/home/mistika/MISTIKA-SHARED/display_filters/watermark/watermark_dfilt_959996c0.dat)
 p(
 	n(body)
 	X(628) Y(3) W(109) F(0)
@@ -433,7 +433,7 @@ s(
 F(
 T(69)
 E(MorphedPaintedTitled/Title.so)
-D(#SHARED#/display_filters/watermark/watermark_dfilt_95994890.dat)
+D(/home/mistika/MISTIKA-SHARED/display_filters/watermark/watermark_dfilt_95994890.dat)
 p(
 	n(footer)
 	X(628) Y(2) W(109) F(89)
@@ -469,7 +469,7 @@ s(
 F(
 T(69)
 E(MorphedPaintedTitled/Title.so)
-D(#SHARED#/display_filters/watermark/watermark_dfilt_959ac4a0.dat)
+D(/home/mistika/MISTIKA-SHARED/display_filters/watermark/watermark_dfilt_959ac4a0.dat)
 p(
 	n(header)
 	X(628) Y(5) W(109) F(11)

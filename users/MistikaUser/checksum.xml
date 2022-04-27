@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <Checksum>
+    <color>#677688</color>
+    <crcType>2</crcType>
+    <objectName>Checksum</objectName>
+    <validateInput>true</validateInput>
+  </Checksum>
+</nodeCommonRoot>

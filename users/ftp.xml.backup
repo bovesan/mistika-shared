@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <FTP>
+    <color>#8b66a8</color>
+    <localPath/>
+    <objectName>FTP</objectName>
+    <port>21</port>
+    <pwd></pwd>
+    <url/>
+    <user/>
+  </FTP>
+</nodeCommonRoot>

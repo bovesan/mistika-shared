@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <MediaSequence>
+    <color>#0000ff</color>
+    <gamma/>
+    <gamut/>
+    <objectName>J2kSequence</objectName>
+    <url/>
+    <reduceFactor>0</reduceFactor>
+    <layer>0</layer>	
+  </MediaSequence>
+</nodeCommonRoot>

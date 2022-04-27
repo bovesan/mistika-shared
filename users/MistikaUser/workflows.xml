@@ -84,17 +84,17 @@
   </live>
   <nameConvention/>
   <paths>
-    <audioTools><![CDATA[/REALTIME_STORAGE/DELIVERY/Audio_Tools/]]></audioTools>
-    <cacheBatchPath><![CDATA[/Volumes/SLOW_HF/PROJECTS/_BATCH_QUEUES/_CACHE/]]></cacheBatchPath>
-    <dcp><![CDATA[/REALTIME_STORAGE/DELIVERY/DCP/]]></dcp>
-    <devCache><![CDATA[/REALTIME_STORAGE/CACHE/PLAYBACK/]]></devCache>
-    <displayFilters><![CDATA[/home/mistika/MISTIKA-SHARED/display_filters/]]></displayFilters>
-    <globalPresets><![CDATA[/home/mistika/MISTIKA-SHARED/global_presets/]]></globalPresets>
-    <media><![CDATA[/REALTIME_STORAGE]]></media>
+    <audioTools>/REALTIME_STORAGE/DELIVERY/Audio_Tools/</audioTools>
+    <cacheBatchPath>/Volumes/SLOW_HF/PROJECTS/_BATCH_QUEUES/_CACHE/</cacheBatchPath>
+    <dcp>/REALTIME_STORAGE/DELIVERY/DCP/</dcp>
+    <devCache>/REALTIME_STORAGE/CACHE/PLAYBACK/</devCache>
+    <displayFilters>/home/mistika/MISTIKA-SHARED/display_filters/</displayFilters>
+    <globalPresets>/home/mistika/MISTIKA-SHARED/global_presets/</globalPresets>
+    <media>/REALTIME_STORAGE/</media>
     <os/>
-    <paint><![CDATA[/REALTIME_STORAGE/CACHE/PAINT/]]></paint>
-    <project><![CDATA[/Volumes/SLOW_HF/PROJECTS]]></project>
-    <sequenceProxies><![CDATA[/REALTIME_STORAGE/CACHE/PROXY/]]></sequenceProxies>
+    <paint>/REALTIME_STORAGE/CACHE/PAINT/</paint>
+    <project>/Volumes/SLOW_HF/PROJECTS/</project>
+    <sequenceProxies>/REALTIME_STORAGE/CACHE/PROXY/</sequenceProxies>
   </paths>
   <private>
     <interface>

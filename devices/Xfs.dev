@@ -3,4 +3,4 @@ DEVICETYPE              XFS
 MESSAGES                FALSE
 MAX_FILES_OPENED        4096
 
-PATH                    #MATERIAL#
+PATH                    /REALTIME_STORAGE

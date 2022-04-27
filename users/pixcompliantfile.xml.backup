@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <PixCompliantFile>
+    <color>#292929</color>
+    <gpu>true</gpu>
+    <mode/>
+    <objectName>PixCompliantFile</objectName>
+    <url>.mp4</url>
+  </PixCompliantFile>
+</nodeCommonRoot>

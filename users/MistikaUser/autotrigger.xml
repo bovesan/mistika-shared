@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <AutoTrigger>
+    <code/>
+    <color>#808000</color>
+    <objectName>AutoTrigger</objectName>
+    <time>15</time>
+    <timeUnits>1</timeUnits>
+  </AutoTrigger>
+</nodeCommonRoot>

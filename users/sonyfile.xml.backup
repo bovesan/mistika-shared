@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <SonyFile>
+    <changesonyKelvin>false</changesonyKelvin>
+    <changesonyTint>false</changesonyTint>
+    <color>#000080</color>
+    <gamma>Rec709</gamma>
+    <gamut>Sgamut</gamut>
+    <objectName>SonyFile</objectName>
+    <sonyGPU>true</sonyGPU>
+    <sonyGamma>--- From File ---</sonyGamma>
+    <sonyGamut>--- From File ---</sonyGamut>
+    <sonyISO>--- From File ---</sonyISO>
+    <sonyKelvin>5500</sonyKelvin>
+    <sonyTint>100</sonyTint>
+    <sonyReduceFactor>1</sonyReduceFactor>
+    <url/>
+  </SonyFile>
+</nodeCommonRoot>

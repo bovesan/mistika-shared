@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <H264>
+    <DisplayFilter>
+      <displayFilter>---None---</displayFilter>
+    </DisplayFilter>
+    <Lut3D>
+      <lut3D>---None---</lut3D>
+    </Lut3D>
+    <Transcoding>
+      <audioCodec>Null.dev</audioCodec>
+      <bitrate>10</bitrate>
+      <codec>ffmpeg_MP4.MP4_H264_BITRATE</codec>
+      <fit>1</fit>
+      <fps>0</fps>
+      <gop>50</gop>
+      <imageResX>0</imageResX>
+      <imageResY>0</imageResY>
+      <interlaced>false</interlaced>
+      <changetimecode>false</changetimecode>
+      <timecode></timecode>
+    </Transcoding>
+    <Unicolor>
+      <colorSpace>--- Same As Input ---</colorSpace>
+      <gamma/>
+      <gamut/>
+    </Unicolor>
+    <VirtualSlate>
+      <virtualSlate>---None---</virtualSlate>
+      <virtualSlateDuration>-1</virtualSlateDuration>
+    </VirtualSlate>
+    <color>#000000</color>
+    <objectName>H264</objectName>
+    <url>.mp4</url>
+  </H264>
+</nodeCommonRoot>

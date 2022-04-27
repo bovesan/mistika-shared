@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <Move>
+    <color>#00ffff</color>
+    <objectName>Move</objectName>
+    <overwrite>0</overwrite>
+    <url/>
+  </Move>
+</nodeCommonRoot>

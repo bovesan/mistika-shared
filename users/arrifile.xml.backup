@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <ArriFile>
+    <ariColorSpace>--- From File ---</ariColorSpace>
+    <ariISO></ariISO>
+    <ariKelvin></ariKelvin>
+    <ariLookMode>--- From File ---</ariLookMode>
+    <ariSharpness></ariSharpness>
+    <ariTint></ariTint>
+    <changeariISO>false</changeariISO>
+    <changeariKelvin>false</changeariKelvin>
+    <changeariTint>false</changeariTint>
+    <color>#458c65</color>
+    <objectName>ArriFile</objectName>
+    <ariReduceFactor>1</ariReduceFactor>
+    <url/>
+  </ArriFile>
+</nodeCommonRoot>

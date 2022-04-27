@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <RedFile>
+    <changeGain>false</changeGain>
+    <changer3dBrightness>false</changer3dBrightness>
+    <changer3dContrast>false</changer3dContrast>
+    <changer3dDRX>false</changer3dDRX>
+    <changer3dExposureCompensation>false</changer3dExposureCompensation>
+    <changer3dKelvin>false</changer3dKelvin>
+    <changer3dShadow>false</changer3dShadow>
+    <changer3dTint>false</changer3dTint>
+    <color>#458c65</color>
+    <objectName>RedFile</objectName>
+    <r3dBrightness>0</r3dBrightness>
+    <r3dColorSpace>0</r3dColorSpace>
+    <r3dContrast>0</r3dContrast>
+    <r3dDRX>0</r3dDRX>
+    <r3dDepth>2</r3dDepth>
+    <r3dExposureCompensation>0</r3dExposureCompensation>
+    <r3dFlut>0</r3dFlut>
+    <r3dGainB>0</r3dGainB>
+    <r3dGainG>0</r3dGainG>
+    <r3dGainR>0</r3dGainR>
+    <r3dGammaCurve>0</r3dGammaCurve>
+    <r3dISO>0</r3dISO>
+    <r3dKelvin>0</r3dKelvin>
+    <r3dSaturation>0</r3dSaturation>
+    <r3dShadow>0</r3dShadow>
+    <r3dTint>0</r3dTint>
+    <r3dReduceFactor>1</r3dReduceFactor>
+    <url/>
+  </RedFile>
+</nodeCommonRoot>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <Folder>
+    <color>#808000</color>
+    <objectName>Folder</objectName>
+    <path/>
+	<include/>
+	<exclude/>
+    <recursive>true</recursive>
+  </Folder>
+</nodeCommonRoot>

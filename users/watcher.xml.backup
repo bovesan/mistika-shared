@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <Watcher>
+    <color>#aa557f</color>
+    <exclude/>
+    <forceCheck>0</forceCheck>
+    <include>*.*</include>
+    <latency>5</latency>
+    <objectName>Watcher</objectName>
+    <recursive>true</recursive>
+    <url/>
+	<include/>
+	<exclude/>
+	<recursive>true</recursive>
+  </Watcher>
+</nodeCommonRoot>

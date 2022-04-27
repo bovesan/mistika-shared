@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <AsperaClient>
+    <color>#74207b</color>
+    <localFilePath/>
+    <objectName>AsperaClient</objectName>
+    <pwd></pwd>
+    <remoteFilePath/>
+    <tcpPort>22</tcpPort>
+    <udpPort>33001</udpPort>
+    <user/>
+  </AsperaClient>
+</nodeCommonRoot>
