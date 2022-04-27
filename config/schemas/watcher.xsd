@@ -1,0 +1,27 @@
+<xsd:schema xmlns:sgo="http://www.sgo.es/2017/sgo.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="Watcher" sgo:categoryType="categoryCollapsible" sgo:visibility="0" sgo:sortOrder="0">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="objectName" type="xsd:string" sgo:visibility="0" sgo:sortOrder="0"/>
+                <xsd:element name="color" type="color" sgo:visibility="0" sgo:sortOrder="1"/>
+                <xsd:element name="url" type="xsd:anyURI" sgo:properties="showDirsOnly|pathNameFilters('All Files (*.*)')|fileDialogWindowTitle('Select a Folder')" sgo:visibility="0" sgo:sortOrder="2"/>
+                <xsd:element name="include" type="xsd:string" sgo:visibility="0" sgo:sortOrder="3"/>
+                <xsd:element name="exclude" type="xsd:string" sgo:visibility="0" sgo:sortOrder="4"/>
+                <xsd:element name="recursive" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="5"/>
+                <xsd:element name="addRoot" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="6"/>
+                <xsd:element name="latency" type="xsd:integer" sgo:minValue="0" sgo:visibility="0" sgo:sortOrder="10"/>
+                <xsd:element name="forceCheck" type="xsd:integer" sgo:minValue="0" sgo:visibility="0" sgo:sortOrder="11"/>
+                <xsd:element name="deleteAfterProcessing" type="xsd:boolean" sgo:minValue="0" sgo:visibility="0" sgo:sortOrder="20"/>
+                <xsd:element name="areYouSure" type="xsd:boolean" sgo:minValue="0" sgo:visibility="0" sgo:sortOrder="21"/>
+                <xsd:element name="NameConvention" sgo:categoryType="categoryCollapsible" sgo:visibility="0" sgo:sortOrder="98">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="nameConvention" type="nameConventionSimpleEditor" sgo:visibility="0" sgo:sortOrder="102"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

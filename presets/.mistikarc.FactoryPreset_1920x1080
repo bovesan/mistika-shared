@@ -1,43 +1,414 @@
-CACHE_STEREO_EYE               NO_STEREO
 IMAGESIZEX                     1920
 IMAGESIZEY                     1080
-SCREENRATIO                    1.7777777777777777
-COLOR_SPACE_YUV                709
+FRAMESSEG                      24
 NTSCFIELDS                     0
-FRAMESSEG                      25
+LOWRESRATIO                    2
+SCREENRATIO                    1.7777777
+EXTRA_VITC_LINES               0
+COLOR_SPACE_709                1
+BITRATE_VIDEO                  32000000
+AUDIO_BITRATE                  192000
+GOP_SIZE                       1
+RENDER_TO_VIDEO                0
+RENDER_TO_GRAPHICS             1
+SAVE_BEFORE_RENDER             1
+READMULTIPLEDISKS              0
 DROPFRAME                      0
+REEL_SETUP_DO_PREWIEWS         0
+DVS_VTREDITLAG                 5
 VIDEO_SIZE                     1920x1080
-VIDEO_RATE                     25
+VIDEO_RATE                     24
 VIDEO_MODE                     Progressive
 VIDEO_CONNECTOR                SDI
-DVS_HDMI_BIT_DEPTH             8_B
-VIDEO_IO_MODE                  YUV422
 INTERNAL_VIDEO_STORAGE         YUV422
-USE_3G                         0
-3G_LEVEL                       3GA
-MODE_8K                        SQD
+VIDEO_IO_MODE                  YUV422
 VIDEO_STEREO                   0
-STEREO_DUAL_LINK_LEFT_MIRROR   0
-MULTICHANNEL_MODE              MONO
+USE_3G                         1.5G
 SYNC_SOURCE                    SYNC_INTERNAL
-USE_EMBEDDED_AUDIO             1
+STEREO_DUAL_LINK_LEFT_MIRROR   0
+USE_EMBEBED_AUDIO              1
 CHECK_VTR_USER_DATA            0
-EXR_DECOMPRESS                 SINGLE_LAYER
-MAXMEM                         17000
-VIDEO_RING_BUFFER              407
-PLAY_BUFFER                    194
-REEL_SETUP_DO_PREWIEWS         0
-LOWRESRATIO                    2
-BACKLOAD                       1
-READMULTIPLEDISKS              0
-PIPE_UNITS                     6
-CVFS_THREADS                   12
-RENDER_UNITS                   22
-ENCODE_THREADS                 22
-RES_VNC                        DEFAULT
-RENDERMAIL                     NONE_FAIL
-MAILREPORTFAILURES             ONE_MAIL_PER_FILE
-MAILREPORTSUCCESS              ONE_MAIL_PER_FILE
+MONITORS_DOUBLE_BUFFER         1
 MONITOR_RESOLUTION             RES_HIGH
 USE_LIVE_VIDEO                 1
-SAVE_BEFORE_RENDER             1
+MAXMEM                         1024
+QUALITY_OF_SERVICE_MB          25
+RED_REDUCE_FACTOR              2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

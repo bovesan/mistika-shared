@@ -1,0 +1,30 @@
+<xsd:schema xmlns:sgo="http://www.sgo.es/2017/sgo.xsd" 
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element sgo:categoryType="categoryCollapsible" name="DCPReel" sgo:visibility="0" sgo:sortOrder="0">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="objectName" type="xsd:string" sgo:visibility="0" sgo:sortOrder="0"/>
+            <xsd:element name="color" type="color" sgo:visibility="0" sgo:sortOrder="1"/>
+	    
+	    <xsd:element name="resolution" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="10" sgo:actionTypeProperties="_resolutionList" sgo:actionType="getDataFromProperty"/> 
+	    <xsd:element name="aspectRatio" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="11" sgo:actionTypeProperties="_aspectRatioList" sgo:actionType="getDataFromProperty"/> 
+            <xsd:element name="frameRate" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="12" sgo:actionTypeProperties="_frameRateList" sgo:actionType="getDataFromProperty"/> 
+
+            
+            <xsd:element name="audioType" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="15" sgo:actionTypeProperties="_audioTypeList" sgo:actionType="getDataFromProperty"/> 
+            <xsd:element name="stereo3D" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="16" sgo:actionTypeProperties="_stereo3DList" sgo:actionType="getDataFromProperty"/> 
+
+            <xsd:element name="audioLanguage" type="stringPulldown" sgo:sortOrder="50" sgo:actionTypeProperties="_audioLanguageList" sgo:visibility="0" sgo:actionType="getDataFromProperty"  sgo:stringPulldownValues=""/> 
+            <xsd:element name="subtitleLanguage" type="stringPulldown" sgo:sortOrder="51" sgo:actionTypeProperties="_subtitleLanguageList" sgo:visibility="0" sgo:actionType="getDataFromProperty" sgo:stringPulldownValues=""/>
+            <xsd:element name="burnedInSubtitles" type="xsd:boolean" sgo:sortOrder="53" sgo:visibility="0"/>
+
+            <xsd:element name="assistedListeningTrack" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="71"/>
+            <xsd:element name="audioDescriptionTrack" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="72"/>
+            <xsd:element name="signLanguageTrack" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="73"/>
+            <xsd:element name="immersiveSoundFormat" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="75" sgo:actionTypeProperties="_immersiveSoundFormatList" sgo:actionType="getDataFromProperty"/> 
+            <xsd:element name="motionSimulatorFormat" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="76"/>
+
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+</xsd:schema>

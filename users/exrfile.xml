@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <ExrFile>
+    <color>#0000ff</color>
+    <gamma/>
+    <gamut/>
+    <layer>--- Default ---</layer>
+    <objectName>ExrFile</objectName>
+    <url/>
+  </ExrFile>
+</nodeCommonRoot>

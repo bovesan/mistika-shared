@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <Signiant>
+    <color>#aac42d</color>
+    <jobGroup>MediaDistributor</jobGroup>
+    <objectName>Signiant</objectName>
+    <pwd></pwd>
+    <sourceAgent/>
+    <targetAgent/>
+    <targetDirectory/>
+    <url/>
+    <user/>
+    <autoSchedule>0</autoSchedule>
+  </Signiant>
+</nodeCommonRoot>

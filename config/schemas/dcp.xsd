@@ -1,0 +1,41 @@
+<xsd:schema xmlns:sgo="http://www.sgo.es/2017/sgo.xsd" 
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element sgo:categoryType="categoryCollapsible" name="DCP" sgo:visibility="0" sgo:sortOrder="0">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="objectName" type="xsd:string" sgo:visibility="0" sgo:sortOrder="0"/>
+            <xsd:element name="color" type="color" sgo:visibility="0" sgo:sortOrder="1"/>
+            <xsd:element name="destinationPath" type="xsd:anyURI" sgo:visibility="0" sgo:sortOrder="2" sgo:properties="showDirsOnly"/>
+            <xsd:element name="overwrite" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="3"/>
+            <xsd:element name="title" type="xsd:string" sgo:visibility="0" sgo:sortOrder="10"/>
+            <xsd:element name="resolution" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="11" sgo:actionTypeProperties="_resolutionList" sgo:actionType="getDataFromProperty"/> 
+            <xsd:element name="aspectRatio" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="12" sgo:actionTypeProperties="_aspectRatioList" sgo:actionType="getDataFromProperty"/> 
+            <xsd:element name="interiorAspectRatio" type="label" sgo:visibility="0" sgo:sortOrder="13"/>
+            <xsd:element name="frameRate" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="13" sgo:actionTypeProperties="_frameRateList" sgo:actionType="getDataFromProperty"/> 
+	    
+            <xsd:element name="contentType" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="20" sgo:actionTypeProperties="_contentTypeList" sgo:actionType="getDataFromProperty"/> 
+            <xsd:element name="contentVersion" type="xsd:integer" sgo:visibility="0" sgo:sortOrder="21"/>            
+            <xsd:element name="stage" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="22" sgo:actionTypeProperties="_stageList" sgo:actionType="getDataFromProperty"/>
+            <xsd:element name="theatreChain" type="xsd:string" sgo:visibility="0" sgo:sortOrder="25"/>
+            <xsd:element name="stereo3D" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="26" sgo:actionTypeProperties="_stereo3DList" sgo:actionType="getDataFromProperty"/> 
+            <xsd:element name="footLamberts" type="xsd:decimal" sgo:decimalMinValue="0" sgo:decimalMaxValue="9" sgo:decimalStepValue="1" sgo:visibility="0" sgo:sortOrder="27"/>
+
+	    
+            <xsd:element name="colorGragingSpace" type="stringPulldown" sgo:actionTypeProperties="colorGragingList" sgo:sortOrder="52"  sgo:stringPulldownValues="" sgo:actionType="getDataFromProperty" sgo:visibility="0"/> 
+                        
+            <xsd:element name="territory" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="60" sgo:actionTypeProperties="_territoryList" sgo:actionType="getDataFromProperty"/> 
+            <xsd:element name="rating" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="61" sgo:actionTypeProperties="_ratingList" sgo:actionType="getDataFromProperty"/> 
+                        
+            <xsd:element name="studio" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="90" sgo:actionTypeProperties="_studioList" sgo:actionType="getDataFromProperty"/> 
+            <xsd:element name="date" type="xsd:dateTime" sgo:visibility="0" sgo:sortOrder="91"/>
+            <xsd:element name="facility" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="92" sgo:actionTypeProperties="_facilityList" sgo:actionType="getDataFromProperty"/> 
+            <xsd:element name="standard" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="93" sgo:actionTypeProperties="_standardList" sgo:actionType="getDataFromProperty"/> 
+            <xsd:element name="packageType" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="94" sgo:actionTypeProperties="_packageTypeList" sgo:actionType="getDataFromProperty"/> 
+	    <xsd:element name="fileVersion" type="xsd:integer" sgo:minValue="1" sgo:sortOrder="95" sgo:visibility="0"/>    
+            <xsd:element name="certificate" sgo:stringPulldownValues="" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="100" sgo:actionTypeProperties="_certificateList" sgo:actionType="getDataFromProperty"/> 
+            <xsd:element name="from" type="xsd:dateTime" sgo:sortOrder="101" sgo:visibility="0"/> 
+	    <xsd:element name="expiration" type="xsd:dateTime" sgo:sortOrder="102" sgo:visibility="0"/> 
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+</xsd:schema>

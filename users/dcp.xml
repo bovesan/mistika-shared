@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <DCP>
+    <aspectRatio/>
+    <certificate/>
+    <color/>
+    <colorGrading></colorGrading>
+    <contentType/>
+    <contentVersion/>
+    <date/>
+    <destinationPath/>
+    <expiration/>
+    <facility/>
+    <fileVersion/>
+    <footLamberts/>
+    <fps/>
+    <from/>
+    <overwrite/>
+    <packageType/>
+    <rating/>
+    <redBrand/>
+    <s3dSpecs/>
+    <stage/>
+    <standard/>
+    <stereo3D/>
+    <studio/>
+    <territory/>
+    <theatreChain/>
+    <title/>
+  </DCP>
+</nodeCommonRoot>

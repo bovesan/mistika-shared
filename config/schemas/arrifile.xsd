@@ -1,0 +1,26 @@
+<xsd:schema xmlns:sgo="http://www.sgo.es/2017/sgo.xsd" 
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element sgo:categoryType="categoryCollapsible" name="ArriFile" sgo:visibility="0" sgo:sortOrder="0">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="color" type="color" sgo:visibility="0" sgo:sortOrder="1"/>
+            <xsd:element name="objectName" type="xsd:string" sgo:visibility="0" sgo:sortOrder="0"/>
+            <xsd:element name="url" type="universalPath" sgo:visibility="0" sgo:sortOrder="2" sgo:properties="readOnly|urlVisibleButtonBrowser|pathNameFilters('Arri File (*.ari *.arx)')|fileDialogWindowTitle('Select an Arri File')"/>
+			<xsd:element name="debayer" type="integerPulldown"  sgo:integerPulldownValues="From File$$$0|Custom$$$1"  sgo:visibility="0" sgo:sortOrder="40"/>
+            <xsd:element name="ariColorSpace" type="stringPulldown" sgo:actionType="getDataFromProperty" sgo:actionTypeProperties="_ariColorSpaceList" sgo:visibility="0" sgo:sortOrder="50"/>
+            <xsd:element name="gamma" type="label" sgo:visibility="0" sgo:sortOrder="52" />
+            <xsd:element name="gamut" type="label" sgo:visibility="0" sgo:sortOrder="53" />
+            <xsd:element name="changeariISO" type="xsd:boolean" sgo:minValue="50" sgo:visibility="0" sgo:sortOrder="54"/>
+            <xsd:element name="ariISO" type="xsd:integer" sgo:minValue="0" sgo:maxValue="5000" sgo:visibility="0" sgo:sortOrder="55"/>
+            <xsd:element name="changeariKelvin" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="56"/>
+            <xsd:element name="ariKelvin" type="xsd:integer" sgo:minValue="0" sgo:maxValue="20000" sgo:visibility="0" sgo:sortOrder="57"/>
+            <xsd:element name="changeariTint" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="58"/>
+            <xsd:element name="ariTint" type="xsd:decimal" sgo:decimalMinValue="-12" sgo:decimalMaxValue="12" sgo:visibility="0" sgo:sortOrder="59"/>
+            <xsd:element name="ariLookMode" type="stringPulldown" sgo:actionType="getDataFromProperty" sgo:actionTypeProperties="_ariLookModeList" sgo:visibility="0" sgo:sortOrder="60"/>
+            <xsd:element name="ariSharpness" type="xsd:decimal" sgo:decimalMinValue="-5" sgo:decimalMaxValue="5" sgo:visibility="0" sgo:sortOrder="70"/>
+            <xsd:element name="ariReduceFactor" type="stringPulldown" sgo:stringPulldownValues="1:1$$$1|1:2$$$2|1:4$$$3|1:8$$$4|Full Sensor$$$5" sgo:visibility="0" sgo:sortOrder="71"/>
+            <xsd:element name="metadata" type="mediaFileInfoWidget" sgo:visibility="0" sgo:sortOrder="100"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+</xsd:schema>

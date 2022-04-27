@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <DCPReel>
+    <assistedListeningTrack/>
+    <audioDescriptionTrack/>
+    <audioLanguage/>
+    <audioType/>
+    <burnedInSubtitles/>
+    <color/>
+    <immersiveSoundFormat/>
+    <motionSimulatorFormat/>
+    <resolution/>
+    <signLanguageTrack/>
+    <stereo3D/>
+    <subtitleLanguage/>
+  </DCPReel>
+</nodeCommonRoot>

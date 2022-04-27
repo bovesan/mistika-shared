@@ -1,0 +1,17 @@
+<xsd:schema xmlns:sgo="http://www.sgo.es/2017/sgo.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="Vimeo" sgo:categoryType="categoryCollapsible" sgo:visibility="0" sgo:sortOrder="0">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="objectName" type="xsd:string" sgo:visibility="0" sgo:sortOrder="0"/>
+                <xsd:element name="color" type="color" sgo:visibility="0" sgo:sortOrder="1"/>
+                <xsd:element name="title" type="xsd:string" sgo:visibility="0" sgo:sortOrder="4"/>
+                <xsd:element name="description" type="textEditor" sgo:visibility="0" sgo:sortOrder="5"/>
+                <xsd:element name="embed" type="stringPulldown" sgo:stringPulldownValues="private|public" sgo:visibility="0" sgo:sortOrder="6"/>
+                <xsd:element name="view" type="stringPulldown" sgo:stringPulldownValues="anybody|contacts|disable|nobody|password|unlisted" sgo:visibility="0" sgo:sortOrder="7"/>
+                <xsd:element name="pwd" type="xsd:string" sgo:visibility="0" sgo:sortOrder="8"/>
+                <xsd:element name="token" type="xsd:string" sgo:visibility="0" sgo:sortOrder="9"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
+

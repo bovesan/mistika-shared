@@ -1,0 +1,24 @@
+<xsd:schema xmlns:sgo="http://www.sgo.es/2017/sgo.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="SetDisplayFilterFiles" sgo:categoryType="categoryCollapsible" sgo:visibility="0" sgo:sortOrder="0">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="objectName" type="xsd:string" sgo:visibility="0" sgo:sortOrder="0"/>
+                <xsd:element name="color" type="color" sgo:visibility="0" sgo:sortOrder="1"/>
+		<xsd:element name="displayFilter" type="stringPulldown" sgo:visibility="0" sgo:sortOrder="10" sgo:actionType="getDataFromProperty" sgo:actionTypeProperties="_displayFilterList"/>
+		<xsd:element name="url" type="xsd:anyURI" sgo:visibility="0" sgo:sortOrder="11" sgo:properties="pathNameFilters('DisplayFilter File(*.dfilt)')|acceptMode('SaveAsMode')|fileDialogWindowTitle('DisplayFilter File Name')"/>
+
+                <xsd:element name="useNames" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="20"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
+
+
+
+
+
+
+
+
+
+

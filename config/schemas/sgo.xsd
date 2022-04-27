@@ -20,6 +20,9 @@
  <xsd:simpleType name="nameConventionEditor">
   <xsd:list itemType="xsd:string"/>
  </xsd:simpleType>
+ <xsd:simpleType name="nameConventionSimpleEditor">
+  <xsd:list itemType="xsd:string"/>
+ </xsd:simpleType>
  <xsd:simpleType name="scaleForScreenWidget">
   <xsd:list itemType="xsd:string"/>
  </xsd:simpleType>

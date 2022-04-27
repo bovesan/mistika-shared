@@ -1,0 +1,31 @@
+<xsd:schema xmlns:sgo="http://www.sgo.es/2017/sgo.xsd" 
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element sgo:categoryType="categoryCollapsible" name="AXNDataImportZAPiTV" sgo:visibility="0" sgo:sortOrder="0">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="objectName" type="xsd:string" sgo:visibility="0" sgo:sortOrder="0"/>
+            <xsd:element name="color" type="color" sgo:visibility="0" sgo:sortOrder="1"/>
+            <xsd:element name="excludeOlderThan" type="xsd:integer" sgo:visibility="0" sgo:sortOrder="4"/>
+            <xsd:element name="includeCloserThan" type="xsd:integer" sgo:visibility="0" sgo:sortOrder="5"/>
+            <xsd:element name="pelisMediaPath" type="xsd:anyURI" sgo:properties="showDirsOnly" sgo:visibility="0" sgo:sortOrder="6"/>
+            <xsd:element name="pelisImgPath" type="xsd:anyURI" sgo:properties="showDirsOnly" sgo:visibility="0" sgo:sortOrder="7"/>
+            <xsd:element name="pelisSubtitlesPath" type="xsd:anyURI" sgo:properties="showDirsOnly" sgo:visibility="0" sgo:sortOrder="8"/>
+            <xsd:element name="seriesMediaPath" type="xsd:anyURI" sgo:properties="showDirsOnly" sgo:visibility="0" sgo:sortOrder="9"/>
+            <xsd:element name="seriesImgPath" type="xsd:anyURI" sgo:properties="showDirsOnly" sgo:visibility="0" sgo:sortOrder="10"/>
+            <xsd:element name="seriesSubtitlesPath" type="xsd:anyURI" sgo:properties="showDirsOnly" sgo:visibility="0" sgo:sortOrder="11"/>			
+            <xsd:element name="user" type="xsd:string" sgo:visibility="0" sgo:sortOrder="20"/>
+            <xsd:element name="pwd" type="xsd:string" sgo:visibility="0" sgo:sortOrder="21"/>
+            <xsd:element name="ftpPathMetadata" type="xsd:string" sgo:visibility="0" sgo:sortOrder="30"/> 
+            <xsd:element name="ftpPathMedia" type="xsd:string" sgo:visibility="0" sgo:sortOrder="31"/>       
+           <xsd:element name="port" type="xsd:integer" sgo:visibility="0" sgo:sortOrder="33"/>     
+            <xsd:element name="autoSchedule" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="34"/>   
+            <xsd:element name="checkTime" type="xsd:integer" sgo:visibility="0" sgo:sortOrder="35"/>   
+			<xsd:element name="moveMovieTo" type="xsd:anyURI" sgo:properties="showDirsOnly|pathNameFilters('All Files (*.*)')|fileDialogWindowTitle('Select a Folder')" sgo:visibility="0" sgo:sortOrder="40"/>			
+            <xsd:element name="uploadMedia" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="41"/>		
+            <xsd:element name="nameConventionsFile" type="xsd:anyURI" sgo:visibility="0" sgo:sortOrder="50"/>
+            <xsd:element name="renameFilesList" type="xsd:string" sgo:visibility="0" sgo:sortOrder="51"/>	
+            <xsd:element name="sheetName" type="xsd:string" sgo:visibility="0" sgo:sortOrder="52"/>				
+       </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+</xsd:schema>

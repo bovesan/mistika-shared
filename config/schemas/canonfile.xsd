@@ -1,0 +1,33 @@
+<xsd:schema xmlns:sgo="http://www.sgo.es/2017/sgo.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="CanonFile" sgo:categoryType="categoryCollapsible" sgo:visibility="0" sgo:sortOrder="0">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="objectName" type="xsd:string" sgo:visibility="0" sgo:sortOrder="0"/>
+                <xsd:element name="color" type="color" sgo:visibility="0" sgo:sortOrder="1"/>
+                <xsd:element name="url" type="universalPath" sgo:properties="readOnly|urlVisibleButtonBrowser|pathNameFilters('Canon rmf (*.rmf)')|fileDialogWindowTitle('Select a Canon rmf file')" sgo:visibility="0" sgo:sortOrder="2"/>
+				<xsd:element name="debayer" type="integerPulldown"  sgo:integerPulldownValues="From File$$$0|Custom$$$1"  sgo:visibility="0" sgo:sortOrder="9"/>
+                <xsd:element name="canonGamma" type="stringPulldown" sgo:actionType="getDataFromProperty" sgo:actionTypeProperties="_canonGammaList" sgo:visibility="0" sgo:sortOrder="10"/>
+                <xsd:element name="gamma" type="label" sgo:visibility="0" sgo:sortOrder="11" />
+                <xsd:element name="canonColorSpace" type="stringPulldown" sgo:actionType="getDataFromProperty" sgo:actionTypeProperties="_canonColorSpaceList" sgo:visibility="0" sgo:sortOrder="12"/>
+                <xsd:element name="gamut" type="label" sgo:visibility="0" sgo:sortOrder="13" />
+                <xsd:element name="canonACESidt" type="stringPulldown" sgo:actionType="getDataFromProperty" sgo:actionTypeProperties="_canonACESidtList" sgo:visibility="0" sgo:sortOrder="14"/>
+                <xsd:element name="canonISO" type="stringPulldown" sgo:actionType="getDataFromProperty" sgo:actionTypeProperties="_canonISOList" sgo:visibility="0" sgo:sortOrder="21"/>
+                <xsd:element name="canonWhiteBalance" type="stringPulldown" sgo:actionType="getDataFromProperty" sgo:actionTypeProperties="_canonWhiteBalanceList" sgo:visibility="0" sgo:sortOrder="22"/>
+                <xsd:element name="changecanonKelvin" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="23"/>
+                <xsd:element name="canonKelvin" type="xsd:integer" sgo:minValue="2000" sgo:maxValue="15000" sgo:visibility="0" sgo:sortOrder="24"/>
+                <xsd:element name="changeGain" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="30"/>
+                <xsd:element name="canonGainR" type="xsd:decimal" sgo:decimalMinValue="0" sgo:decimalMaxValue="10" sgo:decimalStepValue="0.1" sgo:visibility="0" sgo:sortOrder="31"/>
+                <xsd:element name="canonGainG1" type="xsd:decimal" sgo:decimalMinValue="0" sgo:decimalMaxValue="10" sgo:decimalStepValue="0.1" sgo:visibility="0" sgo:sortOrder="32"/>
+                <xsd:element name="canonGainG2" type="xsd:decimal" sgo:decimalMinValue="0" sgo:decimalMaxValue="10" sgo:decimalStepValue="0.1" sgo:visibility="0" sgo:sortOrder="33"/>
+                <xsd:element name="canonGainB" type="xsd:decimal" sgo:decimalMinValue="0" sgo:decimalMaxValue="10" sgo:decimalStepValue="0.1" sgo:visibility="0" sgo:sortOrder="34"/>
+                <xsd:element name="canonExposure" type="xsd:decimal" sgo:decimalMinValue="-3" sgo:decimalMaxValue="3" sgo:decimalStepValue="0.1" sgo:visibility="0" sgo:sortOrder="36"/>
+                <xsd:element name="changecanonTint" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="37"/>
+                <xsd:element name="canonTint" type="xsd:decimal" sgo:decimalMinValue="-10" sgo:decimalMaxValue="10" sgo:decimalStepValue="0.1" sgo:visibility="0" sgo:sortOrder="38"/>
+                <xsd:element name="canonSharpness" type="xsd:decimal" sgo:decimalMinValue="0" sgo:decimalMaxValue="10" sgo:decimalStepValue="0.1" sgo:visibility="0" sgo:sortOrder="40"/>
+                <xsd:element name="canonHighQuality" type="xsd:boolean" sgo:visibility="0" sgo:sortOrder="50"/>
+                <xsd:element name="canonReduceFactor" type="stringPulldown" sgo:stringPulldownValues="1:1$$$1|1:2$$$2|1:4$$$3" sgo:visibility="0" sgo:sortOrder="51"/>
+                <xsd:element name="metadata" type="mediaFileInfoWidget" sgo:visibility="0" sgo:sortOrder="100"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

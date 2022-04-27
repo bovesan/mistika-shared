@@ -1,0 +1,23 @@
+<xsd:schema xmlns:sgo="http://www.sgo.es/2017/sgo.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="FTP" sgo:categoryType="categoryCollapsible" sgo:visibility="0" sgo:sortOrder="0">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="objectName" type="xsd:string" sgo:visibility="0" sgo:sortOrder="0"/>
+                <xsd:element name="color" type="color" sgo:visibility="0" sgo:sortOrder="1"/>
+                <xsd:element name="url" type="xsd:string" sgo:visibility="0" sgo:sortOrder="2"/>
+                <xsd:element name="user" type="xsd:string" sgo:visibility="0" sgo:sortOrder="3"/>
+                <xsd:element name="authType" type="integerPulldown" sgo:integerPulldownValues="Pwd$$$0|Private Key$$$1|Public Key$$$2" sgo:visibility="0" sgo:sortOrder="4"/>
+                <xsd:element name="keyFile" type="xsd:anyURI" sgo:properties="urlVisibleButtonBrowser|pathNameFilters('SSH Key File (*)')|fileDialogWindowTitle('Open')" sgo:visibility="0" sgo:sortOrder="6"/>			
+                <xsd:element name="pwd" type="xsd:string" sgo:visibility="0" sgo:sortOrder="7"/>
+                <xsd:element name="port" type="xsd:integer" sgo:visibility="0" sgo:sortOrder="8"/>
+                <xsd:element name="localPath" type="xsd:anyURI" sgo:properties="showDirsOnly|urlVisibleButtonBrowser|pathNameFilters('All Files (*.*)')|fileDialogWindowTitle('Open')" sgo:visibility="0" sgo:sortOrder="10"/>			
+				<xsd:element name="include" type="xsd:string" sgo:visibility="0" sgo:sortOrder="11"/>
+                <xsd:element name="exclude" type="xsd:string" sgo:visibility="0" sgo:sortOrder="12"/>				
+				<xsd:element name="newFilesOnly" type="xsd:boolean" sgo:minValue="0" sgo:visibility="0" sgo:sortOrder="20"/>
+				<xsd:element name="deleteAfterTransfer" type="xsd:boolean" sgo:minValue="0" sgo:visibility="0" sgo:sortOrder="21"/>
+                <xsd:element name="areYouSure" type="xsd:boolean" sgo:minValue="0" sgo:visibility="0" sgo:sortOrder="22"/>
+                <xsd:element name="renameFilesList" type="xsd:string" sgo:visibility="0" sgo:sortOrder="60"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

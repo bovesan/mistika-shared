@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nameConvention>
+  <blocks>
+    <category name="Classic">
+      <block name="path">true</block>
+      <block name="baseName">true</block>
+      <block name="frame">true</block>
+      <block name="ext">true</block>
+    </category>
+    <category name="Source">
+      <block name="tapeName">true</block>
+    </category>
+    <category name="ColorSpace">
+      <block name="colorSpace">true</block>
+      <block name="gamma">true</block>
+      <block name="gamut">true</block>
+    </category>
+  </blocks>
+</nameConvention>

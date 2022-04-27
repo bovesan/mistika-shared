@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <YouTube>
+    <category>22</category>
+    <color>#1fa3e9</color>
+    <description>File Uploaded with Mistika Workflows</description>
+    <expiration/>
+    <keywords/>
+    <objectName>YouTube</objectName>
+    <privacyStatus>public</privacyStatus>
+    <refreshToken></refreshToken>
+    <title/>
+    <token></token>
+  </YouTube>
+</nodeCommonRoot>

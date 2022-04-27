@@ -1,3 +1,6 @@
-MESSAGES                       FALSE
-DEVICETYPE                     XFS
-MAX_FILES_OPENED               4096
+
+DEVICETYPE              XFS
+MESSAGES                FALSE
+MAX_FILES_OPENED        4096
+
+PATH                    #MATERIAL#
