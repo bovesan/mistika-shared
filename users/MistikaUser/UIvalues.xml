@@ -98,6 +98,7 @@
   <Size_Y>1080</Size_Y>
   <Snapshot2Move_Win>84 129 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
+  <StartUp_Dont_ask_me_again_workflows>true</StartUp_Dont_ask_me_again_workflows>
   <StoryBoard>
     <AutoSnapshot>false</AutoSnapshot>
     <CurrentGroup>0</CurrentGroup>
@@ -182,7 +183,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22785_Europris_hage_og_17mai</current>
+    <current/>
   </project>
   <relink>
     <mistika>
