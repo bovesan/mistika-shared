@@ -7,7 +7,7 @@ BITRATE_AUDIO                  192000
 #max                           distance
 #0:                            one
 VIDEO_PASS                     0
-#CODEC_CUSTOM                   libx264
+#CODEC_CUSTOM                  libx264
 #CODEC_CUSTOM                  mpeg1video
 #CODEC_CUSTOM                  mpeg2video
 #CODEC_CUSTOM                  mpeg4
@@ -15,26 +15,5 @@ VIDEO_PASS                     0
 #CODEC_CUSTOM                  asv1
 #CODEC_CUSTOM                  asv2
 #CODEC_CUSTOM                  ffv1
-CODEC_CUSTOM                  dvvideo
+CODEC_CUSTOM                   dvvideo
 
-#RED_GAIN_BLUE CAMERA
-#RED_GAMMA_CURVE CAMERA
-#RED_OLPF_COMPENSATION CAMERA
-#RED_KELVIN CAMERA
-#RED_GAIN_RED CAMERA
-#RED_BRIGHTNESS CAMERA
-#RED_COLOR_SPACE CAMERA
-#RED_EXPOSURE_COMPENSATION CAMERA
-#RED_SATURATION CAMERA
-#RED_DETAIL CAMERA
-#RED_CONTRAST CAMERA
-#RED_DRX CAMERA
-#RED_GAIN_GREEN CAMERA
-#RED_TINT CAMERA
-#RED_DENOISE CAMERA
-#RED_ISO CAMERA
-#RED_SHADOW CAMERA
-#RED_FLUT CAMERA
-#RED_2K_USE_PREMIUM 0
-#RED_BIT_DEPTH_ENUMERATE 1
-#RED_TRACK 0

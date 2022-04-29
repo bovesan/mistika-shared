@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <FrameIO>
+    <api>https://api.frame.io/v2</api>
+    <color>#6845ff</color>
+    <directory>--- None ---</directory>
+    <email/>
+    <objectName>FrameIO</objectName>
+    <project>--- None ---</project>
+    <team/>
+    <token/>
+  </FrameIO>
+</nodeCommonRoot>

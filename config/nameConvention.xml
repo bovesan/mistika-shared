@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nameConvention>
+  <item current="false" pos="1">[privateData{variable=CurvesData/footer.text}][.ext]</item>
+  <item current="false" pos="2">[baseName][segmentIndex][.ext]</item>
+  <item current="true" pos="0">[path][baseName][_frame][.ext]</item>
+</nameConvention>

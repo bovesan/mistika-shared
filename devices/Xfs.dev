@@ -1,6 +1,3 @@
-
-DEVICETYPE              XFS
-MESSAGES                FALSE
-MAX_FILES_OPENED        4096
-
-PATH                    /REALTIME_STORAGE
+MESSAGES                       FALSE
+DEVICETYPE                     XFS
+MAX_FILES_OPENED               4096

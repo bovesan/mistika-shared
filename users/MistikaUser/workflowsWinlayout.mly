@@ -1,11 +1,11 @@
 {
-    "geometry": "AdnQywADAAD////8/////AAAB4MAAASzAAAABAAAABkAAAd7AAAEqwAAAAECAAAAB4AAAAAAAAAAFQAAB38AAASv",
+    "geometry": "AdnQywADAAD///+yAAAAGgAABzEAAATJ////tgAAADMAAActAAAExQAAAAEAAAAAB4D///+2AAAAMwAABy0AAATF",
     "state": {
         "floatingWindows": [
         ],
         "format": 1,
         "mainWrapper": {
-            "geometry": "AdnQywADAAAAAAAAAAAAAAAAB38AAARsAAAAAAAAAAD//////////wAAAAEAAAAAB4AAAAAAAAAAAAAAB38AAARs",
+            "geometry": "AdnQywADAAAAAAAAAAAAAAAAB3cAAARcAAAAAAAAAAD//////////wAAAAEAAAAAB4AAAAAAAAAAAAAAB3cAAARc",
             "splitter": {
                 "items": [
                     {
@@ -59,11 +59,11 @@
                                         "type": "area"
                                     }
                                 ],
-                                "state": "AAAA/wAAAAEAAAADAAABlAAAAAQAAAEwAP////8BAAAAAgA=",
+                                "state": "AAAA/wAAAAEAAAADAAABlAAAAAwAAAEwAP////8BAAAAAgA=",
                                 "type": "splitter"
                             }
                         ],
-                        "state": "AAAA/wAAAAEAAAADAAAABAAAA3QAAAGUAP////8BAAAAAQA=",
+                        "state": "AAAA/wAAAAEAAAADAAAB3wAAA1EAAAJEAP////8BAAAAAQA=",
                         "type": "splitter"
                     },
                     {
@@ -77,7 +77,7 @@
                         "type": "area"
                     }
                 ],
-                "state": "AAAA/wAAAAEAAAACAAACyAAAAAQA/////wEAAAACAA==",
+                "state": "AAAA/wAAAAEAAAACAAAEiQAAAZoA/////wEAAAACAA==",
                 "type": "splitter"
             }
         }

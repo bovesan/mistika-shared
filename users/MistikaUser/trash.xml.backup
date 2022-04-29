@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <Trash>
+    <areYouSure>0</areYouSure>
+    <color>#ff0000</color>
+    <deleteEmptyFolders>0</deleteEmptyFolders>
+    <objectName>Trash</objectName>
+  </Trash>
+</nodeCommonRoot>

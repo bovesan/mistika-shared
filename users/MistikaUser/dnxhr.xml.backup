@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeCommonRoot>
+  <DNxHR>
+    <DisplayFilter>
+      <displayFilter>---None---</displayFilter>
+    </DisplayFilter>
+    <Lut3D>
+      <lut3D>---None---</lut3D>
+    </Lut3D>
+    <Transcoding>
+      <audioCodec>Null.dev</audioCodec>
+      <changetimecode>false</changetimecode>
+      <codec>ffmpeg_MXF.MOVIE_MXF_DNXHRHQ</codec>
+      <fit>1</fit>
+      <fps>0</fps>
+      <imageResX>0</imageResX>
+      <imageResY>0</imageResY>
+      <interlaced>false</interlaced>
+      <timecode/>
+    </Transcoding>
+    <Unicolor>
+      <colorSpace>--- Same As Input ---</colorSpace>
+      <gamma/>
+      <gamut/>
+    </Unicolor>
+    <VirtualSlate>
+      <virtualSlate>---None---</virtualSlate>
+      <virtualSlateDuration>-1</virtualSlateDuration>
+    </VirtualSlate>
+    <color>#808000</color>
+    <objectName>DNxHR</objectName>
+    <url>.mxf</url>
+  </DNxHR>
+</nodeCommonRoot>
