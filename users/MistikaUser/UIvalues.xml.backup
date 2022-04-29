@@ -7,10 +7,10 @@
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
-    <FeatherOverlay>false</FeatherOverlay>
+    <FeatherOverlay>true</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
-    <GridOverlay>true</GridOverlay>
+    <GridOverlay>false</GridOverlay>
     <Interlaced>false</Interlaced>
     <Live>true</Live>
     <LiveRes>false</LiveRes>
@@ -18,12 +18,12 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
+    <Scopes_Scope1>true</Scopes_Scope1>
+    <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
-    <ShowOneInput>true</ShowOneInput>
+    <ShowOneInput>false</ShowOneInput>
     <Snapshot>false</Snapshot>
     <StereoMode_Disp>9056</StereoMode_Disp>
     <StereoMode_Live>9069</StereoMode_Live>
@@ -55,8 +55,8 @@
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>false</LinkByFile>
-    <ReplicateTree>true</ReplicateTree>
+    <LinkByFile>true</LinkByFile>
+    <ReplicateTree>false</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
       <Dir1>false</Dir1>
@@ -183,14 +183,14 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22832_NEAS</current>
+    <current>22776_Sister_Act</current>
   </project>
   <relink>
     <mistika>
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>1</render2_Audio>
+  <render2_Audio>0</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Except_JS_clips>0</render2_Except_JS_clips>
@@ -245,7 +245,7 @@
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
   <setup_Select_Monitor>0</setup_Select_Monitor>
-  <setup_Selected>0</setup_Selected>
+  <setup_Selected>1</setup_Selected>
   <setup_Show_Graffiti>1</setup_Show_Graffiti>
   <setup_Show_Grid>1</setup_Show_Grid>
   <setup_Show_Rulers>1</setup_Show_Rulers>
