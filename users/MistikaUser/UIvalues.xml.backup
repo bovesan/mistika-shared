@@ -16,7 +16,7 @@
     <LiveRes>false</LiveRes>
     <Notes_Color>0</Notes_Color>
     <Panel>false</Panel>
-    <Resolution>0</Resolution>
+    <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
     <Scopes_Scope2>true</Scopes_Scope2>
@@ -76,15 +76,15 @@
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
   <Scale_X>100.000</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>129 89 522 552</Scope1Move_Win>
+  <Scope1Move_Win>1946 77 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>49 127 522 552</Scope2Move_Win>
+  <Scope2Move_Win>3282 22 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
-  <Scope3Move_Win>1013 136 1034 1064</Scope3Move_Win>
+  <Scope3Move_Win>896 44 1034 1064</Scope3Move_Win>
   <Scope3_Mode_>3</Scope3_Mode_>
   <Scope3_Negative_>1</Scope3_Negative_>
   <Scope3_Quality_>1</Scope3_Quality_>
