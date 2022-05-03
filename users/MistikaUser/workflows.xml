@@ -178,8 +178,8 @@
   <timelineSettings>
     <aspectRatio>1.7777780294418335</aspectRatio>
     <frameRate>25</frameRate>
-    <imageSizeX>3840</imageSizeX>
-    <imageSizeY>2160</imageSizeY>
+    <imageSizeX>1920</imageSizeX>
+    <imageSizeY>1080</imageSizeY>
     <ntscFields>false</ntscFields>
   </timelineSettings>
   <videoFormat>
