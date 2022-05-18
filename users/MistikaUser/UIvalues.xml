@@ -113,7 +113,7 @@
   <Tracker_Rotate>0</Tracker_Rotate>
   <Tracker_Size>0</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
-  <calc_Base>2</calc_Base>
+  <calc_Base>1</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
   <composer_JogSpeed_16>1</composer_JogSpeed_16>
   <composer_KnobSpeed_16>1</composer_KnobSpeed_16>
@@ -184,7 +184,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22775_Equinor</current>
+    <current>22746_Visit_Norway_Alpint</current>
   </project>
   <relink>
     <mistika>
