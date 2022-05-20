@@ -18,14 +18,14 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
+    <Scopes_Scope1>true</Scopes_Scope1>
+    <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
     <Snapshot>true</Snapshot>
-    <StereoMode_Disp>9056</StereoMode_Disp>
+    <StereoMode_Disp>9061</StereoMode_Disp>
     <StereoMode_Live>9069</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
     <UnscaledRes>true</UnscaledRes>
@@ -76,16 +76,16 @@
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
   <Scale_X>208.125</Scale_X>
   <Scale_Y>200.000</Scale_Y>
-  <Scope1Move_Win>1286 58 522 552</Scope1Move_Win>
+  <Scope1Move_Win>38 61 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>191 81 522 552</Scope2Move_Win>
+  <Scope2Move_Win>90 104 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>896 44 1034 1064</Scope3Move_Win>
-  <Scope3_Mode_>3</Scope3_Mode_>
+  <Scope3_Mode_>4</Scope3_Mode_>
   <Scope3_Negative_>1</Scope3_Negative_>
   <Scope3_Quality_>1</Scope3_Quality_>
   <Scope3_Scale_>7</Scope3_Scale_>
@@ -97,7 +97,7 @@
   <Size>29</Size>
   <Size_X>1920</Size_X>
   <Size_Y>1080</Size_Y>
-  <Snapshot2Move_Win>84 129 244 264</Snapshot2Move_Win>
+  <Snapshot2Move_Win>633 27 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StartUp_Dont_ask_me_again_workflows>true</StartUp_Dont_ask_me_again_workflows>
   <StoryBoard>
@@ -113,7 +113,7 @@
   <Tracker_Rotate>0</Tracker_Rotate>
   <Tracker_Size>0</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
-  <calc_Base>1</calc_Base>
+  <calc_Base>2</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
   <composer_JogSpeed_16>1</composer_JogSpeed_16>
   <composer_KnobSpeed_16>1</composer_KnobSpeed_16>
@@ -137,7 +137,7 @@
   <edit_>2</edit_>
   <edit_Animation>1</edit_Animation>
   <edit_Auto_Key_State>0</edit_Auto_Key_State>
-  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
   <edit_GUI_Magnify_Filter>0</edit_GUI_Magnify_Filter>
   <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
@@ -232,7 +232,7 @@
   <setup_Constrain_Y>0</setup_Constrain_Y>
   <setup_Current_Gang>0</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
-  <setup_Current_Track>0</setup_Current_Track>
+  <setup_Current_Track>1</setup_Current_Track>
   <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
