@@ -4,13 +4,13 @@ trimDesc( head(0) speed(1) )
 ungroup(1)
 p(
 	n(\(Empty\)+1)
-	X(118385) Y(23) W(25) F(3)
+	X(118385) Y(22) W(25) F(8)
 )
 F(
 T(142)
 p(
 	n(Framing)
-	X(118385) Y(23) W(25) F(3)
+	X(118385) Y(22) W(25) F(8)
 	L(21)
 s(
 	T(n() C(14) t(1))
