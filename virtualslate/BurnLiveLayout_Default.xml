@@ -145,7 +145,7 @@
       </data>
       <data name="Tail Frames">
         <active value="enable"/>
-        <tolive value="enable"/>
+        <tolive value="disable"/>
         <shadow color="0,0,0,40"/>
         <valueslist>
           <cursor line="15" column="1"/>
