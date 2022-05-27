@@ -4,13 +4,13 @@
   <CommonControls>
     <AlignMode>false</AlignMode>
     <CameraOverlay>false</CameraOverlay>
-    <Curves>false</Curves>
+    <Curves>true</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
     <FeatherOverlay>true</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
-    <GridOverlay>false</GridOverlay>
+    <GridOverlay>true</GridOverlay>
     <Interlaced>false</Interlaced>
     <Live>true</Live>
     <LiveRes>false</LiveRes>
@@ -18,8 +18,8 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>true</Scopes_Scope1>
-    <Scopes_Scope2>true</Scopes_Scope2>
+    <Scopes_Scope1>false</Scopes_Scope1>
+    <Scopes_Scope2>false</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
@@ -79,7 +79,7 @@
   <Scope1Move_Win>38 61 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>90 104 522 552</Scope2Move_Win>
+  <Scope2Move_Win>52 198 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
@@ -97,7 +97,7 @@
   <Size>29</Size>
   <Size_X>1920</Size_X>
   <Size_Y>1080</Size_Y>
-  <Snapshot2Move_Win>633 27 244 264</Snapshot2Move_Win>
+  <Snapshot2Move_Win>1521 59 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StartUp_Dont_ask_me_again_workflows>true</StartUp_Dont_ask_me_again_workflows>
   <StoryBoard>
@@ -185,14 +185,14 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22610_We_Are_Still_Here</current>
+    <current>22869_Sjomatraadet_Salmon</current>
   </project>
   <relink>
     <mistika>
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>1</render2_Audio>
+  <render2_Audio>0</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Except_JS_clips>0</render2_Except_JS_clips>
@@ -201,8 +201,8 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>1</render2_Source>
-  <render2_Split>2</render2_Split>
+  <render2_Source>0</render2_Source>
+  <render2_Split>1</render2_Split>
   <render2_Stereo>0</render2_Stereo>
   <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
@@ -254,9 +254,10 @@
   <setup_Single>0</setup_Single>
   <setup_Text_Shadows>0</setup_Text_Shadows>
   <setup_Time_Code>1</setup_Time_Code>
-  <setup_record_monitor_Active_Burn>0</setup_record_monitor_Active_Burn>
+  <setup_record_monitor_Active_Burn>1</setup_record_monitor_Active_Burn>
   <setup_record_monitor_Stereo_Mode>0</setup_record_monitor_Stereo_Mode>
   <setup_sdr_or_hdr_>0</setup_sdr_or_hdr_>
+  <setup_source_monitor_Active_Burn>1</setup_source_monitor_Active_Burn>
   <setup_source_monitor_Stereo_Mode>0</setup_source_monitor_Stereo_Mode>
   <tangent>
     <BALL_SPEED>16</BALL_SPEED>
