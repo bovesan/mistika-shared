@@ -4,7 +4,7 @@
   <CommonControls>
     <AlignMode>false</AlignMode>
     <CameraOverlay>false</CameraOverlay>
-    <Curves>true</Curves>
+    <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
     <FeatherOverlay>false</FeatherOverlay>
@@ -76,10 +76,10 @@
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
   <Scale_X>100.000</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>-19 8 522 552</Scope1Move_Win>
+  <Scope1Move_Win>0 8 522 552</Scope1Move_Win>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>3282 -21 522 552</Scope2Move_Win>
+  <Scope2Move_Win>3282 0 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
@@ -185,7 +185,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22869_Sjomatraadet_Salmon</current>
+    <current>22479_Karpe_VFX</current>
   </project>
   <relink>
     <mistika>
@@ -203,7 +203,7 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>0</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
+  <render2_Stereo>1</render2_Stereo>
   <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
