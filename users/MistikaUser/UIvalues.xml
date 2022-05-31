@@ -55,7 +55,7 @@
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>true</LinkByFile>
+    <LinkByFile>false</LinkByFile>
     <ReplicateTree>true</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
@@ -185,7 +185,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22878_Bama</current>
+    <current>22723_NRK_Max_Gass</current>
   </project>
   <relink>
     <mistika>
