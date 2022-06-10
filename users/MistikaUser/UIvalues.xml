@@ -98,7 +98,7 @@
   <Size>29</Size>
   <Size_X>1998</Size_X>
   <Size_Y>1080</Size_Y>
-  <Snapshot2Move_Win>2479 151 244 264</Snapshot2Move_Win>
+  <Snapshot2Move_Win>3639 177 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StartUp_Dont_ask_me_again_workflows>true</StartUp_Dont_ask_me_again_workflows>
   <StoryBoard>
@@ -114,7 +114,7 @@
   <Tracker_Rotate>0</Tracker_Rotate>
   <Tracker_Size>0</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
-  <calc_Base>2</calc_Base>
+  <calc_Base>1</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
   <composer_JogSpeed_16>1</composer_JogSpeed_16>
   <composer_KnobSpeed_16>1</composer_KnobSpeed_16>
