@@ -18,8 +18,8 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>true</Scopes_Scope1>
-    <Scopes_Scope2>true</Scopes_Scope2>
+    <Scopes_Scope1>false</Scopes_Scope1>
+    <Scopes_Scope2>false</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
@@ -233,7 +233,7 @@
   <setup_Constrain_Y>0</setup_Constrain_Y>
   <setup_Current_Gang>0</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
-  <setup_Current_Track>1</setup_Current_Track>
+  <setup_Current_Track>0</setup_Current_Track>
   <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
@@ -248,7 +248,7 @@
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
   <setup_Select_Monitor>0</setup_Select_Monitor>
-  <setup_Selected>0</setup_Selected>
+  <setup_Selected>1</setup_Selected>
   <setup_Show_Graffiti>1</setup_Show_Graffiti>
   <setup_Show_Grid>1</setup_Show_Grid>
   <setup_Show_Rulers>1</setup_Show_Rulers>
