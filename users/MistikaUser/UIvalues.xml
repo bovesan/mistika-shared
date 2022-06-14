@@ -18,12 +18,12 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
+    <Scopes_Scope1>true</Scopes_Scope1>
+    <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
-    <ShowOneInput>false</ShowOneInput>
+    <ShowOneInput>true</ShowOneInput>
     <Snapshot>false</Snapshot>
     <StereoMode_Disp>9061</StereoMode_Disp>
     <StereoMode_Live>9069</StereoMode_Live>
@@ -77,7 +77,7 @@
   <Scale_X>100.000</Scale_X>
   <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>0 8 522 552</Scope1Move_Win>
-  <Scope1_Mode_>4</Scope1_Mode_>
+  <Scope1_Mode_>0</Scope1_Mode_>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
   <Scope2Move_Win>1211 29 522 552</Scope2Move_Win>
@@ -112,7 +112,7 @@
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>0</Tracker_Rotate>
-  <Tracker_Size>0</Tracker_Size>
+  <Tracker_Size>1</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
   <calc_Base>1</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
@@ -176,7 +176,7 @@
         <DrawOverlay>true</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>16</JOG_SPEED>
-        <KNOB_SPEED>16</KNOB_SPEED>
+        <KNOB_SPEED>32</KNOB_SPEED>
         <PrinterLightsStep>1.217</PrinterLightsStep>
         <RING_SPEED>4</RING_SPEED>
         <TrackballRGBValuesOn>true</TrackballRGBValuesOn>
@@ -204,8 +204,8 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
+  <render2_Stereo>1</render2_Stereo>
+  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
@@ -224,7 +224,7 @@
   <render_Tape_Name_Source>0</render_Tape_Name_Source>
   <render_Time_Code_Source>0</render_Time_Code_Source>
   <render_Xfs_dev_Target>0</render_Xfs_dev_Target>
-  <setup_All_Objects>0</setup_All_Objects>
+  <setup_All_Objects>1</setup_All_Objects>
   <setup_Audio_Auto_Routing>0</setup_Audio_Auto_Routing>
   <setup_Auto_Batch_Just_Modified>0</setup_Auto_Batch_Just_Modified>
   <setup_Auto_Expand>0</setup_Auto_Expand>
@@ -233,7 +233,7 @@
   <setup_Constrain_Y>0</setup_Constrain_Y>
   <setup_Current_Gang>0</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
-  <setup_Current_Track>1</setup_Current_Track>
+  <setup_Current_Track>0</setup_Current_Track>
   <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
