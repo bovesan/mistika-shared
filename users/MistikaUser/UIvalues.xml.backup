@@ -6,10 +6,10 @@
     <CameraOverlay>false</CameraOverlay>
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
-    <FXPresets>false</FXPresets>
+    <FXPresets>true</FXPresets>
     <FeatherOverlay>true</FeatherOverlay>
     <FrameRate>-1</FrameRate>
-    <Gang>false</Gang>
+    <Gang>true</Gang>
     <GridOverlay>true</GridOverlay>
     <Interlaced>false</Interlaced>
     <Live>true</Live>
@@ -23,7 +23,7 @@
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
-    <ShowOneInput>true</ShowOneInput>
+    <ShowOneInput>false</ShowOneInput>
     <Snapshot>false</Snapshot>
     <StereoMode_Disp>9061</StereoMode_Disp>
     <StereoMode_Live>9069</StereoMode_Live>
@@ -172,7 +172,7 @@
         </EditorRGB>
       </Curves>
       <Setup>
-        <BALL_SPEED>8</BALL_SPEED>
+        <BALL_SPEED>16</BALL_SPEED>
         <DrawOverlay>true</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>16</JOG_SPEED>
@@ -204,7 +204,7 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
+  <render2_Stereo>0</render2_Stereo>
   <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
@@ -231,7 +231,7 @@
   <setup_Auto_Sync_Editor_to_Timeline>0</setup_Auto_Sync_Editor_to_Timeline>
   <setup_Constrain_X>0</setup_Constrain_X>
   <setup_Constrain_Y>0</setup_Constrain_Y>
-  <setup_Current_Gang>0</setup_Current_Gang>
+  <setup_Current_Gang>1</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
   <setup_Current_Track>1</setup_Current_Track>
   <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
