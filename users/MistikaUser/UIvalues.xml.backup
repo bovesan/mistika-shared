@@ -76,14 +76,14 @@
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
   <Scale_X>200.000</Scale_X>
   <Scale_Y>200.000</Scale_Y>
-  <Scope1Move_Win>3153 9 522 552</Scope1Move_Win>
+  <Scope1Move_Win>864 34 522 552</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>1322 78 522 552</Scope2Move_Win>
-  <Scope2_Mode_>0</Scope2_Mode_>
+  <Scope2Move_Win>415 58 522 552</Scope2Move_Win>
+  <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
-  <Scope2_Scale_>3</Scope2_Scale_>
+  <Scope2_Scale_>7</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>1296 87 522 552</Scope3Move_Win>
   <Scope3_Mode_>4</Scope3_Mode_>
@@ -97,7 +97,7 @@
   <Sequences_Setup_ReplicateOrganize>0</Sequences_Setup_ReplicateOrganize>
   <Size>29</Size>
   <Size_X>2880</Size_X>
-  <Size_Y>1080</Size_Y>
+  <Size_Y>2160</Size_Y>
   <Snapshot2Move_Win>3240 186 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StartUp_Dont_ask_me_again_workflows>true</StartUp_Dont_ask_me_again_workflows>
@@ -111,8 +111,8 @@
     <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
-  <Tracker_Rotate>0</Tracker_Rotate>
-  <Tracker_Size>1</Tracker_Size>
+  <Tracker_Rotate>1</Tracker_Rotate>
+  <Tracker_Size>0</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
   <calc_Base>2</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
@@ -140,7 +140,7 @@
   <edit_Auto_Key_State>0</edit_Auto_Key_State>
   <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
   <edit_GUI_Magnify_Filter>0</edit_GUI_Magnify_Filter>
-  <edit_Number_of_VU_Meters_to_Show_>2</edit_Number_of_VU_Meters_to_Show_>
+  <edit_Number_of_VU_Meters_to_Show_>4</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
   <filebrowser>
     <HEADER_SIZE0>0</HEADER_SIZE0>
@@ -186,7 +186,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22890_MollersTran_V</current>
+    <current>22673_GE_Healthcare</current>
   </project>
   <relink>
     <mistika>
@@ -197,7 +197,7 @@
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Except_JS_clips>0</render2_Except_JS_clips>
-  <render2_Filter>1</render2_Filter>
+  <render2_Filter>0</render2_Filter>
   <render2_Slate_1>0</render2_Slate_1>
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
@@ -231,7 +231,7 @@
   <setup_Auto_Sync_Editor_to_Timeline>0</setup_Auto_Sync_Editor_to_Timeline>
   <setup_Constrain_X>0</setup_Constrain_X>
   <setup_Constrain_Y>0</setup_Constrain_Y>
-  <setup_Current_Gang>0</setup_Current_Gang>
+  <setup_Current_Gang>1</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
   <setup_Current_Track>1</setup_Current_Track>
   <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
