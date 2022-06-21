@@ -4,12 +4,12 @@
   <CommonControls>
     <AlignMode>false</AlignMode>
     <CameraOverlay>false</CameraOverlay>
-    <Curves>false</Curves>
+    <Curves>true</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>true</FXPresets>
     <FeatherOverlay>false</FeatherOverlay>
     <FrameRate>-1</FrameRate>
-    <Gang>true</Gang>
+    <Gang>false</Gang>
     <GridOverlay>false</GridOverlay>
     <Interlaced>false</Interlaced>
     <Live>true</Live>
@@ -186,7 +186,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22673_GE_Healthcare</current>
+    <current>22327_Yara</current>
   </project>
   <relink>
     <mistika>
