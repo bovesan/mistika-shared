@@ -2,6 +2,3 @@
 XML_TC_Strip /home/mistika/git/mistika-hyperspeed/Tools/XML-tc-strip/wrapper %a
 XML_Fix /home/mistika/git/mistika-hyperspeed/Tools/XML_Fix/wrapper %a
 Fetch /home/mistika/git/mistika-hyperspeed/Tools/Fetch/wrapper %a
-SystemMonitor "/home/mistika/SGO AppData/Mistika/utils/appLauncher_SystemMonitor"
-NVIDIA_Stats "/home/mistika/SGO AppData/Mistika/utils/appLauncher_NvidiaStats"
-
