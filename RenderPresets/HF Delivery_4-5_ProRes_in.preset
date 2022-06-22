@@ -4,6 +4,11 @@
     <Enabled>1</Enabled>
     <Encoder>ffmpeg_MOV</Encoder>
     <Format>ffmpeg_MOV.MOVIE_MOV_PRORES_HQ</Format>
+    <Config>
+      <Audio>
+        <Param>b=192000</Param>
+      </Audio>
+    </Config>
     <Options>
       <Framing>
         <Active>1</Active>
@@ -24,6 +29,7 @@
         <Path>/Volumes/SAN3/Masters/[project]/[renderName][_segmentIndex]/[renderName][_segmentIndex][_eye?Left:Right].[ext]</Path>
       </Location>
       <Framerate>-1.000000</Framerate>
+      <DropFrame>0</DropFrame>
       <Interlace>0</Interlace>
       <Pulldown>0</Pulldown>
       <Stereo3D>0</Stereo3D>
@@ -37,6 +43,8 @@
       <DeleteSequence>0</DeleteSequence>
       <UseFirstFrameIndex>0</UseFirstFrameIndex>
       <FirstFrameIndex>0</FirstFrameIndex>
+      <Gamma>16</Gamma>
+      <Gamut>1</Gamut>
     </Options>
   </Video>
   <Audio>
