@@ -7363,6 +7363,8 @@ ButtonOverrides(
 	b(n(TimeEditor/Mode/Mode/HW-HDR)     k())
 	b(n(TimeEditor/Mode/Mode/RGBA8b)     k())
 	b(n(TimeEditor/Mode/Mode/SW)         k())
+	b(n(TimeEditor/Mode/Render/HWare)    k())
+	b(n(TimeEditor/Mode/Render/SWare)    k())
 	b(n(TimeEditor/Mode/Video->Data)     k())
 	b(n(TimeEditor/Modes/Mode/A)         k())
 	b(n(TimeEditor/Modes/Mode/B)         k())

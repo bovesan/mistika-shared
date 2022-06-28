@@ -19,12 +19,12 @@
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>true</Scopes_Scope1>
-    <Scopes_Scope2>true</Scopes_Scope2>
+    <Scopes_Scope2>false</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
-    <Snapshot>false</Snapshot>
+    <Snapshot>true</Snapshot>
     <StereoMode_Disp>9063</StereoMode_Disp>
     <StereoMode_Live>9068</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
@@ -74,12 +74,12 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>37</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>200.000</Scale_X>
-  <Scale_Y>200.000</Scale_Y>
-  <Scope1Move_Win>864 34 522 552</Scope1Move_Win>
+  <Scale_X>100.000</Scale_X>
+  <Scale_Y>100.000</Scale_Y>
+  <Scope1Move_Win>1392 86 266 326</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
   <Scope1_Scale_>7</Scope1_Scale_>
-  <Scope1_Sizes_>1</Scope1_Sizes_>
+  <Scope1_Sizes_>0</Scope1_Sizes_>
   <Scope2Move_Win>415 58 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
@@ -107,7 +107,7 @@
     <LockHeadB>false</LockHeadB>
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
-    <View>0</View>
+    <View>1</View>
     <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
@@ -186,7 +186,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22814_Vitaepro_Juni_2022_NO</current>
+    <current>22922_Elkjop_OLV_Video</current>
   </project>
   <relink>
     <mistika>
@@ -197,15 +197,15 @@
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Except_JS_clips>0</render2_Except_JS_clips>
-  <render2_Filter>0</render2_Filter>
+  <render2_Filter>1</render2_Filter>
   <render2_Slate_1>0</render2_Slate_1>
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>0</render2_Source>
+  <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
+  <render2_Stereo>0</render2_Stereo>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
@@ -248,7 +248,7 @@
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
   <setup_Select_Monitor>0</setup_Select_Monitor>
-  <setup_Selected>0</setup_Selected>
+  <setup_Selected>1</setup_Selected>
   <setup_Show_Graffiti>1</setup_Show_Graffiti>
   <setup_Show_Grid>1</setup_Show_Grid>
   <setup_Show_Rulers>1</setup_Show_Rulers>

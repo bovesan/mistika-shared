@@ -98,7 +98,7 @@
   <Size>29</Size>
   <Size_X>1920</Size_X>
   <Size_Y>1080</Size_Y>
-  <Snapshot2Move_Win>3240 186 244 264</Snapshot2Move_Win>
+  <Snapshot2Move_Win>3438 156 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StartUp_Dont_ask_me_again_workflows>true</StartUp_Dont_ask_me_again_workflows>
   <StoryBoard>
@@ -233,7 +233,7 @@
   <setup_Constrain_Y>0</setup_Constrain_Y>
   <setup_Current_Gang>0</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
-  <setup_Current_Track>1</setup_Current_Track>
+  <setup_Current_Track>0</setup_Current_Track>
   <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
