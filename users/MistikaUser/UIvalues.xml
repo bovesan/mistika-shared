@@ -3,14 +3,14 @@
   <Background_Luma>8</Background_Luma>
   <CommonControls>
     <AlignMode>false</AlignMode>
-    <CameraOverlay>false</CameraOverlay>
+    <CameraOverlay>true</CameraOverlay>
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>true</FXPresets>
     <FeatherOverlay>true</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
-    <GridOverlay>false</GridOverlay>
+    <GridOverlay>true</GridOverlay>
     <Interlaced>false</Interlaced>
     <Live>true</Live>
     <LiveRes>false</LiveRes>
@@ -19,7 +19,7 @@
     <Resolution>1</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>true</Scopes_Scope1>
-    <Scopes_Scope2>true</Scopes_Scope2>
+    <Scopes_Scope2>false</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
@@ -76,10 +76,10 @@
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
   <Scale_X>355.556</Scale_X>
   <Scale_Y>200.000</Scale_Y>
-  <Scope1Move_Win>1537 133 522 552</Scope1Move_Win>
+  <Scope1Move_Win>1158 79 266 326</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
   <Scope1_Scale_>7</Scope1_Scale_>
-  <Scope1_Sizes_>1</Scope1_Sizes_>
+  <Scope1_Sizes_>0</Scope1_Sizes_>
   <Scope2Move_Win>415 58 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
@@ -111,9 +111,9 @@
     <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
-  <Tracker_Rotate>0</Tracker_Rotate>
-  <Tracker_Size>1</Tracker_Size>
-  <Tracker_SizeXY>0</Tracker_SizeXY>
+  <Tracker_Rotate>1</Tracker_Rotate>
+  <Tracker_Size>0</Tracker_Size>
+  <Tracker_SizeXY>1</Tracker_SizeXY>
   <calc_Base>2</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
   <composer_JogSpeed_16>1</composer_JogSpeed_16>
@@ -138,7 +138,7 @@
   <edit_>2</edit_>
   <edit_Animation>1</edit_Animation>
   <edit_Auto_Key_State>0</edit_Auto_Key_State>
-  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
   <edit_GUI_Magnify_Filter>0</edit_GUI_Magnify_Filter>
   <edit_Number_of_VU_Meters_to_Show_>4</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
@@ -186,7 +186,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22874_Folkeriket</current>
+    <current>22905_VikingP_NyeOpplevelser</current>
   </project>
   <relink>
     <mistika>
@@ -242,7 +242,7 @@
   <setup_Free_capturing_in_one_clip>1</setup_Free_capturing_in_one_clip>
   <setup_Hide_Text>1</setup_Hide_Text>
   <setup_Loop>1</setup_Loop>
-  <setup_Mute_Audio>0</setup_Mute_Audio>
+  <setup_Mute_Audio>1</setup_Mute_Audio>
   <setup_Mute_Video>0</setup_Mute_Video>
   <setup_Mute_moving_clips>0</setup_Mute_moving_clips>
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
