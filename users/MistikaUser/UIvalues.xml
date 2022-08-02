@@ -74,8 +74,8 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>37</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>355.556</Scale_X>
-  <Scale_Y>200.000</Scale_Y>
+  <Scale_X>106.667</Scale_X>
+  <Scale_Y>79.444</Scale_Y>
   <Scope1Move_Win>1474 36 266 326</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
   <Scope1_Scale_>7</Scope1_Scale_>
@@ -96,8 +96,8 @@
   <Sequences_Setup_Link_Media_As>0</Sequences_Setup_Link_Media_As>
   <Sequences_Setup_ReplicateOrganize>0</Sequences_Setup_ReplicateOrganize>
   <Size>29</Size>
-  <Size_X>1080</Size_X>
-  <Size_Y>1920</Size_Y>
+  <Size_X>1920</Size_X>
+  <Size_Y>1080</Size_Y>
   <Snapshot2Move_Win>3438 156 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StartUp_Dont_ask_me_again_workflows>true</StartUp_Dont_ask_me_again_workflows>
