@@ -23,7 +23,7 @@
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
-    <ShowOneInput>true</ShowOneInput>
+    <ShowOneInput>false</ShowOneInput>
     <Snapshot>false</Snapshot>
     <StereoMode_Disp>9063</StereoMode_Disp>
     <StereoMode_Live>9068</StereoMode_Live>
@@ -74,13 +74,13 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>37</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>106.667</Scale_X>
-  <Scale_Y>79.444</Scale_Y>
-  <Scope1Move_Win>1474 36 266 326</Scope1Move_Win>
+  <Scale_X>200.000</Scale_X>
+  <Scale_Y>200.000</Scale_Y>
+  <Scope1Move_Win>1271 42 522 552</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
   <Scope1_Scale_>7</Scope1_Scale_>
-  <Scope1_Sizes_>0</Scope1_Sizes_>
-  <Scope2Move_Win>43 35 522 552</Scope2Move_Win>
+  <Scope1_Sizes_>1</Scope1_Sizes_>
+  <Scope2Move_Win>321 114 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
@@ -108,7 +108,7 @@
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
     <View>1</View>
-    <Zoom>1</Zoom>
+    <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>0</Tracker_Rotate>
@@ -202,10 +202,10 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>1</render2_Source>
+  <render2_Source>0</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
+  <render2_Stereo>0</render2_Stereo>
+  <render2_Tape_Name_Source>1</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
@@ -231,7 +231,7 @@
   <setup_Auto_Sync_Editor_to_Timeline>0</setup_Auto_Sync_Editor_to_Timeline>
   <setup_Constrain_X>0</setup_Constrain_X>
   <setup_Constrain_Y>0</setup_Constrain_Y>
-  <setup_Current_Gang>1</setup_Current_Gang>
+  <setup_Current_Gang>0</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
   <setup_Current_Track>1</setup_Current_Track>
   <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
