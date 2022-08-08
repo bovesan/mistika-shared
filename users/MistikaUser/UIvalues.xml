@@ -138,7 +138,7 @@
   <edit_>2</edit_>
   <edit_Animation>1</edit_Animation>
   <edit_Auto_Key_State>0</edit_Auto_Key_State>
-  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
   <edit_GUI_Magnify_Filter>0</edit_GUI_Magnify_Filter>
   <edit_Number_of_VU_Meters_to_Show_>4</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
@@ -224,7 +224,7 @@
   <render_Tape_Name_Source>0</render_Tape_Name_Source>
   <render_Time_Code_Source>0</render_Time_Code_Source>
   <render_Xfs_dev_Target>0</render_Xfs_dev_Target>
-  <setup_All_Objects>0</setup_All_Objects>
+  <setup_All_Objects>1</setup_All_Objects>
   <setup_Audio_Auto_Routing>0</setup_Audio_Auto_Routing>
   <setup_Auto_Batch_Just_Modified>0</setup_Auto_Batch_Just_Modified>
   <setup_Auto_Expand>1</setup_Auto_Expand>
@@ -233,7 +233,7 @@
   <setup_Constrain_Y>0</setup_Constrain_Y>
   <setup_Current_Gang>0</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
-  <setup_Current_Track>1</setup_Current_Track>
+  <setup_Current_Track>0</setup_Current_Track>
   <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
@@ -249,7 +249,7 @@
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
   <setup_Select_Monitor>0</setup_Select_Monitor>
-  <setup_Selected>1</setup_Selected>
+  <setup_Selected>0</setup_Selected>
   <setup_Show_Graffiti>1</setup_Show_Graffiti>
   <setup_Show_Grid>1</setup_Show_Grid>
   <setup_Show_Rulers>1</setup_Show_Rulers>
