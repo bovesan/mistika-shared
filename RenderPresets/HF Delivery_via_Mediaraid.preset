@@ -24,9 +24,9 @@
         <CropD>0.000000</CropD>
       </Framing>
       <Location>
-        <Target>MEDIARAID</Target>
+        <Target>DELIVERABLE</Target>
         <Device>Movie.dev</Device>
-        <Path>/Volumes/mediaraid/Projects/[project]/Media/DI/[renderName][_segmentIndex][_eye?Left:Right].[ext]</Path>
+        <Path>/Volumes/mediaraid/Projects/[project]/OUTPUT/Deliverables/[renderName][_segmentIndex].[ext]</Path>
       </Location>
       <Framerate>-1.000000</Framerate>
       <DropFrame>0</DropFrame>
@@ -43,12 +43,13 @@
       <DeleteSequence>0</DeleteSequence>
       <UseFirstFrameIndex>0</UseFirstFrameIndex>
       <FirstFrameIndex>0</FirstFrameIndex>
+      <Gamma>16</Gamma>
+      <Gamut>1</Gamut>
     </Options>
   </Video>
   <Audio>
     <Enabled>1</Enabled>
-    <Encoder>WAVE</Encoder>
-    <Format>WAVE.AUDIO_W64_32</Format>
+    <Encoder>IN_MOVIE</Encoder>
     <Options>
       <Location>
         <Target>SAN3</Target>
