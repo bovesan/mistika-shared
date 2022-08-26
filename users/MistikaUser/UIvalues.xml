@@ -74,7 +74,7 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>47</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>444.444</Scale_X>
+  <Scale_X>200.000</Scale_X>
   <Scale_Y>200.000</Scale_Y>
   <Scope1Move_Win>56 632 522 552</Scope1Move_Win>
   <Scope1_Mode_>4</Scope1_Mode_>
@@ -96,7 +96,7 @@
   <Sequences_Setup_Link_Media_As>0</Sequences_Setup_Link_Media_As>
   <Sequences_Setup_ReplicateOrganize>0</Sequences_Setup_ReplicateOrganize>
   <Size>29</Size>
-  <Size_X>864</Size_X>
+  <Size_X>1080</Size_X>
   <Size_Y>1350</Size_Y>
   <Snapshot2Move_Win>3438 156 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
@@ -233,7 +233,7 @@
   <setup_Constrain_Y>0</setup_Constrain_Y>
   <setup_Current_Gang>0</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
-  <setup_Current_Track>1</setup_Current_Track>
+  <setup_Current_Track>0</setup_Current_Track>
   <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
@@ -249,7 +249,7 @@
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
   <setup_Select_Monitor>0</setup_Select_Monitor>
-  <setup_Selected>0</setup_Selected>
+  <setup_Selected>1</setup_Selected>
   <setup_Show_Graffiti>1</setup_Show_Graffiti>
   <setup_Show_Grid>1</setup_Show_Grid>
   <setup_Show_Rulers>1</setup_Show_Rulers>
