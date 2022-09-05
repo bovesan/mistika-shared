@@ -3,11 +3,11 @@
   <Background_Luma>8</Background_Luma>
   <CommonControls>
     <AlignMode>false</AlignMode>
-    <CameraOverlay>false</CameraOverlay>
+    <CameraOverlay>true</CameraOverlay>
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
-    <FeatherOverlay>true</FeatherOverlay>
+    <FeatherOverlay>false</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
     <GridOverlay>true</GridOverlay>
@@ -16,7 +16,7 @@
     <LiveRes>false</LiveRes>
     <Notes_Color>0</Notes_Color>
     <Panel>false</Panel>
-    <Resolution>2</Resolution>
+    <Resolution>0</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
     <Scopes_Scope2>true</Scopes_Scope2>
@@ -25,7 +25,7 @@
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>false</ShowOneInput>
     <Snapshot>true</Snapshot>
-    <StereoMode_Disp>9064</StereoMode_Disp>
+    <StereoMode_Disp>9061</StereoMode_Disp>
     <StereoMode_Live>9068</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
     <UnscaledRes>false</UnscaledRes>
@@ -74,8 +74,8 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>57</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>200.000</Scale_X>
-  <Scale_Y>200.000</Scale_Y>
+  <Scale_X>100.000</Scale_X>
+  <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>1188 82 522 552</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
   <Scope1_Scale_>7</Scope1_Scale_>
@@ -107,8 +107,8 @@
     <LockHeadB>false</LockHeadB>
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
-    <View>1</View>
-    <Zoom>3</Zoom>
+    <View>0</View>
+    <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>0</Tracker_Rotate>
@@ -186,7 +186,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22873_G3</current>
+    <current>22923_Zavanna_Host2022</current>
   </project>
   <relink>
     <mistika>
@@ -214,7 +214,7 @@
   <render_L_NullFormat>0</render_L_NullFormat>
   <render_Movie_dev_Target>0</render_Movie_dev_Target>
   <render_Prefered_source_clip>0</render_Prefered_source_clip>
-  <render_Scale>0</render_Scale>
+  <render_Scale>1</render_Scale>
   <render_Segments_Mode>0</render_Segments_Mode>
   <render_Slate_1>0</render_Slate_1>
   <render_Slate_1_During>0</render_Slate_1_During>
@@ -249,7 +249,7 @@
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
   <setup_Select_Monitor>0</setup_Select_Monitor>
-  <setup_Selected>0</setup_Selected>
+  <setup_Selected>1</setup_Selected>
   <setup_Show_Graffiti>1</setup_Show_Graffiti>
   <setup_Show_Grid>1</setup_Show_Grid>
   <setup_Show_Rulers>1</setup_Show_Rulers>
