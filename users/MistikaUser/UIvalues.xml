@@ -186,7 +186,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22723_NRK_Max_Gass</current>
+    <current>22971_Finansforbundet</current>
   </project>
   <relink>
     <mistika>
@@ -204,7 +204,7 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>0</render2_Source>
   <render2_Split>1</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
+  <render2_Stereo>1</render2_Stereo>
   <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
