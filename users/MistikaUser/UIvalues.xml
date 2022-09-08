@@ -25,7 +25,7 @@
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
     <Snapshot>true</Snapshot>
-    <StereoMode_Disp>9060</StereoMode_Disp>
+    <StereoMode_Disp>9056</StereoMode_Disp>
     <StereoMode_Live>9068</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
     <UnscaledRes>false</UnscaledRes>
@@ -176,7 +176,7 @@
         <DrawOverlay>true</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>16</JOG_SPEED>
-        <KNOB_SPEED>128</KNOB_SPEED>
+        <KNOB_SPEED>64</KNOB_SPEED>
         <PrinterLightsStep>1.217</PrinterLightsStep>
         <RING_SPEED>8</RING_SPEED>
         <TrackballRGBValuesOn>true</TrackballRGBValuesOn>
