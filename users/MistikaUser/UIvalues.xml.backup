@@ -3,7 +3,7 @@
   <Background_Luma>8</Background_Luma>
   <CommonControls>
     <AlignMode>false</AlignMode>
-    <CameraOverlay>true</CameraOverlay>
+    <CameraOverlay>false</CameraOverlay>
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
@@ -176,7 +176,7 @@
         <DrawOverlay>true</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>16</JOG_SPEED>
-        <KNOB_SPEED>32</KNOB_SPEED>
+        <KNOB_SPEED>128</KNOB_SPEED>
         <PrinterLightsStep>1.217</PrinterLightsStep>
         <RING_SPEED>8</RING_SPEED>
         <TrackballRGBValuesOn>true</TrackballRGBValuesOn>
@@ -202,10 +202,10 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>1</render2_Source>
+  <render2_Source>0</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
+  <render2_Stereo>0</render2_Stereo>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
