@@ -9,7 +9,7 @@
     <FXPresets>false</FXPresets>
     <FeatherOverlay>false</FeatherOverlay>
     <FrameRate>-1</FrameRate>
-    <Gang>true</Gang>
+    <Gang>false</Gang>
     <GridOverlay>true</GridOverlay>
     <Interlaced>false</Interlaced>
     <Live>true</Live>
@@ -19,13 +19,13 @@
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>true</Scopes_Scope2>
+    <Scopes_Scope2>false</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
     <Snapshot>true</Snapshot>
-    <StereoMode_Disp>9060</StereoMode_Disp>
+    <StereoMode_Disp>9056</StereoMode_Disp>
     <StereoMode_Live>9068</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
     <UnscaledRes>false</UnscaledRes>
@@ -176,7 +176,7 @@
         <DrawOverlay>true</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>16</JOG_SPEED>
-        <KNOB_SPEED>128</KNOB_SPEED>
+        <KNOB_SPEED>64</KNOB_SPEED>
         <PrinterLightsStep>1.217</PrinterLightsStep>
         <RING_SPEED>8</RING_SPEED>
         <TrackballRGBValuesOn>true</TrackballRGBValuesOn>
