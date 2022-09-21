@@ -7867,6 +7867,8 @@ ButtonOverrides(
 	b(n(TimeEditor/Settings/Track/mConfig)k())
 	b(n(TimeEditor/Shadow/Shadow Use/Source)k())
 	b(n(TimeEditor/Shadow/Shadow Use/Value)k())
+	b(n(TimeEditor/Slopes/Contour)       k())
+	b(n(TimeEditor/Slopes/Luminance)     k())
 	b(n(TimeEditor/Source Gamut/S-Gamut) k())
 	b(n(TimeEditor/Source Gamut/S-Gamut3)k())
 	b(n(TimeEditor/Source Gamut/S-Gamut3.cine)k())
