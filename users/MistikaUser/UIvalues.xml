@@ -18,7 +18,7 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>false</Scopes_Scope1>
+    <Scopes_Scope1>true</Scopes_Scope1>
     <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
@@ -76,14 +76,14 @@
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
   <Scale_X>355.556</Scale_X>
   <Scale_Y>112.500</Scale_Y>
-  <Scope1Move_Win>3116 0 522 552</Scope1Move_Win>
+  <Scope1Move_Win>3234 -69 522 552</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>81 31 522 552</Scope2Move_Win>
+  <Scope2Move_Win>-27 45 522 552</Scope2Move_Win>
   <Scope2_Mode_>4</Scope2_Mode_>
   <Scope2_Negative_>0</Scope2_Negative_>
-  <Scope2_Scale_>7</Scope2_Scale_>
+  <Scope2_Scale_>5</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>20 177 522 552</Scope3Move_Win>
   <Scope3_Mode_>4</Scope3_Mode_>
@@ -105,7 +105,7 @@
     <AutoSnapshot>false</AutoSnapshot>
     <CurrentGroup>0</CurrentGroup>
     <LockHeadB>false</LockHeadB>
-    <LockOffset>false</LockOffset>
+    <LockOffset>true</LockOffset>
     <SelectedGroup>0</SelectedGroup>
     <View>1</View>
     <Zoom>2</Zoom>
@@ -186,14 +186,14 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22723_NRK_Max_Gass</current>
+    <current>23002_ABCHus_HjemmeHos_Trondheim</current>
   </project>
   <relink>
     <mistika>
       <dontAskMeAgain>false</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>1</render2_Audio>
+  <render2_Audio>0</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Except_JS_clips>0</render2_Except_JS_clips>
@@ -203,8 +203,8 @@
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>0</render2_Source>
-  <render2_Split>2</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
+  <render2_Split>1</render2_Split>
+  <render2_Stereo>0</render2_Stereo>
   <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
