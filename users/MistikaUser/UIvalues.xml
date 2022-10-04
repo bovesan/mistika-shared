@@ -23,7 +23,7 @@
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
-    <ShowOneInput>true</ShowOneInput>
+    <ShowOneInput>false</ShowOneInput>
     <Snapshot>false</Snapshot>
     <StereoMode_Disp>9060</StereoMode_Disp>
     <StereoMode_Live>9068</StereoMode_Live>
