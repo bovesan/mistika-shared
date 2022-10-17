@@ -23,7 +23,7 @@
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
-    <ShowOneInput>true</ShowOneInput>
+    <ShowOneInput>false</ShowOneInput>
     <Snapshot>true</Snapshot>
     <StereoMode_Disp>9057</StereoMode_Disp>
     <StereoMode_Live>9068</StereoMode_Live>
@@ -51,13 +51,13 @@
       <Dir3>false</Dir3>
       <Dir4>false</Dir4>
       <Dir5>false</Dir5>
-      <Extension>false</Extension>
+      <Extension>true</Extension>
       <Name>true</Name>
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>true</LinkByFile>
-    <ReplicateTree>true</ReplicateTree>
+    <LinkByFile>false</LinkByFile>
+    <ReplicateTree>false</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
       <Dir1>false</Dir1>
@@ -82,7 +82,7 @@
   <Scope1_Scale_>6</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
   <Scope2Move_Win>724 565 522 552</Scope2Move_Win>
-  <Scope2_Mode_>4</Scope2_Mode_>
+  <Scope2_Mode_>1</Scope2_Mode_>
   <Scope2_Negative_>1</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
@@ -108,12 +108,12 @@
     <LockHeadB>false</LockHeadB>
     <LockOffset>true</LockOffset>
     <SelectedGroup>0</SelectedGroup>
-    <View>0</View>
+    <View>1</View>
     <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>0</Tracker_Rotate>
-  <Tracker_Size>0</Tracker_Size>
+  <Tracker_Size>1</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
   <calc_Base>2</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
@@ -187,7 +187,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>23073_G3_Kortversjon</current>
+    <current>22973_Focus</current>
   </project>
   <relink>
     <mistika>
