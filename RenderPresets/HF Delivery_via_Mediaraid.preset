@@ -2,9 +2,13 @@
 <RenderConfig>
   <Video>
     <Enabled>1</Enabled>
-    <Encoder>ffmpeg_MOV</Encoder>
-    <Format>ffmpeg_MOV.MOVIE_MOV_PRORES_HQ</Format>
+    <Encoder>ffmpeg_NVidia</Encoder>
+    <Format>ffmpeg_NVidia.MP4_NV_H264_420_BR</Format>
     <Config>
+      <Video>
+        <Param>b=20000000</Param>
+        <Param>g=50</Param>
+      </Video>
       <Audio>
         <Param>b=192000</Param>
       </Audio>
@@ -14,8 +18,8 @@
         <Active>1</Active>
         <SizeX>1920</SizeX>
         <SizeY>1080</SizeY>
-        <ScaleX>100.000000</ScaleX>
-        <ScaleY>100.000000</ScaleY>
+        <ScaleX>200.000000</ScaleX>
+        <ScaleY>200.000000</ScaleY>
         <OffsetX>0.000000</OffsetX>
         <OffsetY>0.000000</OffsetY>
         <CropL>0.000000</CropL>
@@ -24,7 +28,7 @@
         <CropD>0.000000</CropD>
       </Framing>
       <Location>
-        <Target>DELIVERABLE</Target>
+        <Target>User defined</Target>
         <Device>Movie.dev</Device>
         <Path>/Volumes/mediaraid/Projects/[project]/OUTPUT/Deliverables/[renderName][_segmentIndex].[ext]</Path>
       </Location>
