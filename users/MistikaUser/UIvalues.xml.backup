@@ -3,23 +3,23 @@
   <Background_Luma>8</Background_Luma>
   <CommonControls>
     <AlignMode>false</AlignMode>
-    <CameraOverlay>true</CameraOverlay>
-    <Curves>false</Curves>
+    <CameraOverlay>false</CameraOverlay>
+    <Curves>true</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
-    <FeatherOverlay>false</FeatherOverlay>
+    <FeatherOverlay>true</FeatherOverlay>
     <FrameRate>-1</FrameRate>
-    <Gang>false</Gang>
-    <GridOverlay>false</GridOverlay>
+    <Gang>true</Gang>
+    <GridOverlay>true</GridOverlay>
     <Interlaced>false</Interlaced>
     <Live>true</Live>
     <LiveRes>false</LiveRes>
     <Notes_Color>0</Notes_Color>
     <Panel>false</Panel>
-    <Resolution>2</Resolution>
+    <Resolution>0</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
+    <Scopes_Scope1>true</Scopes_Scope1>
+    <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
@@ -75,15 +75,15 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>27</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>355.556</Scale_X>
-  <Scale_Y>112.500</Scale_Y>
+  <Scale_X>177.778</Scale_X>
+  <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>123 391 522 552</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
   <Scope1_Scale_>6</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
   <Scope2Move_Win>790 515 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
-  <Scope2_Negative_>1</Scope2_Negative_>
+  <Scope2_Negative_>0</Scope2_Negative_>
   <Scope2_Scale_>7</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>20 177 522 552</Scope3Move_Win>
@@ -122,7 +122,7 @@
   <composer_PrinterLights_1>1</composer_PrinterLights_1>
   <composer_PrinterLights_B_W_>1</composer_PrinterLights_B_W_>
   <composer_RingSpeed_16>1</composer_RingSpeed_16>
-  <config>211 563 540 537</config>
+  <config>208 563 540 537</config>
   <dcp_Audio>0</dcp_Audio>
   <dcp_Content_Type>6</dcp_Content_Type>
   <dcp_Content_Version>1</dcp_Content_Version>
