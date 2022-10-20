@@ -4,7 +4,7 @@
   <CommonControls>
     <AlignMode>false</AlignMode>
     <CameraOverlay>false</CameraOverlay>
-    <Curves>true</Curves>
+    <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
     <FeatherOverlay>true</FeatherOverlay>
@@ -16,7 +16,7 @@
     <LiveRes>false</LiveRes>
     <Notes_Color>0</Notes_Color>
     <Panel>false</Panel>
-    <Resolution>2</Resolution>
+    <Resolution>0</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>true</Scopes_Scope1>
     <Scopes_Scope2>true</Scopes_Scope2>
@@ -75,8 +75,8 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>27</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>177.778</Scale_X>
-  <Scale_Y>100.000</Scale_Y>
+  <Scale_X>355.556</Scale_X>
+  <Scale_Y>200.000</Scale_Y>
   <Scope1Move_Win>73 45 522 552</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
   <Scope1_Scale_>6</Scope1_Scale_>
@@ -97,7 +97,7 @@
   <Sequences_Setup_Link_Media_As>0</Sequences_Setup_Link_Media_As>
   <Sequences_Setup_ReplicateOrganize>0</Sequences_Setup_ReplicateOrganize>
   <Size>29</Size>
-  <Size_X>1080</Size_X>
+  <Size_X>1920</Size_X>
   <Size_Y>1048</Size_Y>
   <Snapshot2Move_Win>3487 52 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
@@ -139,7 +139,7 @@
   <edit_>2</edit_>
   <edit_Animation>1</edit_Animation>
   <edit_Auto_Key_State>0</edit_Auto_Key_State>
-  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
   <edit_GUI_Magnify_Filter>0</edit_GUI_Magnify_Filter>
   <edit_Number_of_VU_Meters_to_Show_>4</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
