@@ -876,8 +876,10 @@
       <bind Label="T.PREV LI" dv="0x00000119">FXPreset:Bring:Prev</bind>
       <bind Label="TAIL" dv="0x0000011C">Composer:CommonControls:Shuttle:GotoTail</bind>
       <bind Label="TEMP" dv="0x00001004">Composer:Grade:Primary:PrinterLights:Temperature</bind>
+      <bind Label="TEMP" dv="0x00001004_R">Composer:Grade:Primary:PrinterLights:Temperature:reset</bind>
       <bind Label="TIMELINE JOG" dv="0x00000708">Edit:Position.X</bind>
       <bind Label="TINT" dv="0x00001005">Composer:Grade:Primary:PrinterLights:Tint</bind>
+      <bind Label="TINT" dv="0x00001005_R">Composer:Grade:Primary:PrinterLights:Tint:reset</bind>
       <bind Label="TONE DET" dv="0x00007026">Composer:CommonControls:DolbyVision:Sliders:ToneDetailWeight:Knob</bind>
       <bind Label="TRACK BOTHW" dv="0x00010046">Composer:MotionTrack:ShapeTrack:Go_Both</bind>
       <bind Label="TRACK BW" dv="0x00010045">Composer:MotionTrack:ShapeTrack:Go_Backward</bind>
