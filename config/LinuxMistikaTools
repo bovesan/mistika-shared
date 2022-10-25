@@ -2,3 +2,4 @@
 XML_TC_Strip /home/mistika/git/mistika-hyperspeed/Tools/XML-tc-strip/wrapper %a
 XML_Fix /home/mistika/git/mistika-hyperspeed/Tools/XML_Fix/wrapper %a
 Fetch /home/mistika/git/mistika-hyperspeed/Tools/Fetch/wrapper %a
+FontParse /home/mistika/git/mistika-hyperspeed/Tools/FontParse/wrapper %a
