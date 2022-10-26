@@ -69,6 +69,7 @@
       <Name>false</Name>
     </TapeName>
   </Import_Setup>
+  <MediaFileManagerMove_Win>1920 0 1920 1199</MediaFileManagerMove_Win>
   <Mix_>0</Mix_>
   <Offset>0</Offset>
   <Offset_X>0.000</Offset_X>
