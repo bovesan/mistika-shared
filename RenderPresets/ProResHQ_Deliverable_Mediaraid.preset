@@ -24,7 +24,7 @@
         <CropD>0.000000</CropD>
       </Framing>
       <Location>
-        <Target>DELIVERABLE</Target>
+        <Target>User defined</Target>
         <Device>Movie.dev</Device>
         <Path>/Volumes/mediaraid/Projects/[project]/OUTPUT/Deliverables/[renderName][_segmentIndex].[ext]</Path>
       </Location>
@@ -69,7 +69,7 @@
   <SplitToSegments>
     <Enabled>2</Enabled>
     <FirstIndex>0</FirstIndex>
-    <TapeSource>0</TapeSource>
+    <TapeSource>3</TapeSource>
     <TcSource>3</TcSource>
     <TcPrefer>0</TcPrefer>
     <IgnoreJs>0</IgnoreJs>
