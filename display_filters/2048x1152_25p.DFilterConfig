@@ -1,0 +1,11 @@
+dFiltersConfig(
+	Toggle(1)	Toggle(1)	Toggle(1)	Toggle(1)
+	dFilter(name(/home/mistika/MISTIKA-SHARED/display_filters/ScaleToLivePadToFit.dfilt) gui(0) live(1)  scope(0) render(0) Streaming(0) eye(0) comment() active(1) toggle(3))
+	dFilter(name() gui(0) live(0)  scope(0) render(0) Streaming(0) eye(0) comment() active(0) toggle(0))
+	dFilter(name() gui(0) live(0)  scope(0) render(0) Streaming(0) eye(0) comment() active(0) toggle(0))
+	dFilter(name() gui(0) live(0)  scope(0) render(0) Streaming(0) eye(0) comment() active(0) toggle(0))
+	dFilter(name() gui(0) live(0)  scope(0) render(0) Streaming(0) eye(0) comment() active(0) toggle(0))
+	dFilter(name() gui(0) live(0)  scope(0) render(0) Streaming(0) eye(0) comment() active(0) toggle(0))
+	dFilter(name() gui(0) live(0)  scope(0) render(0) Streaming(0) eye(0) comment() active(0) toggle(0))
+	dFilter(name() gui(0) live(0)  scope(0) render(0) Streaming(0) eye(0) comment() active(0) toggle(0))
+)
