@@ -6,7 +6,7 @@
     <Format>ffmpeg_NVidia.MP4_NV_H264_420_BR</Format>
     <Config>
       <Video>
-        <Param>b=20000000</Param>
+        <Param>b=10000000</Param>
         <Param>g=50</Param>
       </Video>
       <Audio>
