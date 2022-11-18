@@ -18,8 +18,8 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>true</Scopes_Scope1>
-    <Scopes_Scope2>true</Scopes_Scope2>
+    <Scopes_Scope1>false</Scopes_Scope1>
+    <Scopes_Scope2>false</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
@@ -78,7 +78,7 @@
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
   <Scale_X>100.000</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>2539 73 522 552</Scope1Move_Win>
+  <Scope1Move_Win>1149 315 522 552</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
@@ -188,7 +188,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>23122_Swix</current>
+    <current>23098_Dans_Forskningsprosjekt_CoLanCon</current>
   </project>
   <relink>
     <mistika>
@@ -239,7 +239,7 @@
   <setup_Constrain_Y>0</setup_Constrain_Y>
   <setup_Current_Gang>0</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
-  <setup_Current_Track>1</setup_Current_Track>
+  <setup_Current_Track>0</setup_Current_Track>
   <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
@@ -248,18 +248,18 @@
   <setup_Follow_Symbolic_links>0</setup_Follow_Symbolic_links>
   <setup_Free_capturing_in_one_clip>1</setup_Free_capturing_in_one_clip>
   <setup_Hide_Text>1</setup_Hide_Text>
-  <setup_Loop>0</setup_Loop>
+  <setup_Loop>1</setup_Loop>
   <setup_Mute_Audio>0</setup_Mute_Audio>
   <setup_Mute_Video>0</setup_Mute_Video>
   <setup_Mute_moving_clips>0</setup_Mute_moving_clips>
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
   <setup_Select_Monitor>0</setup_Select_Monitor>
-  <setup_Selected>0</setup_Selected>
+  <setup_Selected>1</setup_Selected>
   <setup_Show_Graffiti>1</setup_Show_Graffiti>
   <setup_Show_Grid>1</setup_Show_Grid>
   <setup_Show_Rulers>1</setup_Show_Rulers>
-  <setup_Single>1</setup_Single>
+  <setup_Single>0</setup_Single>
   <setup_Text_Shadows>0</setup_Text_Shadows>
   <setup_Time_Code>1</setup_Time_Code>
   <setup_record_monitor_Active_Burn>0</setup_record_monitor_Active_Burn>
