@@ -30,7 +30,7 @@ LOWRESRATIO                    2
 READMULTIPLEDISKS              0
 CVFS_THREADS                   24
 PIPE_UNITS                     24
-RENDER_UNITS                   10
+RENDER_UNITS                   4
 BACKLOAD                       1
 RENDERMAIL                     NONE_FAIL
 MAILREPORTFAILURES             ONE_MAIL_PER_FILE

@@ -35,7 +35,7 @@ BACKLOAD                       1
 READMULTIPLEDISKS              0
 PIPE_UNITS                     6
 CVFS_THREADS                   12
-RENDER_UNITS                   22
+RENDER_UNITS                   4
 ENCODE_THREADS                 12
 RES_VNC                        DEFAULT
 RENDERMAIL                     NONE_FAIL
