@@ -19,7 +19,7 @@
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>true</Scopes_Scope2>
+    <Scopes_Scope2>false</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
@@ -76,7 +76,7 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>27</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>100.000</Scale_X>
+  <Scale_X>316.049</Scale_X>
   <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>1149 315 522 552</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
@@ -98,8 +98,8 @@
   <Sequences_Setup_Link_Media_As>0</Sequences_Setup_Link_Media_As>
   <Sequences_Setup_ReplicateOrganize>0</Sequences_Setup_ReplicateOrganize>
   <Size>29</Size>
-  <Size_X>2048</Size_X>
-  <Size_Y>1152</Size_Y>
+  <Size_X>1080</Size_X>
+  <Size_Y>1920</Size_Y>
   <Snapshot2Move_Win>3546 85 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
   <StartUp_Dont_ask_me_again_workflows>true</StartUp_Dont_ask_me_again_workflows>
@@ -109,7 +109,7 @@
     <LockHeadB>false</LockHeadB>
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
-    <View>1</View>
+    <View>0</View>
     <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
@@ -123,7 +123,7 @@
   <composer_PrinterLights_1>1</composer_PrinterLights_1>
   <composer_PrinterLights_B_W_>1</composer_PrinterLights_B_W_>
   <composer_RingSpeed_16>1</composer_RingSpeed_16>
-  <config>215 563 540 537</config>
+  <config>214 563 540 537</config>
   <dcp_Audio>0</dcp_Audio>
   <dcp_Content_Type>6</dcp_Content_Type>
   <dcp_Content_Version>1</dcp_Content_Version>
@@ -140,7 +140,7 @@
   <edit_>2</edit_>
   <edit_Animation>1</edit_Animation>
   <edit_Auto_Key_State>0</edit_Auto_Key_State>
-  <edit_Default_Animation_Type>1</edit_Default_Animation_Type>
+  <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
   <edit_GUI_Magnify_Filter>0</edit_GUI_Magnify_Filter>
   <edit_Number_of_VU_Meters_to_Show_>6</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
@@ -195,7 +195,7 @@
       <dontAskMeAgain>false</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>1</render2_Audio>
+  <render2_Audio>0</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Except_JS_clips>0</render2_Except_JS_clips>
@@ -205,9 +205,9 @@
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>1</render2_Source>
-  <render2_Split>2</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
+  <render2_Split>1</render2_Split>
+  <render2_Stereo>0</render2_Stereo>
+  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
   <renderEdl_FROM_CLIP_NAME_Source>3</renderEdl_FROM_CLIP_NAME_Source>
