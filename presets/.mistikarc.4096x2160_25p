@@ -33,7 +33,7 @@ LOWRESRATIO                    2
 PIPE_UNITS                     6
 CVFS_THREADS                   12
 RENDER_UNITS                   6
-ENCODE_THREADS                 22
+ENCODE_THREADS                 12
 RES_VNC                        DEFAULT
 RENDERMAIL                     NONE_FAIL
 MAILREPORTFAILURES             ONE_MAIL_PER_FILE
