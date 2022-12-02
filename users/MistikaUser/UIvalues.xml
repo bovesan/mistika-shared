@@ -18,8 +18,8 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>true</Scopes_Scope1>
-    <Scopes_Scope2>true</Scopes_Scope2>
+    <Scopes_Scope1>false</Scopes_Scope1>
+    <Scopes_Scope2>false</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
@@ -76,7 +76,7 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>27</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>316.049</Scale_X>
+  <Scale_X>222.222</Scale_X>
   <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>1121 0 522 552</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>

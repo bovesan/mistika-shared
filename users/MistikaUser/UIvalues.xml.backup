@@ -3,7 +3,7 @@
   <Background_Luma>8</Background_Luma>
   <CommonControls>
     <AlignMode>false</AlignMode>
-    <CameraOverlay>false</CameraOverlay>
+    <CameraOverlay>true</CameraOverlay>
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
@@ -18,14 +18,14 @@
     <Panel>false</Panel>
     <Resolution>2</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
-    <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
+    <Scopes_Scope1>true</Scopes_Scope1>
+    <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>false</ShowOneInput>
     <Snapshot>true</Snapshot>
-    <StereoMode_Disp>9056</StereoMode_Disp>
+    <StereoMode_Disp>9063</StereoMode_Disp>
     <StereoMode_Live>9068</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
     <UnscaledRes>true</UnscaledRes>
@@ -84,8 +84,8 @@
   <Scope1_Sizes_>1</Scope1_Sizes_>
   <Scope2Move_Win>26 48 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
-  <Scope2_Negative_>1</Scope2_Negative_>
-  <Scope2_Scale_>5</Scope2_Scale_>
+  <Scope2_Negative_>0</Scope2_Negative_>
+  <Scope2_Scale_>7</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>20 177 522 552</Scope3Move_Win>
   <Scope3_Mode_>4</Scope3_Mode_>
@@ -114,7 +114,7 @@
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
   <Tracker_Rotate>0</Tracker_Rotate>
-  <Tracker_Size>1</Tracker_Size>
+  <Tracker_Size>0</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
   <calc_Base>2</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
@@ -206,8 +206,8 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
+  <render2_Stereo>1</render2_Stereo>
+  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
   <renderEdl_FROM_CLIP_NAME_Source>3</renderEdl_FROM_CLIP_NAME_Source>
@@ -255,7 +255,7 @@
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
   <setup_Select_Monitor>0</setup_Select_Monitor>
-  <setup_Selected>1</setup_Selected>
+  <setup_Selected>0</setup_Selected>
   <setup_Show_Graffiti>1</setup_Show_Graffiti>
   <setup_Show_Grid>1</setup_Show_Grid>
   <setup_Show_Rulers>1</setup_Show_Rulers>
