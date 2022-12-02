@@ -3,14 +3,14 @@
   <Background_Luma>8</Background_Luma>
   <CommonControls>
     <AlignMode>false</AlignMode>
-    <CameraOverlay>true</CameraOverlay>
+    <CameraOverlay>false</CameraOverlay>
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
-    <FeatherOverlay>true</FeatherOverlay>
+    <FeatherOverlay>false</FeatherOverlay>
     <FrameRate>-1</FrameRate>
     <Gang>false</Gang>
-    <GridOverlay>false</GridOverlay>
+    <GridOverlay>true</GridOverlay>
     <Interlaced>false</Interlaced>
     <Live>true</Live>
     <LiveRes>false</LiveRes>
@@ -188,7 +188,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>23030_Tekna_V</current>
+    <current>23119_Aa_Energi</current>
   </project>
   <relink>
     <mistika>
@@ -255,7 +255,7 @@
   <setup_Raise_Monitor>0</setup_Raise_Monitor>
   <setup_S3D_Disp>2</setup_S3D_Disp>
   <setup_Select_Monitor>0</setup_Select_Monitor>
-  <setup_Selected>0</setup_Selected>
+  <setup_Selected>1</setup_Selected>
   <setup_Show_Graffiti>1</setup_Show_Graffiti>
   <setup_Show_Grid>1</setup_Show_Grid>
   <setup_Show_Rulers>1</setup_Show_Rulers>
