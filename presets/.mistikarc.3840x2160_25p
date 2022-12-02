@@ -26,12 +26,12 @@ SYNC_SOURCE                    SYNC_INTERNAL
 USE_EMBEDDED_AUDIO             1
 CHECK_VTR_USER_DATA            0
 EXR_DECOMPRESS                 SINGLE_LAYER
-MAXMEM                         17000
+MAXMEM                         9731
 VIDEO_RING_BUFFER              120
 PLAY_BUFFER                    194
 LOWRESRATIO                    2
-PIPE_UNITS                     6
-CVFS_THREADS                   6
+PIPE_UNITS                     8
+CVFS_THREADS                   8
 RENDER_UNITS                   4
 ENCODE_THREADS                 12
 RES_VNC                        DEFAULT

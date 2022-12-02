@@ -24,7 +24,7 @@
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
     <ShowOneInput>true</ShowOneInput>
-    <Snapshot>false</Snapshot>
+    <Snapshot>true</Snapshot>
     <StereoMode_Disp>9056</StereoMode_Disp>
     <StereoMode_Live>9068</StereoMode_Live>
     <StereoMode_S3DactiveLive>false</StereoMode_S3DactiveLive>
@@ -56,7 +56,7 @@
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>false</LinkByFile>
+    <LinkByFile>true</LinkByFile>
     <ReplicateTree>true</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
@@ -78,14 +78,14 @@
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
   <Scale_X>316.049</Scale_X>
   <Scale_Y>100.000</Scale_Y>
-  <Scope1Move_Win>1149 315 522 552</Scope1Move_Win>
+  <Scope1Move_Win>1121 0 522 552</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
   <Scope1_Scale_>7</Scope1_Scale_>
   <Scope1_Sizes_>1</Scope1_Sizes_>
-  <Scope2Move_Win>0 0 522 552</Scope2Move_Win>
+  <Scope2Move_Win>26 48 522 552</Scope2Move_Win>
   <Scope2_Mode_>1</Scope2_Mode_>
-  <Scope2_Negative_>0</Scope2_Negative_>
-  <Scope2_Scale_>6</Scope2_Scale_>
+  <Scope2_Negative_>1</Scope2_Negative_>
+  <Scope2_Scale_>5</Scope2_Scale_>
   <Scope2_Sizes_>1</Scope2_Sizes_>
   <Scope3Move_Win>20 177 522 552</Scope3Move_Win>
   <Scope3_Mode_>4</Scope3_Mode_>
@@ -109,7 +109,7 @@
     <LockHeadB>false</LockHeadB>
     <LockOffset>false</LockOffset>
     <SelectedGroup>0</SelectedGroup>
-    <View>0</View>
+    <View>1</View>
     <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
@@ -188,11 +188,11 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>23058_SJ</current>
+    <current>23119_Aa_Energi</current>
   </project>
   <relink>
     <mistika>
-      <dontAskMeAgain>false</dontAskMeAgain>
+      <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
   <render2_Audio>1</render2_Audio>
@@ -206,7 +206,7 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
+  <render2_Stereo>1</render2_Stereo>
   <render2_Tape_Name_Source>3</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
@@ -239,7 +239,7 @@
   <setup_Constrain_Y>0</setup_Constrain_Y>
   <setup_Current_Gang>0</setup_Current_Gang>
   <setup_Current_Layer>1</setup_Current_Layer>
-  <setup_Current_Track>1</setup_Current_Track>
+  <setup_Current_Track>0</setup_Current_Track>
   <setup_Defeat_Audio_Processing>0</setup_Defeat_Audio_Processing>
   <setup_Draw_Outline>0</setup_Draw_Outline>
   <setup_Eval_Tree>1</setup_Eval_Tree>
@@ -264,7 +264,7 @@
   <setup_Time_Code>1</setup_Time_Code>
   <setup_record_monitor_Active_Burn>0</setup_record_monitor_Active_Burn>
   <setup_record_monitor_Stereo_Mode>0</setup_record_monitor_Stereo_Mode>
-  <setup_sdr_or_hdr_>0</setup_sdr_or_hdr_>
+  <setup_sdr_or_hdr_>1</setup_sdr_or_hdr_>
   <setup_source_monitor_Active_Burn>0</setup_source_monitor_Active_Burn>
   <setup_source_monitor_Stereo_Mode>0</setup_source_monitor_Stereo_Mode>
   <tangent>
