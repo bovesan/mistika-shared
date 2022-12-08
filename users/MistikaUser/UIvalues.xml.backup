@@ -56,7 +56,7 @@
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>true</LinkByFile>
+    <LinkByFile>false</LinkByFile>
     <ReplicateTree>true</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
@@ -76,7 +76,7 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>27</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>222.222</Scale_X>
+  <Scale_X>100.000</Scale_X>
   <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>1293 26 522 552</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
@@ -188,7 +188,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22963_Polly</current>
+    <current>23131_We_Will_Rock_You_Promo_Studio</current>
   </project>
   <relink>
     <mistika>
@@ -212,8 +212,8 @@
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
   <renderEdl_FROM_CLIP_NAME_Source>3</renderEdl_FROM_CLIP_NAME_Source>
   <render_15_Taps>0</render_15_Taps>
-  <render_7_Taps>0</render_7_Taps>
-  <render_Bicubic>1</render_Bicubic>
+  <render_7_Taps>1</render_7_Taps>
+  <render_Bicubic>0</render_Bicubic>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
   <render_H_XfsFormat>0</render_H_XfsFormat>
