@@ -56,7 +56,7 @@
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>false</LinkByFile>
+    <LinkByFile>true</LinkByFile>
     <ReplicateTree>true</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
@@ -188,7 +188,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>23167_Bama_Gronn_Frisk_2022</current>
+    <current>23158_Finansforbundet_V</current>
   </project>
   <relink>
     <mistika>
