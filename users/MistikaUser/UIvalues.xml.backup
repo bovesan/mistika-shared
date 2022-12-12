@@ -76,7 +76,7 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>27</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>100.000</Scale_X>
+  <Scale_X>222.222</Scale_X>
   <Scale_Y>100.000</Scale_Y>
   <Scope1Move_Win>1293 26 522 552</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
@@ -123,7 +123,7 @@
   <composer_PrinterLights_1>1</composer_PrinterLights_1>
   <composer_PrinterLights_B_W_>1</composer_PrinterLights_B_W_>
   <composer_RingSpeed_16>1</composer_RingSpeed_16>
-  <config>214 563 540 537</config>
+  <config>210 563 540 537</config>
   <dcp_Audio>0</dcp_Audio>
   <dcp_Content_Type>6</dcp_Content_Type>
   <dcp_Content_Version>1</dcp_Content_Version>
@@ -188,7 +188,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>22899_Apotek1_Profil</current>
+    <current>23158_Finansforbundet_V</current>
   </project>
   <relink>
     <mistika>
