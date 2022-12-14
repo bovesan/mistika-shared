@@ -3,8 +3,8 @@ PATH                           /REALTIME_STORAGE
 AUDIO_PATH                     /REALTIME_STORAGE/DELIVERY/Audio_Tools
 CACHE_STEREO_EYE               NO_STEREO
 IMAGESIZEX                     4096
-IMAGESIZEY                     2160
-SCREENRATIO                    1.8962962962962964
+IMAGESIZEY                     2304
+SCREENRATIO                    1.7777777777777777
 COLOR_SPACE_YUV                709
 NTSCFIELDS                     0
 FRAMESSEG                      25
