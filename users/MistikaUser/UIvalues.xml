@@ -57,7 +57,7 @@
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
     <LinkByFile>true</LinkByFile>
-    <ReplicateTree>true</ReplicateTree>
+    <ReplicateTree>false</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
       <Dir1>false</Dir1>
@@ -188,7 +188,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>23167_Bama_Gronn_Frisk_2022</current>
+    <current>23148_NAV_IT_Rekruttering</current>
   </project>
   <relink>
     <mistika>
@@ -206,8 +206,8 @@
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>1</render2_Source>
   <render2_Split>2</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
+  <render2_Stereo>0</render2_Stereo>
+  <render2_Tape_Name_Source>3</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
   <renderEdl_FROM_CLIP_NAME_Source>3</renderEdl_FROM_CLIP_NAME_Source>
