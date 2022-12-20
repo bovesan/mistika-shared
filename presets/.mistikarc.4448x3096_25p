@@ -2,9 +2,9 @@ MISTIKA_WORK                   /Volumes/mediaraid/Projects
 PATH                           /REALTIME_STORAGE
 AUDIO_PATH                     /REALTIME_STORAGE/DELIVERY/Audio_Tools
 CACHE_STEREO_EYE               NO_STEREO
-IMAGESIZEX                     4480
+IMAGESIZEX                     4448
 IMAGESIZEY                     3096
-SCREENRATIO                    1.4470284237726099
+SCREENRATIO                    1.4366925064599483
 COLOR_SPACE_YUV                709
 NTSCFIELDS                     0
 FRAMESSEG                      25
