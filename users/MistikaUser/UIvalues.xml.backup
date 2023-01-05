@@ -51,13 +51,13 @@
       <Dir3>false</Dir3>
       <Dir4>false</Dir4>
       <Dir5>false</Dir5>
-      <Extension>false</Extension>
+      <Extension>true</Extension>
       <Name>true</Name>
     </ClipName>
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
-    <LinkByFile>true</LinkByFile>
-    <ReplicateTree>true</ReplicateTree>
+    <LinkByFile>false</LinkByFile>
+    <ReplicateTree>false</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
       <Dir1>false</Dir1>
