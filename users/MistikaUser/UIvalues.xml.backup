@@ -7,10 +7,10 @@
     <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>true</FXPresets>
-    <FeatherOverlay>false</FeatherOverlay>
+    <FeatherOverlay>true</FeatherOverlay>
     <FrameRate>-1</FrameRate>
-    <Gang>false</Gang>
-    <GridOverlay>true</GridOverlay>
+    <Gang>true</Gang>
+    <GridOverlay>false</GridOverlay>
     <Interlaced>false</Interlaced>
     <Live>true</Live>
     <LiveRes>false</LiveRes>
@@ -113,8 +113,8 @@
     <Zoom>2</Zoom>
   </StoryBoard>
   <Text_Opacity>42</Text_Opacity>
-  <Tracker_Rotate>0</Tracker_Rotate>
-  <Tracker_Size>0</Tracker_Size>
+  <Tracker_Rotate>1</Tracker_Rotate>
+  <Tracker_Size>1</Tracker_Size>
   <Tracker_SizeXY>0</Tracker_SizeXY>
   <calc_Base>2</calc_Base>
   <composer_BallSpeed_16>1</composer_BallSpeed_16>
@@ -142,7 +142,7 @@
   <edit_Auto_Key_State>0</edit_Auto_Key_State>
   <edit_Default_Animation_Type>0</edit_Default_Animation_Type>
   <edit_GUI_Magnify_Filter>0</edit_GUI_Magnify_Filter>
-  <edit_Number_of_VU_Meters_to_Show_>6</edit_Number_of_VU_Meters_to_Show_>
+  <edit_Number_of_VU_Meters_to_Show_>1</edit_Number_of_VU_Meters_to_Show_>
   <edit_Trim>2</edit_Trim>
   <filebrowser>
     <HEADER_SIZE0>0</HEADER_SIZE0>
@@ -174,11 +174,11 @@
         </EditorRGB>
       </Curves>
       <Setup>
-        <BALL_SPEED>8</BALL_SPEED>
+        <BALL_SPEED>16</BALL_SPEED>
         <DrawOverlay>true</DrawOverlay>
         <GuiSaturation>60</GuiSaturation>
         <JOG_SPEED>8</JOG_SPEED>
-        <KNOB_SPEED>8</KNOB_SPEED>
+        <KNOB_SPEED>32</KNOB_SPEED>
         <PrinterLightsStep>1.217</PrinterLightsStep>
         <RING_SPEED>8</RING_SPEED>
         <TrackballRGBValuesOn>true</TrackballRGBValuesOn>
@@ -195,7 +195,7 @@
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>0</render2_Audio>
+  <render2_Audio>1</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Except_JS_clips>0</render2_Except_JS_clips>
@@ -204,10 +204,10 @@
   <render2_Slate_1_During>0</render2_Slate_1_During>
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
-  <render2_Source>0</render2_Source>
-  <render2_Split>1</render2_Split>
-  <render2_Stereo>0</render2_Stereo>
-  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
+  <render2_Source>1</render2_Source>
+  <render2_Split>2</render2_Split>
+  <render2_Stereo>1</render2_Stereo>
+  <render2_Tape_Name_Source>2</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
   <renderEdl_FROM_CLIP_NAME_Source>3</renderEdl_FROM_CLIP_NAME_Source>
