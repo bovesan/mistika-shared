@@ -65,7 +65,7 @@
   <SplitToSegments>
     <Enabled>1</Enabled>
     <FirstIndex>0</FirstIndex>
-    <TapeSource>0</TapeSource>
+    <TapeSource>3</TapeSource>
     <TcSource>0</TcSource>
     <TcPrefer>0</TcPrefer>
     <IgnoreJs>0</IgnoreJs>
