@@ -61,7 +61,7 @@
     <Format>XFS.YUV422</Format>
   </Proxy>
   <AutoName>0</AutoName>
-  <RenderName>Window</RenderName>
+  <RenderName>Himmel</RenderName>
   <SplitToSegments>
     <Enabled>1</Enabled>
     <FirstIndex>0</FirstIndex>
