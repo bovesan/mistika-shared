@@ -4,7 +4,7 @@
   <CommonControls>
     <AlignMode>false</AlignMode>
     <CameraOverlay>false</CameraOverlay>
-    <Curves>true</Curves>
+    <Curves>false</Curves>
     <EvalTree>true</EvalTree>
     <FXPresets>false</FXPresets>
     <FeatherOverlay>false</FeatherOverlay>
@@ -76,8 +76,8 @@
   <Offset_Y>0.000</Offset_Y>
   <Opacity>27</Opacity>
   <ReelPanelTreeMove_Win>2155 -20 333 661</ReelPanelTreeMove_Win>
-  <Scale_X>316.310</Scale_X>
-  <Scale_Y>100.000</Scale_Y>
+  <Scale_X>100.000</Scale_X>
+  <Scale_Y>104.062</Scale_Y>
   <Scope1Move_Win>1293 26 522 552</Scope1Move_Win>
   <Scope1_Mode_>0</Scope1_Mode_>
   <Scope1_Scale_>7</Scope1_Scale_>
@@ -98,7 +98,7 @@
   <Sequences_Setup_Link_Media_As>0</Sequences_Setup_Link_Media_As>
   <Sequences_Setup_ReplicateOrganize>0</Sequences_Setup_ReplicateOrganize>
   <Size>29</Size>
-  <Size_X>1214</Size_X>
+  <Size_X>1998</Size_X>
   <Size_Y>1920</Size_Y>
   <Snapshot2Move_Win>3546 85 244 264</Snapshot2Move_Win>
   <StartUp_Dont_ask_me_again_mistika>true</StartUp_Dont_ask_me_again_mistika>
@@ -188,14 +188,14 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>23045_Dressmann</current>
+    <current>23107_ALK_Pollenkontroll</current>
   </project>
   <relink>
     <mistika>
       <dontAskMeAgain>true</dontAskMeAgain>
     </mistika>
   </relink>
-  <render2_Audio>0</render2_Audio>
+  <render2_Audio>1</render2_Audio>
   <render2_Auto_Name>1</render2_Auto_Name>
   <render2_Clip_TC>0</render2_Clip_TC>
   <render2_Except_JS_clips>0</render2_Except_JS_clips>
@@ -205,15 +205,15 @@
   <render2_Slate_2>0</render2_Slate_2>
   <render2_Slate_2_During>0</render2_Slate_2_During>
   <render2_Source>0</render2_Source>
-  <render2_Split>1</render2_Split>
-  <render2_Stereo>1</render2_Stereo>
-  <render2_Tape_Name_Source>0</render2_Tape_Name_Source>
+  <render2_Split>2</render2_Split>
+  <render2_Stereo>0</render2_Stereo>
+  <render2_Tape_Name_Source>3</render2_Tape_Name_Source>
   <render2_Video>1</render2_Video>
   <render2_Virtual_Slate>0</render2_Virtual_Slate>
   <renderEdl_FROM_CLIP_NAME_Source>3</renderEdl_FROM_CLIP_NAME_Source>
   <render_15_Taps>0</render_15_Taps>
-  <render_7_Taps>0</render_7_Taps>
-  <render_Bicubic>1</render_Bicubic>
+  <render_7_Taps>1</render_7_Taps>
+  <render_Bicubic>0</render_Bicubic>
   <render_Disk_dev_Target>0</render_Disk_dev_Target>
   <render_Filter_Source_Clips>0</render_Filter_Source_Clips>
   <render_H_XfsFormat>0</render_H_XfsFormat>
