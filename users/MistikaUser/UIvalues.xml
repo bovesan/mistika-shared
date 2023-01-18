@@ -19,7 +19,7 @@
     <Resolution>0</Resolution>
     <Scopes_DepthGraph>false</Scopes_DepthGraph>
     <Scopes_Scope1>false</Scopes_Scope1>
-    <Scopes_Scope2>false</Scopes_Scope2>
+    <Scopes_Scope2>true</Scopes_Scope2>
     <Scopes_Scope3>false</Scopes_Scope3>
     <Scopes_Scope4>false</Scopes_Scope4>
     <ShowMosaic>false</ShowMosaic>
@@ -195,7 +195,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>23241_Tine</current>
+    <current>23127_Nidar_des_2022</current>
   </project>
   <relink>
     <mistika>
