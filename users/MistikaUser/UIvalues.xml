@@ -57,7 +57,7 @@
     <FollowLinks>false</FollowLinks>
     <Interlaced>false</Interlaced>
     <LinkByFile>true</LinkByFile>
-    <ReplicateTree>true</ReplicateTree>
+    <ReplicateTree>false</ReplicateTree>
     <Separator>~</Separator>
     <TapeName>
       <Dir1>false</Dir1>
@@ -195,7 +195,7 @@
   <motiontrack_Track>1</motiontrack_Track>
   <presetsBrowserShow>1</presetsBrowserShow>
   <project>
-    <current>23127_Nidar_des_2022</current>
+    <current>23241_Tine</current>
   </project>
   <relink>
     <mistika>
