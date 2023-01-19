@@ -178,6 +178,9 @@
           <chroma>
             <winMaximizeGeometry>1920 21 1920 1179</winMaximizeGeometry>
           </chroma>
+          <luma>
+            <winMaximizeGeometry>0 21 1920 1179</winMaximizeGeometry>
+          </luma>
         </HexagonMixer>
       </Fixed>
       <Setup>
